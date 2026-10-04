@@ -1,5241 +1,3897 @@
 [
- {
-  "name": "arXiv",
-  "paperCount": 553
- },
- {
-  "name": "Computers and Electronics in Agriculture",
-  "issn": [
-   "0168-1699"
-  ],
-  "paperCount": 319,
-  "tracked": true,
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Remote Sensing of Environment",
-  "issn": [
-   "0034-4257",
-   "1879-0704"
-  ],
-  "paperCount": 126,
-  "tracked": true,
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Agricultural and Forest Meteorology",
-  "issn": [
-   "0168-1923"
-  ],
-  "paperCount": 109,
-  "tracked": true,
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "issn": [
-   "0924-2716"
-  ],
-  "paperCount": 104,
-  "tracked": true,
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Agricultural Systems",
-  "issn": [
-   "0308-521X"
-  ],
-  "paperCount": 92,
-  "tracked": true,
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Remote Sensing",
-  "paperCount": 86,
-  "issn": [
-   "2072-4292"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Field Crops Research",
-  "issn": [
-   "0378-4290"
-  ],
-  "paperCount": 84,
-  "tracked": true,
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "European Journal of Agronomy",
-  "issn": [
-   "1161-0301"
-  ],
-  "paperCount": 67,
-  "tracked": true,
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Crop Protection",
-  "paperCount": 28,
-  "issn": [
-   "0261-2194"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Scientific Reports",
-  "paperCount": 22,
-  "issn": [
-   "2045-2322"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Precision Agriculture",
-  "issn": [
-   "1385-2256",
-   "1573-1618"
-  ],
-  "paperCount": 19,
-  "tracked": true,
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Precision Technologies for Digital Agriculture",
-  "paperCount": 19,
-  "publisher": "Elsevier"
- },
- {
-  "name": "Ecological Modelling",
-  "paperCount": 18,
-  "issn": [
-   "0304-3800"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Advances in Computational Intelligence and Robotics",
-  "paperCount": 17,
-  "issn": [
-   "2327-0411",
-   "2327-042X"
-  ],
-  "publisher": "IGI Global Scientific Publishing"
- },
- {
-  "name": "Forecasting",
-  "paperCount": 17,
-  "issn": [
-   "2571-9394"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Technological Forecasting and Social Change",
-  "paperCount": 17,
-  "issn": [
-   "0040-1625"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Applied Mathematical Modelling",
-  "paperCount": 16,
-  "issn": [
-   "0307-904X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Nature Food",
-  "issn": [
-   "2662-1355"
-  ],
-  "paperCount": 16,
-  "tracked": true,
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Global Change Biology",
-  "issn": [
-   "1354-1013",
-   "1365-2486"
-  ],
-  "paperCount": 15,
-  "tracked": true,
-  "publisher": "Wiley"
- },
- {
-  "name": "Agriculture",
-  "paperCount": 14,
-  "issn": [
-   "0002-1695",
-   "1412-4262",
-   "0551-3677",
-   "2170-1059",
-   "2077-0472"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "IEEE Transactions on Power Electronics",
-  "paperCount": 14,
-  "issn": [
-   "0885-8993"
-  ]
- },
- {
-  "name": "Proceedings of the 28th International Conference On Multimodal Interaction",
-  "paperCount": 14,
-  "publisher": "ACM"
- },
- {
-  "name": "Sustainability",
-  "paperCount": 12,
-  "issn": [
-   "2071-1050"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Frontiers in Sustainable Food Systems",
-  "paperCount": 11,
-  "issn": [
-   "2571-581X"
-  ]
- },
- {
-  "name": "Journal of Construction Engineering and Management",
-  "paperCount": 11,
-  "issn": [
-   "0733-9364"
-  ]
- },
- {
-  "name": "Natural Resources for Human Health",
-  "paperCount": 11,
-  "issn": [
-   "2583-1194"
-  ],
-  "publisher": "Visagaa Publishing House"
- },
- {
-  "name": "IEEE Robotics and Automation Letters",
-  "paperCount": 10,
-  "issn": [
-   "2377-3766"
-  ],
-  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)"
- },
- {
-  "name": "Journal of Forecasting",
-  "paperCount": 10,
-  "issn": [
-   "0277-6693",
-   "1099-131X"
-  ],
-  "publisher": "Wiley"
- },
- {
-  "name": "Companion Publication of the 28th International Conference on Multimodal Interaction",
-  "paperCount": 9,
-  "issn": [
-   "2331-8422"
-  ],
-  "publisher": "ACM"
- },
- {
-  "name": "Smart Agricultural Technology",
-  "paperCount": 9,
-  "issn": [
-   "2772-3755"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Food research international",
-  "paperCount": 8,
-  "issn": [
-   "0963-9969"
-  ]
- },
- {
-  "name": "Journal of Animal Science",
-  "paperCount": 8,
-  "issn": [
-   "0021-8812",
-   "2222-9949"
-  ]
- },
- {
-  "name": "Neurocomputing",
-  "paperCount": 8,
-  "issn": [
-   "0925-2312"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Frontiers in Plant Science",
-  "paperCount": 7,
-  "issn": [
-   "1664-462X"
-  ],
-  "publisher": "Frontiers Media SA"
- },
- {
-  "name": "Journal of Materials in Civil Engineering",
-  "paperCount": 7,
-  "issn": [
-   "0899-1561"
-  ]
- },
- {
-  "name": "Smart Innovation, Systems and Technologies",
-  "paperCount": 7,
-  "issn": [
-   "2190-3018",
-   "2190-3026"
-  ],
-  "publisher": "Springer Nature Switzerland"
- },
- {
-  "name": "Modelling",
-  "paperCount": 6,
-  "issn": [
-   "2673-3951"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Sustainable Agriculture",
-  "paperCount": 6,
-  "publisher": "Elsevier"
- },
- {
-  "name": "Adjunct Proceedings of the 14th Nordic Conference on Human-Computer Interaction",
-  "paperCount": 5
- },
- {
-  "name": "Agricultural Water Management",
-  "paperCount": 5,
-  "issn": [
-   "0378-3774"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Artificial Intelligence in Agriculture",
-  "issn": [
-   "2589-7217"
-  ],
-  "paperCount": 5,
-  "tracked": true,
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "International Journal for Research in Applied Science and Engineering Technology",
-  "paperCount": 5,
-  "issn": [
-   "2321-9653"
-  ]
- },
- {
-  "name": "International Journal of Remote Sensing",
-  "paperCount": 5,
-  "issn": [
-   "0143-1161",
-   "1366-5901"
-  ],
-  "publisher": "Informa UK Limited"
- },
- {
-  "name": "J. Comput. Civ. Eng.",
-  "paperCount": 5,
-  "issn": [
-   "0887-3801"
-  ]
- },
- {
-  "name": "Journal of Ecological Engineering",
-  "paperCount": 5,
-  "issn": [
-   "2299-8993"
-  ]
- },
- {
-  "name": "Proceedings of the 14th Nordic Conference on Human-Computer Interaction",
-  "paperCount": 5
- },
- {
-  "name": "Remote Sensing Applications: Society and Environment",
-  "paperCount": 5,
-  "issn": [
-   "2352-9385"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Sensors",
-  "paperCount": 5,
-  "issn": [
-   "1424-8220"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "The 12th International Conference on Time Series and Forecasting",
-  "paperCount": 5,
-  "publisher": "MDPI"
- },
- {
-  "name": "Zemleustrìj kadastr ì monìtorìng zemelʹ",
-  "paperCount": 5,
-  "issn": [
-   "2306-1677"
-  ]
- },
- {
-  "name": "Cogent Food & Agriculture",
-  "paperCount": 4,
-  "issn": [
-   "2331-1932"
-  ],
-  "publisher": "Informa UK Limited"
- },
- {
-  "name": "Electronics",
-  "paperCount": 4,
-  "issn": [
-   "1450-5843",
-   "2079-9292",
-   "0883-4989"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Energy and AI",
-  "paperCount": 4,
-  "issn": [
-   "2666-5468"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Engineering Applications of Artificial Intelligence",
-  "paperCount": 4,
-  "issn": [
-   "0952-1976"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Environmental Modelling & Software",
-  "paperCount": 4,
-  "issn": [
-   "1364-8152"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "GRACE/GRACE-FO Science Team Meeting 2026",
-  "paperCount": 4
- },
- {
-  "name": "International Journal of Applied Earth Observation and Geoinformation",
-  "paperCount": 4,
-  "issn": [
-   "0303-2434",
-   "1569-8432"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Journal of Crop Health",
-  "paperCount": 4,
-  "issn": [
-   "2948-264X",
-   "2948-2658"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Journal of Education and Learning (EduLearn)",
-  "paperCount": 4,
-  "issn": [
-   "2089-9823"
-  ]
- },
- {
-  "name": "Journal of Multidisciplinary & Translational Research",
-  "paperCount": 4,
-  "issn": [
-   "3051-5262",
-   "3051-5602"
-  ],
-  "publisher": "Sri Lanka Journals Online"
- },
- {
-  "name": "npj Digital Medicine",
-  "paperCount": 4,
-  "issn": [
-   "2398-6352"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Plants",
-  "paperCount": 4,
-  "issn": [
-   "2223-7747"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "PLOS One",
-  "paperCount": 4,
-  "issn": [
-   "1932-6203"
-  ],
-  "publisher": "Public Library of Science (PLoS)"
- },
- {
-  "name": "Proceedings of the 26th ACM International Conference on Intelligent Virtual Agents",
-  "paperCount": 4,
-  "publisher": "ACM"
- },
- {
-  "name": "Proceedings of the ACM/IEEE 29th International Conference on Model Driven Engineering Languages and Systems",
-  "paperCount": 4
- },
- {
-  "name": "Process Safety and Environmental Protection",
-  "paperCount": 4,
-  "issn": [
-   "0957-5820"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Results in Engineering",
-  "paperCount": 4,
-  "issn": [
-   "2590-1230"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Acta Astronautica",
-  "paperCount": 3,
-  "issn": [
-   "0094-5765"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Adolescência e Saúde",
-  "paperCount": 3,
-  "issn": [
-   "2177-5281",
-   "1679-9941"
-  ],
-  "publisher": "Núcleo de Estudos da Saúde do Adolescente (NESA)"
- },
- {
-  "name": "Advances in Engineering Software",
-  "paperCount": 3,
-  "issn": [
-   "0965-9978"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Agrociencia",
-  "paperCount": 3,
-  "issn": [
-   "0188-302X",
-   "1510-0839",
-   "1405-3195",
-   "2521-9766",
-   "2522-6509"
-  ]
- },
- {
-  "name": "Applied Sciences",
-  "paperCount": 3,
-  "issn": [
-   "2076-3417"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Artificial Intelligence in Regenerative Agriculture",
-  "paperCount": 3,
-  "publisher": "CRC Press"
- },
- {
-  "name": "bioRxiv",
-  "paperCount": 3
- },
- {
-  "name": "Bulletin of Electrical Engineering and Informatics",
-  "paperCount": 3,
-  "issn": [
-   "2089-3191",
-   "2302-9285"
-  ]
- },
- {
-  "name": "Catena",
-  "paperCount": 3,
-  "issn": [
-   "0341-8162",
-   "0008-7769"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Companion Proceedings of the 2026 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity",
-  "paperCount": 3
- },
- {
-  "name": "Digital Farming",
-  "paperCount": 3,
-  "publisher": "Chapman and Hall/CRC"
- },
- {
-  "name": "Discover Artificial Intelligence",
-  "paperCount": 3,
-  "issn": [
-   "2731-0809"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Economic Modelling",
-  "paperCount": 3,
-  "issn": [
-   "0264-9993"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Environmental Research Letters",
-  "paperCount": 3,
-  "issn": [
-   "1748-9326"
-  ],
-  "publisher": "IOP Publishing"
- },
- {
-  "name": "Environmental Technologies and Engineering for Sustainable Development",
-  "paperCount": 3
- },
- {
-  "name": "Frontiers in Remote Sensing",
-  "paperCount": 3,
-  "issn": [
-   "2673-6187"
-  ],
-  "publisher": "Frontiers Media SA"
- },
- {
-  "name": "Horticulturae",
-  "paperCount": 3,
-  "issn": [
-   "2311-7524"
-  ]
- },
- {
-  "name": "IEEE Wireless Communications",
-  "paperCount": 3,
-  "issn": [
-   "1536-1284"
-  ]
- },
- {
-  "name": "International Journal For Multidisciplinary Research",
-  "paperCount": 3,
-  "issn": [
-   "2582-2160",
-   "1934-6840"
-  ],
-  "publisher": "International Journal for Multidisciplinary Research (IJFMR)"
- },
- {
-  "name": "International Journal of Environmental Research",
-  "paperCount": 3,
-  "issn": [
-   "1735-6865"
-  ]
- },
- {
-  "name": "International Journal of Innovative Science and Research Technology",
-  "paperCount": 3,
-  "issn": [
-   "2456-2165"
-  ],
-  "publisher": "International Journal of Innovative Science and Research Technology"
- },
- {
-  "name": "International Symposium for Testing and Failure Analysis",
-  "paperCount": 3,
-  "issn": [
-   "0890-1740"
-  ]
- },
- {
-  "name": "Journal of Energy Storage",
-  "paperCount": 3,
-  "issn": [
-   "2352-152X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Journal of Engineering Mechanics",
-  "paperCount": 3,
-  "issn": [
-   "0733-9399"
-  ]
- },
- {
-  "name": "Journal of Environmental Engineering",
-  "paperCount": 3,
-  "issn": [
-   "0733-9372",
-   "1880-988X"
-  ]
- },
- {
-  "name": "Journal of Hydrology",
-  "paperCount": 3,
-  "issn": [
-   "0022-1694"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Journal of Irrigation and Drainage Engineering",
-  "paperCount": 3,
-  "issn": [
-   "0733-9437"
-  ]
- },
- {
-  "name": "Journal of Rural Studies",
-  "paperCount": 3,
-  "issn": [
-   "1882-4560",
-   "0743-0167",
-   "1340-8240"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Journal of Water Process Engineering",
-  "paperCount": 3,
-  "issn": [
-   "2214-7144"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Land",
-  "paperCount": 3,
-  "issn": [
-   "2073-445X"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Mathematics",
-  "paperCount": 3,
-  "issn": [
-   "2227-7390"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Medical Image Analysis",
-  "paperCount": 3,
-  "issn": [
-   "1361-8415"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Ocean Modelling",
-  "paperCount": 3,
-  "issn": [
-   "1463-5003"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Optics Express",
-  "paperCount": 3,
-  "issn": [
-   "1094-4087"
-  ],
-  "publisher": "Optica Publishing Group"
- },
- {
-  "name": "Proceedings of the 1st International Workshop on Specification-Driven Development Life Cycle",
-  "paperCount": 3
- },
- {
-  "name": "Proceedings of the Raptors Conference",
-  "paperCount": 3,
-  "publisher": "Hackathon Raptors"
- },
- {
-  "name": "Simulation Modelling Practice and Theory",
-  "paperCount": 3,
-  "issn": [
-   "1569-190X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Turkish Journal of Agriculture - Food Science and Technology",
-  "paperCount": 3,
-  "issn": [
-   "2148-127X"
-  ],
-  "publisher": "Turkish Science and Technology Publishing (TURSTEP)"
- },
- {
-  "name": "Wind Energy and Weather Forecasting",
-  "paperCount": 3,
-  "publisher": "River Publishers"
- },
- {
-  "name": "Zamonaviy jamiyat va innovatsiyalar ilmiy-nazariy jurnali",
-  "paperCount": 3
- },
- {
-  "name": "AEA Randomized Controlled Trials",
-  "paperCount": 2,
-  "publisher": "American Economic Association"
- },
- {
-  "name": "Aerospace Science and Technology",
-  "paperCount": 2,
-  "issn": [
-   "1270-9638"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Agricultural Systems and Natural Resources",
-  "paperCount": 2
- },
- {
-  "name": "Agriculture & Food Security",
-  "paperCount": 2,
-  "issn": [
-   "2048-7010"
-  ]
- },
- {
-  "name": "AgriEngineering",
-  "paperCount": 2,
-  "issn": [
-   "2624-7402"
-  ]
- },
- {
-  "name": "Agronomy",
-  "paperCount": 2,
-  "issn": [
-   "2073-4395"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "AI",
-  "paperCount": 2,
-  "issn": [
-   "2673-2688"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Ai & Society",
-  "paperCount": 2,
-  "issn": [
-   "0951-5666",
-   "1435-5655"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "AI Agent",
-  "paperCount": 2,
-  "issn": [
-   "3070-3719"
-  ],
-  "publisher": "OAE Publishing Inc."
- },
- {
-  "name": "Applied Agro Engineering",
-  "paperCount": 2
- },
- {
-  "name": "ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems, Part A: Civil Engineering",
-  "paperCount": 2,
-  "issn": [
-   "2376-7642"
-  ]
- },
- {
-  "name": "Asian Journal of Advances in Agricultural Research",
-  "paperCount": 2,
-  "issn": [
-   "2456-8864"
-  ]
- },
- {
-  "name": "Asian Research Journal of Agriculture",
-  "paperCount": 2,
-  "issn": [
-   "2456-561X"
-  ],
-  "publisher": "Sciencedomain International"
- },
- {
-  "name": "ASPIRASI : Publikasi Hasil Pengabdian dan Kegiatan Masyarakat",
-  "paperCount": 2
- },
- {
-  "name": "Bangladesh Journal of Botany",
-  "paperCount": 2,
-  "issn": [
-   "0253-5416",
-   "2079-9926"
-  ]
- },
- {
-  "name": "Chaos, Solitons & Fractals",
-  "paperCount": 2
- },
- {
-  "name": "Computational Biology and Chemistry",
-  "paperCount": 2,
-  "issn": [
-   "1476-9271"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Computers and Geotechnics",
-  "paperCount": 2,
-  "issn": [
-   "0266-352X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Crop, Forage & Turfgrass Management",
-  "paperCount": 2,
-  "issn": [
-   "2374-3832"
-  ],
-  "publisher": "Wiley"
- },
- {
-  "name": "Digital Intelligence in Agriculture",
-  "paperCount": 2,
-  "issn": [
-   "3069-3187"
-  ],
-  "publisher": "Institute of Central Computation and Knowledge Inc."
- },
- {
-  "name": "Discover Soil",
-  "paperCount": 2
- },
- {
-  "name": "Earth Resources and Environmental Remote Sensing/GIS Applications XVII",
-  "paperCount": 2
- },
- {
-  "name": "Education. Innovation. Practice",
-  "paperCount": 2,
-  "issn": [
-   "2616-650X",
-   "2790-6310"
-  ]
- },
- {
-  "name": "Eduvest - Journal of Universal Studies",
-  "paperCount": 2,
-  "issn": [
-   "2775-3735",
-   "2775-3727"
-  ]
- },
- {
-  "name": "Emerging Challenges and Research Frontiers in Digital Transformation",
-  "paperCount": 2,
-  "publisher": "CRC Press"
- },
- {
-  "name": "Energies",
-  "paperCount": 2,
-  "issn": [
-   "1996-1073"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Environment, Development and Sustainability",
-  "paperCount": 2,
-  "issn": [
-   "1387-585X"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Experimental & molecular medicine",
-  "paperCount": 2,
-  "issn": [
-   "1226-3613"
-  ]
- },
- {
-  "name": "Financial Strategies of Innovative Economic Development",
-  "paperCount": 2
- },
- {
-  "name": "Frontiers in Artificial Intelligence",
-  "paperCount": 2,
-  "issn": [
-   "2624-8212"
-  ],
-  "publisher": "Frontiers Media SA"
- },
- {
-  "name": "Frontiers in Earth Science",
-  "paperCount": 2,
-  "issn": [
-   "2296-6463",
-   "1863-4621",
-   "2095-0195"
-  ],
-  "publisher": "Frontiers Media SA"
- },
- {
-  "name": "Frontiers in Endocrinology",
-  "paperCount": 2,
-  "issn": [
-   "1664-2392"
-  ]
- },
- {
-  "name": "Frontiers in Environmental Science",
-  "paperCount": 2,
-  "issn": [
-   "2296-665X"
-  ]
- },
- {
-  "name": "Geojournal of Tourism and Geosites",
-  "paperCount": 2,
-  "issn": [
-   "2065-0817"
-  ]
- },
- {
-  "name": "Gotech",
-  "paperCount": 2
- },
- {
-  "name": "HortTechnology",
-  "paperCount": 2,
-  "issn": [
-   "1063-0198"
-  ]
- },
- {
-  "name": "IEEE Photonics Technology Letters",
-  "paperCount": 2,
-  "issn": [
-   "1041-1135"
-  ]
- },
- {
-  "name": "IEEE Transactions on Parallel and Distributed Systems",
-  "paperCount": 2,
-  "issn": [
-   "1045-9219"
-  ]
- },
- {
-  "name": "Iiard International Journal of Geography and Environmental Management",
-  "paperCount": 2,
-  "issn": [
-   "2504-8821"
-  ]
- },
- {
-  "name": "Infectious Disease Modelling",
-  "paperCount": 2,
-  "issn": [
-   "2468-0427"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Informatyka, Automatyka, Pomiary w Gospodarce i Ochronie Środowiska",
-  "paperCount": 2,
-  "issn": [
-   "2083-0157"
-  ]
- },
- {
-  "name": "International Journal of Applied Science and Mathematical Theory",
-  "paperCount": 2
- },
- {
-  "name": "International Journal of Computer Applications",
-  "paperCount": 2,
-  "issn": [
-   "0975-8887"
-  ],
-  "publisher": "Foundation of Computer Science"
- },
- {
-  "name": "International Journal of Environmental Science and Technology",
-  "paperCount": 2,
-  "issn": [
-   "1735-1472"
-  ]
- },
- {
-  "name": "International Journal of Innovative Research in Engineering & Multidisciplinary Physical Sciences",
-  "paperCount": 2
- },
- {
-  "name": "Journal of Aerospace Engineering",
-  "paperCount": 2,
-  "issn": [
-   "0893-1321"
-  ]
- },
- {
-  "name": "Journal of Biosystems Engineering",
-  "paperCount": 2,
-  "issn": [
-   "1738-1266",
-   "2234-1862"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Journal of Computing in Civil Engineering",
-  "paperCount": 2,
-  "issn": [
-   "0887-3801"
-  ]
- },
- {
-  "name": "Journal of Degraded and Mining Lands Management",
-  "paperCount": 2,
-  "issn": [
-   "2339-076X"
-  ]
- },
- {
-  "name": "Journal of Economics, Finance And Management Studies",
-  "paperCount": 2,
-  "issn": [
-   "2644-0490"
-  ]
- },
- {
-  "name": "Journal of Energy Engineering",
-  "paperCount": 2,
-  "issn": [
-   "1598-7981",
-   "0733-9402"
-  ]
- },
- {
-  "name": "Journal of Geotechnical and Geoenvironmental Engineering",
-  "paperCount": 2,
-  "issn": [
-   "1090-0241"
-  ]
- },
- {
-  "name": "Journal of Global Innovations in Agricultural Sciences",
-  "paperCount": 2,
-  "issn": [
-   "2788-4538"
-  ],
-  "publisher": "Society for Innovative Agriculture"
- },
- {
-  "name": "Journal of Hydrologic Engineering",
-  "paperCount": 2,
-  "issn": [
-   "1084-0699"
-  ]
- },
- {
-  "name": "Journal of Management in Engineering",
-  "paperCount": 2,
-  "issn": [
-   "0742-597X"
-  ]
- },
- {
-  "name": "Journal of Scientific Research and Reports",
-  "paperCount": 2,
-  "issn": [
-   "2320-0227"
-  ],
-  "publisher": "Sciencedomain International"
- },
- {
-  "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
-  "paperCount": 2,
-  "issn": [
-   "1678-5878"
-  ]
- },
- {
-  "name": "Journal Of The Geological Society Of India",
-  "paperCount": 2,
-  "issn": [
-   "0016-7622"
-  ]
- },
- {
-  "name": "Journal of Transportation Engineering, Part A: Systems",
-  "paperCount": 2,
-  "issn": [
-   "2473-2893"
-  ]
- },
- {
-  "name": "Jurnal Ilmiah Informatika dan Komputer",
-  "paperCount": 2
- },
- {
-  "name": "Jurnal Ilmiah Multidisiplin Nusantara (JIMNU)",
-  "paperCount": 2
- },
- {
-  "name": "Knowledge-Based Systems",
-  "paperCount": 2,
-  "issn": [
-   "0950-7051"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Labor Economics and Human Capital",
-  "paperCount": 2
- },
- {
-  "name": "Lecture Notes in Business Information Processing",
-  "paperCount": 2,
-  "issn": [
-   "1865-1348",
-   "1865-1356"
-  ],
-  "publisher": "Springer Nature Switzerland"
- },
- {
-  "name": "Lecture Notes in Computer Science",
-  "paperCount": 2,
-  "issn": [
-   "0302-9743",
-   "1611-3349"
-  ],
-  "publisher": "Springer Nature Switzerland"
- },
- {
-  "name": "medRxiv",
-  "paperCount": 2
- },
- {
-  "name": "Natural Hazards Review",
-  "paperCount": 2,
-  "issn": [
-   "1527-6988"
-  ]
- },
- {
-  "name": "Nature",
-  "paperCount": 2,
-  "issn": [
-   "0028-0836",
-   "1476-4687"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Nature Communications",
-  "paperCount": 2,
-  "issn": [
-   "2041-1723"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "New Zealand Journal of Crop and Horticultural Science",
-  "paperCount": 2,
-  "issn": [
-   "0114-0671",
-   "1175-8783"
-  ],
-  "publisher": "Wiley"
- },
- {
-  "name": "Next Energy",
-  "paperCount": 2,
-  "issn": [
-   "2949-821X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Ocean Engineering",
-  "paperCount": 2,
-  "issn": [
-   "0029-8018"
-  ]
- },
- {
-  "name": "Pattern Recognit.",
-  "paperCount": 2,
-  "issn": [
-   "0031-3203"
-  ]
- },
- {
-  "name": "Pattern Recognition",
-  "paperCount": 2,
-  "issn": [
-   "0031-3203"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Pest management science",
-  "paperCount": 2,
-  "issn": [
-   "1526-498X"
-  ]
- },
- {
-  "name": "Petrology",
-  "paperCount": 2,
-  "issn": [
-   "2228-5210",
-   "1556-2085"
-  ]
- },
- {
-  "name": "Plant Disease Detection Using Machine Learning, Deep Learning, and Metaheuristics",
-  "paperCount": 2,
-  "publisher": "CRC Press"
- },
- {
-  "name": "Proceedings of the 2026 ACM Internet Measurement Conference",
-  "paperCount": 2,
-  "publisher": "ACM"
- },
- {
-  "name": "Proceedings of the 2026 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software",
-  "paperCount": 2
- },
- {
-  "name": "Proceedings of the 4th International Workshop on Human-Centered Sensing, Modeling, and Intelligent Systems",
-  "paperCount": 2
- },
- {
-  "name": "Proceedings of the ACM on Software Engineering",
-  "paperCount": 2,
-  "issn": [
-   "2994-970X"
-  ],
-  "publisher": "Association for Computing Machinery (ACM)"
- },
- {
-  "name": "Proceedings of the National Academy of Sciences of the United States of America",
-  "paperCount": 2,
-  "issn": [
-   "0027-8424",
-   "1091-6490"
-  ]
- },
- {
-  "name": "Quantum Computing and Instrumentation for Smart Agriculture",
-  "paperCount": 2,
-  "publisher": "Elsevier"
- },
- {
-  "name": "Remote Sensing Letters",
-  "paperCount": 2,
-  "issn": [
-   "2150-704X",
-   "2150-7058"
-  ],
-  "publisher": "Informa UK Limited"
- },
- {
-  "name": "Remote Sensing of Clouds and the Atmosphere XXXI",
-  "paperCount": 2
- },
- {
-  "name": "Research Journal of Pure Science and Technology",
-  "paperCount": 2,
-  "issn": [
-   "2695-2696",
-   "2579-0536"
-  ],
-  "publisher": "IIARD Publication Co."
- },
- {
-  "name": "Sakarya University Journal of Computer and Information Sciences",
-  "paperCount": 2,
-  "issn": [
-   "2636-8129"
-  ]
- },
- {
-  "name": "Science",
-  "paperCount": 2,
-  "issn": [
-   "0193-4511",
-   "0036-8075"
-  ],
-  "publisher": "American Association for the Advancement of Science (AAAS)"
- },
- {
-  "name": "Science of Remote Sensing",
-  "paperCount": 2,
-  "issn": [
-   "2666-0172"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Sensing and Imaging",
-  "paperCount": 2,
-  "issn": [
-   "1557-2064"
-  ]
- },
- {
-  "name": "Separation and Purification Technology",
-  "paperCount": 2,
-  "issn": [
-   "1383-5866"
-  ]
- },
- {
-  "name": "SN Computer Science",
-  "paperCount": 2,
-  "issn": [
-   "2661-8907",
-   "2662-995X"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "SoftwareX",
-  "paperCount": 2,
-  "issn": [
-   "2352-7110"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Sustainable Futures",
-  "paperCount": 2,
-  "issn": [
-   "2666-1888"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "The Open Agriculture Journal",
-  "paperCount": 2,
-  "issn": [
-   "1874-3315"
-  ]
- },
- {
-  "name": "The Plant Genome",
-  "paperCount": 2,
-  "issn": [
-   "1940-3372"
-  ]
- },
- {
-  "name": "Theory and Practice in Language Studies",
-  "paperCount": 2,
-  "issn": [
-   "1799-2591"
-  ]
- },
- {
-  "name": "World Journal of Advanced Research and Reviews",
-  "paperCount": 2,
-  "issn": [
-   "2581-9615"
-  ]
- },
- {
-  "name": "WSEAS Transactions on Environment and Development",
-  "paperCount": 2,
-  "issn": [
-   "1790-5079",
-   "2224-3496"
-  ],
-  "publisher": "World Scientific and Engineering Academy and Society (WSEAS)"
- },
- {
-  "name": "6th Current Issues in Business and Economic Studies (CIBES) Conference – Abstract Book",
-  "paperCount": 1
- },
- {
-  "name": "A Student Guide to AI and Robotics",
-  "paperCount": 1,
-  "publisher": "CRC Press"
- },
- {
-  "name": "AAAS Articles DO Group",
-  "paperCount": 1,
-  "publisher": "American Association for the Advancement of Science (AAAS)"
- },
- {
-  "name": "Academia Open",
-  "paperCount": 1,
-  "issn": [
-   "2714-7444"
-  ],
-  "publisher": "Universitas Muhammadiyah Sidoarjo"
- },
- {
-  "name": "ACM Transactions on Multimedia Computing, Communications and Applications",
-  "paperCount": 1,
-  "issn": [
-   "1551-6857"
-  ]
- },
- {
-  "name": "ACS Nano",
-  "paperCount": 1,
-  "issn": [
-   "1936-0851"
-  ]
- },
- {
-  "name": "Acta biomaterialia",
-  "paperCount": 1,
-  "issn": [
-   "1742-7061"
-  ]
- },
- {
-  "name": "Acta Geodaetica et Geophysica",
-  "paperCount": 1,
-  "issn": [
-   "2213-5812"
-  ]
- },
- {
-  "name": "Acta Geophysica",
-  "paperCount": 1,
-  "issn": [
-   "1895-6572"
-  ]
- },
- {
-  "name": "Acta Logistica",
-  "paperCount": 1,
-  "issn": [
-   "1339-5629"
-  ],
-  "publisher": "4S go, s.r.o."
- },
- {
-  "name": "Acta psychologica",
-  "paperCount": 1,
-  "issn": [
-   "0001-6918",
-   "2746-122X"
-  ]
- },
- {
-  "name": "Adagium: Jurnal Ilmiah Hukum",
-  "paperCount": 1,
-  "issn": [
-   "2985-5128"
-  ],
-  "publisher": "Meja Ilmiah Publikasi"
- },
- {
-  "name": "Adroid Conference Series: Engineering and Technology",
-  "paperCount": 1,
-  "issn": [
-   "1750-9637",
-   "2734-9330",
-   "2587-7704",
-   "1462-2165"
-  ]
- },
- {
-  "name": "Advanced Engineering Forum",
-  "paperCount": 1,
-  "issn": [
-   "2234-9898"
-  ]
- },
- {
-  "name": "Advanced Engineering Informatics",
-  "paperCount": 1,
-  "issn": [
-   "1474-0346"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Advanced Informatics Engineering",
-  "paperCount": 1,
-  "publisher": "CRC Press"
- },
- {
-  "name": "Advanced Robotics",
-  "paperCount": 1,
-  "issn": [
-   "0169-1864",
-   "1568-5535"
-  ],
-  "publisher": "Informa UK Limited"
- },
- {
-  "name": "Advanced Robotics Research",
-  "paperCount": 1
- },
- {
-  "name": "Advanced Transportation Systems in the Field of Engineering and Technology",
-  "paperCount": 1,
-  "publisher": "CRC Press"
- },
- {
-  "name": "Advances in Economics, Management and Political Sciences",
-  "paperCount": 1,
-  "issn": [
-   "2754-1169",
-   "2754-1177"
-  ],
-  "publisher": "EWA Publishing"
- },
- {
-  "name": "Advances in Waste Biomass Conversion to Bioenergy",
-  "paperCount": 1,
-  "publisher": "IGI Global Scientific Publishing"
- },
- {
-  "name": "Advances in Water Resources",
-  "paperCount": 1,
-  "issn": [
-   "0309-1708"
-  ]
- },
- {
-  "name": "Agricultural and Forest Entomology",
-  "paperCount": 1,
-  "issn": [
-   "1461-9555"
-  ]
- },
- {
-  "name": "Agricultural Finance Review",
-  "paperCount": 1,
-  "issn": [
-   "0002-1466"
-  ]
- },
- {
-  "name": "Agricultural Science Digest - A Research Journal",
-  "paperCount": 1,
-  "issn": [
-   "0976-0547",
-   "0253-150X"
-  ],
-  "publisher": "Agricultural Research Communication Center"
- },
- {
-  "name": "Agriculture, Ecosystems & Environment",
-  "paperCount": 1,
-  "issn": [
-   "0167-8809"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "AgroEnvironmental Sustainability",
-  "paperCount": 1
- },
- {
-  "name": "AI and Ethics",
-  "paperCount": 1,
-  "issn": [
-   "2730-5953",
-   "2730-5961"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "AI for Materials",
-  "paperCount": 1,
-  "issn": [
-   "3083-3272"
-  ],
-  "publisher": "Scilight Press Pty Ltd"
- },
- {
-  "name": "Ain Shams Engineering Journal",
-  "paperCount": 1,
-  "issn": [
-   "2090-4479"
-  ]
- },
- {
-  "name": "American journal of botany",
-  "paperCount": 1,
-  "issn": [
-   "1995-8951",
-   "0002-9122"
-  ]
- },
- {
-  "name": "American Journal of Data Science and Artificial Intelligence",
-  "paperCount": 1
- },
- {
-  "name": "American journal of public health",
-  "paperCount": 1,
-  "issn": [
-   "0090-0036"
-  ]
- },
- {
-  "name": "Analytica",
-  "paperCount": 1,
-  "issn": [
-   "2673-4532"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Analytica chimica acta",
-  "paperCount": 1,
-  "issn": [
-   "0003-2670"
-  ]
- },
- {
-  "name": "Analytical Biochemistry",
-  "paperCount": 1,
-  "issn": [
-   "0003-2697"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Analytical methods : advancing methods and applications",
-  "paperCount": 1,
-  "issn": [
-   "1759-9660"
-  ]
- },
- {
-  "name": "Annals of Forest Science",
-  "paperCount": 1,
-  "issn": [
-   "1286-4560"
-  ]
- },
- {
-  "name": "Antioxidants",
-  "paperCount": 1,
-  "issn": [
-   "2076-3921"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Applications of Machine Learning 2026",
-  "paperCount": 1
- },
- {
-  "name": "Applied and Computational Harmonic Analysis",
-  "paperCount": 1,
-  "issn": [
-   "1063-5203"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Applied biochemistry and biotechnology",
-  "paperCount": 1,
-  "issn": [
-   "0273-2289"
-  ]
- },
- {
-  "name": "Applied Clinical Informatics",
-  "paperCount": 1,
-  "issn": [
-   "1869-0327"
-  ],
-  "publisher": "Georg Thieme Verlag KG"
- },
- {
-  "name": "Applied Energy",
-  "paperCount": 1,
-  "issn": [
-   "0306-2619"
-  ]
- },
- {
-  "name": "Applied Fruit Science",
-  "paperCount": 1
- },
- {
-  "name": "Applied Intelligence",
-  "paperCount": 1,
-  "issn": [
-   "0924-669X"
-  ]
- },
- {
-  "name": "Applied Physics Letters",
-  "paperCount": 1,
-  "issn": [
-   "0003-6951",
-   "1077-3118"
-  ],
-  "publisher": "AIP Publishing"
- },
- {
-  "name": "Applied Soft Computing",
-  "paperCount": 1,
-  "issn": [
-   "1568-4946"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Applied Water Science",
-  "paperCount": 1,
-  "issn": [
-   "2190-5495"
-  ]
- },
- {
-  "name": "Aptisi Transactions on Technopreneurship (ATT)",
-  "paperCount": 1,
-  "issn": [
-   "2655-8807"
-  ]
- },
- {
-  "name": "Archives of Current Research International",
-  "paperCount": 1,
-  "issn": [
-   "2454-7077"
-  ]
- },
- {
-  "name": "Artificial Intelligence and Applications",
-  "paperCount": 1,
-  "issn": [
-   "2374-4987",
-   "2374-4979"
-  ]
- },
- {
-  "name": "Artificial Intelligence and Sustainable Innovation",
-  "paperCount": 1,
-  "publisher": "CRC Press"
- },
- {
-  "name": "Artificial Intelligence for Security and Defence Applications IV",
-  "paperCount": 1
- },
- {
-  "name": "Artificial Intelligence for the Earth Systems",
-  "paperCount": 1,
-  "issn": [
-   "2769-7525"
-  ],
-  "publisher": "American Meteorological Society"
- },
- {
-  "name": "Artificial life",
-  "paperCount": 1,
-  "issn": [
-   "1064-5462"
-  ]
- },
- {
-  "name": "Asian Journal of Philosophy",
-  "paperCount": 1,
-  "issn": [
-   "2731-4642"
-  ]
- },
- {
-  "name": "Asian Journal of Probability and Statistics",
-  "paperCount": 1,
-  "issn": [
-   "2582-0230"
-  ]
- },
- {
-  "name": "Asian Journal of Research in Computer Science",
-  "paperCount": 1,
-  "issn": [
-   "2581-8260"
-  ],
-  "publisher": "Sciencedomain International"
- },
- {
-  "name": "Asian Plant Research Journal",
-  "paperCount": 1,
-  "issn": [
-   "2581-9992"
-  ],
-  "publisher": "Sciencedomain International"
- },
- {
-  "name": "Astronomy & Astrophysics",
-  "paperCount": 1
- },
- {
-  "name": "Atmosphere",
-  "paperCount": 1,
-  "issn": [
-   "2073-4433",
-   "1598-3560",
-   "2828-3104",
-   "0004-6973"
-  ]
- },
- {
-  "name": "Atmospheric Chemistry and Physics",
-  "paperCount": 1,
-  "issn": [
-   "1680-7316"
-  ]
- },
- {
-  "name": "Automation in Construction",
-  "paperCount": 1,
-  "issn": [
-   "0926-5805"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Autonomous Agents and Multi-Agent Systems",
-  "paperCount": 1,
-  "issn": [
-   "1387-2532",
-   "1573-7454"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Bangladesh Journal of Scientific and Industrial Research",
-  "paperCount": 1,
-  "issn": [
-   "0304-9809"
-  ]
- },
- {
-  "name": "Benchmarking: An International Journal",
-  "paperCount": 1,
-  "issn": [
-   "1463-5771"
-  ]
- },
- {
-  "name": "Bernoulli",
-  "paperCount": 1,
-  "issn": [
-   "1350-7265"
-  ]
- },
- {
-  "name": "BioData Mining",
-  "paperCount": 1,
-  "issn": [
-   "1756-0381"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "BioEnergy Research",
-  "paperCount": 1,
-  "issn": [
-   "1939-1242"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Biomedical Signal Processing and Control",
-  "paperCount": 1,
-  "issn": [
-   "1746-8094"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Bioprocess and Biosystems Engineering",
-  "paperCount": 1,
-  "issn": [
-   "1615-7591",
-   "1615-7605"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Bioscientia Medicina : Journal of Biomedicine and Translational Research",
-  "paperCount": 1
- },
- {
-  "name": "Biosystems Engineering",
-  "paperCount": 1,
-  "issn": [
-   "1537-5110"
-  ]
- },
- {
-  "name": "Blockchain",
-  "paperCount": 1,
-  "issn": [
-   "2959-1260",
-   "2958-8138"
-  ],
-  "publisher": "ELS Publishing Co. Limited"
- },
- {
-  "name": "Blood advances",
-  "paperCount": 1,
-  "issn": [
-   "2473-9529"
-  ]
- },
- {
-  "name": "BMC Biology",
-  "paperCount": 1,
-  "issn": [
-   "1741-7007"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "BMC Environmental Science",
-  "paperCount": 1
- },
- {
-  "name": "BMJ",
-  "paperCount": 1,
-  "issn": [
-   "1759-2151",
-   "1756-1833",
-   "0959-8138",
-   "1790-5249",
-   "1106-5028",
-   "1468-5833",
-   "0267-0623",
-   "1222-5835",
-   "1576-9445",
-   "1106-4226"
-  ]
- },
- {
-  "name": "Bone",
-  "paperCount": 1,
-  "issn": [
-   "1873-2763"
-  ]
- },
- {
-  "name": "Brain, behavior, and immunity",
-  "paperCount": 1,
-  "issn": [
-   "0889-1591"
-  ]
- },
- {
-  "name": "Brilliant International Journal Of Management And Tourism",
-  "paperCount": 1,
-  "issn": [
-   "2827-8380"
-  ]
- },
- {
-  "name": "British journal of pharmacology",
-  "paperCount": 1,
-  "issn": [
-   "0007-1188"
-  ]
- },
- {
-  "name": "Building and Environment",
-  "paperCount": 1,
-  "issn": [
-   "0360-1323"
-  ]
- },
- {
-  "name": "Bulletin of Institute of Legislation and Legal Information of the Republic of Kazakhstan",
-  "paperCount": 1,
-  "issn": [
-   "1994-408X",
-   "2788-5283"
-  ]
- },
- {
-  "name": "Bulletin of the Tomsk Polytechnic University Geo Assets Engineering",
-  "paperCount": 1
- },
- {
-  "name": "Bulletin of Toraighyrov University. Economics series",
-  "paperCount": 1,
-  "issn": [
-   "2710-3552"
-  ]
- },
- {
-  "name": "Business Strategy and the Environment",
-  "paperCount": 1,
-  "issn": [
-   "0964-4733"
-  ]
- },
- {
-  "name": "Cancer Reports",
-  "paperCount": 1,
-  "issn": [
-   "2573-8348"
-  ]
- },
- {
-  "name": "Cancer Research",
-  "paperCount": 1,
-  "issn": [
-   "0008-5472",
-   "1538-7445"
-  ],
-  "publisher": "American Association for Cancer Research (AACR)"
- },
- {
-  "name": "CAUCHY: Jurnal Matematika Murni dan Aplikasi",
-  "paperCount": 1,
-  "issn": [
-   "2086-0382"
-  ]
- },
- {
-  "name": "Cell systems",
-  "paperCount": 1,
-  "issn": [
-   "2405-4712"
-  ]
- },
- {
-  "name": "Chemical Engineering and Processing - Process Intensification",
-  "paperCount": 1,
-  "issn": [
-   "0255-2701"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Chemometrics and Intelligent Laboratory Systems",
-  "paperCount": 1,
-  "issn": [
-   "0169-7439"
-  ]
- },
- {
-  "name": "Child abuse & neglect",
-  "paperCount": 1,
-  "issn": [
-   "0145-2134"
-  ]
- },
- {
-  "name": "Cleaner Water",
-  "paperCount": 1
- },
- {
-  "name": "Climate",
-  "paperCount": 1,
-  "issn": [
-   "2225-1154"
-  ]
- },
- {
-  "name": "Climate Services",
-  "paperCount": 1,
-  "issn": [
-   "2405-8807"
-  ]
- },
- {
-  "name": "Clinical biochemistry",
-  "paperCount": 1,
-  "issn": [
-   "0009-9120"
-  ]
- },
- {
-  "name": "Cognition",
-  "paperCount": 1,
-  "issn": [
-   "0010-0277",
-   "2392-4624"
-  ]
- },
- {
-  "name": "Cognitive Computation",
-  "paperCount": 1,
-  "issn": [
-   "1866-9956"
-  ]
- },
- {
-  "name": "Combustion Theory and Modelling",
-  "paperCount": 1,
-  "issn": [
-   "1364-7830",
-   "1741-3559"
-  ],
-  "publisher": "Informa UK Limited"
- },
- {
-  "name": "Computation",
-  "paperCount": 1,
-  "issn": [
-   "2079-3197"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Computational Mechanics",
-  "paperCount": 1,
-  "issn": [
-   "0178-7675",
-   "1432-0924"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Computer",
-  "paperCount": 1,
-  "issn": [
-   "0018-9162"
-  ]
- },
- {
-  "name": "Computer Physics Communications",
-  "paperCount": 1,
-  "issn": [
-   "0010-4655"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Computer Science and Information Technologies",
-  "paperCount": 1,
-  "issn": [
-   "2331-6063",
-   "2722-3221"
-  ]
- },
- {
-  "name": "Computers",
-  "paperCount": 1,
-  "issn": [
-   "2073-431X"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Computers & Chemical Engineering",
-  "paperCount": 1,
-  "issn": [
-   "0098-1354"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Computers & Industrial Engineering",
-  "paperCount": 1
- },
- {
-  "name": "Computers and Electrical Engineering",
-  "paperCount": 1,
-  "issn": [
-   "0045-7906"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Computers in Human Behavior",
-  "paperCount": 1,
-  "issn": [
-   "0747-5632"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Computing, Communication, and Sustainable Energy Technologies",
-  "paperCount": 1,
-  "publisher": "CRC Press"
- },
- {
-  "name": "Concurrency and Computation: Practice and Experience",
-  "paperCount": 1,
-  "issn": [
-   "1532-0626"
-  ]
- },
- {
-  "name": "Control Engineering Practice",
-  "paperCount": 1,
-  "issn": [
-   "0967-0661"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Crop and Environment",
-  "paperCount": 1,
-  "issn": [
-   "2773-126X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Crop Breeding, Genetics and Genomics",
-  "paperCount": 1,
-  "issn": [
-   "2632-7309"
-  ],
-  "publisher": "Hapres"
- },
- {
-  "name": "Crop Health",
-  "paperCount": 1,
-  "issn": [
-   "2948-1945"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Current Drug Targets",
-  "paperCount": 1,
-  "issn": [
-   "1389-4501"
-  ],
-  "publisher": "Bentham Science Publishers Ltd."
- },
- {
-  "name": "Current Microbiology",
-  "paperCount": 1,
-  "issn": [
-   "0343-8651"
-  ]
- },
- {
-  "name": "Current Pulmonology Reports",
-  "paperCount": 1,
-  "issn": [
-   "2199-2428"
-  ]
- },
- {
-  "name": "Current Stem Cell Reports",
-  "paperCount": 1,
-  "issn": [
-   "2198-7866"
-  ]
- },
- {
-  "name": "Deep Brain Stimulation",
-  "paperCount": 1,
-  "issn": [
-   "2949-6691"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Development and Learning in Organizations: An International Journal",
-  "paperCount": 1,
-  "issn": [
-   "0957-0004",
-   "1477-7282"
-  ]
- },
- {
-  "name": "Diagnostic and Interventional Radiology",
-  "paperCount": 1,
-  "issn": [
-   "1305-3825",
-   "1305-3612"
-  ],
-  "publisher": "Galenos Yayinevi"
- },
- {
-  "name": "Digital Finance",
-  "paperCount": 1,
-  "issn": [
-   "2524-6186"
-  ]
- },
- {
-  "name": "Digital Society",
-  "paperCount": 1,
-  "issn": [
-   "2731-4650",
-   "2731-4669"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Digital Solutions and Artificial Intelligence Technologies",
-  "paperCount": 1,
-  "issn": [
-   "3033-7097"
-  ],
-  "publisher": "Financial University under the Government of the Russian Federation"
- },
- {
-  "name": "Discover Agriculture",
-  "paperCount": 1,
-  "issn": [
-   "2731-9598"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Discover Applied Sciences",
-  "paperCount": 1
- },
- {
-  "name": "Discover Chemistry",
-  "paperCount": 1
- },
- {
-  "name": "Discover Computing",
-  "paperCount": 1
- },
- {
-  "name": "Discover Environment",
-  "paperCount": 1
- },
- {
-  "name": "Discover Internet of Things",
-  "paperCount": 1,
-  "issn": [
-   "2730-7239"
-  ]
- },
- {
-  "name": "Discover Plants",
-  "paperCount": 1
- },
- {
-  "name": "Discover Public Health",
-  "paperCount": 1
- },
- {
-  "name": "Discover Robotics",
-  "paperCount": 1
- },
- {
-  "name": "Discover Sustainability",
-  "paperCount": 1,
-  "issn": [
-   "2662-9984"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Drying Technology",
-  "paperCount": 1
- },
- {
-  "name": "Dynamics in Social Sciences and Humanities",
-  "paperCount": 1
- },
- {
-  "name": "Earth Observation for Forest Monitoring and Climate Action",
-  "paperCount": 1,
-  "publisher": "Wiley"
- },
- {
-  "name": "East African Journal of Agriculture and Biotechnology",
-  "paperCount": 1,
-  "issn": [
-   "2707-4293"
-  ]
- },
- {
-  "name": "East Java Economic Journal",
-  "paperCount": 1,
-  "issn": [
-   "2597-8780"
-  ]
- },
- {
-  "name": "Economic Scope",
-  "paperCount": 1,
-  "issn": [
-   "2224-6282"
-  ]
- },
- {
-  "name": "ECONOMIC Series of the Bulletin of the L.N.Gumilyov ENU",
-  "paperCount": 1,
-  "issn": [
-   "2079-620X",
-   "2789-4320"
-  ]
- },
- {
-  "name": "Edusoshum : Journal of Islamic Education and Social Humanities",
-  "paperCount": 1,
-  "issn": [
-   "2776-5229"
-  ]
- },
- {
-  "name": "Elicit Journal of Medical Science and Discovery",
-  "paperCount": 1
- },
- {
-  "name": "Energy",
-  "paperCount": 1,
-  "issn": [
-   "0360-5442",
-   "0149-9386"
-  ]
- },
- {
-  "name": "Energy and Buildings",
-  "paperCount": 1,
-  "issn": [
-   "0378-7788"
-  ]
- },
- {
-  "name": "Energy Conversion and Management",
-  "paperCount": 1,
-  "issn": [
-   "0196-8904"
-  ]
- },
- {
-  "name": "Energy Conversion and Management: X",
-  "paperCount": 1,
-  "issn": [
-   "2590-1745"
-  ]
- },
- {
-  "name": "Eng. Appl. Artif. Intell.",
-  "paperCount": 1,
-  "issn": [
-   "0952-1976"
-  ]
- },
- {
-  "name": "Engineering Analysis with Boundary Elements",
-  "paperCount": 1,
-  "issn": [
-   "0955-7997"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Entertainment Computing",
-  "paperCount": 1,
-  "issn": [
-   "1875-9521"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Environment & Health",
-  "paperCount": 1
- },
- {
-  "name": "Environmental and Sustainability Indicators",
-  "paperCount": 1,
-  "issn": [
-   "2665-9727"
-  ]
- },
- {
-  "name": "Environmental Progress & Sustainable Energy",
-  "paperCount": 1
- },
- {
-  "name": "Environmental Research: Food Systems",
-  "paperCount": 1,
-  "issn": [
-   "2976-601X"
-  ],
-  "publisher": "IOP Publishing"
- },
- {
-  "name": "Epidemiology, Biostatistics, and Public Health",
-  "paperCount": 1,
-  "issn": [
-   "2282-0930"
-  ],
-  "publisher": "Milano University Press"
- },
- {
-  "name": "Ergodesign",
-  "paperCount": 1,
-  "issn": [
-   "2658-4026"
-  ],
-  "publisher": "Bryansk State Technical University BSTU"
- },
- {
-  "name": "European Cardiology Review",
-  "paperCount": 1,
-  "issn": [
-   "1758-3756",
-   "1758-3764"
-  ],
-  "publisher": "Radcliffe Medical Media Ltd"
- },
- {
-  "name": "European Journal of Applied Science, Engineering and Technology",
-  "paperCount": 1
- },
- {
-  "name": "European Journal of Risk Regulation",
-  "paperCount": 1,
-  "issn": [
-   "1867-299X",
-   "2190-8249"
-  ],
-  "publisher": "Cambridge University Press (CUP)"
- },
- {
-  "name": "European Journal of Social Science Education and Research",
-  "paperCount": 1
- },
- {
-  "name": "European Transport Research Review",
-  "paperCount": 1,
-  "issn": [
-   "1866-8887"
-  ]
- },
- {
-  "name": "European View",
-  "paperCount": 1,
-  "issn": [
-   "1781-6858"
-  ]
- },
- {
-  "name": "Europhysics Letters",
-  "paperCount": 1,
-  "issn": [
-   "0295-5075",
-   "1286-4854"
-  ],
-  "publisher": "IOP Publishing"
- },
- {
-  "name": "Explainable Artificial Intelligence",
-  "paperCount": 1,
-  "publisher": "Wiley"
- },
- {
-  "name": "Exploring Science Academic Conference Series",
-  "paperCount": 1,
-  "issn": [
-   "3105-0522",
-   "3105-0514"
-  ],
-  "publisher": "Zeus Press"
- },
- {
-  "name": "Family and Housing Law",
-  "paperCount": 1
- },
- {
-  "name": "Federal University Gusau Faculty of Education Journal",
-  "paperCount": 1
- },
- {
-  "name": "Finance Research Letters",
-  "paperCount": 1,
-  "issn": [
-   "1544-6123",
-   "1544-6131"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Financial Services Review",
-  "paperCount": 1,
-  "issn": [
-   "1057-0810",
-   "1873-5673"
-  ],
-  "publisher": "Academy of Financial Services"
- },
- {
-  "name": "Finite Elements in Analysis and Design",
-  "paperCount": 1,
-  "issn": [
-   "0168-874X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Fire Ecology",
-  "paperCount": 1,
-  "issn": [
-   "1933-9747"
-  ]
- },
- {
-  "name": "Flow Measurement and Instrumentation",
-  "paperCount": 1,
-  "issn": [
-   "0955-5986"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Food Packaging 4.0",
-  "paperCount": 1,
-  "publisher": "CRC Press"
- },
- {
-  "name": "Forest Ecology and Management",
-  "paperCount": 1,
-  "issn": [
-   "0378-1127"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Forum Agribisnis",
-  "paperCount": 1,
-  "issn": [
-   "2252-5491"
-  ]
- },
- {
-  "name": "Frontiers in Agronomy",
-  "paperCount": 1,
-  "issn": [
-   "2673-3218"
-  ]
- },
- {
-  "name": "Frontiers in Artificial Intelligence and Applications",
-  "paperCount": 1,
-  "issn": [
-   "0922-6389",
-   "1879-8314"
-  ],
-  "publisher": "IOS Press"
- },
- {
-  "name": "Frontiers in Computer Science",
-  "paperCount": 1,
-  "issn": [
-   "2624-9898"
-  ],
-  "publisher": "Frontiers Media SA"
- },
- {
-  "name": "Frontiers in Computer Science and Artificial Intelligence",
-  "paperCount": 1,
-  "issn": [
-   "2978-8048"
-  ],
-  "publisher": "Al-Kindi Center for Research and Development"
- },
- {
-  "name": "Frontiers in Education",
-  "paperCount": 1,
-  "issn": [
-   "2504-284X"
-  ]
- },
- {
-  "name": "Frontiers in Genetics",
-  "paperCount": 1,
-  "issn": [
-   "1664-8021"
-  ],
-  "publisher": "Frontiers Media SA"
- },
- {
-  "name": "Frontiers in Human Neuroscience",
-  "paperCount": 1,
-  "issn": [
-   "1662-5161"
-  ]
- },
- {
-  "name": "Frontiers in Materials",
-  "paperCount": 1,
-  "issn": [
-   "2296-8016"
-  ]
- },
- {
-  "name": "Frontiers in Medicine",
-  "paperCount": 1,
-  "issn": [
-   "2296-858X",
-   "2095-0217",
-   "2618-2459"
-  ]
- },
- {
-  "name": "Frontiers in Neuroscience",
-  "paperCount": 1,
-  "issn": [
-   "1662-453X"
-  ]
- },
- {
-  "name": "Frontiers in Oncology",
-  "paperCount": 1,
-  "issn": [
-   "2234-943X"
-  ]
- },
- {
-  "name": "Frontiers in Physics",
-  "paperCount": 1,
-  "issn": [
-   "2095-0462",
-   "2296-424X"
-  ]
- },
- {
-  "name": "Frontiers in Psychology",
-  "paperCount": 1,
-  "issn": [
-   "1664-1078"
-  ]
- },
- {
-  "name": "Frontiers in Public Health",
-  "paperCount": 1,
-  "issn": [
-   "2296-2565"
-  ]
- },
- {
-  "name": "Frontiers in Robotics and AI",
-  "paperCount": 1,
-  "issn": [
-   "2296-9144"
-  ],
-  "publisher": "Frontiers Media SA"
- },
- {
-  "name": "Frontiers in Tropical Diseases",
-  "paperCount": 1,
-  "issn": [
-   "2673-7515"
-  ]
- },
- {
-  "name": "FUDMA Journal of Sciences",
-  "paperCount": 1,
-  "issn": [
-   "2616-1370",
-   "2645-2944"
-  ]
- },
- {
-  "name": "Fundamental and Experimental Biology",
-  "paperCount": 1
- },
- {
-  "name": "Fusion Engineering and Design",
-  "paperCount": 1,
-  "issn": [
-   "0920-3796"
-  ]
- },
- {
-  "name": "Future Foods",
-  "paperCount": 1,
-  "issn": [
-   "2666-8335"
-  ]
- },
- {
-  "name": "Fuzzy Sets and Systems",
-  "paperCount": 1,
-  "issn": [
-   "0165-0114"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "G3",
-  "paperCount": 1
- },
- {
-  "name": "Galaxies",
-  "paperCount": 1,
-  "issn": [
-   "2075-4434"
-  ]
- },
- {
-  "name": "Gender Issues",
-  "paperCount": 1,
-  "issn": [
-   "1098-092X"
-  ]
- },
- {
-  "name": "Generative AI and Agentic Operations",
-  "paperCount": 1,
-  "publisher": "Wiley"
- },
- {
-  "name": "Genetic Resources and Crop Evolution",
-  "paperCount": 1,
-  "issn": [
-   "0925-9864",
-   "1573-5109"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Genome research",
-  "paperCount": 1,
-  "issn": [
-   "1088-9051"
-  ]
- },
- {
-  "name": "Geoderma",
-  "paperCount": 1,
-  "issn": [
-   "0016-7061"
-  ]
- },
- {
-  "name": "Geomorphology",
-  "paperCount": 1,
-  "issn": [
-   "0169-555X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Global Academic Journal of Economics and Business",
-  "paperCount": 1,
-  "issn": [
-   "2706-9001"
-  ]
- },
- {
-  "name": "Global Humanities and Social Sciences",
-  "paperCount": 1,
-  "issn": [
-   "3105-174X",
-   "3105-1758"
-  ],
-  "publisher": "International Academic Organizations Alliance Limited"
- },
- {
-  "name": "GSC Biological and Pharmaceutical Sciences",
-  "paperCount": 1,
-  "issn": [
-   "2581-3250"
-  ]
- },
- {
-  "name": "Habitat International",
-  "paperCount": 1,
-  "issn": [
-   "0197-3975"
-  ]
- },
- {
-  "name": "Harvard Data Science Review",
-  "paperCount": 1,
-  "issn": [
-   "2644-2353"
-  ],
-  "publisher": "MIT Press"
- },
- {
-  "name": "Healthcare",
-  "paperCount": 1,
-  "issn": [
-   "2227-9032"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Herald of Azerbaijan Engineering Academy",
-  "paperCount": 1,
-  "issn": [
-   "2076-0515"
-  ]
- },
- {
-  "name": "HortScience",
-  "paperCount": 1,
-  "issn": [
-   "0018-5345"
-  ]
- },
- {
-  "name": "Human reproduction",
-  "paperCount": 1,
-  "issn": [
-   "0268-1161"
-  ]
- },
- {
-  "name": "Humanities and Social Sciences Communications",
-  "paperCount": 1,
-  "issn": [
-   "2662-9992"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Hydrology and Earth System Sciences",
-  "paperCount": 1,
-  "issn": [
-   "1027-5606"
-  ]
- },
- {
-  "name": "Iberoamerican Journal of Applied Computing",
-  "paperCount": 1,
-  "issn": [
-   "2237-4523"
-  ]
- },
- {
-  "name": "Iconic Research and Engineering Journals",
-  "paperCount": 1,
-  "issn": [
-   "2456-8880"
-  ],
-  "publisher": "Iconic Digital Lab"
- },
- {
-  "name": "IEEE Internet of Things Journal",
-  "paperCount": 1,
-  "issn": [
-   "2327-4662"
-  ]
- },
- {
-  "name": "IEEE Journal of Selected Topics in Quantum Electronics",
-  "paperCount": 1,
-  "issn": [
-   "1077-260X"
-  ]
- },
- {
-  "name": "IEEE Sensors Journal",
-  "paperCount": 1,
-  "issn": [
-   "1530-437X"
-  ]
- },
- {
-  "name": "IEEE Transactions on Applied Superconductivity",
-  "paperCount": 1,
-  "issn": [
-   "1051-8223"
-  ]
- },
- {
-  "name": "IEEE Transactions on Emerging Topics in Computational Intelligence",
-  "paperCount": 1,
-  "issn": [
-   "2471-285X"
-  ]
- },
- {
-  "name": "IEEE Transactions on Evolutionary Computation",
-  "paperCount": 1,
-  "issn": [
-   "1089-778X"
-  ]
- },
- {
-  "name": "IEEE Transactions on Intelligent Transportation Systems",
-  "paperCount": 1,
-  "issn": [
-   "1524-9050"
-  ]
- },
- {
-  "name": "IEEE Transactions on Knowledge and Data Engineering",
-  "paperCount": 1,
-  "issn": [
-   "1041-4347"
-  ]
- },
- {
-  "name": "IEEE Transactions on Mobile Computing",
-  "paperCount": 1,
-  "issn": [
-   "1536-1233"
-  ]
- },
- {
-  "name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
-  "paperCount": 1,
-  "issn": [
-   "2168-2216"
-  ]
- },
- {
-  "name": "IEEE Transactions on Transportation Electrification",
-  "paperCount": 1,
-  "issn": [
-   "2332-7782"
-  ]
- },
- {
-  "name": "IET Conference Proceedings",
-  "paperCount": 1
- },
- {
-  "name": "iForest - Biogeosciences and Forestry",
-  "paperCount": 1,
-  "issn": [
-   "1971-7458"
-  ]
- },
- {
-  "name": "Ijarcce",
-  "paperCount": 1,
-  "issn": [
-   "2319-5940",
-   "2278-1021"
-  ],
-  "publisher": "Tejass Publishers"
- },
- {
-  "name": "Indian Journal Of Agricultural Research",
-  "paperCount": 1,
-  "issn": [
-   "0367-8245"
-  ]
- },
- {
-  "name": "Indian Journal Of Science And Technology",
-  "paperCount": 1,
-  "issn": [
-   "0974-6846",
-   "0974-5645"
-  ],
-  "publisher": "Indian Society for Education and Environment"
- },
- {
-  "name": "Industrial Robot: the international journal of robotics research and application",
-  "paperCount": 1,
-  "issn": [
-   "0143-991X",
-   "1758-5791"
-  ],
-  "publisher": "Emerald"
- },
- {
-  "name": "Information Fusion",
-  "paperCount": 1,
-  "issn": [
-   "1566-2535"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Information Technology & People",
-  "paperCount": 1,
-  "issn": [
-   "0959-3845",
-   "1758-5813"
-  ],
-  "publisher": "Emerald"
- },
- {
-  "name": "Inisiatif: Jurnal Ekonomi, Akuntansi dan Manajemen",
-  "paperCount": 1,
-  "issn": [
-   "2459-9816",
-   "1412-5366"
-  ]
- },
- {
-  "name": "Innovative Applications of AI",
-  "paperCount": 1
- },
- {
-  "name": "Insects",
-  "paperCount": 1,
-  "issn": [
-   "2075-4450"
-  ]
- },
- {
-  "name": "Integrating Blockchain, Federated Learning, and Metaverse Ecosystems Into Decentralized Classrooms",
-  "paperCount": 1,
-  "publisher": "IGI Global Scientific Publishing"
- },
- {
-  "name": "Interdisciplinary Academic and Research Journal",
-  "paperCount": 1
- },
- {
-  "name": "International Applied Mechanics",
-  "paperCount": 1,
-  "issn": [
-   "1063-7095",
-   "1573-8582",
-   "0032-8243"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "International Conference on Photonic Computing, Algorithms, and Machine Vision",
-  "paperCount": 1
- },
- {
-  "name": "International Journal for Quality Research",
-  "paperCount": 1,
-  "issn": [
-   "1800-6450",
-   "1800-7473",
-   "2798-6047"
-  ],
-  "publisher": "Faculty of Engineering, University of Kragujevac"
- },
- {
-  "name": "International Journal of Advanced Multidisciplinary Research and Studies",
-  "paperCount": 1,
-  "issn": [
-   "2583-049X"
-  ],
-  "publisher": "OPRA Publications"
- },
- {
-  "name": "International Journal of Advanced Research and Multidisciplinary Trends (IJARMT)",
-  "paperCount": 1
- },
- {
-  "name": "International Journal of Advanced Research in Science Communication and Technology",
-  "paperCount": 1,
-  "issn": [
-   "2581-9429"
-  ],
-  "publisher": "Naksh Solutions"
- },
- {
-  "name": "International Journal of Advanced Science and Engineering",
-  "paperCount": 1,
-  "issn": [
-   "2454-9967",
-   "2349-5359"
-  ],
-  "publisher": "Mahendra Publications"
- },
- {
-  "name": "International Journal of Agriculture and Earth Science",
-  "paperCount": 1,
-  "issn": [
-   "2695-1894",
-   "2489-0081"
-  ],
-  "publisher": "IIARD Publication Co."
- },
- {
-  "name": "International Journal of Agriculture and Environmental Research and Innovations",
-  "paperCount": 1,
-  "issn": [
-   "3115-6967"
-  ],
-  "publisher": "Soft Print and Media Resources Limited"
- },
- {
-  "name": "International Journal of Agriculture Extension and Social Development",
-  "paperCount": 1,
-  "issn": [
-   "2618-0723",
-   "2618-0731"
-  ],
-  "publisher": "Comprehensive Publications"
- },
- {
-  "name": "International Journal of Applied and Experimental Biology",
-  "paperCount": 1,
-  "issn": [
-   "2790-6523"
-  ]
- },
- {
-  "name": "International Journal of Business and Information Communication Technologies",
-  "paperCount": 1,
-  "issn": [
-   "2412-9917"
-  ],
-  "publisher": "Leza Solutions"
- },
- {
-  "name": "International Journal of Business, Arts and Scientific Study",
-  "paperCount": 1
- },
- {
-  "name": "International Journal of Computer Information Systems and Industrial Management Applications",
-  "paperCount": 1,
-  "issn": [
-   "2150-7988"
-  ],
-  "publisher": "Cerebration Science Publishing Co., Limited"
- },
- {
-  "name": "International Journal of Computer Science and Mathematical Theory",
-  "paperCount": 1,
-  "issn": [
-   "2695-1924",
-   "2545-5699"
-  ],
-  "publisher": "IIARD Publication Co."
- },
- {
-  "name": "International Journal of Computer Vision",
-  "paperCount": 1,
-  "issn": [
-   "0920-5691"
-  ]
- },
- {
-  "name": "International Journal of Computers and Electronics in Agriculture",
-  "paperCount": 1,
-  "publisher": "IAEME Publication"
- },
- {
-  "name": "International Journal of Concrete Structures and Materials",
-  "paperCount": 1,
-  "issn": [
-   "1976-0485"
-  ]
- },
- {
-  "name": "International Journal of Contemporary Hospitality Management",
-  "paperCount": 1,
-  "issn": [
-   "0959-6119"
-  ]
- },
- {
-  "name": "International Journal of Current Science Research and Review",
-  "paperCount": 1,
-  "issn": [
-   "2581-8341"
-  ],
-  "publisher": "Everant Journals"
- },
- {
-  "name": "International Journal of Electrical and Computer Engineering (IJECE)",
-  "paperCount": 1,
-  "issn": [
-   "2088-8708"
-  ]
- },
- {
-  "name": "International Journal of Engineering Research in Africa",
-  "paperCount": 1,
-  "issn": [
-   "1663-3571"
-  ]
- },
- {
-  "name": "International Journal of Forecasting",
-  "paperCount": 1,
-  "issn": [
-   "0169-2070"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "International Journal of Forest, Animal and Fisheries Research",
-  "paperCount": 1
- },
- {
-  "name": "International Journal of Industrial Ergonomics",
-  "paperCount": 1,
-  "issn": [
-   "0169-8141"
-  ]
- },
- {
-  "name": "International Journal of Innovative Research in Engineering",
-  "paperCount": 1,
-  "issn": [
-   "2582-8746"
-  ]
- },
- {
-  "name": "International Journal of Innovative Research in Technology",
-  "paperCount": 1,
-  "issn": [
-   "2349-6002"
-  ],
-  "publisher": "Amplionix LLP"
- },
- {
-  "name": "International Journal of Intelligent Systems and Data Science",
-  "paperCount": 1
- },
- {
-  "name": "International Journal of Mathematical, Engineering and Management Sciences",
-  "paperCount": 1,
-  "issn": [
-   "2455-7749"
-  ]
- },
- {
-  "name": "International Journal of Molecular Sciences",
-  "paperCount": 1,
-  "issn": [
-   "1422-0067"
-  ]
- },
- {
-  "name": "International Journal of Natural Resources and Environmental Studies",
-  "paperCount": 1
- },
- {
-  "name": "International Journal of Network Dynamics and Intelligence",
-  "paperCount": 1,
-  "issn": [
-   "2653-6226"
-  ],
-  "publisher": "Scilight Press Pty Ltd"
- },
- {
-  "name": "International Journal of Number Theory",
-  "paperCount": 1,
-  "issn": [
-   "1793-0421",
-   "1793-7310"
-  ],
-  "publisher": "World Scientific Pub Co Pte Ltd"
- },
- {
-  "name": "International Journal of Pattern Recognition and Artificial Intelligence",
-  "paperCount": 1,
-  "issn": [
-   "0218-0014"
-  ]
- },
- {
-  "name": "International journal of psychology : Journal international de psychologie",
-  "paperCount": 1,
-  "issn": [
-   "2008-1251",
-   "0020-7594"
-  ]
- },
- {
-  "name": "International Journal of Research in Business and Social Science (2147- 4478)",
-  "paperCount": 1,
-  "issn": [
-   "2147-4478"
-  ]
- },
- {
-  "name": "International Journal of Science and Research (IJSR)",
-  "paperCount": 1,
-  "issn": [
-   "2319-7064"
-  ]
- },
- {
-  "name": "International Journal of Science and Research Archive",
-  "paperCount": 1,
-  "issn": [
-   "2582-8185"
-  ]
- },
- {
-  "name": "International Journal of Science Research and Technology",
-  "paperCount": 1,
-  "issn": [
-   "3026-8796",
-   "3027-1991"
-  ],
-  "publisher": "Mediterranean Publications and Research International"
- },
- {
-  "name": "International Journal of Scientific Research in Computer Science, Engineering and Information Technology",
-  "paperCount": 1,
-  "issn": [
-   "2456-3307"
-  ]
- },
- {
-  "name": "International Journal of Travel, Hospitality and Events",
-  "paperCount": 1,
-  "issn": [
-   "2828-2590"
-  ]
- },
- {
-  "name": "International Journal of Women's Health",
-  "paperCount": 1,
-  "issn": [
-   "1179-1411"
-  ],
-  "publisher": "Informa UK Limited"
- },
- {
-  "name": "International Journal on Cybernetics & Informatics",
-  "paperCount": 1
- },
- {
-  "name": "International Research Journal of Multidisciplinary Technovation",
-  "paperCount": 1,
-  "issn": [
-   "2582-1040"
-  ]
- },
- {
-  "name": "International Research Journal on Advanced Engineering Hub (IRJAEH)",
-  "paperCount": 1,
-  "issn": [
-   "2584-2137"
-  ],
-  "publisher": "RSP Science Hub"
- },
- {
-  "name": "International Science Journal of Engineering & Agriculture",
-  "paperCount": 1,
-  "issn": [
-   "2720-6319"
-  ],
-  "publisher": "International Science Group"
- },
- {
-  "name": "Internet of Things and Unmanned Aerial Vehicles-based Applications for High-Yield Precision Agriculture",
-  "paperCount": 1,
-  "publisher": "CRC Press"
- },
- {
-  "name": "Intersection: A Journal at the Intersection of Assessment and Learning",
-  "paperCount": 1,
-  "issn": [
-   "2688-7207"
-  ],
-  "publisher": "Association for the Assessment of Learning in Higher Education"
- },
- {
-  "name": "Ironmaking & Steelmaking: Processes, Products and Applications",
-  "paperCount": 1
- },
- {
-  "name": "Irrigation and Drainage",
-  "paperCount": 1,
-  "issn": [
-   "1531-0353",
-   "1531-0361"
-  ],
-  "publisher": "Wiley"
- },
- {
-  "name": "ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
-  "paperCount": 1,
-  "issn": [
-   "2196-6346"
-  ]
- },
- {
-  "name": "Italian Journal of Geosciences",
-  "paperCount": 1,
-  "issn": [
-   "2038-1719"
-  ]
- },
- {
-  "name": "J Open",
-  "paperCount": 1
- },
- {
-  "name": "Jammu Kashmir Journal of Agriculture",
-  "paperCount": 1
- },
- {
-  "name": "JMIR formative research",
-  "paperCount": 1,
-  "issn": [
-   "2561-326X"
-  ]
- },
- {
-  "name": "JMIR Medical Informatics",
-  "paperCount": 1,
-  "issn": [
-   "2291-9694"
-  ]
- },
- {
-  "name": "Journal of Advanced Multidisciplinary Studies (JAMS)",
-  "paperCount": 1,
-  "publisher": "Journal of Advanced Multidisciplinary Studies"
- },
- {
-  "name": "Journal of Agricultural Engineering",
-  "paperCount": 1,
-  "issn": [
-   "2588-526X",
-   "1974-7071",
-   "2588-5944",
-   "0256-6524"
-  ]
- },
- {
-  "name": "Journal of Agricultural Production",
-  "paperCount": 1,
-  "issn": [
-   "2757-6620"
-  ]
- },
- {
-  "name": "Journal of Agriculture and Food Research",
-  "paperCount": 1,
-  "issn": [
-   "2666-1543"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Journal of Agrometeorology",
-  "paperCount": 1,
-  "issn": [
-   "0972-1665"
-  ]
- },
- {
-  "name": "Journal of Agronomy and Crop Science",
-  "paperCount": 1,
-  "issn": [
-   "0931-2250",
-   "1439-037X"
-  ],
-  "publisher": "Wiley"
- },
- {
-  "name": "Journal of Archaeological Science",
-  "paperCount": 1,
-  "issn": [
-   "0305-4403"
-  ]
- },
- {
-  "name": "Journal of Archaeological Science: Reports",
-  "paperCount": 1,
-  "issn": [
-   "2352-409X"
-  ]
- },
- {
-  "name": "Journal of Architectural Engineering",
-  "paperCount": 1,
-  "issn": [
-   "1076-0431"
-  ]
- },
- {
-  "name": "Journal of Asian Geography",
-  "paperCount": 1
- },
- {
-  "name": "Journal of Biomedical Systems and Engineering",
-  "paperCount": 1
- },
- {
-  "name": "Journal of breath research",
-  "paperCount": 1,
-  "issn": [
-   "1752-7155"
-  ]
- },
- {
-  "name": "Journal of Bridge Engineering",
-  "paperCount": 1,
-  "issn": [
-   "1084-0702"
-  ]
- },
- {
-  "name": "Journal of Business & Industrial Marketing",
-  "paperCount": 1
- },
- {
-  "name": "Journal of Cancer",
-  "paperCount": 1,
-  "issn": [
-   "1837-9664"
-  ]
- },
- {
-  "name": "Journal of Circuits, Systems and Computers",
-  "paperCount": 1,
-  "issn": [
-   "0218-1266"
-  ]
- },
- {
-  "name": "Journal of Complexity",
-  "paperCount": 1,
-  "issn": [
-   "0885-064X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Journal of Computational and Applied Mathematics",
-  "paperCount": 1,
-  "issn": [
-   "0377-0427",
-   "0771-050X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Journal of Computational Physics",
-  "paperCount": 1,
-  "issn": [
-   "0021-9991"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Journal of Computer Sciences Institute",
-  "paperCount": 1,
-  "issn": [
-   "2544-0764"
-  ],
-  "publisher": "Politechnika Lubelska"
- },
- {
-  "name": "Journal of Decision Support Systems and Multi-Criteria Decision Making",
-  "paperCount": 1
- },
- {
-  "name": "Journal of Democracy",
-  "paperCount": 1,
-  "issn": [
-   "1045-5736"
-  ]
- },
- {
-  "name": "Journal of Digital Learning and Distance Education",
-  "paperCount": 1,
-  "issn": [
-   "2964-6685"
-  ],
-  "publisher": "Radinka Jaya Utama Publisher"
- },
- {
-  "name": "Journal of Disaster Research",
-  "paperCount": 1,
-  "issn": [
-   "1881-2473"
-  ]
- },
- {
-  "name": "Journal of Earth System Science",
-  "paperCount": 1,
-  "issn": [
-   "0253-4126"
-  ]
- },
- {
-  "name": "Journal of Engineering and Computational Intelligence Review",
-  "paperCount": 1
- },
- {
-  "name": "Journal of Engineering Sciences and Innovation",
-  "paperCount": 1,
-  "issn": [
-   "2537-320X"
-  ]
- },
- {
-  "name": "Journal of Engineering, Project, and Production Management",
-  "paperCount": 1,
-  "issn": [
-   "2221-6529"
-  ]
- },
- {
-  "name": "Journal of environmental science and health. Part. B, Pesticides, food contaminants, and agricultural wastes",
-  "paperCount": 1,
-  "issn": [
-   "0360-1234"
-  ]
- },
- {
-  "name": "Journal of Experimental Agriculture International",
-  "paperCount": 1,
-  "issn": [
-   "2457-0591"
-  ]
- },
- {
-  "name": "Journal of Geodesy",
-  "paperCount": 1,
-  "issn": [
-   "0949-7714"
-  ]
- },
- {
-  "name": "Journal of Geophysical Research: Atmospheres",
-  "paperCount": 1,
-  "issn": [
-   "2169-897X"
-  ]
- },
- {
-  "name": "Journal of Geophysical Research: Space Physics",
-  "paperCount": 1,
-  "issn": [
-   "2169-9380"
-  ]
- },
- {
-  "name": "Journal of Global Economics, Management and Business Research",
-  "paperCount": 1,
-  "issn": [
-   "2454-2504"
-  ]
- },
- {
-  "name": "Journal of Hydraulic Engineering",
-  "paperCount": 1,
-  "issn": [
-   "0733-9429",
-   "0559-9350",
-   "2332-8215"
-  ]
- },
- {
-  "name": "Journal of Hydrology: Regional Studies",
-  "paperCount": 1,
-  "issn": [
-   "2214-5818"
-  ]
- },
- {
-  "name": "Journal of Hydrometeorology",
-  "paperCount": 1,
-  "issn": [
-   "1525-7541"
-  ]
- },
- {
-  "name": "Journal of Imaging",
-  "paperCount": 1,
-  "issn": [
-   "2313-433X"
-  ]
- },
- {
-  "name": "Journal of Imaging Science and Technology",
-  "paperCount": 1,
-  "issn": [
-   "1943-3522",
-   "1062-3701"
-  ],
-  "publisher": "Society for Imaging Science & Technology"
- },
- {
-  "name": "Journal of Infrastructure Systems",
-  "paperCount": 1,
-  "issn": [
-   "1076-0342"
-  ]
- },
- {
-  "name": "Journal of Innovation & Knowledge",
-  "paperCount": 1
- },
- {
-  "name": "Journal of integrative plant biology",
-  "paperCount": 1,
-  "issn": [
-   "1672-9072",
-   "0577-7496"
-  ]
- },
- {
-  "name": "Journal of Intelligent & Robotic Systems",
-  "paperCount": 1
- },
- {
-  "name": "Journal of International Money and Finance",
-  "paperCount": 1,
-  "issn": [
-   "0261-5606"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Journal of ISMAC",
-  "paperCount": 1,
-  "issn": [
-   "2582-1369"
-  ]
- },
- {
-  "name": "Journal of King Saud University Computer and Information Sciences",
-  "paperCount": 1,
-  "issn": [
-   "1319-1578"
-  ]
- },
- {
-  "name": "Journal of Machine Learning",
-  "paperCount": 1,
-  "issn": [
-   "2790-203X",
-   "2790-2048"
-  ],
-  "publisher": "Global Science Press"
- },
- {
-  "name": "Journal of Manufacturing Systems",
-  "paperCount": 1,
-  "issn": [
-   "0278-6125"
-  ]
- },
- {
-  "name": "Journal of Marketing Communications",
-  "paperCount": 1,
-  "issn": [
-   "1352-7266",
-   "1466-4445",
-   "2617-359X"
-  ],
-  "publisher": "Informa UK Limited"
- },
- {
-  "name": "Journal of Medical Systems",
-  "paperCount": 1,
-  "issn": [
-   "0148-5598"
-  ]
- },
- {
-  "name": "Journal of microbiological methods",
-  "paperCount": 1,
-  "issn": [
-   "0167-7012"
-  ]
- },
- {
-  "name": "Journal of Multiscale Modelling",
-  "paperCount": 1,
-  "issn": [
-   "1756-9737",
-   "1756-9745"
-  ],
-  "publisher": "World Scientific Pub Co Pte Ltd"
- },
- {
-  "name": "Journal of neuroscience methods",
-  "paperCount": 1,
-  "issn": [
-   "0165-0270"
-  ]
- },
- {
-  "name": "Journal of Pancreatology",
-  "paperCount": 1,
-  "issn": [
-   "2096-5664",
-   "2577-3577"
-  ],
-  "publisher": "Ovid Technologies (Wolters Kluwer Health)"
- },
- {
-  "name": "Journal of Petroleum Technology",
-  "paperCount": 1,
-  "issn": [
-   "0149-2136"
-  ]
- },
- {
-  "name": "Journal of Population Research",
-  "paperCount": 1,
-  "issn": [
-   "1443-2447",
-   "0377-0478",
-   "2347-1816"
-  ]
- },
- {
-  "name": "Journal of Process Control",
-  "paperCount": 1,
-  "issn": [
-   "0959-1524"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Journal of Quality in Maintenance Engineering",
-  "paperCount": 1,
-  "issn": [
-   "1355-2511"
-  ]
- },
- {
-  "name": "Journal of Quality Measurement and Analysis",
-  "paperCount": 1
- },
- {
-  "name": "Journal of Real-Time Image Processing",
-  "paperCount": 1,
-  "issn": [
-   "1861-8200"
-  ]
- },
- {
-  "name": "Journal of Strategic Innovation and Sustainability",
-  "paperCount": 1,
-  "issn": [
-   "1718-2077"
-  ]
- },
- {
-  "name": "Journal of Structural Engineering",
-  "paperCount": 1,
-  "issn": [
-   "0733-9445",
-   "0970-0137"
-  ]
- },
- {
-  "name": "Journal of Structural Geology",
-  "paperCount": 1,
-  "issn": [
-   "0191-8141"
-  ]
- },
- {
-  "name": "Journal of Surveying Engineering",
-  "paperCount": 1,
-  "issn": [
-   "0733-9453"
-  ]
- },
- {
-  "name": "Journal of synchrotron radiation",
-  "paperCount": 1,
-  "issn": [
-   "0909-0495"
-  ]
- },
- {
-  "name": "Journal of Teaching and Learning",
-  "paperCount": 1,
-  "issn": [
-   "1911-8279"
-  ],
-  "publisher": "University of Windsor Leddy Library"
- },
- {
-  "name": "Journal of the American Academy of Dermatology",
-  "paperCount": 1,
-  "issn": [
-   "0190-9622"
-  ]
- },
- {
-  "name": "Journal of the Japan society of photogrammetry and remote sensing",
-  "paperCount": 1,
-  "issn": [
-   "0285-5844"
-  ]
- },
- {
-  "name": "Journal of the Nigerian Society of Physical Sciences",
-  "paperCount": 1,
-  "issn": [
-   "2714-4704"
-  ]
- },
- {
-  "name": "Journal of Tropical Ecology",
-  "paperCount": 1,
-  "issn": [
-   "0266-4674"
-  ]
- },
- {
-  "name": "Journal of Umm Al-Qura University for Applied Sciences",
-  "paperCount": 1,
-  "issn": [
-   "1658-8185"
-  ]
- },
- {
-  "name": "Journal of Visual Communication and Image Representation",
-  "paperCount": 1,
-  "issn": [
-   "1047-3203"
-  ]
- },
- {
-  "name": "Journal of visualized experiments : JoVE",
-  "paperCount": 1,
-  "issn": [
-   "1940-087X"
-  ]
- },
- {
-  "name": "Journal of Water Resources Planning and Management",
-  "paperCount": 1,
-  "issn": [
-   "0733-9496"
-  ]
- },
- {
-  "name": "Journal of Waterway, Port, Coastal, and Ocean Engineering",
-  "paperCount": 1,
-  "issn": [
-   "0733-950X"
-  ]
- },
- {
-  "name": "Jurnal Pendidikan, Sains, Geologi, dan Geofisika (GeoScienceEd Journal)",
-  "paperCount": 1,
-  "issn": [
-   "2723-2905"
-  ]
- },
- {
-  "name": "Jurnal Riset Teknik Komputer",
-  "paperCount": 1
- },
- {
-  "name": "Kazakhstan journal for oil & gas industry",
-  "paperCount": 1
- },
- {
-  "name": "Kirkuk University Journal For Agricultural Sciences",
-  "paperCount": 1
- },
- {
-  "name": "Knowledge and Information Systems",
-  "paperCount": 1,
-  "issn": [
-   "0219-1377",
-   "0219-3116"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "KPI Science News",
-  "paperCount": 1,
-  "issn": [
-   "2617-5509"
-  ]
- },
- {
-  "name": "Land Degradation & Development",
-  "paperCount": 1
- },
- {
-  "name": "Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering",
-  "paperCount": 1,
-  "issn": [
-   "1867-8211",
-   "1867-822X"
-  ],
-  "publisher": "Springer Nature Switzerland"
- },
- {
-  "name": "Legal Regulation of Sustainable Entrepreneurship Within the Platform Economy",
-  "paperCount": 1,
-  "publisher": "IGI Global Scientific Publishing"
- },
- {
-  "name": "Leisure Sciences",
-  "paperCount": 1,
-  "issn": [
-   "0149-0400",
-   "1521-0588"
-  ],
-  "publisher": "Informa UK Limited"
- },
- {
-  "name": "Life",
-  "paperCount": 1
- },
- {
-  "name": "Machine Learning with Applications",
-  "paperCount": 1,
-  "issn": [
-   "2666-8270"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Machine Learning: Health",
-  "paperCount": 1,
-  "issn": [
-   "3049-477X"
-  ],
-  "publisher": "IOP Publishing"
- },
- {
-  "name": "Machine Learning: Science and Technology",
-  "paperCount": 1,
-  "issn": [
-   "2632-2153"
-  ],
-  "publisher": "IOP Publishing"
- },
- {
-  "name": "Machine Vision and Applications",
-  "paperCount": 1,
-  "issn": [
-   "0932-8092"
-  ]
- },
- {
-  "name": "Macroeconometrics",
-  "paperCount": 1,
-  "publisher": "De Gruyter"
- },
- {
-  "name": "Materials horizons",
-  "paperCount": 1,
-  "issn": [
-   "2051-6347"
-  ]
- },
- {
-  "name": "Mausam",
-  "paperCount": 1,
-  "issn": [
-   "0252-9416"
-  ],
-  "publisher": "India Meteorological Department"
- },
- {
-  "name": "Measurement",
-  "paperCount": 1
- },
- {
-  "name": "Mechanism and Machine Theory",
-  "paperCount": 1,
-  "issn": [
-   "0094-114X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Medical Physics",
-  "paperCount": 1,
-  "issn": [
-   "0094-2405",
-   "2473-4209"
-  ],
-  "publisher": "Wiley"
- },
- {
-  "name": "Merkurius : Jurnal Riset Sistem Informasi dan Teknik Informatika",
-  "paperCount": 1
- },
- {
-  "name": "Meteorologische Zeitschrift",
-  "paperCount": 1,
-  "issn": [
-   "0941-2948"
-  ],
-  "publisher": "Schweizerbart"
- },
- {
-  "name": "Modelling, Analysis and Simulations of Nonlinear Complex Systems [Working Title]",
-  "paperCount": 1,
-  "publisher": "IntechOpen"
- },
- {
-  "name": "Modern Physics Letters A",
-  "paperCount": 1,
-  "issn": [
-   "0217-7323"
-  ]
- },
- {
-  "name": "Modern Transportation Systems and Technologies",
-  "paperCount": 1,
-  "issn": [
-   "2782-3733"
-  ]
- },
- {
-  "name": "Molecules",
-  "paperCount": 1,
-  "issn": [
-   "1420-3049"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Multimedia Tools and Applications",
-  "paperCount": 1,
-  "issn": [
-   "1380-7501"
-  ]
- },
- {
-  "name": "Natural Hazards and Earth System Sciences",
-  "paperCount": 1,
-  "issn": [
-   "1561-8633"
-  ]
- },
- {
-  "name": "Natural Sciences Education",
-  "paperCount": 1,
-  "issn": [
-   "1059-9053",
-   "1539-1582",
-   "2168-8273"
-  ]
- },
- {
-  "name": "Nature Machine Intelligence",
-  "paperCount": 1,
-  "issn": [
-   "2522-5839"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Nature medicine",
-  "paperCount": 1,
-  "issn": [
-   "1078-8956"
-  ]
- },
- {
-  "name": "Nature Photonics",
-  "paperCount": 1,
-  "issn": [
-   "1749-4885",
-   "1749-4893"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Nepal Journal of Multidisciplinary Research",
-  "paperCount": 1,
-  "issn": [
-   "2645-8470"
-  ]
- },
- {
-  "name": "Neuropsychology",
-  "paperCount": 1,
-  "issn": [
-   "0894-4105"
-  ]
- },
- {
-  "name": "New Forests",
-  "paperCount": 1,
-  "issn": [
-   "0169-4286"
-  ]
- },
- {
-  "name": "New Technology, Work and Employment",
-  "paperCount": 1,
-  "issn": [
-   "0268-1072"
-  ]
- },
- {
-  "name": "News of the National Academy of Sciences of the Republic of Kazakhstan",
-  "paperCount": 1,
-  "issn": [
-   "2518-1726",
-   "1991-346X"
-  ],
-  "publisher": "Central Asian Academic Research Center LLP"
- },
- {
-  "name": "Nonlinear Science",
-  "paperCount": 1
- },
- {
-  "name": "North American Journal of Psychology",
-  "paperCount": 1,
-  "issn": [
-   "1527-7143"
-  ]
- },
- {
-  "name": "Notulae Botanicae Horti Agrobotanici Cluj-Napoca",
-  "paperCount": 1,
-  "issn": [
-   "0255-965X"
-  ]
- },
- {
-  "name": "Notulae Scientia Biologicae",
-  "paperCount": 1,
-  "issn": [
-   "2067-3205"
-  ]
- },
- {
-  "name": "npj Science of Plants",
-  "paperCount": 1
- },
- {
-  "name": "Nuclear Engineering and Technology",
-  "paperCount": 1,
-  "issn": [
-   "1738-5733"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Nuclear Science and Engineering",
-  "paperCount": 1,
-  "issn": [
-   "0029-5639",
-   "1943-748X"
-  ],
-  "publisher": "Informa UK Limited"
- },
- {
-  "name": "Nursing Inquiry",
-  "paperCount": 1,
-  "issn": [
-   "1320-7881",
-   "1440-1800"
-  ],
-  "publisher": "Wiley"
- },
- {
-  "name": "Ocean & Coastal Management",
-  "paperCount": 1
- },
- {
-  "name": "Optical Fiber Technology",
-  "paperCount": 1,
-  "issn": [
-   "1068-5200"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Optical Materials Express",
-  "paperCount": 1,
-  "issn": [
-   "2159-3930"
-  ],
-  "publisher": "Optica Publishing Group"
- },
- {
-  "name": "Optics & Laser Technology",
-  "paperCount": 1
- },
- {
-  "name": "Pathogens",
-  "paperCount": 1,
-  "issn": [
-   "2076-0817"
-  ]
- },
- {
-  "name": "Pattern Recognition Letters",
-  "paperCount": 1,
-  "issn": [
-   "0167-8655"
-  ]
- },
- {
-  "name": "Pediatric Surgery International",
-  "paperCount": 1,
-  "issn": [
-   "1437-9813",
-   "0179-0358"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "PeerJ Computer Science",
-  "paperCount": 1,
-  "issn": [
-   "2376-5992"
-  ],
-  "publisher": "PeerJ"
- },
- {
-  "name": "PFG – Journal of Photogrammetry, Remote Sensing and Geoinformation Science",
-  "paperCount": 1,
-  "issn": [
-   "2512-2789",
-   "2512-2819"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Philosophia Reformata",
-  "paperCount": 1,
-  "issn": [
-   "0031-8035"
-  ]
- },
- {
-  "name": "Physica A: Statistical Mechanics and its Applications",
-  "paperCount": 1,
-  "issn": [
-   "0378-4371"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Physical and Mathematical Education",
-  "paperCount": 1,
-  "issn": [
-   "2413-1571"
-  ]
- },
- {
-  "name": "Physical Review Fluids",
-  "paperCount": 1,
-  "issn": [
-   "2469-990X"
-  ],
-  "publisher": "American Physical Society (APS)"
- },
- {
-  "name": "Physical Review Research",
-  "paperCount": 1,
-  "issn": [
-   "2643-1564"
-  ],
-  "publisher": "American Physical Society (APS)"
- },
- {
-  "name": "Plant and Soil",
-  "paperCount": 1,
-  "issn": [
-   "0032-079X",
-   "1573-5036"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Plant Science Today",
-  "paperCount": 1,
-  "issn": [
-   "2348-1900"
-  ]
- },
- {
-  "name": "Plant-Environment Interactions",
-  "paperCount": 1,
-  "issn": [
-   "2575-6265"
-  ]
- },
- {
-  "name": "Plant, cell & environment",
-  "paperCount": 1,
-  "issn": [
-   "0140-7791"
-  ]
- },
- {
-  "name": "Planta",
-  "paperCount": 1,
-  "issn": [
-   "0032-0935"
-  ]
- },
- {
-  "name": "Plants, People, Planet",
-  "paperCount": 1,
-  "issn": [
-   "2572-2611"
-  ]
- },
- {
-  "name": "PLOS Climate",
-  "paperCount": 1,
-  "issn": [
-   "2767-3200"
-  ],
-  "publisher": "Public Library of Science (PLoS)"
- },
- {
-  "name": "Potato Research",
-  "paperCount": 1,
-  "issn": [
-   "0014-3065"
-  ]
- },
- {
-  "name": "Problems of Computational and Applied Mathematics",
-  "paperCount": 1,
-  "issn": [
-   "2181-046X",
-   "2181-8460"
-  ],
-  "publisher": "Digital Technologies and Artificial Intelligence Development Research Institute"
- },
- {
-  "name": "Proceedings of the 2026 ACM Conference on Human-AI Complementarity and Alignment",
-  "paperCount": 1,
-  "publisher": "ACM"
- },
- {
-  "name": "Proceedings of the 2026 ACM International Symposium on Wearable Computers",
-  "paperCount": 1
- },
- {
-  "name": "Proceedings of the 37th ACM Conference on Hypertext",
-  "paperCount": 1,
-  "publisher": "ACM"
- },
- {
-  "name": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
-  "paperCount": 1,
-  "issn": [
-   "2474-9567"
-  ]
- },
- {
-  "name": "Proceedings of the ACM on Management of Data",
-  "paperCount": 1,
-  "issn": [
-   "2836-6573"
-  ],
-  "publisher": "Association for Computing Machinery (ACM)"
- },
- {
-  "name": "Proceedings of the ACM on Programming Languages",
-  "paperCount": 1
- },
- {
-  "name": "Proceedings of the Water Environment Federation",
-  "paperCount": 1,
-  "issn": [
-   "1938-6478"
-  ],
-  "publisher": "Water Environment Federation"
- },
- {
-  "name": "Process Integration and Optimization for Sustainability",
-  "paperCount": 1,
-  "issn": [
-   "2509-4238",
-   "2509-4246"
-  ],
-  "publisher": "Springer Science and Business Media LLC"
- },
- {
-  "name": "Processes",
-  "paperCount": 1,
-  "issn": [
-   "2227-9717"
-  ]
- },
- {
-  "name": "Quality and Reliability Engineering International",
-  "paperCount": 1,
-  "issn": [
-   "0748-8017",
-   "1099-1638"
-  ],
-  "publisher": "Wiley"
- },
- {
-  "name": "Quantum Communications and Quantum Imaging XXIV",
-  "paperCount": 1
- },
- {
-  "name": "Rchub Journal of Computational Intelligence Science and Engineering (jcise)",
-  "paperCount": 1,
-  "issn": [
-   "3107-8168"
-  ],
-  "publisher": "RCHUB Publisher"
- },
- {
-  "name": "Regional Environmental Change",
-  "paperCount": 1,
-  "issn": [
-   "1436-3798"
-  ]
- },
- {
-  "name": "Reliability Engineering & System Safety",
-  "paperCount": 1,
-  "issn": [
-   "0951-8320"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Revista de Investigación en Tecnologías de la Información",
-  "paperCount": 1,
-  "issn": [
-   "2387-0893"
-  ]
- },
- {
-  "name": "Revue Roumaine Des Sciences Techniques — Série Électrotechnique Et Énergétique",
-  "paperCount": 1,
-  "issn": [
-   "0035-4066"
-  ]
- },
- {
-  "name": "Risks",
-  "paperCount": 1,
-  "issn": [
-   "2227-9091",
-   "2261-611X"
-  ]
- },
- {
-  "name": "RMd, Economics, Management & Social Sciences",
-  "paperCount": 1
- },
- {
-  "name": "Robotics and Autonomous Systems",
-  "paperCount": 1,
-  "issn": [
-   "0921-8890"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Rural Innovation Ecosystems and Agricultural Transition",
-  "paperCount": 1,
-  "publisher": "Springer Nature Switzerland"
- },
- {
-  "name": "Schola Viva",
-  "paperCount": 1
- },
- {
-  "name": "Scholarly Journal",
-  "paperCount": 1,
-  "publisher": "OpenGate Scholarly Press"
- },
- {
-  "name": "Science advances",
-  "paperCount": 1,
-  "issn": [
-   "2375-2548"
-  ]
- },
- {
-  "name": "Science-based technologies",
-  "paperCount": 1,
-  "issn": [
-   "2310-5461",
-   "2075-0781"
-  ],
-  "publisher": "State University \"Kyiv Aviation Institute\""
- },
- {
-  "name": "Scientific Data",
-  "paperCount": 1,
-  "issn": [
-   "2052-4463"
-  ]
- },
- {
-  "name": "Scientific Journal of Economics and Management Research",
-  "paperCount": 1
- },
- {
-  "name": "Scientific Research and Development. Economics of the Firm",
-  "paperCount": 1,
-  "issn": [
-   "2306-627X"
-  ]
- },
- {
-  "name": "Seminars in Thrombosis and Hemostasis",
-  "paperCount": 1,
-  "issn": [
-   "0094-6176",
-   "1098-9064"
-  ],
-  "publisher": "Georg Thieme Verlag KG"
- },
- {
-  "name": "Signal Process. Image Commun.",
-  "paperCount": 1,
-  "issn": [
-   "0923-5965"
-  ]
- },
- {
-  "name": "Signal, Image and Video Processing",
-  "paperCount": 1,
-  "issn": [
-   "1863-1703"
-  ]
- },
- {
-  "name": "SilvaWorld",
-  "paperCount": 1
- },
- {
-  "name": "Small",
-  "paperCount": 1,
-  "issn": [
-   "1613-6810"
-  ]
- },
- {
-  "name": "Smart Computing Technologies: Artificial Intelligence, Cybersecurity, and Cloud Computing",
-  "paperCount": 1,
-  "publisher": "Resnova Academic Press"
- },
- {
-  "name": "Smart Human-centered Emerging Research in Machine Intelligence",
-  "paperCount": 1
- },
- {
-  "name": "Societies",
-  "paperCount": 1,
-  "issn": [
-   "2075-4698"
-  ]
- },
- {
-  "name": "Software Impacts",
-  "paperCount": 1,
-  "issn": [
-   "2665-9638"
-  ]
- },
- {
-  "name": "Solar Energy",
-  "paperCount": 1,
-  "issn": [
-   "0038-092X"
-  ]
- },
- {
-  "name": "South Asian Journal of Social Studies and Economics",
-  "paperCount": 1,
-  "issn": [
-   "2581-821X"
-  ]
- },
- {
-  "name": "Stochastic Environmental Research and Risk Assessment",
-  "paperCount": 1,
-  "issn": [
-   "1436-3240"
-  ]
- },
- {
-  "name": "Sustainability Quest",
-  "paperCount": 1,
-  "issn": [
-   "2977-6988"
-  ],
-  "publisher": "International Collaboration for Research and Publications"
- },
- {
-  "name": "Symbiosis",
-  "paperCount": 1,
-  "issn": [
-   "0334-5114"
-  ]
- },
- {
-  "name": "Symmetry",
-  "paperCount": 1,
-  "issn": [
-   "2073-8994"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "System",
-  "paperCount": 1,
-  "issn": [
-   "0346-251X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Systems",
-  "paperCount": 1,
-  "issn": [
-   "2079-8954"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Tạp chí Khoa học Biến đổi khí hậu",
-  "paperCount": 1,
-  "issn": [
-   "2525-2496"
-  ]
- },
- {
-  "name": "Technological and Economic Development of Economy",
-  "paperCount": 1,
-  "issn": [
-   "1392-8619",
-   "2029-4913",
-   "1822-3613"
-  ]
- },
- {
-  "name": "TechTrends",
-  "paperCount": 1,
-  "issn": [
-   "1559-7075"
-  ]
- },
- {
-  "name": "Tehnicki vjesnik - Technical Gazette",
-  "paperCount": 1,
-  "issn": [
-   "1330-3651"
-  ]
- },
- {
-  "name": "Tekirdağ Ziraat Fakültesi Dergisi",
-  "paperCount": 1,
-  "issn": [
-   "1302-7050"
-  ],
-  "publisher": "Tekirdag Ziraat Fakultesi Dergisi"
- },
- {
-  "name": "The Astrophysical Journal",
-  "paperCount": 1,
-  "issn": [
-   "0004-637X"
-  ]
- },
- {
-  "name": "The Business & Management Collection",
-  "paperCount": 1
- },
- {
-  "name": "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
-  "paperCount": 1,
-  "issn": [
-   "1682-1750"
-  ]
- },
- {
-  "name": "The Iraqi Geological Journal",
-  "paperCount": 1,
-  "issn": [
-   "2414-6064"
-  ]
- },
- {
-  "name": "The Journal of Agricultural Science",
-  "paperCount": 1,
-  "issn": [
-   "0976-6898",
-   "1916-9752",
-   "1300-7580",
-   "1391-9318",
-   "0021-8596"
-  ]
- },
- {
-  "name": "The Journal of cell biology",
-  "paperCount": 1,
-  "issn": [
-   "0021-9525"
-  ]
- },
- {
-  "name": "The journal of histochemistry and cytochemistry : official journal of the Histochemistry Society",
-  "paperCount": 1,
-  "issn": [
-   "0022-1554"
-  ]
- },
- {
-  "name": "The Journal of Interactive Social Sciences",
-  "paperCount": 1
- },
- {
-  "name": "The Paris Journal on AI & Digital Ethics",
-  "paperCount": 1,
-  "issn": [
-   "3098-7849"
-  ],
-  "publisher": "The Paris Conference on AI & Digital Ethics"
- },
- {
-  "name": "The UONGOZI Journal of Management and Development Dynamics",
-  "paperCount": 1
- },
- {
-  "name": "Theoretical and Applied Climatology",
-  "paperCount": 1,
-  "issn": [
-   "0177-798X"
-  ]
- },
- {
-  "name": "Third International Conference on Remote Sensing and Global Positioning Algorithm (RSGPA 2026)",
-  "paperCount": 1
- },
- {
-  "name": "Tourism Management Perspectives",
-  "paperCount": 1,
-  "issn": [
-   "2211-9736"
-  ]
- },
- {
-  "name": "Toxicology",
-  "paperCount": 1,
-  "issn": [
-   "0300-483X"
-  ]
- },
- {
-  "name": "Transportation Research Today",
-  "paperCount": 1,
-  "issn": [
-   "3051-360X"
-  ],
-  "publisher": "Elsevier BV"
- },
- {
-  "name": "Trends in Ecological and Indoor Environmental Engineering",
-  "paperCount": 1
- },
- {
-  "name": "Turkish Business Journal",
-  "paperCount": 1,
-  "issn": [
-   "2717-848X"
-  ]
- },
- {
-  "name": "Turkish Journal of Forecasting",
-  "paperCount": 1,
-  "issn": [
-   "2618-6594"
-  ],
-  "publisher": "Turkish Journal of Forecasting"
- },
- {
-  "name": "Turkish Journal of Hematology",
-  "paperCount": 1,
-  "issn": [
-   "1300-7777",
-   "1308-5263"
-  ],
-  "publisher": "Galenos Yayinevi"
- },
- {
-  "name": "Ukrainian Journal of Applied Economics and Technology",
-  "paperCount": 1
- },
- {
-  "name": "Ukrains’kyi Matematychnyi Zhurnal",
-  "paperCount": 1,
-  "issn": [
-   "1027-3190"
-  ],
-  "publisher": "SIGMA (Symmetry, Integrability and Geometry: Methods and Application)"
- },
- {
-  "name": "Unifunec Científica Multidisciplinar",
-  "paperCount": 1,
-  "issn": [
-   "2763-5783"
-  ]
- },
- {
-  "name": "Universal Journal of Mathematics and Applications",
-  "paperCount": 1,
-  "issn": [
-   "2619-9653"
-  ],
-  "publisher": "Universal Journal of Mathematics and Applications"
- },
- {
-  "name": "Uttar Pradesh Journal of Zoology",
-  "paperCount": 1,
-  "issn": [
-   "0256-971X"
-  ]
- },
- {
-  "name": "VFAST Transactions on Software Engineering",
-  "paperCount": 1,
-  "issn": [
-   "2309-3978",
-   "2411-6246"
-  ],
-  "publisher": "VFAST Research Platform"
- },
- {
-  "name": "Vietnam Journal of Earth Sciences",
-  "paperCount": 1,
-  "issn": [
-   "0866-7187",
-   "2615-9783"
-  ]
- },
- {
-  "name": "Wasit Journal for Pure sciences",
-  "paperCount": 1
- },
- {
-  "name": "Wind",
-  "paperCount": 1,
-  "issn": [
-   "2674-032X"
-  ],
-  "publisher": "MDPI AG"
- },
- {
-  "name": "Wind Engineering",
-  "paperCount": 1,
-  "issn": [
-   "0309-524X",
-   "2048-402X"
-  ],
-  "publisher": "SAGE Publications"
- },
- {
-  "name": "WIREs Data Mining and Knowledge Discovery",
-  "paperCount": 1,
-  "issn": [
-   "1942-4787",
-   "1942-4795"
-  ],
-  "publisher": "Wiley"
- },
- {
-  "name": "WIT Transactions on Ecology and the Environment",
-  "paperCount": 1,
-  "issn": [
-   "1743-3541",
-   "1746-448X"
-  ]
- },
- {
-  "name": "World Journal of Gastroenterology",
-  "paperCount": 1,
-  "issn": [
-   "1007-9327",
-   "2219-2840"
-  ]
- },
- {
-  "name": "World Journal of Nuclear Medicine",
-  "paperCount": 1,
-  "issn": [
-   "1450-1147"
-  ]
- },
- {
-  "name": "World Patent Information",
-  "paperCount": 1,
-  "issn": [
-   "0172-2190"
-  ]
- },
- {
-  "name": "Worldwide Hospitality and Tourism Themes",
-  "paperCount": 1,
-  "issn": [
-   "1755-4217"
-  ]
- },
- {
-  "name": "WSEAS Transactions on Computer Research",
-  "paperCount": 1,
-  "issn": [
-   "1991-8755"
-  ]
- },
- {
-  "name": "X-Ray Spectrometry",
-  "paperCount": 1,
-  "issn": [
-   "0049-8246"
-  ]
- },
- {
-  "name": "XXVI Международная научно-практическая конференция «Современные исследования: теория, практика, результаты»",
-  "paperCount": 1,
-  "publisher": "Crossref"
- },
- {
-  "name": "ZAMM - Journal of Applied Mathematics and Mechanics / Zeitschrift für Angewandte Mathematik und Mechanik",
-  "paperCount": 1
- },
- {
-  "name": "Zhonghua jie he he hu xi za zhi = Zhonghua jiehe he huxi zazhi = Chinese journal of tuberculosis and respiratory diseases",
-  "paperCount": 1
- }
+  {
+    "name": "arXiv",
+    "paperCount": 553
+  },
+  {
+    "name": "Computers and Electronics in Agriculture",
+    "issn": ["0168-1699"],
+    "paperCount": 319,
+    "tracked": true,
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Remote Sensing of Environment",
+    "issn": ["0034-4257", "1879-0704"],
+    "paperCount": 126,
+    "tracked": true,
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Agricultural and Forest Meteorology",
+    "issn": ["0168-1923"],
+    "paperCount": 109,
+    "tracked": true,
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "ISPRS Journal of Photogrammetry and Remote Sensing",
+    "issn": ["0924-2716"],
+    "paperCount": 104,
+    "tracked": true,
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Agricultural Systems",
+    "issn": ["0308-521X"],
+    "paperCount": 92,
+    "tracked": true,
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Remote Sensing",
+    "paperCount": 86,
+    "issn": ["2072-4292"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Field Crops Research",
+    "issn": ["0378-4290"],
+    "paperCount": 84,
+    "tracked": true,
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "European Journal of Agronomy",
+    "issn": ["1161-0301"],
+    "paperCount": 67,
+    "tracked": true,
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Crop Protection",
+    "paperCount": 28,
+    "issn": ["0261-2194"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Scientific Reports",
+    "paperCount": 22,
+    "issn": ["2045-2322"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Precision Agriculture",
+    "issn": ["1385-2256", "1573-1618"],
+    "paperCount": 19,
+    "tracked": true,
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Precision Technologies for Digital Agriculture",
+    "paperCount": 19,
+    "publisher": "Elsevier"
+  },
+  {
+    "name": "Ecological Modelling",
+    "paperCount": 18,
+    "issn": ["0304-3800"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Advances in Computational Intelligence and Robotics",
+    "paperCount": 17,
+    "issn": ["2327-0411", "2327-042X"],
+    "publisher": "IGI Global Scientific Publishing"
+  },
+  {
+    "name": "Forecasting",
+    "paperCount": 17,
+    "issn": ["2571-9394"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Technological Forecasting and Social Change",
+    "paperCount": 17,
+    "issn": ["0040-1625"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Applied Mathematical Modelling",
+    "paperCount": 16,
+    "issn": ["0307-904X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Nature Food",
+    "issn": ["2662-1355"],
+    "paperCount": 16,
+    "tracked": true,
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Global Change Biology",
+    "issn": ["1354-1013", "1365-2486"],
+    "paperCount": 15,
+    "tracked": true,
+    "publisher": "Wiley"
+  },
+  {
+    "name": "Agriculture",
+    "paperCount": 14,
+    "issn": ["0002-1695", "1412-4262", "0551-3677", "2170-1059", "2077-0472"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "IEEE Transactions on Power Electronics",
+    "paperCount": 14,
+    "issn": ["0885-8993"]
+  },
+  {
+    "name": "Proceedings of the 28th International Conference On Multimodal Interaction",
+    "paperCount": 14,
+    "publisher": "ACM"
+  },
+  {
+    "name": "Sustainability",
+    "paperCount": 12,
+    "issn": ["2071-1050"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Frontiers in Sustainable Food Systems",
+    "paperCount": 11,
+    "issn": ["2571-581X"]
+  },
+  {
+    "name": "Journal of Construction Engineering and Management",
+    "paperCount": 11,
+    "issn": ["0733-9364"]
+  },
+  {
+    "name": "Natural Resources for Human Health",
+    "paperCount": 11,
+    "issn": ["2583-1194"],
+    "publisher": "Visagaa Publishing House"
+  },
+  {
+    "name": "IEEE Robotics and Automation Letters",
+    "paperCount": 10,
+    "issn": ["2377-3766"],
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)"
+  },
+  {
+    "name": "Journal of Forecasting",
+    "paperCount": 10,
+    "issn": ["0277-6693", "1099-131X"],
+    "publisher": "Wiley"
+  },
+  {
+    "name": "Companion Publication of the 28th International Conference on Multimodal Interaction",
+    "paperCount": 9,
+    "issn": ["2331-8422"],
+    "publisher": "ACM"
+  },
+  {
+    "name": "Smart Agricultural Technology",
+    "paperCount": 9,
+    "issn": ["2772-3755"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Food research international",
+    "paperCount": 8,
+    "issn": ["0963-9969"]
+  },
+  {
+    "name": "Journal of Animal Science",
+    "paperCount": 8,
+    "issn": ["0021-8812", "2222-9949"]
+  },
+  {
+    "name": "Neurocomputing",
+    "paperCount": 8,
+    "issn": ["0925-2312"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Frontiers in Plant Science",
+    "paperCount": 7,
+    "issn": ["1664-462X"],
+    "publisher": "Frontiers Media SA"
+  },
+  {
+    "name": "Journal of Materials in Civil Engineering",
+    "paperCount": 7,
+    "issn": ["0899-1561"]
+  },
+  {
+    "name": "Smart Innovation, Systems and Technologies",
+    "paperCount": 7,
+    "issn": ["2190-3018", "2190-3026"],
+    "publisher": "Springer Nature Switzerland"
+  },
+  {
+    "name": "Modelling",
+    "paperCount": 6,
+    "issn": ["2673-3951"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Sustainable Agriculture",
+    "paperCount": 6,
+    "publisher": "Elsevier"
+  },
+  {
+    "name": "Adjunct Proceedings of the 14th Nordic Conference on Human-Computer Interaction",
+    "paperCount": 5
+  },
+  {
+    "name": "Agricultural Water Management",
+    "paperCount": 5,
+    "issn": ["0378-3774"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Artificial Intelligence in Agriculture",
+    "issn": ["2589-7217"],
+    "paperCount": 5,
+    "tracked": true,
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "International Journal for Research in Applied Science and Engineering Technology",
+    "paperCount": 5,
+    "issn": ["2321-9653"]
+  },
+  {
+    "name": "International Journal of Remote Sensing",
+    "paperCount": 5,
+    "issn": ["0143-1161", "1366-5901"],
+    "publisher": "Informa UK Limited"
+  },
+  {
+    "name": "J. Comput. Civ. Eng.",
+    "paperCount": 5,
+    "issn": ["0887-3801"]
+  },
+  {
+    "name": "Journal of Ecological Engineering",
+    "paperCount": 5,
+    "issn": ["2299-8993"]
+  },
+  {
+    "name": "Proceedings of the 14th Nordic Conference on Human-Computer Interaction",
+    "paperCount": 5
+  },
+  {
+    "name": "Remote Sensing Applications: Society and Environment",
+    "paperCount": 5,
+    "issn": ["2352-9385"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Sensors",
+    "paperCount": 5,
+    "issn": ["1424-8220"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "The 12th International Conference on Time Series and Forecasting",
+    "paperCount": 5,
+    "publisher": "MDPI"
+  },
+  {
+    "name": "Zemleustrìj kadastr ì monìtorìng zemelʹ",
+    "paperCount": 5,
+    "issn": ["2306-1677"]
+  },
+  {
+    "name": "Cogent Food & Agriculture",
+    "paperCount": 4,
+    "issn": ["2331-1932"],
+    "publisher": "Informa UK Limited"
+  },
+  {
+    "name": "Electronics",
+    "paperCount": 4,
+    "issn": ["1450-5843", "2079-9292", "0883-4989"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Energy and AI",
+    "paperCount": 4,
+    "issn": ["2666-5468"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Engineering Applications of Artificial Intelligence",
+    "paperCount": 4,
+    "issn": ["0952-1976"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Environmental Modelling & Software",
+    "paperCount": 4,
+    "issn": ["1364-8152"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "GRACE/GRACE-FO Science Team Meeting 2026",
+    "paperCount": 4
+  },
+  {
+    "name": "International Journal of Applied Earth Observation and Geoinformation",
+    "paperCount": 4,
+    "issn": ["0303-2434", "1569-8432"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Journal of Crop Health",
+    "paperCount": 4,
+    "issn": ["2948-264X", "2948-2658"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Journal of Education and Learning (EduLearn)",
+    "paperCount": 4,
+    "issn": ["2089-9823"]
+  },
+  {
+    "name": "Journal of Multidisciplinary & Translational Research",
+    "paperCount": 4,
+    "issn": ["3051-5262", "3051-5602"],
+    "publisher": "Sri Lanka Journals Online"
+  },
+  {
+    "name": "npj Digital Medicine",
+    "paperCount": 4,
+    "issn": ["2398-6352"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Plants",
+    "paperCount": 4,
+    "issn": ["2223-7747"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "PLOS One",
+    "paperCount": 4,
+    "issn": ["1932-6203"],
+    "publisher": "Public Library of Science (PLoS)"
+  },
+  {
+    "name": "Proceedings of the 26th ACM International Conference on Intelligent Virtual Agents",
+    "paperCount": 4,
+    "publisher": "ACM"
+  },
+  {
+    "name": "Proceedings of the ACM/IEEE 29th International Conference on Model Driven Engineering Languages and Systems",
+    "paperCount": 4
+  },
+  {
+    "name": "Process Safety and Environmental Protection",
+    "paperCount": 4,
+    "issn": ["0957-5820"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Results in Engineering",
+    "paperCount": 4,
+    "issn": ["2590-1230"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Acta Astronautica",
+    "paperCount": 3,
+    "issn": ["0094-5765"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Adolescência e Saúde",
+    "paperCount": 3,
+    "issn": ["2177-5281", "1679-9941"],
+    "publisher": "Núcleo de Estudos da Saúde do Adolescente (NESA)"
+  },
+  {
+    "name": "Advances in Engineering Software",
+    "paperCount": 3,
+    "issn": ["0965-9978"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Agrociencia",
+    "paperCount": 3,
+    "issn": ["0188-302X", "1510-0839", "1405-3195", "2521-9766", "2522-6509"]
+  },
+  {
+    "name": "Applied Sciences",
+    "paperCount": 3,
+    "issn": ["2076-3417"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Artificial Intelligence in Regenerative Agriculture",
+    "paperCount": 3,
+    "publisher": "CRC Press"
+  },
+  {
+    "name": "bioRxiv",
+    "paperCount": 3
+  },
+  {
+    "name": "Bulletin of Electrical Engineering and Informatics",
+    "paperCount": 3,
+    "issn": ["2089-3191", "2302-9285"]
+  },
+  {
+    "name": "Catena",
+    "paperCount": 3,
+    "issn": ["0341-8162", "0008-7769"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Companion Proceedings of the 2026 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity",
+    "paperCount": 3
+  },
+  {
+    "name": "Digital Farming",
+    "paperCount": 3,
+    "publisher": "Chapman and Hall/CRC"
+  },
+  {
+    "name": "Discover Artificial Intelligence",
+    "paperCount": 3,
+    "issn": ["2731-0809"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Economic Modelling",
+    "paperCount": 3,
+    "issn": ["0264-9993"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Environmental Research Letters",
+    "paperCount": 3,
+    "issn": ["1748-9326"],
+    "publisher": "IOP Publishing"
+  },
+  {
+    "name": "Environmental Technologies and Engineering for Sustainable Development",
+    "paperCount": 3
+  },
+  {
+    "name": "Frontiers in Remote Sensing",
+    "paperCount": 3,
+    "issn": ["2673-6187"],
+    "publisher": "Frontiers Media SA"
+  },
+  {
+    "name": "Horticulturae",
+    "paperCount": 3,
+    "issn": ["2311-7524"]
+  },
+  {
+    "name": "IEEE Wireless Communications",
+    "paperCount": 3,
+    "issn": ["1536-1284"]
+  },
+  {
+    "name": "International Journal For Multidisciplinary Research",
+    "paperCount": 3,
+    "issn": ["2582-2160", "1934-6840"],
+    "publisher": "International Journal for Multidisciplinary Research (IJFMR)"
+  },
+  {
+    "name": "International Journal of Environmental Research",
+    "paperCount": 3,
+    "issn": ["1735-6865"]
+  },
+  {
+    "name": "International Journal of Innovative Science and Research Technology",
+    "paperCount": 3,
+    "issn": ["2456-2165"],
+    "publisher": "International Journal of Innovative Science and Research Technology"
+  },
+  {
+    "name": "International Symposium for Testing and Failure Analysis",
+    "paperCount": 3,
+    "issn": ["0890-1740"]
+  },
+  {
+    "name": "Journal of Energy Storage",
+    "paperCount": 3,
+    "issn": ["2352-152X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Journal of Engineering Mechanics",
+    "paperCount": 3,
+    "issn": ["0733-9399"]
+  },
+  {
+    "name": "Journal of Environmental Engineering",
+    "paperCount": 3,
+    "issn": ["0733-9372", "1880-988X"]
+  },
+  {
+    "name": "Journal of Hydrology",
+    "paperCount": 3,
+    "issn": ["0022-1694"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Journal of Irrigation and Drainage Engineering",
+    "paperCount": 3,
+    "issn": ["0733-9437"]
+  },
+  {
+    "name": "Journal of Rural Studies",
+    "paperCount": 3,
+    "issn": ["1882-4560", "0743-0167", "1340-8240"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Journal of Water Process Engineering",
+    "paperCount": 3,
+    "issn": ["2214-7144"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Land",
+    "paperCount": 3,
+    "issn": ["2073-445X"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Mathematics",
+    "paperCount": 3,
+    "issn": ["2227-7390"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Medical Image Analysis",
+    "paperCount": 3,
+    "issn": ["1361-8415"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Ocean Modelling",
+    "paperCount": 3,
+    "issn": ["1463-5003"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Optics Express",
+    "paperCount": 3,
+    "issn": ["1094-4087"],
+    "publisher": "Optica Publishing Group"
+  },
+  {
+    "name": "Proceedings of the 1st International Workshop on Specification-Driven Development Life Cycle",
+    "paperCount": 3
+  },
+  {
+    "name": "Proceedings of the Raptors Conference",
+    "paperCount": 3,
+    "publisher": "Hackathon Raptors"
+  },
+  {
+    "name": "Simulation Modelling Practice and Theory",
+    "paperCount": 3,
+    "issn": ["1569-190X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Turkish Journal of Agriculture - Food Science and Technology",
+    "paperCount": 3,
+    "issn": ["2148-127X"],
+    "publisher": "Turkish Science and Technology Publishing (TURSTEP)"
+  },
+  {
+    "name": "Wind Energy and Weather Forecasting",
+    "paperCount": 3,
+    "publisher": "River Publishers"
+  },
+  {
+    "name": "Zamonaviy jamiyat va innovatsiyalar ilmiy-nazariy jurnali",
+    "paperCount": 3
+  },
+  {
+    "name": "AEA Randomized Controlled Trials",
+    "paperCount": 2,
+    "publisher": "American Economic Association"
+  },
+  {
+    "name": "Aerospace Science and Technology",
+    "paperCount": 2,
+    "issn": ["1270-9638"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Agricultural Systems and Natural Resources",
+    "paperCount": 2
+  },
+  {
+    "name": "Agriculture & Food Security",
+    "paperCount": 2,
+    "issn": ["2048-7010"]
+  },
+  {
+    "name": "AgriEngineering",
+    "paperCount": 2,
+    "issn": ["2624-7402"]
+  },
+  {
+    "name": "Agronomy",
+    "paperCount": 2,
+    "issn": ["2073-4395"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "AI",
+    "paperCount": 2,
+    "issn": ["2673-2688"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Ai & Society",
+    "paperCount": 2,
+    "issn": ["0951-5666", "1435-5655"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "AI Agent",
+    "paperCount": 2,
+    "issn": ["3070-3719"],
+    "publisher": "OAE Publishing Inc."
+  },
+  {
+    "name": "Applied Agro Engineering",
+    "paperCount": 2
+  },
+  {
+    "name": "ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems, Part A: Civil Engineering",
+    "paperCount": 2,
+    "issn": ["2376-7642"]
+  },
+  {
+    "name": "Asian Journal of Advances in Agricultural Research",
+    "paperCount": 2,
+    "issn": ["2456-8864"]
+  },
+  {
+    "name": "Asian Research Journal of Agriculture",
+    "paperCount": 2,
+    "issn": ["2456-561X"],
+    "publisher": "Sciencedomain International"
+  },
+  {
+    "name": "ASPIRASI : Publikasi Hasil Pengabdian dan Kegiatan Masyarakat",
+    "paperCount": 2
+  },
+  {
+    "name": "Bangladesh Journal of Botany",
+    "paperCount": 2,
+    "issn": ["0253-5416", "2079-9926"]
+  },
+  {
+    "name": "Chaos, Solitons & Fractals",
+    "paperCount": 2
+  },
+  {
+    "name": "Computational Biology and Chemistry",
+    "paperCount": 2,
+    "issn": ["1476-9271"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Computers and Geotechnics",
+    "paperCount": 2,
+    "issn": ["0266-352X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Crop, Forage & Turfgrass Management",
+    "paperCount": 2,
+    "issn": ["2374-3832"],
+    "publisher": "Wiley"
+  },
+  {
+    "name": "Digital Intelligence in Agriculture",
+    "paperCount": 2,
+    "issn": ["3069-3187"],
+    "publisher": "Institute of Central Computation and Knowledge Inc."
+  },
+  {
+    "name": "Discover Soil",
+    "paperCount": 2
+  },
+  {
+    "name": "Earth Resources and Environmental Remote Sensing/GIS Applications XVII",
+    "paperCount": 2
+  },
+  {
+    "name": "Education. Innovation. Practice",
+    "paperCount": 2,
+    "issn": ["2616-650X", "2790-6310"]
+  },
+  {
+    "name": "Eduvest - Journal of Universal Studies",
+    "paperCount": 2,
+    "issn": ["2775-3735", "2775-3727"]
+  },
+  {
+    "name": "Emerging Challenges and Research Frontiers in Digital Transformation",
+    "paperCount": 2,
+    "publisher": "CRC Press"
+  },
+  {
+    "name": "Energies",
+    "paperCount": 2,
+    "issn": ["1996-1073"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Environment, Development and Sustainability",
+    "paperCount": 2,
+    "issn": ["1387-585X"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Experimental & molecular medicine",
+    "paperCount": 2,
+    "issn": ["1226-3613"]
+  },
+  {
+    "name": "Financial Strategies of Innovative Economic Development",
+    "paperCount": 2
+  },
+  {
+    "name": "Frontiers in Artificial Intelligence",
+    "paperCount": 2,
+    "issn": ["2624-8212"],
+    "publisher": "Frontiers Media SA"
+  },
+  {
+    "name": "Frontiers in Earth Science",
+    "paperCount": 2,
+    "issn": ["2296-6463", "1863-4621", "2095-0195"],
+    "publisher": "Frontiers Media SA"
+  },
+  {
+    "name": "Frontiers in Endocrinology",
+    "paperCount": 2,
+    "issn": ["1664-2392"]
+  },
+  {
+    "name": "Frontiers in Environmental Science",
+    "paperCount": 2,
+    "issn": ["2296-665X"]
+  },
+  {
+    "name": "Geojournal of Tourism and Geosites",
+    "paperCount": 2,
+    "issn": ["2065-0817"]
+  },
+  {
+    "name": "Gotech",
+    "paperCount": 2
+  },
+  {
+    "name": "HortTechnology",
+    "paperCount": 2,
+    "issn": ["1063-0198"]
+  },
+  {
+    "name": "IEEE Photonics Technology Letters",
+    "paperCount": 2,
+    "issn": ["1041-1135"]
+  },
+  {
+    "name": "IEEE Transactions on Parallel and Distributed Systems",
+    "paperCount": 2,
+    "issn": ["1045-9219"]
+  },
+  {
+    "name": "Iiard International Journal of Geography and Environmental Management",
+    "paperCount": 2,
+    "issn": ["2504-8821"]
+  },
+  {
+    "name": "Infectious Disease Modelling",
+    "paperCount": 2,
+    "issn": ["2468-0427"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Informatyka, Automatyka, Pomiary w Gospodarce i Ochronie Środowiska",
+    "paperCount": 2,
+    "issn": ["2083-0157"]
+  },
+  {
+    "name": "International Journal of Applied Science and Mathematical Theory",
+    "paperCount": 2
+  },
+  {
+    "name": "International Journal of Computer Applications",
+    "paperCount": 2,
+    "issn": ["0975-8887"],
+    "publisher": "Foundation of Computer Science"
+  },
+  {
+    "name": "International Journal of Environmental Science and Technology",
+    "paperCount": 2,
+    "issn": ["1735-1472"]
+  },
+  {
+    "name": "International Journal of Innovative Research in Engineering & Multidisciplinary Physical Sciences",
+    "paperCount": 2
+  },
+  {
+    "name": "Journal of Aerospace Engineering",
+    "paperCount": 2,
+    "issn": ["0893-1321"]
+  },
+  {
+    "name": "Journal of Biosystems Engineering",
+    "paperCount": 2,
+    "issn": ["1738-1266", "2234-1862"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Journal of Computing in Civil Engineering",
+    "paperCount": 2,
+    "issn": ["0887-3801"]
+  },
+  {
+    "name": "Journal of Degraded and Mining Lands Management",
+    "paperCount": 2,
+    "issn": ["2339-076X"]
+  },
+  {
+    "name": "Journal of Economics, Finance And Management Studies",
+    "paperCount": 2,
+    "issn": ["2644-0490"]
+  },
+  {
+    "name": "Journal of Energy Engineering",
+    "paperCount": 2,
+    "issn": ["1598-7981", "0733-9402"]
+  },
+  {
+    "name": "Journal of Geotechnical and Geoenvironmental Engineering",
+    "paperCount": 2,
+    "issn": ["1090-0241"]
+  },
+  {
+    "name": "Journal of Global Innovations in Agricultural Sciences",
+    "paperCount": 2,
+    "issn": ["2788-4538"],
+    "publisher": "Society for Innovative Agriculture"
+  },
+  {
+    "name": "Journal of Hydrologic Engineering",
+    "paperCount": 2,
+    "issn": ["1084-0699"]
+  },
+  {
+    "name": "Journal of Management in Engineering",
+    "paperCount": 2,
+    "issn": ["0742-597X"]
+  },
+  {
+    "name": "Journal of Scientific Research and Reports",
+    "paperCount": 2,
+    "issn": ["2320-0227"],
+    "publisher": "Sciencedomain International"
+  },
+  {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "paperCount": 2,
+    "issn": ["1678-5878"]
+  },
+  {
+    "name": "Journal Of The Geological Society Of India",
+    "paperCount": 2,
+    "issn": ["0016-7622"]
+  },
+  {
+    "name": "Journal of Transportation Engineering, Part A: Systems",
+    "paperCount": 2,
+    "issn": ["2473-2893"]
+  },
+  {
+    "name": "Jurnal Ilmiah Informatika dan Komputer",
+    "paperCount": 2
+  },
+  {
+    "name": "Jurnal Ilmiah Multidisiplin Nusantara (JIMNU)",
+    "paperCount": 2
+  },
+  {
+    "name": "Knowledge-Based Systems",
+    "paperCount": 2,
+    "issn": ["0950-7051"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Labor Economics and Human Capital",
+    "paperCount": 2
+  },
+  {
+    "name": "Lecture Notes in Business Information Processing",
+    "paperCount": 2,
+    "issn": ["1865-1348", "1865-1356"],
+    "publisher": "Springer Nature Switzerland"
+  },
+  {
+    "name": "Lecture Notes in Computer Science",
+    "paperCount": 2,
+    "issn": ["0302-9743", "1611-3349"],
+    "publisher": "Springer Nature Switzerland"
+  },
+  {
+    "name": "medRxiv",
+    "paperCount": 2
+  },
+  {
+    "name": "Natural Hazards Review",
+    "paperCount": 2,
+    "issn": ["1527-6988"]
+  },
+  {
+    "name": "Nature",
+    "paperCount": 2,
+    "issn": ["0028-0836", "1476-4687"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Nature Communications",
+    "paperCount": 2,
+    "issn": ["2041-1723"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "New Zealand Journal of Crop and Horticultural Science",
+    "paperCount": 2,
+    "issn": ["0114-0671", "1175-8783"],
+    "publisher": "Wiley"
+  },
+  {
+    "name": "Next Energy",
+    "paperCount": 2,
+    "issn": ["2949-821X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Ocean Engineering",
+    "paperCount": 2,
+    "issn": ["0029-8018"]
+  },
+  {
+    "name": "Pattern Recognit.",
+    "paperCount": 2,
+    "issn": ["0031-3203"]
+  },
+  {
+    "name": "Pattern Recognition",
+    "paperCount": 2,
+    "issn": ["0031-3203"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Pest management science",
+    "paperCount": 2,
+    "issn": ["1526-498X"]
+  },
+  {
+    "name": "Petrology",
+    "paperCount": 2,
+    "issn": ["2228-5210", "1556-2085"]
+  },
+  {
+    "name": "Plant Disease Detection Using Machine Learning, Deep Learning, and Metaheuristics",
+    "paperCount": 2,
+    "publisher": "CRC Press"
+  },
+  {
+    "name": "Proceedings of the 2026 ACM Internet Measurement Conference",
+    "paperCount": 2,
+    "publisher": "ACM"
+  },
+  {
+    "name": "Proceedings of the 2026 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software",
+    "paperCount": 2
+  },
+  {
+    "name": "Proceedings of the 4th International Workshop on Human-Centered Sensing, Modeling, and Intelligent Systems",
+    "paperCount": 2
+  },
+  {
+    "name": "Proceedings of the ACM on Software Engineering",
+    "paperCount": 2,
+    "issn": ["2994-970X"],
+    "publisher": "Association for Computing Machinery (ACM)"
+  },
+  {
+    "name": "Proceedings of the National Academy of Sciences of the United States of America",
+    "paperCount": 2,
+    "issn": ["0027-8424", "1091-6490"]
+  },
+  {
+    "name": "Quantum Computing and Instrumentation for Smart Agriculture",
+    "paperCount": 2,
+    "publisher": "Elsevier"
+  },
+  {
+    "name": "Remote Sensing Letters",
+    "paperCount": 2,
+    "issn": ["2150-704X", "2150-7058"],
+    "publisher": "Informa UK Limited"
+  },
+  {
+    "name": "Remote Sensing of Clouds and the Atmosphere XXXI",
+    "paperCount": 2
+  },
+  {
+    "name": "Research Journal of Pure Science and Technology",
+    "paperCount": 2,
+    "issn": ["2695-2696", "2579-0536"],
+    "publisher": "IIARD Publication Co."
+  },
+  {
+    "name": "Sakarya University Journal of Computer and Information Sciences",
+    "paperCount": 2,
+    "issn": ["2636-8129"]
+  },
+  {
+    "name": "Science",
+    "paperCount": 2,
+    "issn": ["0193-4511", "0036-8075"],
+    "publisher": "American Association for the Advancement of Science (AAAS)"
+  },
+  {
+    "name": "Science of Remote Sensing",
+    "paperCount": 2,
+    "issn": ["2666-0172"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Sensing and Imaging",
+    "paperCount": 2,
+    "issn": ["1557-2064"]
+  },
+  {
+    "name": "Separation and Purification Technology",
+    "paperCount": 2,
+    "issn": ["1383-5866"]
+  },
+  {
+    "name": "SN Computer Science",
+    "paperCount": 2,
+    "issn": ["2661-8907", "2662-995X"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "SoftwareX",
+    "paperCount": 2,
+    "issn": ["2352-7110"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Sustainable Futures",
+    "paperCount": 2,
+    "issn": ["2666-1888"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "The Open Agriculture Journal",
+    "paperCount": 2,
+    "issn": ["1874-3315"]
+  },
+  {
+    "name": "The Plant Genome",
+    "paperCount": 2,
+    "issn": ["1940-3372"]
+  },
+  {
+    "name": "Theory and Practice in Language Studies",
+    "paperCount": 2,
+    "issn": ["1799-2591"]
+  },
+  {
+    "name": "World Journal of Advanced Research and Reviews",
+    "paperCount": 2,
+    "issn": ["2581-9615"]
+  },
+  {
+    "name": "WSEAS Transactions on Environment and Development",
+    "paperCount": 2,
+    "issn": ["1790-5079", "2224-3496"],
+    "publisher": "World Scientific and Engineering Academy and Society (WSEAS)"
+  },
+  {
+    "name": "6th Current Issues in Business and Economic Studies (CIBES) Conference – Abstract Book",
+    "paperCount": 1
+  },
+  {
+    "name": "A Student Guide to AI and Robotics",
+    "paperCount": 1,
+    "publisher": "CRC Press"
+  },
+  {
+    "name": "AAAS Articles DO Group",
+    "paperCount": 1,
+    "publisher": "American Association for the Advancement of Science (AAAS)"
+  },
+  {
+    "name": "Academia Open",
+    "paperCount": 1,
+    "issn": ["2714-7444"],
+    "publisher": "Universitas Muhammadiyah Sidoarjo"
+  },
+  {
+    "name": "ACM Transactions on Multimedia Computing, Communications and Applications",
+    "paperCount": 1,
+    "issn": ["1551-6857"]
+  },
+  {
+    "name": "ACS Nano",
+    "paperCount": 1,
+    "issn": ["1936-0851"]
+  },
+  {
+    "name": "Acta biomaterialia",
+    "paperCount": 1,
+    "issn": ["1742-7061"]
+  },
+  {
+    "name": "Acta Geodaetica et Geophysica",
+    "paperCount": 1,
+    "issn": ["2213-5812"]
+  },
+  {
+    "name": "Acta Geophysica",
+    "paperCount": 1,
+    "issn": ["1895-6572"]
+  },
+  {
+    "name": "Acta Logistica",
+    "paperCount": 1,
+    "issn": ["1339-5629"],
+    "publisher": "4S go, s.r.o."
+  },
+  {
+    "name": "Acta psychologica",
+    "paperCount": 1,
+    "issn": ["0001-6918", "2746-122X"]
+  },
+  {
+    "name": "Adagium: Jurnal Ilmiah Hukum",
+    "paperCount": 1,
+    "issn": ["2985-5128"],
+    "publisher": "Meja Ilmiah Publikasi"
+  },
+  {
+    "name": "Adroid Conference Series: Engineering and Technology",
+    "paperCount": 1,
+    "issn": ["1750-9637", "2734-9330", "2587-7704", "1462-2165"]
+  },
+  {
+    "name": "Advanced Engineering Forum",
+    "paperCount": 1,
+    "issn": ["2234-9898"]
+  },
+  {
+    "name": "Advanced Engineering Informatics",
+    "paperCount": 1,
+    "issn": ["1474-0346"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Advanced Informatics Engineering",
+    "paperCount": 1,
+    "publisher": "CRC Press"
+  },
+  {
+    "name": "Advanced Robotics",
+    "paperCount": 1,
+    "issn": ["0169-1864", "1568-5535"],
+    "publisher": "Informa UK Limited"
+  },
+  {
+    "name": "Advanced Robotics Research",
+    "paperCount": 1
+  },
+  {
+    "name": "Advanced Transportation Systems in the Field of Engineering and Technology",
+    "paperCount": 1,
+    "publisher": "CRC Press"
+  },
+  {
+    "name": "Advances in Economics, Management and Political Sciences",
+    "paperCount": 1,
+    "issn": ["2754-1169", "2754-1177"],
+    "publisher": "EWA Publishing"
+  },
+  {
+    "name": "Advances in Waste Biomass Conversion to Bioenergy",
+    "paperCount": 1,
+    "publisher": "IGI Global Scientific Publishing"
+  },
+  {
+    "name": "Advances in Water Resources",
+    "paperCount": 1,
+    "issn": ["0309-1708"]
+  },
+  {
+    "name": "Agricultural and Forest Entomology",
+    "paperCount": 1,
+    "issn": ["1461-9555"]
+  },
+  {
+    "name": "Agricultural Finance Review",
+    "paperCount": 1,
+    "issn": ["0002-1466"]
+  },
+  {
+    "name": "Agricultural Science Digest - A Research Journal",
+    "paperCount": 1,
+    "issn": ["0976-0547", "0253-150X"],
+    "publisher": "Agricultural Research Communication Center"
+  },
+  {
+    "name": "Agriculture, Ecosystems & Environment",
+    "paperCount": 1,
+    "issn": ["0167-8809"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "AgroEnvironmental Sustainability",
+    "paperCount": 1
+  },
+  {
+    "name": "AI and Ethics",
+    "paperCount": 1,
+    "issn": ["2730-5953", "2730-5961"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "AI for Materials",
+    "paperCount": 1,
+    "issn": ["3083-3272"],
+    "publisher": "Scilight Press Pty Ltd"
+  },
+  {
+    "name": "Ain Shams Engineering Journal",
+    "paperCount": 1,
+    "issn": ["2090-4479"]
+  },
+  {
+    "name": "American journal of botany",
+    "paperCount": 1,
+    "issn": ["1995-8951", "0002-9122"]
+  },
+  {
+    "name": "American Journal of Data Science and Artificial Intelligence",
+    "paperCount": 1
+  },
+  {
+    "name": "American journal of public health",
+    "paperCount": 1,
+    "issn": ["0090-0036"]
+  },
+  {
+    "name": "Analytica",
+    "paperCount": 1,
+    "issn": ["2673-4532"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Analytica chimica acta",
+    "paperCount": 1,
+    "issn": ["0003-2670"]
+  },
+  {
+    "name": "Analytical Biochemistry",
+    "paperCount": 1,
+    "issn": ["0003-2697"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Analytical methods : advancing methods and applications",
+    "paperCount": 1,
+    "issn": ["1759-9660"]
+  },
+  {
+    "name": "Annals of Forest Science",
+    "paperCount": 1,
+    "issn": ["1286-4560"]
+  },
+  {
+    "name": "Antioxidants",
+    "paperCount": 1,
+    "issn": ["2076-3921"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Applications of Machine Learning 2026",
+    "paperCount": 1
+  },
+  {
+    "name": "Applied and Computational Harmonic Analysis",
+    "paperCount": 1,
+    "issn": ["1063-5203"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Applied biochemistry and biotechnology",
+    "paperCount": 1,
+    "issn": ["0273-2289"]
+  },
+  {
+    "name": "Applied Clinical Informatics",
+    "paperCount": 1,
+    "issn": ["1869-0327"],
+    "publisher": "Georg Thieme Verlag KG"
+  },
+  {
+    "name": "Applied Energy",
+    "paperCount": 1,
+    "issn": ["0306-2619"]
+  },
+  {
+    "name": "Applied Fruit Science",
+    "paperCount": 1
+  },
+  {
+    "name": "Applied Intelligence",
+    "paperCount": 1,
+    "issn": ["0924-669X"]
+  },
+  {
+    "name": "Applied Physics Letters",
+    "paperCount": 1,
+    "issn": ["0003-6951", "1077-3118"],
+    "publisher": "AIP Publishing"
+  },
+  {
+    "name": "Applied Soft Computing",
+    "paperCount": 1,
+    "issn": ["1568-4946"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Applied Water Science",
+    "paperCount": 1,
+    "issn": ["2190-5495"]
+  },
+  {
+    "name": "Aptisi Transactions on Technopreneurship (ATT)",
+    "paperCount": 1,
+    "issn": ["2655-8807"]
+  },
+  {
+    "name": "Archives of Current Research International",
+    "paperCount": 1,
+    "issn": ["2454-7077"]
+  },
+  {
+    "name": "Artificial Intelligence and Applications",
+    "paperCount": 1,
+    "issn": ["2374-4987", "2374-4979"]
+  },
+  {
+    "name": "Artificial Intelligence and Sustainable Innovation",
+    "paperCount": 1,
+    "publisher": "CRC Press"
+  },
+  {
+    "name": "Artificial Intelligence for Security and Defence Applications IV",
+    "paperCount": 1
+  },
+  {
+    "name": "Artificial Intelligence for the Earth Systems",
+    "paperCount": 1,
+    "issn": ["2769-7525"],
+    "publisher": "American Meteorological Society"
+  },
+  {
+    "name": "Artificial life",
+    "paperCount": 1,
+    "issn": ["1064-5462"]
+  },
+  {
+    "name": "Asian Journal of Philosophy",
+    "paperCount": 1,
+    "issn": ["2731-4642"]
+  },
+  {
+    "name": "Asian Journal of Probability and Statistics",
+    "paperCount": 1,
+    "issn": ["2582-0230"]
+  },
+  {
+    "name": "Asian Journal of Research in Computer Science",
+    "paperCount": 1,
+    "issn": ["2581-8260"],
+    "publisher": "Sciencedomain International"
+  },
+  {
+    "name": "Asian Plant Research Journal",
+    "paperCount": 1,
+    "issn": ["2581-9992"],
+    "publisher": "Sciencedomain International"
+  },
+  {
+    "name": "Astronomy & Astrophysics",
+    "paperCount": 1
+  },
+  {
+    "name": "Atmosphere",
+    "paperCount": 1,
+    "issn": ["2073-4433", "1598-3560", "2828-3104", "0004-6973"]
+  },
+  {
+    "name": "Atmospheric Chemistry and Physics",
+    "paperCount": 1,
+    "issn": ["1680-7316"]
+  },
+  {
+    "name": "Automation in Construction",
+    "paperCount": 1,
+    "issn": ["0926-5805"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Autonomous Agents and Multi-Agent Systems",
+    "paperCount": 1,
+    "issn": ["1387-2532", "1573-7454"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Bangladesh Journal of Scientific and Industrial Research",
+    "paperCount": 1,
+    "issn": ["0304-9809"]
+  },
+  {
+    "name": "Benchmarking: An International Journal",
+    "paperCount": 1,
+    "issn": ["1463-5771"]
+  },
+  {
+    "name": "Bernoulli",
+    "paperCount": 1,
+    "issn": ["1350-7265"]
+  },
+  {
+    "name": "BioData Mining",
+    "paperCount": 1,
+    "issn": ["1756-0381"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "BioEnergy Research",
+    "paperCount": 1,
+    "issn": ["1939-1242"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Biomedical Signal Processing and Control",
+    "paperCount": 1,
+    "issn": ["1746-8094"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Bioprocess and Biosystems Engineering",
+    "paperCount": 1,
+    "issn": ["1615-7591", "1615-7605"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Bioscientia Medicina : Journal of Biomedicine and Translational Research",
+    "paperCount": 1
+  },
+  {
+    "name": "Biosystems Engineering",
+    "paperCount": 1,
+    "issn": ["1537-5110"]
+  },
+  {
+    "name": "Blockchain",
+    "paperCount": 1,
+    "issn": ["2959-1260", "2958-8138"],
+    "publisher": "ELS Publishing Co. Limited"
+  },
+  {
+    "name": "Blood advances",
+    "paperCount": 1,
+    "issn": ["2473-9529"]
+  },
+  {
+    "name": "BMC Biology",
+    "paperCount": 1,
+    "issn": ["1741-7007"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "BMC Environmental Science",
+    "paperCount": 1
+  },
+  {
+    "name": "BMJ",
+    "paperCount": 1,
+    "issn": [
+      "1759-2151",
+      "1756-1833",
+      "0959-8138",
+      "1790-5249",
+      "1106-5028",
+      "1468-5833",
+      "0267-0623",
+      "1222-5835",
+      "1576-9445",
+      "1106-4226"
+    ]
+  },
+  {
+    "name": "Bone",
+    "paperCount": 1,
+    "issn": ["1873-2763"]
+  },
+  {
+    "name": "Brain, behavior, and immunity",
+    "paperCount": 1,
+    "issn": ["0889-1591"]
+  },
+  {
+    "name": "Brilliant International Journal Of Management And Tourism",
+    "paperCount": 1,
+    "issn": ["2827-8380"]
+  },
+  {
+    "name": "British journal of pharmacology",
+    "paperCount": 1,
+    "issn": ["0007-1188"]
+  },
+  {
+    "name": "Building and Environment",
+    "paperCount": 1,
+    "issn": ["0360-1323"]
+  },
+  {
+    "name": "Bulletin of Institute of Legislation and Legal Information of the Republic of Kazakhstan",
+    "paperCount": 1,
+    "issn": ["1994-408X", "2788-5283"]
+  },
+  {
+    "name": "Bulletin of the Tomsk Polytechnic University Geo Assets Engineering",
+    "paperCount": 1
+  },
+  {
+    "name": "Bulletin of Toraighyrov University. Economics series",
+    "paperCount": 1,
+    "issn": ["2710-3552"]
+  },
+  {
+    "name": "Business Strategy and the Environment",
+    "paperCount": 1,
+    "issn": ["0964-4733"]
+  },
+  {
+    "name": "Cancer Reports",
+    "paperCount": 1,
+    "issn": ["2573-8348"]
+  },
+  {
+    "name": "Cancer Research",
+    "paperCount": 1,
+    "issn": ["0008-5472", "1538-7445"],
+    "publisher": "American Association for Cancer Research (AACR)"
+  },
+  {
+    "name": "CAUCHY: Jurnal Matematika Murni dan Aplikasi",
+    "paperCount": 1,
+    "issn": ["2086-0382"]
+  },
+  {
+    "name": "Cell systems",
+    "paperCount": 1,
+    "issn": ["2405-4712"]
+  },
+  {
+    "name": "Chemical Engineering and Processing - Process Intensification",
+    "paperCount": 1,
+    "issn": ["0255-2701"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Chemometrics and Intelligent Laboratory Systems",
+    "paperCount": 1,
+    "issn": ["0169-7439"]
+  },
+  {
+    "name": "Child abuse & neglect",
+    "paperCount": 1,
+    "issn": ["0145-2134"]
+  },
+  {
+    "name": "Cleaner Water",
+    "paperCount": 1
+  },
+  {
+    "name": "Climate",
+    "paperCount": 1,
+    "issn": ["2225-1154"]
+  },
+  {
+    "name": "Climate Services",
+    "paperCount": 1,
+    "issn": ["2405-8807"]
+  },
+  {
+    "name": "Clinical biochemistry",
+    "paperCount": 1,
+    "issn": ["0009-9120"]
+  },
+  {
+    "name": "Cognition",
+    "paperCount": 1,
+    "issn": ["0010-0277", "2392-4624"]
+  },
+  {
+    "name": "Cognitive Computation",
+    "paperCount": 1,
+    "issn": ["1866-9956"]
+  },
+  {
+    "name": "Combustion Theory and Modelling",
+    "paperCount": 1,
+    "issn": ["1364-7830", "1741-3559"],
+    "publisher": "Informa UK Limited"
+  },
+  {
+    "name": "Computation",
+    "paperCount": 1,
+    "issn": ["2079-3197"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Computational Mechanics",
+    "paperCount": 1,
+    "issn": ["0178-7675", "1432-0924"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Computer",
+    "paperCount": 1,
+    "issn": ["0018-9162"]
+  },
+  {
+    "name": "Computer Physics Communications",
+    "paperCount": 1,
+    "issn": ["0010-4655"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Computer Science and Information Technologies",
+    "paperCount": 1,
+    "issn": ["2331-6063", "2722-3221"]
+  },
+  {
+    "name": "Computers",
+    "paperCount": 1,
+    "issn": ["2073-431X"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Computers & Chemical Engineering",
+    "paperCount": 1,
+    "issn": ["0098-1354"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Computers & Industrial Engineering",
+    "paperCount": 1
+  },
+  {
+    "name": "Computers and Electrical Engineering",
+    "paperCount": 1,
+    "issn": ["0045-7906"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Computers in Human Behavior",
+    "paperCount": 1,
+    "issn": ["0747-5632"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Computing, Communication, and Sustainable Energy Technologies",
+    "paperCount": 1,
+    "publisher": "CRC Press"
+  },
+  {
+    "name": "Concurrency and Computation: Practice and Experience",
+    "paperCount": 1,
+    "issn": ["1532-0626"]
+  },
+  {
+    "name": "Control Engineering Practice",
+    "paperCount": 1,
+    "issn": ["0967-0661"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Crop and Environment",
+    "paperCount": 1,
+    "issn": ["2773-126X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Crop Breeding, Genetics and Genomics",
+    "paperCount": 1,
+    "issn": ["2632-7309"],
+    "publisher": "Hapres"
+  },
+  {
+    "name": "Crop Health",
+    "paperCount": 1,
+    "issn": ["2948-1945"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Current Drug Targets",
+    "paperCount": 1,
+    "issn": ["1389-4501"],
+    "publisher": "Bentham Science Publishers Ltd."
+  },
+  {
+    "name": "Current Microbiology",
+    "paperCount": 1,
+    "issn": ["0343-8651"]
+  },
+  {
+    "name": "Current Pulmonology Reports",
+    "paperCount": 1,
+    "issn": ["2199-2428"]
+  },
+  {
+    "name": "Current Stem Cell Reports",
+    "paperCount": 1,
+    "issn": ["2198-7866"]
+  },
+  {
+    "name": "Deep Brain Stimulation",
+    "paperCount": 1,
+    "issn": ["2949-6691"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Development and Learning in Organizations: An International Journal",
+    "paperCount": 1,
+    "issn": ["0957-0004", "1477-7282"]
+  },
+  {
+    "name": "Diagnostic and Interventional Radiology",
+    "paperCount": 1,
+    "issn": ["1305-3825", "1305-3612"],
+    "publisher": "Galenos Yayinevi"
+  },
+  {
+    "name": "Digital Finance",
+    "paperCount": 1,
+    "issn": ["2524-6186"]
+  },
+  {
+    "name": "Digital Society",
+    "paperCount": 1,
+    "issn": ["2731-4650", "2731-4669"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Digital Solutions and Artificial Intelligence Technologies",
+    "paperCount": 1,
+    "issn": ["3033-7097"],
+    "publisher": "Financial University under the Government of the Russian Federation"
+  },
+  {
+    "name": "Discover Agriculture",
+    "paperCount": 1,
+    "issn": ["2731-9598"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Discover Applied Sciences",
+    "paperCount": 1
+  },
+  {
+    "name": "Discover Chemistry",
+    "paperCount": 1
+  },
+  {
+    "name": "Discover Computing",
+    "paperCount": 1
+  },
+  {
+    "name": "Discover Environment",
+    "paperCount": 1
+  },
+  {
+    "name": "Discover Internet of Things",
+    "paperCount": 1,
+    "issn": ["2730-7239"]
+  },
+  {
+    "name": "Discover Plants",
+    "paperCount": 1
+  },
+  {
+    "name": "Discover Public Health",
+    "paperCount": 1
+  },
+  {
+    "name": "Discover Robotics",
+    "paperCount": 1
+  },
+  {
+    "name": "Discover Sustainability",
+    "paperCount": 1,
+    "issn": ["2662-9984"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Drying Technology",
+    "paperCount": 1
+  },
+  {
+    "name": "Dynamics in Social Sciences and Humanities",
+    "paperCount": 1
+  },
+  {
+    "name": "Earth Observation for Forest Monitoring and Climate Action",
+    "paperCount": 1,
+    "publisher": "Wiley"
+  },
+  {
+    "name": "East African Journal of Agriculture and Biotechnology",
+    "paperCount": 1,
+    "issn": ["2707-4293"]
+  },
+  {
+    "name": "East Java Economic Journal",
+    "paperCount": 1,
+    "issn": ["2597-8780"]
+  },
+  {
+    "name": "Economic Scope",
+    "paperCount": 1,
+    "issn": ["2224-6282"]
+  },
+  {
+    "name": "ECONOMIC Series of the Bulletin of the L.N.Gumilyov ENU",
+    "paperCount": 1,
+    "issn": ["2079-620X", "2789-4320"]
+  },
+  {
+    "name": "Edusoshum : Journal of Islamic Education and Social Humanities",
+    "paperCount": 1,
+    "issn": ["2776-5229"]
+  },
+  {
+    "name": "Elicit Journal of Medical Science and Discovery",
+    "paperCount": 1
+  },
+  {
+    "name": "Energy",
+    "paperCount": 1,
+    "issn": ["0360-5442", "0149-9386"]
+  },
+  {
+    "name": "Energy and Buildings",
+    "paperCount": 1,
+    "issn": ["0378-7788"]
+  },
+  {
+    "name": "Energy Conversion and Management",
+    "paperCount": 1,
+    "issn": ["0196-8904"]
+  },
+  {
+    "name": "Energy Conversion and Management: X",
+    "paperCount": 1,
+    "issn": ["2590-1745"]
+  },
+  {
+    "name": "Eng. Appl. Artif. Intell.",
+    "paperCount": 1,
+    "issn": ["0952-1976"]
+  },
+  {
+    "name": "Engineering Analysis with Boundary Elements",
+    "paperCount": 1,
+    "issn": ["0955-7997"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Entertainment Computing",
+    "paperCount": 1,
+    "issn": ["1875-9521"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Environment & Health",
+    "paperCount": 1
+  },
+  {
+    "name": "Environmental and Sustainability Indicators",
+    "paperCount": 1,
+    "issn": ["2665-9727"]
+  },
+  {
+    "name": "Environmental Progress & Sustainable Energy",
+    "paperCount": 1
+  },
+  {
+    "name": "Environmental Research: Food Systems",
+    "paperCount": 1,
+    "issn": ["2976-601X"],
+    "publisher": "IOP Publishing"
+  },
+  {
+    "name": "Epidemiology, Biostatistics, and Public Health",
+    "paperCount": 1,
+    "issn": ["2282-0930"],
+    "publisher": "Milano University Press"
+  },
+  {
+    "name": "Ergodesign",
+    "paperCount": 1,
+    "issn": ["2658-4026"],
+    "publisher": "Bryansk State Technical University BSTU"
+  },
+  {
+    "name": "European Cardiology Review",
+    "paperCount": 1,
+    "issn": ["1758-3756", "1758-3764"],
+    "publisher": "Radcliffe Medical Media Ltd"
+  },
+  {
+    "name": "European Journal of Applied Science, Engineering and Technology",
+    "paperCount": 1
+  },
+  {
+    "name": "European Journal of Risk Regulation",
+    "paperCount": 1,
+    "issn": ["1867-299X", "2190-8249"],
+    "publisher": "Cambridge University Press (CUP)"
+  },
+  {
+    "name": "European Journal of Social Science Education and Research",
+    "paperCount": 1
+  },
+  {
+    "name": "European Transport Research Review",
+    "paperCount": 1,
+    "issn": ["1866-8887"]
+  },
+  {
+    "name": "European View",
+    "paperCount": 1,
+    "issn": ["1781-6858"]
+  },
+  {
+    "name": "Europhysics Letters",
+    "paperCount": 1,
+    "issn": ["0295-5075", "1286-4854"],
+    "publisher": "IOP Publishing"
+  },
+  {
+    "name": "Explainable Artificial Intelligence",
+    "paperCount": 1,
+    "publisher": "Wiley"
+  },
+  {
+    "name": "Exploring Science Academic Conference Series",
+    "paperCount": 1,
+    "issn": ["3105-0522", "3105-0514"],
+    "publisher": "Zeus Press"
+  },
+  {
+    "name": "Family and Housing Law",
+    "paperCount": 1
+  },
+  {
+    "name": "Federal University Gusau Faculty of Education Journal",
+    "paperCount": 1
+  },
+  {
+    "name": "Finance Research Letters",
+    "paperCount": 1,
+    "issn": ["1544-6123", "1544-6131"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Financial Services Review",
+    "paperCount": 1,
+    "issn": ["1057-0810", "1873-5673"],
+    "publisher": "Academy of Financial Services"
+  },
+  {
+    "name": "Finite Elements in Analysis and Design",
+    "paperCount": 1,
+    "issn": ["0168-874X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Fire Ecology",
+    "paperCount": 1,
+    "issn": ["1933-9747"]
+  },
+  {
+    "name": "Flow Measurement and Instrumentation",
+    "paperCount": 1,
+    "issn": ["0955-5986"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Food Packaging 4.0",
+    "paperCount": 1,
+    "publisher": "CRC Press"
+  },
+  {
+    "name": "Forest Ecology and Management",
+    "paperCount": 1,
+    "issn": ["0378-1127"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Forum Agribisnis",
+    "paperCount": 1,
+    "issn": ["2252-5491"]
+  },
+  {
+    "name": "Frontiers in Agronomy",
+    "paperCount": 1,
+    "issn": ["2673-3218"]
+  },
+  {
+    "name": "Frontiers in Artificial Intelligence and Applications",
+    "paperCount": 1,
+    "issn": ["0922-6389", "1879-8314"],
+    "publisher": "IOS Press"
+  },
+  {
+    "name": "Frontiers in Computer Science",
+    "paperCount": 1,
+    "issn": ["2624-9898"],
+    "publisher": "Frontiers Media SA"
+  },
+  {
+    "name": "Frontiers in Computer Science and Artificial Intelligence",
+    "paperCount": 1,
+    "issn": ["2978-8048"],
+    "publisher": "Al-Kindi Center for Research and Development"
+  },
+  {
+    "name": "Frontiers in Education",
+    "paperCount": 1,
+    "issn": ["2504-284X"]
+  },
+  {
+    "name": "Frontiers in Genetics",
+    "paperCount": 1,
+    "issn": ["1664-8021"],
+    "publisher": "Frontiers Media SA"
+  },
+  {
+    "name": "Frontiers in Human Neuroscience",
+    "paperCount": 1,
+    "issn": ["1662-5161"]
+  },
+  {
+    "name": "Frontiers in Materials",
+    "paperCount": 1,
+    "issn": ["2296-8016"]
+  },
+  {
+    "name": "Frontiers in Medicine",
+    "paperCount": 1,
+    "issn": ["2296-858X", "2095-0217", "2618-2459"]
+  },
+  {
+    "name": "Frontiers in Neuroscience",
+    "paperCount": 1,
+    "issn": ["1662-453X"]
+  },
+  {
+    "name": "Frontiers in Oncology",
+    "paperCount": 1,
+    "issn": ["2234-943X"]
+  },
+  {
+    "name": "Frontiers in Physics",
+    "paperCount": 1,
+    "issn": ["2095-0462", "2296-424X"]
+  },
+  {
+    "name": "Frontiers in Psychology",
+    "paperCount": 1,
+    "issn": ["1664-1078"]
+  },
+  {
+    "name": "Frontiers in Public Health",
+    "paperCount": 1,
+    "issn": ["2296-2565"]
+  },
+  {
+    "name": "Frontiers in Robotics and AI",
+    "paperCount": 1,
+    "issn": ["2296-9144"],
+    "publisher": "Frontiers Media SA"
+  },
+  {
+    "name": "Frontiers in Tropical Diseases",
+    "paperCount": 1,
+    "issn": ["2673-7515"]
+  },
+  {
+    "name": "FUDMA Journal of Sciences",
+    "paperCount": 1,
+    "issn": ["2616-1370", "2645-2944"]
+  },
+  {
+    "name": "Fundamental and Experimental Biology",
+    "paperCount": 1
+  },
+  {
+    "name": "Fusion Engineering and Design",
+    "paperCount": 1,
+    "issn": ["0920-3796"]
+  },
+  {
+    "name": "Future Foods",
+    "paperCount": 1,
+    "issn": ["2666-8335"]
+  },
+  {
+    "name": "Fuzzy Sets and Systems",
+    "paperCount": 1,
+    "issn": ["0165-0114"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "G3",
+    "paperCount": 1
+  },
+  {
+    "name": "Galaxies",
+    "paperCount": 1,
+    "issn": ["2075-4434"]
+  },
+  {
+    "name": "Gender Issues",
+    "paperCount": 1,
+    "issn": ["1098-092X"]
+  },
+  {
+    "name": "Generative AI and Agentic Operations",
+    "paperCount": 1,
+    "publisher": "Wiley"
+  },
+  {
+    "name": "Genetic Resources and Crop Evolution",
+    "paperCount": 1,
+    "issn": ["0925-9864", "1573-5109"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Genome research",
+    "paperCount": 1,
+    "issn": ["1088-9051"]
+  },
+  {
+    "name": "Geoderma",
+    "paperCount": 1,
+    "issn": ["0016-7061"]
+  },
+  {
+    "name": "Geomorphology",
+    "paperCount": 1,
+    "issn": ["0169-555X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Global Academic Journal of Economics and Business",
+    "paperCount": 1,
+    "issn": ["2706-9001"]
+  },
+  {
+    "name": "Global Humanities and Social Sciences",
+    "paperCount": 1,
+    "issn": ["3105-174X", "3105-1758"],
+    "publisher": "International Academic Organizations Alliance Limited"
+  },
+  {
+    "name": "GSC Biological and Pharmaceutical Sciences",
+    "paperCount": 1,
+    "issn": ["2581-3250"]
+  },
+  {
+    "name": "Habitat International",
+    "paperCount": 1,
+    "issn": ["0197-3975"]
+  },
+  {
+    "name": "Harvard Data Science Review",
+    "paperCount": 1,
+    "issn": ["2644-2353"],
+    "publisher": "MIT Press"
+  },
+  {
+    "name": "Healthcare",
+    "paperCount": 1,
+    "issn": ["2227-9032"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Herald of Azerbaijan Engineering Academy",
+    "paperCount": 1,
+    "issn": ["2076-0515"]
+  },
+  {
+    "name": "HortScience",
+    "paperCount": 1,
+    "issn": ["0018-5345"]
+  },
+  {
+    "name": "Human reproduction",
+    "paperCount": 1,
+    "issn": ["0268-1161"]
+  },
+  {
+    "name": "Humanities and Social Sciences Communications",
+    "paperCount": 1,
+    "issn": ["2662-9992"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Hydrology and Earth System Sciences",
+    "paperCount": 1,
+    "issn": ["1027-5606"]
+  },
+  {
+    "name": "Iberoamerican Journal of Applied Computing",
+    "paperCount": 1,
+    "issn": ["2237-4523"]
+  },
+  {
+    "name": "Iconic Research and Engineering Journals",
+    "paperCount": 1,
+    "issn": ["2456-8880"],
+    "publisher": "Iconic Digital Lab"
+  },
+  {
+    "name": "IEEE Internet of Things Journal",
+    "paperCount": 1,
+    "issn": ["2327-4662"]
+  },
+  {
+    "name": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "paperCount": 1,
+    "issn": ["1077-260X"]
+  },
+  {
+    "name": "IEEE Sensors Journal",
+    "paperCount": 1,
+    "issn": ["1530-437X"]
+  },
+  {
+    "name": "IEEE Transactions on Applied Superconductivity",
+    "paperCount": 1,
+    "issn": ["1051-8223"]
+  },
+  {
+    "name": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "paperCount": 1,
+    "issn": ["2471-285X"]
+  },
+  {
+    "name": "IEEE Transactions on Evolutionary Computation",
+    "paperCount": 1,
+    "issn": ["1089-778X"]
+  },
+  {
+    "name": "IEEE Transactions on Intelligent Transportation Systems",
+    "paperCount": 1,
+    "issn": ["1524-9050"]
+  },
+  {
+    "name": "IEEE Transactions on Knowledge and Data Engineering",
+    "paperCount": 1,
+    "issn": ["1041-4347"]
+  },
+  {
+    "name": "IEEE Transactions on Mobile Computing",
+    "paperCount": 1,
+    "issn": ["1536-1233"]
+  },
+  {
+    "name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+    "paperCount": 1,
+    "issn": ["2168-2216"]
+  },
+  {
+    "name": "IEEE Transactions on Transportation Electrification",
+    "paperCount": 1,
+    "issn": ["2332-7782"]
+  },
+  {
+    "name": "IET Conference Proceedings",
+    "paperCount": 1
+  },
+  {
+    "name": "iForest - Biogeosciences and Forestry",
+    "paperCount": 1,
+    "issn": ["1971-7458"]
+  },
+  {
+    "name": "Ijarcce",
+    "paperCount": 1,
+    "issn": ["2319-5940", "2278-1021"],
+    "publisher": "Tejass Publishers"
+  },
+  {
+    "name": "Indian Journal Of Agricultural Research",
+    "paperCount": 1,
+    "issn": ["0367-8245"]
+  },
+  {
+    "name": "Indian Journal Of Science And Technology",
+    "paperCount": 1,
+    "issn": ["0974-6846", "0974-5645"],
+    "publisher": "Indian Society for Education and Environment"
+  },
+  {
+    "name": "Industrial Robot: the international journal of robotics research and application",
+    "paperCount": 1,
+    "issn": ["0143-991X", "1758-5791"],
+    "publisher": "Emerald"
+  },
+  {
+    "name": "Information Fusion",
+    "paperCount": 1,
+    "issn": ["1566-2535"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Information Technology & People",
+    "paperCount": 1,
+    "issn": ["0959-3845", "1758-5813"],
+    "publisher": "Emerald"
+  },
+  {
+    "name": "Inisiatif: Jurnal Ekonomi, Akuntansi dan Manajemen",
+    "paperCount": 1,
+    "issn": ["2459-9816", "1412-5366"]
+  },
+  {
+    "name": "Innovative Applications of AI",
+    "paperCount": 1
+  },
+  {
+    "name": "Insects",
+    "paperCount": 1,
+    "issn": ["2075-4450"]
+  },
+  {
+    "name": "Integrating Blockchain, Federated Learning, and Metaverse Ecosystems Into Decentralized Classrooms",
+    "paperCount": 1,
+    "publisher": "IGI Global Scientific Publishing"
+  },
+  {
+    "name": "Interdisciplinary Academic and Research Journal",
+    "paperCount": 1
+  },
+  {
+    "name": "International Applied Mechanics",
+    "paperCount": 1,
+    "issn": ["1063-7095", "1573-8582", "0032-8243"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "International Conference on Photonic Computing, Algorithms, and Machine Vision",
+    "paperCount": 1
+  },
+  {
+    "name": "International Journal for Quality Research",
+    "paperCount": 1,
+    "issn": ["1800-6450", "1800-7473", "2798-6047"],
+    "publisher": "Faculty of Engineering, University of Kragujevac"
+  },
+  {
+    "name": "International Journal of Advanced Multidisciplinary Research and Studies",
+    "paperCount": 1,
+    "issn": ["2583-049X"],
+    "publisher": "OPRA Publications"
+  },
+  {
+    "name": "International Journal of Advanced Research and Multidisciplinary Trends (IJARMT)",
+    "paperCount": 1
+  },
+  {
+    "name": "International Journal of Advanced Research in Science Communication and Technology",
+    "paperCount": 1,
+    "issn": ["2581-9429"],
+    "publisher": "Naksh Solutions"
+  },
+  {
+    "name": "International Journal of Advanced Science and Engineering",
+    "paperCount": 1,
+    "issn": ["2454-9967", "2349-5359"],
+    "publisher": "Mahendra Publications"
+  },
+  {
+    "name": "International Journal of Agriculture and Earth Science",
+    "paperCount": 1,
+    "issn": ["2695-1894", "2489-0081"],
+    "publisher": "IIARD Publication Co."
+  },
+  {
+    "name": "International Journal of Agriculture and Environmental Research and Innovations",
+    "paperCount": 1,
+    "issn": ["3115-6967"],
+    "publisher": "Soft Print and Media Resources Limited"
+  },
+  {
+    "name": "International Journal of Agriculture Extension and Social Development",
+    "paperCount": 1,
+    "issn": ["2618-0723", "2618-0731"],
+    "publisher": "Comprehensive Publications"
+  },
+  {
+    "name": "International Journal of Applied and Experimental Biology",
+    "paperCount": 1,
+    "issn": ["2790-6523"]
+  },
+  {
+    "name": "International Journal of Business and Information Communication Technologies",
+    "paperCount": 1,
+    "issn": ["2412-9917"],
+    "publisher": "Leza Solutions"
+  },
+  {
+    "name": "International Journal of Business, Arts and Scientific Study",
+    "paperCount": 1
+  },
+  {
+    "name": "International Journal of Computer Information Systems and Industrial Management Applications",
+    "paperCount": 1,
+    "issn": ["2150-7988"],
+    "publisher": "Cerebration Science Publishing Co., Limited"
+  },
+  {
+    "name": "International Journal of Computer Science and Mathematical Theory",
+    "paperCount": 1,
+    "issn": ["2695-1924", "2545-5699"],
+    "publisher": "IIARD Publication Co."
+  },
+  {
+    "name": "International Journal of Computer Vision",
+    "paperCount": 1,
+    "issn": ["0920-5691"]
+  },
+  {
+    "name": "International Journal of Computers and Electronics in Agriculture",
+    "paperCount": 1,
+    "publisher": "IAEME Publication"
+  },
+  {
+    "name": "International Journal of Concrete Structures and Materials",
+    "paperCount": 1,
+    "issn": ["1976-0485"]
+  },
+  {
+    "name": "International Journal of Contemporary Hospitality Management",
+    "paperCount": 1,
+    "issn": ["0959-6119"]
+  },
+  {
+    "name": "International Journal of Current Science Research and Review",
+    "paperCount": 1,
+    "issn": ["2581-8341"],
+    "publisher": "Everant Journals"
+  },
+  {
+    "name": "International Journal of Electrical and Computer Engineering (IJECE)",
+    "paperCount": 1,
+    "issn": ["2088-8708"]
+  },
+  {
+    "name": "International Journal of Engineering Research in Africa",
+    "paperCount": 1,
+    "issn": ["1663-3571"]
+  },
+  {
+    "name": "International Journal of Forecasting",
+    "paperCount": 1,
+    "issn": ["0169-2070"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "International Journal of Forest, Animal and Fisheries Research",
+    "paperCount": 1
+  },
+  {
+    "name": "International Journal of Industrial Ergonomics",
+    "paperCount": 1,
+    "issn": ["0169-8141"]
+  },
+  {
+    "name": "International Journal of Innovative Research in Engineering",
+    "paperCount": 1,
+    "issn": ["2582-8746"]
+  },
+  {
+    "name": "International Journal of Innovative Research in Technology",
+    "paperCount": 1,
+    "issn": ["2349-6002"],
+    "publisher": "Amplionix LLP"
+  },
+  {
+    "name": "International Journal of Intelligent Systems and Data Science",
+    "paperCount": 1
+  },
+  {
+    "name": "International Journal of Mathematical, Engineering and Management Sciences",
+    "paperCount": 1,
+    "issn": ["2455-7749"]
+  },
+  {
+    "name": "International Journal of Molecular Sciences",
+    "paperCount": 1,
+    "issn": ["1422-0067"]
+  },
+  {
+    "name": "International Journal of Natural Resources and Environmental Studies",
+    "paperCount": 1
+  },
+  {
+    "name": "International Journal of Network Dynamics and Intelligence",
+    "paperCount": 1,
+    "issn": ["2653-6226"],
+    "publisher": "Scilight Press Pty Ltd"
+  },
+  {
+    "name": "International Journal of Number Theory",
+    "paperCount": 1,
+    "issn": ["1793-0421", "1793-7310"],
+    "publisher": "World Scientific Pub Co Pte Ltd"
+  },
+  {
+    "name": "International Journal of Pattern Recognition and Artificial Intelligence",
+    "paperCount": 1,
+    "issn": ["0218-0014"]
+  },
+  {
+    "name": "International journal of psychology : Journal international de psychologie",
+    "paperCount": 1,
+    "issn": ["2008-1251", "0020-7594"]
+  },
+  {
+    "name": "International Journal of Research in Business and Social Science (2147- 4478)",
+    "paperCount": 1,
+    "issn": ["2147-4478"]
+  },
+  {
+    "name": "International Journal of Science and Research (IJSR)",
+    "paperCount": 1,
+    "issn": ["2319-7064"]
+  },
+  {
+    "name": "International Journal of Science and Research Archive",
+    "paperCount": 1,
+    "issn": ["2582-8185"]
+  },
+  {
+    "name": "International Journal of Science Research and Technology",
+    "paperCount": 1,
+    "issn": ["3026-8796", "3027-1991"],
+    "publisher": "Mediterranean Publications and Research International"
+  },
+  {
+    "name": "International Journal of Scientific Research in Computer Science, Engineering and Information Technology",
+    "paperCount": 1,
+    "issn": ["2456-3307"]
+  },
+  {
+    "name": "International Journal of Travel, Hospitality and Events",
+    "paperCount": 1,
+    "issn": ["2828-2590"]
+  },
+  {
+    "name": "International Journal of Women's Health",
+    "paperCount": 1,
+    "issn": ["1179-1411"],
+    "publisher": "Informa UK Limited"
+  },
+  {
+    "name": "International Journal on Cybernetics & Informatics",
+    "paperCount": 1
+  },
+  {
+    "name": "International Research Journal of Multidisciplinary Technovation",
+    "paperCount": 1,
+    "issn": ["2582-1040"]
+  },
+  {
+    "name": "International Research Journal on Advanced Engineering Hub (IRJAEH)",
+    "paperCount": 1,
+    "issn": ["2584-2137"],
+    "publisher": "RSP Science Hub"
+  },
+  {
+    "name": "International Science Journal of Engineering & Agriculture",
+    "paperCount": 1,
+    "issn": ["2720-6319"],
+    "publisher": "International Science Group"
+  },
+  {
+    "name": "Internet of Things and Unmanned Aerial Vehicles-based Applications for High-Yield Precision Agriculture",
+    "paperCount": 1,
+    "publisher": "CRC Press"
+  },
+  {
+    "name": "Intersection: A Journal at the Intersection of Assessment and Learning",
+    "paperCount": 1,
+    "issn": ["2688-7207"],
+    "publisher": "Association for the Assessment of Learning in Higher Education"
+  },
+  {
+    "name": "Ironmaking & Steelmaking: Processes, Products and Applications",
+    "paperCount": 1
+  },
+  {
+    "name": "Irrigation and Drainage",
+    "paperCount": 1,
+    "issn": ["1531-0353", "1531-0361"],
+    "publisher": "Wiley"
+  },
+  {
+    "name": "ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+    "paperCount": 1,
+    "issn": ["2196-6346"]
+  },
+  {
+    "name": "Italian Journal of Geosciences",
+    "paperCount": 1,
+    "issn": ["2038-1719"]
+  },
+  {
+    "name": "J Open",
+    "paperCount": 1
+  },
+  {
+    "name": "Jammu Kashmir Journal of Agriculture",
+    "paperCount": 1
+  },
+  {
+    "name": "JMIR formative research",
+    "paperCount": 1,
+    "issn": ["2561-326X"]
+  },
+  {
+    "name": "JMIR Medical Informatics",
+    "paperCount": 1,
+    "issn": ["2291-9694"]
+  },
+  {
+    "name": "Journal of Advanced Multidisciplinary Studies (JAMS)",
+    "paperCount": 1,
+    "publisher": "Journal of Advanced Multidisciplinary Studies"
+  },
+  {
+    "name": "Journal of Agricultural Engineering",
+    "paperCount": 1,
+    "issn": ["2588-526X", "1974-7071", "2588-5944", "0256-6524"]
+  },
+  {
+    "name": "Journal of Agricultural Production",
+    "paperCount": 1,
+    "issn": ["2757-6620"]
+  },
+  {
+    "name": "Journal of Agriculture and Food Research",
+    "paperCount": 1,
+    "issn": ["2666-1543"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Journal of Agrometeorology",
+    "paperCount": 1,
+    "issn": ["0972-1665"]
+  },
+  {
+    "name": "Journal of Agronomy and Crop Science",
+    "paperCount": 1,
+    "issn": ["0931-2250", "1439-037X"],
+    "publisher": "Wiley"
+  },
+  {
+    "name": "Journal of Archaeological Science",
+    "paperCount": 1,
+    "issn": ["0305-4403"]
+  },
+  {
+    "name": "Journal of Archaeological Science: Reports",
+    "paperCount": 1,
+    "issn": ["2352-409X"]
+  },
+  {
+    "name": "Journal of Architectural Engineering",
+    "paperCount": 1,
+    "issn": ["1076-0431"]
+  },
+  {
+    "name": "Journal of Asian Geography",
+    "paperCount": 1
+  },
+  {
+    "name": "Journal of Biomedical Systems and Engineering",
+    "paperCount": 1
+  },
+  {
+    "name": "Journal of breath research",
+    "paperCount": 1,
+    "issn": ["1752-7155"]
+  },
+  {
+    "name": "Journal of Bridge Engineering",
+    "paperCount": 1,
+    "issn": ["1084-0702"]
+  },
+  {
+    "name": "Journal of Business & Industrial Marketing",
+    "paperCount": 1
+  },
+  {
+    "name": "Journal of Cancer",
+    "paperCount": 1,
+    "issn": ["1837-9664"]
+  },
+  {
+    "name": "Journal of Circuits, Systems and Computers",
+    "paperCount": 1,
+    "issn": ["0218-1266"]
+  },
+  {
+    "name": "Journal of Complexity",
+    "paperCount": 1,
+    "issn": ["0885-064X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Journal of Computational and Applied Mathematics",
+    "paperCount": 1,
+    "issn": ["0377-0427", "0771-050X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Journal of Computational Physics",
+    "paperCount": 1,
+    "issn": ["0021-9991"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Journal of Computer Sciences Institute",
+    "paperCount": 1,
+    "issn": ["2544-0764"],
+    "publisher": "Politechnika Lubelska"
+  },
+  {
+    "name": "Journal of Decision Support Systems and Multi-Criteria Decision Making",
+    "paperCount": 1
+  },
+  {
+    "name": "Journal of Democracy",
+    "paperCount": 1,
+    "issn": ["1045-5736"]
+  },
+  {
+    "name": "Journal of Digital Learning and Distance Education",
+    "paperCount": 1,
+    "issn": ["2964-6685"],
+    "publisher": "Radinka Jaya Utama Publisher"
+  },
+  {
+    "name": "Journal of Disaster Research",
+    "paperCount": 1,
+    "issn": ["1881-2473"]
+  },
+  {
+    "name": "Journal of Earth System Science",
+    "paperCount": 1,
+    "issn": ["0253-4126"]
+  },
+  {
+    "name": "Journal of Engineering and Computational Intelligence Review",
+    "paperCount": 1
+  },
+  {
+    "name": "Journal of Engineering Sciences and Innovation",
+    "paperCount": 1,
+    "issn": ["2537-320X"]
+  },
+  {
+    "name": "Journal of Engineering, Project, and Production Management",
+    "paperCount": 1,
+    "issn": ["2221-6529"]
+  },
+  {
+    "name": "Journal of environmental science and health. Part. B, Pesticides, food contaminants, and agricultural wastes",
+    "paperCount": 1,
+    "issn": ["0360-1234"]
+  },
+  {
+    "name": "Journal of Experimental Agriculture International",
+    "paperCount": 1,
+    "issn": ["2457-0591"]
+  },
+  {
+    "name": "Journal of Geodesy",
+    "paperCount": 1,
+    "issn": ["0949-7714"]
+  },
+  {
+    "name": "Journal of Geophysical Research: Atmospheres",
+    "paperCount": 1,
+    "issn": ["2169-897X"]
+  },
+  {
+    "name": "Journal of Geophysical Research: Space Physics",
+    "paperCount": 1,
+    "issn": ["2169-9380"]
+  },
+  {
+    "name": "Journal of Global Economics, Management and Business Research",
+    "paperCount": 1,
+    "issn": ["2454-2504"]
+  },
+  {
+    "name": "Journal of Hydraulic Engineering",
+    "paperCount": 1,
+    "issn": ["0733-9429", "0559-9350", "2332-8215"]
+  },
+  {
+    "name": "Journal of Hydrology: Regional Studies",
+    "paperCount": 1,
+    "issn": ["2214-5818"]
+  },
+  {
+    "name": "Journal of Hydrometeorology",
+    "paperCount": 1,
+    "issn": ["1525-7541"]
+  },
+  {
+    "name": "Journal of Imaging",
+    "paperCount": 1,
+    "issn": ["2313-433X"]
+  },
+  {
+    "name": "Journal of Imaging Science and Technology",
+    "paperCount": 1,
+    "issn": ["1943-3522", "1062-3701"],
+    "publisher": "Society for Imaging Science & Technology"
+  },
+  {
+    "name": "Journal of Infrastructure Systems",
+    "paperCount": 1,
+    "issn": ["1076-0342"]
+  },
+  {
+    "name": "Journal of Innovation & Knowledge",
+    "paperCount": 1
+  },
+  {
+    "name": "Journal of integrative plant biology",
+    "paperCount": 1,
+    "issn": ["1672-9072", "0577-7496"]
+  },
+  {
+    "name": "Journal of Intelligent & Robotic Systems",
+    "paperCount": 1
+  },
+  {
+    "name": "Journal of International Money and Finance",
+    "paperCount": 1,
+    "issn": ["0261-5606"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Journal of ISMAC",
+    "paperCount": 1,
+    "issn": ["2582-1369"]
+  },
+  {
+    "name": "Journal of King Saud University Computer and Information Sciences",
+    "paperCount": 1,
+    "issn": ["1319-1578"]
+  },
+  {
+    "name": "Journal of Machine Learning",
+    "paperCount": 1,
+    "issn": ["2790-203X", "2790-2048"],
+    "publisher": "Global Science Press"
+  },
+  {
+    "name": "Journal of Manufacturing Systems",
+    "paperCount": 1,
+    "issn": ["0278-6125"]
+  },
+  {
+    "name": "Journal of Marketing Communications",
+    "paperCount": 1,
+    "issn": ["1352-7266", "1466-4445", "2617-359X"],
+    "publisher": "Informa UK Limited"
+  },
+  {
+    "name": "Journal of Medical Systems",
+    "paperCount": 1,
+    "issn": ["0148-5598"]
+  },
+  {
+    "name": "Journal of microbiological methods",
+    "paperCount": 1,
+    "issn": ["0167-7012"]
+  },
+  {
+    "name": "Journal of Multiscale Modelling",
+    "paperCount": 1,
+    "issn": ["1756-9737", "1756-9745"],
+    "publisher": "World Scientific Pub Co Pte Ltd"
+  },
+  {
+    "name": "Journal of neuroscience methods",
+    "paperCount": 1,
+    "issn": ["0165-0270"]
+  },
+  {
+    "name": "Journal of Pancreatology",
+    "paperCount": 1,
+    "issn": ["2096-5664", "2577-3577"],
+    "publisher": "Ovid Technologies (Wolters Kluwer Health)"
+  },
+  {
+    "name": "Journal of Petroleum Technology",
+    "paperCount": 1,
+    "issn": ["0149-2136"]
+  },
+  {
+    "name": "Journal of Population Research",
+    "paperCount": 1,
+    "issn": ["1443-2447", "0377-0478", "2347-1816"]
+  },
+  {
+    "name": "Journal of Process Control",
+    "paperCount": 1,
+    "issn": ["0959-1524"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Journal of Quality in Maintenance Engineering",
+    "paperCount": 1,
+    "issn": ["1355-2511"]
+  },
+  {
+    "name": "Journal of Quality Measurement and Analysis",
+    "paperCount": 1
+  },
+  {
+    "name": "Journal of Real-Time Image Processing",
+    "paperCount": 1,
+    "issn": ["1861-8200"]
+  },
+  {
+    "name": "Journal of Strategic Innovation and Sustainability",
+    "paperCount": 1,
+    "issn": ["1718-2077"]
+  },
+  {
+    "name": "Journal of Structural Engineering",
+    "paperCount": 1,
+    "issn": ["0733-9445", "0970-0137"]
+  },
+  {
+    "name": "Journal of Structural Geology",
+    "paperCount": 1,
+    "issn": ["0191-8141"]
+  },
+  {
+    "name": "Journal of Surveying Engineering",
+    "paperCount": 1,
+    "issn": ["0733-9453"]
+  },
+  {
+    "name": "Journal of synchrotron radiation",
+    "paperCount": 1,
+    "issn": ["0909-0495"]
+  },
+  {
+    "name": "Journal of Teaching and Learning",
+    "paperCount": 1,
+    "issn": ["1911-8279"],
+    "publisher": "University of Windsor Leddy Library"
+  },
+  {
+    "name": "Journal of the American Academy of Dermatology",
+    "paperCount": 1,
+    "issn": ["0190-9622"]
+  },
+  {
+    "name": "Journal of the Japan society of photogrammetry and remote sensing",
+    "paperCount": 1,
+    "issn": ["0285-5844"]
+  },
+  {
+    "name": "Journal of the Nigerian Society of Physical Sciences",
+    "paperCount": 1,
+    "issn": ["2714-4704"]
+  },
+  {
+    "name": "Journal of Tropical Ecology",
+    "paperCount": 1,
+    "issn": ["0266-4674"]
+  },
+  {
+    "name": "Journal of Umm Al-Qura University for Applied Sciences",
+    "paperCount": 1,
+    "issn": ["1658-8185"]
+  },
+  {
+    "name": "Journal of Visual Communication and Image Representation",
+    "paperCount": 1,
+    "issn": ["1047-3203"]
+  },
+  {
+    "name": "Journal of visualized experiments : JoVE",
+    "paperCount": 1,
+    "issn": ["1940-087X"]
+  },
+  {
+    "name": "Journal of Water Resources Planning and Management",
+    "paperCount": 1,
+    "issn": ["0733-9496"]
+  },
+  {
+    "name": "Journal of Waterway, Port, Coastal, and Ocean Engineering",
+    "paperCount": 1,
+    "issn": ["0733-950X"]
+  },
+  {
+    "name": "Jurnal Pendidikan, Sains, Geologi, dan Geofisika (GeoScienceEd Journal)",
+    "paperCount": 1,
+    "issn": ["2723-2905"]
+  },
+  {
+    "name": "Jurnal Riset Teknik Komputer",
+    "paperCount": 1
+  },
+  {
+    "name": "Kazakhstan journal for oil & gas industry",
+    "paperCount": 1
+  },
+  {
+    "name": "Kirkuk University Journal For Agricultural Sciences",
+    "paperCount": 1
+  },
+  {
+    "name": "Knowledge and Information Systems",
+    "paperCount": 1,
+    "issn": ["0219-1377", "0219-3116"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "KPI Science News",
+    "paperCount": 1,
+    "issn": ["2617-5509"]
+  },
+  {
+    "name": "Land Degradation & Development",
+    "paperCount": 1
+  },
+  {
+    "name": "Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering",
+    "paperCount": 1,
+    "issn": ["1867-8211", "1867-822X"],
+    "publisher": "Springer Nature Switzerland"
+  },
+  {
+    "name": "Legal Regulation of Sustainable Entrepreneurship Within the Platform Economy",
+    "paperCount": 1,
+    "publisher": "IGI Global Scientific Publishing"
+  },
+  {
+    "name": "Leisure Sciences",
+    "paperCount": 1,
+    "issn": ["0149-0400", "1521-0588"],
+    "publisher": "Informa UK Limited"
+  },
+  {
+    "name": "Life",
+    "paperCount": 1
+  },
+  {
+    "name": "Machine Learning with Applications",
+    "paperCount": 1,
+    "issn": ["2666-8270"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Machine Learning: Health",
+    "paperCount": 1,
+    "issn": ["3049-477X"],
+    "publisher": "IOP Publishing"
+  },
+  {
+    "name": "Machine Learning: Science and Technology",
+    "paperCount": 1,
+    "issn": ["2632-2153"],
+    "publisher": "IOP Publishing"
+  },
+  {
+    "name": "Machine Vision and Applications",
+    "paperCount": 1,
+    "issn": ["0932-8092"]
+  },
+  {
+    "name": "Macroeconometrics",
+    "paperCount": 1,
+    "publisher": "De Gruyter"
+  },
+  {
+    "name": "Materials horizons",
+    "paperCount": 1,
+    "issn": ["2051-6347"]
+  },
+  {
+    "name": "Mausam",
+    "paperCount": 1,
+    "issn": ["0252-9416"],
+    "publisher": "India Meteorological Department"
+  },
+  {
+    "name": "Measurement",
+    "paperCount": 1
+  },
+  {
+    "name": "Mechanism and Machine Theory",
+    "paperCount": 1,
+    "issn": ["0094-114X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Medical Physics",
+    "paperCount": 1,
+    "issn": ["0094-2405", "2473-4209"],
+    "publisher": "Wiley"
+  },
+  {
+    "name": "Merkurius : Jurnal Riset Sistem Informasi dan Teknik Informatika",
+    "paperCount": 1
+  },
+  {
+    "name": "Meteorologische Zeitschrift",
+    "paperCount": 1,
+    "issn": ["0941-2948"],
+    "publisher": "Schweizerbart"
+  },
+  {
+    "name": "Modelling, Analysis and Simulations of Nonlinear Complex Systems [Working Title]",
+    "paperCount": 1,
+    "publisher": "IntechOpen"
+  },
+  {
+    "name": "Modern Physics Letters A",
+    "paperCount": 1,
+    "issn": ["0217-7323"]
+  },
+  {
+    "name": "Modern Transportation Systems and Technologies",
+    "paperCount": 1,
+    "issn": ["2782-3733"]
+  },
+  {
+    "name": "Molecules",
+    "paperCount": 1,
+    "issn": ["1420-3049"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Multimedia Tools and Applications",
+    "paperCount": 1,
+    "issn": ["1380-7501"]
+  },
+  {
+    "name": "Natural Hazards and Earth System Sciences",
+    "paperCount": 1,
+    "issn": ["1561-8633"]
+  },
+  {
+    "name": "Natural Sciences Education",
+    "paperCount": 1,
+    "issn": ["1059-9053", "1539-1582", "2168-8273"]
+  },
+  {
+    "name": "Nature Machine Intelligence",
+    "paperCount": 1,
+    "issn": ["2522-5839"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Nature medicine",
+    "paperCount": 1,
+    "issn": ["1078-8956"]
+  },
+  {
+    "name": "Nature Photonics",
+    "paperCount": 1,
+    "issn": ["1749-4885", "1749-4893"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Nepal Journal of Multidisciplinary Research",
+    "paperCount": 1,
+    "issn": ["2645-8470"]
+  },
+  {
+    "name": "Neuropsychology",
+    "paperCount": 1,
+    "issn": ["0894-4105"]
+  },
+  {
+    "name": "New Forests",
+    "paperCount": 1,
+    "issn": ["0169-4286"]
+  },
+  {
+    "name": "New Technology, Work and Employment",
+    "paperCount": 1,
+    "issn": ["0268-1072"]
+  },
+  {
+    "name": "News of the National Academy of Sciences of the Republic of Kazakhstan",
+    "paperCount": 1,
+    "issn": ["2518-1726", "1991-346X"],
+    "publisher": "Central Asian Academic Research Center LLP"
+  },
+  {
+    "name": "Nonlinear Science",
+    "paperCount": 1
+  },
+  {
+    "name": "North American Journal of Psychology",
+    "paperCount": 1,
+    "issn": ["1527-7143"]
+  },
+  {
+    "name": "Notulae Botanicae Horti Agrobotanici Cluj-Napoca",
+    "paperCount": 1,
+    "issn": ["0255-965X"]
+  },
+  {
+    "name": "Notulae Scientia Biologicae",
+    "paperCount": 1,
+    "issn": ["2067-3205"]
+  },
+  {
+    "name": "npj Science of Plants",
+    "paperCount": 1
+  },
+  {
+    "name": "Nuclear Engineering and Technology",
+    "paperCount": 1,
+    "issn": ["1738-5733"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Nuclear Science and Engineering",
+    "paperCount": 1,
+    "issn": ["0029-5639", "1943-748X"],
+    "publisher": "Informa UK Limited"
+  },
+  {
+    "name": "Nursing Inquiry",
+    "paperCount": 1,
+    "issn": ["1320-7881", "1440-1800"],
+    "publisher": "Wiley"
+  },
+  {
+    "name": "Ocean & Coastal Management",
+    "paperCount": 1
+  },
+  {
+    "name": "Optical Fiber Technology",
+    "paperCount": 1,
+    "issn": ["1068-5200"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Optical Materials Express",
+    "paperCount": 1,
+    "issn": ["2159-3930"],
+    "publisher": "Optica Publishing Group"
+  },
+  {
+    "name": "Optics & Laser Technology",
+    "paperCount": 1
+  },
+  {
+    "name": "Pathogens",
+    "paperCount": 1,
+    "issn": ["2076-0817"]
+  },
+  {
+    "name": "Pattern Recognition Letters",
+    "paperCount": 1,
+    "issn": ["0167-8655"]
+  },
+  {
+    "name": "Pediatric Surgery International",
+    "paperCount": 1,
+    "issn": ["1437-9813", "0179-0358"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "PeerJ Computer Science",
+    "paperCount": 1,
+    "issn": ["2376-5992"],
+    "publisher": "PeerJ"
+  },
+  {
+    "name": "PFG – Journal of Photogrammetry, Remote Sensing and Geoinformation Science",
+    "paperCount": 1,
+    "issn": ["2512-2789", "2512-2819"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Philosophia Reformata",
+    "paperCount": 1,
+    "issn": ["0031-8035"]
+  },
+  {
+    "name": "Physica A: Statistical Mechanics and its Applications",
+    "paperCount": 1,
+    "issn": ["0378-4371"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Physical and Mathematical Education",
+    "paperCount": 1,
+    "issn": ["2413-1571"]
+  },
+  {
+    "name": "Physical Review Fluids",
+    "paperCount": 1,
+    "issn": ["2469-990X"],
+    "publisher": "American Physical Society (APS)"
+  },
+  {
+    "name": "Physical Review Research",
+    "paperCount": 1,
+    "issn": ["2643-1564"],
+    "publisher": "American Physical Society (APS)"
+  },
+  {
+    "name": "Plant and Soil",
+    "paperCount": 1,
+    "issn": ["0032-079X", "1573-5036"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Plant Science Today",
+    "paperCount": 1,
+    "issn": ["2348-1900"]
+  },
+  {
+    "name": "Plant-Environment Interactions",
+    "paperCount": 1,
+    "issn": ["2575-6265"]
+  },
+  {
+    "name": "Plant, cell & environment",
+    "paperCount": 1,
+    "issn": ["0140-7791"]
+  },
+  {
+    "name": "Planta",
+    "paperCount": 1,
+    "issn": ["0032-0935"]
+  },
+  {
+    "name": "Plants, People, Planet",
+    "paperCount": 1,
+    "issn": ["2572-2611"]
+  },
+  {
+    "name": "PLOS Climate",
+    "paperCount": 1,
+    "issn": ["2767-3200"],
+    "publisher": "Public Library of Science (PLoS)"
+  },
+  {
+    "name": "Potato Research",
+    "paperCount": 1,
+    "issn": ["0014-3065"]
+  },
+  {
+    "name": "Problems of Computational and Applied Mathematics",
+    "paperCount": 1,
+    "issn": ["2181-046X", "2181-8460"],
+    "publisher": "Digital Technologies and Artificial Intelligence Development Research Institute"
+  },
+  {
+    "name": "Proceedings of the 2026 ACM Conference on Human-AI Complementarity and Alignment",
+    "paperCount": 1,
+    "publisher": "ACM"
+  },
+  {
+    "name": "Proceedings of the 2026 ACM International Symposium on Wearable Computers",
+    "paperCount": 1
+  },
+  {
+    "name": "Proceedings of the 37th ACM Conference on Hypertext",
+    "paperCount": 1,
+    "publisher": "ACM"
+  },
+  {
+    "name": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+    "paperCount": 1,
+    "issn": ["2474-9567"]
+  },
+  {
+    "name": "Proceedings of the ACM on Management of Data",
+    "paperCount": 1,
+    "issn": ["2836-6573"],
+    "publisher": "Association for Computing Machinery (ACM)"
+  },
+  {
+    "name": "Proceedings of the ACM on Programming Languages",
+    "paperCount": 1
+  },
+  {
+    "name": "Proceedings of the Water Environment Federation",
+    "paperCount": 1,
+    "issn": ["1938-6478"],
+    "publisher": "Water Environment Federation"
+  },
+  {
+    "name": "Process Integration and Optimization for Sustainability",
+    "paperCount": 1,
+    "issn": ["2509-4238", "2509-4246"],
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "name": "Processes",
+    "paperCount": 1,
+    "issn": ["2227-9717"]
+  },
+  {
+    "name": "Quality and Reliability Engineering International",
+    "paperCount": 1,
+    "issn": ["0748-8017", "1099-1638"],
+    "publisher": "Wiley"
+  },
+  {
+    "name": "Quantum Communications and Quantum Imaging XXIV",
+    "paperCount": 1
+  },
+  {
+    "name": "Rchub Journal of Computational Intelligence Science and Engineering (jcise)",
+    "paperCount": 1,
+    "issn": ["3107-8168"],
+    "publisher": "RCHUB Publisher"
+  },
+  {
+    "name": "Regional Environmental Change",
+    "paperCount": 1,
+    "issn": ["1436-3798"]
+  },
+  {
+    "name": "Reliability Engineering & System Safety",
+    "paperCount": 1,
+    "issn": ["0951-8320"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Revista de Investigación en Tecnologías de la Información",
+    "paperCount": 1,
+    "issn": ["2387-0893"]
+  },
+  {
+    "name": "Revue Roumaine Des Sciences Techniques — Série Électrotechnique Et Énergétique",
+    "paperCount": 1,
+    "issn": ["0035-4066"]
+  },
+  {
+    "name": "Risks",
+    "paperCount": 1,
+    "issn": ["2227-9091", "2261-611X"]
+  },
+  {
+    "name": "RMd, Economics, Management & Social Sciences",
+    "paperCount": 1
+  },
+  {
+    "name": "Robotics and Autonomous Systems",
+    "paperCount": 1,
+    "issn": ["0921-8890"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Rural Innovation Ecosystems and Agricultural Transition",
+    "paperCount": 1,
+    "publisher": "Springer Nature Switzerland"
+  },
+  {
+    "name": "Schola Viva",
+    "paperCount": 1
+  },
+  {
+    "name": "Scholarly Journal",
+    "paperCount": 1,
+    "publisher": "OpenGate Scholarly Press"
+  },
+  {
+    "name": "Science advances",
+    "paperCount": 1,
+    "issn": ["2375-2548"]
+  },
+  {
+    "name": "Science-based technologies",
+    "paperCount": 1,
+    "issn": ["2310-5461", "2075-0781"],
+    "publisher": "State University \"Kyiv Aviation Institute\""
+  },
+  {
+    "name": "Scientific Data",
+    "paperCount": 1,
+    "issn": ["2052-4463"]
+  },
+  {
+    "name": "Scientific Journal of Economics and Management Research",
+    "paperCount": 1
+  },
+  {
+    "name": "Scientific Research and Development. Economics of the Firm",
+    "paperCount": 1,
+    "issn": ["2306-627X"]
+  },
+  {
+    "name": "Seminars in Thrombosis and Hemostasis",
+    "paperCount": 1,
+    "issn": ["0094-6176", "1098-9064"],
+    "publisher": "Georg Thieme Verlag KG"
+  },
+  {
+    "name": "Signal Process. Image Commun.",
+    "paperCount": 1,
+    "issn": ["0923-5965"]
+  },
+  {
+    "name": "Signal, Image and Video Processing",
+    "paperCount": 1,
+    "issn": ["1863-1703"]
+  },
+  {
+    "name": "SilvaWorld",
+    "paperCount": 1
+  },
+  {
+    "name": "Small",
+    "paperCount": 1,
+    "issn": ["1613-6810"]
+  },
+  {
+    "name": "Smart Computing Technologies: Artificial Intelligence, Cybersecurity, and Cloud Computing",
+    "paperCount": 1,
+    "publisher": "Resnova Academic Press"
+  },
+  {
+    "name": "Smart Human-centered Emerging Research in Machine Intelligence",
+    "paperCount": 1
+  },
+  {
+    "name": "Societies",
+    "paperCount": 1,
+    "issn": ["2075-4698"]
+  },
+  {
+    "name": "Software Impacts",
+    "paperCount": 1,
+    "issn": ["2665-9638"]
+  },
+  {
+    "name": "Solar Energy",
+    "paperCount": 1,
+    "issn": ["0038-092X"]
+  },
+  {
+    "name": "South Asian Journal of Social Studies and Economics",
+    "paperCount": 1,
+    "issn": ["2581-821X"]
+  },
+  {
+    "name": "Stochastic Environmental Research and Risk Assessment",
+    "paperCount": 1,
+    "issn": ["1436-3240"]
+  },
+  {
+    "name": "Sustainability Quest",
+    "paperCount": 1,
+    "issn": ["2977-6988"],
+    "publisher": "International Collaboration for Research and Publications"
+  },
+  {
+    "name": "Symbiosis",
+    "paperCount": 1,
+    "issn": ["0334-5114"]
+  },
+  {
+    "name": "Symmetry",
+    "paperCount": 1,
+    "issn": ["2073-8994"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "System",
+    "paperCount": 1,
+    "issn": ["0346-251X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Systems",
+    "paperCount": 1,
+    "issn": ["2079-8954"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Tạp chí Khoa học Biến đổi khí hậu",
+    "paperCount": 1,
+    "issn": ["2525-2496"]
+  },
+  {
+    "name": "Technological and Economic Development of Economy",
+    "paperCount": 1,
+    "issn": ["1392-8619", "2029-4913", "1822-3613"]
+  },
+  {
+    "name": "TechTrends",
+    "paperCount": 1,
+    "issn": ["1559-7075"]
+  },
+  {
+    "name": "Tehnicki vjesnik - Technical Gazette",
+    "paperCount": 1,
+    "issn": ["1330-3651"]
+  },
+  {
+    "name": "Tekirdağ Ziraat Fakültesi Dergisi",
+    "paperCount": 1,
+    "issn": ["1302-7050"],
+    "publisher": "Tekirdag Ziraat Fakultesi Dergisi"
+  },
+  {
+    "name": "The Astrophysical Journal",
+    "paperCount": 1,
+    "issn": ["0004-637X"]
+  },
+  {
+    "name": "The Business & Management Collection",
+    "paperCount": 1
+  },
+  {
+    "name": "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+    "paperCount": 1,
+    "issn": ["1682-1750"]
+  },
+  {
+    "name": "The Iraqi Geological Journal",
+    "paperCount": 1,
+    "issn": ["2414-6064"]
+  },
+  {
+    "name": "The Journal of Agricultural Science",
+    "paperCount": 1,
+    "issn": ["0976-6898", "1916-9752", "1300-7580", "1391-9318", "0021-8596"]
+  },
+  {
+    "name": "The Journal of cell biology",
+    "paperCount": 1,
+    "issn": ["0021-9525"]
+  },
+  {
+    "name": "The journal of histochemistry and cytochemistry : official journal of the Histochemistry Society",
+    "paperCount": 1,
+    "issn": ["0022-1554"]
+  },
+  {
+    "name": "The Journal of Interactive Social Sciences",
+    "paperCount": 1
+  },
+  {
+    "name": "The Paris Journal on AI & Digital Ethics",
+    "paperCount": 1,
+    "issn": ["3098-7849"],
+    "publisher": "The Paris Conference on AI & Digital Ethics"
+  },
+  {
+    "name": "The UONGOZI Journal of Management and Development Dynamics",
+    "paperCount": 1
+  },
+  {
+    "name": "Theoretical and Applied Climatology",
+    "paperCount": 1,
+    "issn": ["0177-798X"]
+  },
+  {
+    "name": "Third International Conference on Remote Sensing and Global Positioning Algorithm (RSGPA 2026)",
+    "paperCount": 1
+  },
+  {
+    "name": "Tourism Management Perspectives",
+    "paperCount": 1,
+    "issn": ["2211-9736"]
+  },
+  {
+    "name": "Toxicology",
+    "paperCount": 1,
+    "issn": ["0300-483X"]
+  },
+  {
+    "name": "Transportation Research Today",
+    "paperCount": 1,
+    "issn": ["3051-360X"],
+    "publisher": "Elsevier BV"
+  },
+  {
+    "name": "Trends in Ecological and Indoor Environmental Engineering",
+    "paperCount": 1
+  },
+  {
+    "name": "Turkish Business Journal",
+    "paperCount": 1,
+    "issn": ["2717-848X"]
+  },
+  {
+    "name": "Turkish Journal of Forecasting",
+    "paperCount": 1,
+    "issn": ["2618-6594"],
+    "publisher": "Turkish Journal of Forecasting"
+  },
+  {
+    "name": "Turkish Journal of Hematology",
+    "paperCount": 1,
+    "issn": ["1300-7777", "1308-5263"],
+    "publisher": "Galenos Yayinevi"
+  },
+  {
+    "name": "Ukrainian Journal of Applied Economics and Technology",
+    "paperCount": 1
+  },
+  {
+    "name": "Ukrains’kyi Matematychnyi Zhurnal",
+    "paperCount": 1,
+    "issn": ["1027-3190"],
+    "publisher": "SIGMA (Symmetry, Integrability and Geometry: Methods and Application)"
+  },
+  {
+    "name": "Unifunec Científica Multidisciplinar",
+    "paperCount": 1,
+    "issn": ["2763-5783"]
+  },
+  {
+    "name": "Universal Journal of Mathematics and Applications",
+    "paperCount": 1,
+    "issn": ["2619-9653"],
+    "publisher": "Universal Journal of Mathematics and Applications"
+  },
+  {
+    "name": "Uttar Pradesh Journal of Zoology",
+    "paperCount": 1,
+    "issn": ["0256-971X"]
+  },
+  {
+    "name": "VFAST Transactions on Software Engineering",
+    "paperCount": 1,
+    "issn": ["2309-3978", "2411-6246"],
+    "publisher": "VFAST Research Platform"
+  },
+  {
+    "name": "Vietnam Journal of Earth Sciences",
+    "paperCount": 1,
+    "issn": ["0866-7187", "2615-9783"]
+  },
+  {
+    "name": "Wasit Journal for Pure sciences",
+    "paperCount": 1
+  },
+  {
+    "name": "Wind",
+    "paperCount": 1,
+    "issn": ["2674-032X"],
+    "publisher": "MDPI AG"
+  },
+  {
+    "name": "Wind Engineering",
+    "paperCount": 1,
+    "issn": ["0309-524X", "2048-402X"],
+    "publisher": "SAGE Publications"
+  },
+  {
+    "name": "WIREs Data Mining and Knowledge Discovery",
+    "paperCount": 1,
+    "issn": ["1942-4787", "1942-4795"],
+    "publisher": "Wiley"
+  },
+  {
+    "name": "WIT Transactions on Ecology and the Environment",
+    "paperCount": 1,
+    "issn": ["1743-3541", "1746-448X"]
+  },
+  {
+    "name": "World Journal of Gastroenterology",
+    "paperCount": 1,
+    "issn": ["1007-9327", "2219-2840"]
+  },
+  {
+    "name": "World Journal of Nuclear Medicine",
+    "paperCount": 1,
+    "issn": ["1450-1147"]
+  },
+  {
+    "name": "World Patent Information",
+    "paperCount": 1,
+    "issn": ["0172-2190"]
+  },
+  {
+    "name": "Worldwide Hospitality and Tourism Themes",
+    "paperCount": 1,
+    "issn": ["1755-4217"]
+  },
+  {
+    "name": "WSEAS Transactions on Computer Research",
+    "paperCount": 1,
+    "issn": ["1991-8755"]
+  },
+  {
+    "name": "X-Ray Spectrometry",
+    "paperCount": 1,
+    "issn": ["0049-8246"]
+  },
+  {
+    "name": "XXVI Международная научно-практическая конференция «Современные исследования: теория, практика, результаты»",
+    "paperCount": 1,
+    "publisher": "Crossref"
+  },
+  {
+    "name": "ZAMM - Journal of Applied Mathematics and Mechanics / Zeitschrift für Angewandte Mathematik und Mechanik",
+    "paperCount": 1
+  },
+  {
+    "name": "Zhonghua jie he he hu xi za zhi = Zhonghua jiehe he huxi zazhi = Chinese journal of tuberculosis and respiratory diseases",
+    "paperCount": 1
+  }
 ]

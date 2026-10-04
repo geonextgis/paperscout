@@ -5,6 +5,8 @@ import { useSelection } from '../store/SelectionContext';
 import { SOURCE_LABELS } from '../types/paper';
 import { relativeDay } from '../utils/format';
 import { SelectionBar } from './SelectionBar';
+import logoDark from '../assets/logo-dark.png';
+import logoLight from '../assets/logo-light.png';
 
 const NAV = [
   { to: '/', label: 'For You' },
@@ -18,21 +20,23 @@ const NAV = [
 
 export function Layout() {
   const { meta, now, loading, error } = useLibrary();
-  const { profile } = useProfile();
+  const { profile, update } = useProfile();
   const selection = useSelection();
   const sources = meta?.sources.filter((s) => s.status === 'ok' || s.status === 'partial').map((s) => SOURCE_LABELS[s.source]);
+
+  const toggleTheme = () => {
+    // 'system' resolves to whatever the OS reports, so the first click always flips what is on screen.
+    const current = profile.theme === 'system' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : profile.theme;
+    update((p) => ({ ...p, theme: current === 'dark' ? 'light' : 'dark' }));
+  };
 
   return (
     <div className="app">
       <header className="header">
         <div className="header-inner">
           <NavLink to="/" className="brand" aria-label="PaperScout home">
-            <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true">
-              <rect width="32" height="32" rx="7" fill="currentColor" />
-              <path d="M9 7h10l4 4v14H9z" fill="var(--surface)" />
-              <path d="M12 13h8M12 17h8M12 21h5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-            </svg>
-            <span>PaperScout</span>
+            <img src={logoLight} className="brand-logo brand-logo-light" alt="PaperScout" width={499} height={112} />
+            <img src={logoDark} className="brand-logo brand-logo-dark" alt="" width={499} height={112} />
           </NavLink>
           <nav className="nav" aria-label="Main">
             {NAV.map((item) => (
@@ -50,6 +54,12 @@ export function Layout() {
               </>
             ) : loading ? 'Loading…' : 'No catalogue yet'}
           </div>
+          <button type="button" className="theme-toggle" onClick={toggleTheme} aria-label="Switch between light and dark mode" title="Switch light / dark mode">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor" stroke="none" />
+            </svg>
+          </button>
         </div>
       </header>
 
