@@ -1,0 +1,45 @@
+{
+  "updatedAt": "2026-10-04T17:09:33.590Z",
+  "paperCount": 2993,
+  "journalCount": 741,
+  "lookbackDays": 30,
+  "topics": [
+    "crop modelling",
+    "remote sensing",
+    "differentiable models",
+    "agricultural foundation models",
+    "crop classification",
+    "yield forecasting",
+    "AI agents",
+    "process-based modelling",
+    "crop yield prediction deep learning",
+    "digital agriculture"
+  ],
+  "sources": [
+    {
+      "source": "wos",
+      "status": "skipped",
+      "fetched": 0,
+      "requests": 0,
+      "message": "Set the WOS_API_KEY repository secret (Web of Science Starter API key) to enable Web of Science."
+    },
+    {
+      "source": "crossref",
+      "status": "ok",
+      "fetched": 1976,
+      "requests": 22
+    },
+    {
+      "source": "semanticscholar",
+      "status": "ok",
+      "fetched": 908,
+      "requests": 13
+    },
+    {
+      "source": "arxiv",
+      "status": "ok",
+      "fetched": 587,
+      "requests": 10
+    }
+  ]
+}

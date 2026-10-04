@@ -1,0 +1,32 @@
+{
+  "lookbackDays": 30,
+  "retentionDays": 90,
+  "maxPapers": 5000,
+  "maxPerQuery": 100,
+  "enrichLimit": 1500,
+  "topics": [
+    "crop modelling",
+    "remote sensing",
+    "differentiable models",
+    "agricultural foundation models",
+    "crop classification",
+    "yield forecasting",
+    "AI agents",
+    "process-based modelling",
+    "crop yield prediction deep learning",
+    "digital agriculture"
+  ],
+  "journals": [
+    { "name": "Remote Sensing of Environment", "issn": ["0034-4257", "1879-0704"] },
+    { "name": "Agricultural and Forest Meteorology", "issn": ["0168-1923"] },
+    { "name": "Field Crops Research", "issn": ["0378-4290"] },
+    { "name": "European Journal of Agronomy", "issn": ["1161-0301"] },
+    { "name": "Computers and Electronics in Agriculture", "issn": ["0168-1699"] },
+    { "name": "Artificial Intelligence in Agriculture", "issn": ["2589-7217"] },
+    { "name": "Nature Food", "issn": ["2662-1355"] },
+    { "name": "Agricultural Systems", "issn": ["0308-521X"] },
+    { "name": "ISPRS Journal of Photogrammetry and Remote Sensing", "issn": ["0924-2716"] },
+    { "name": "Precision Agriculture", "issn": ["1385-2256", "1573-1618"] },
+    { "name": "Global Change Biology", "issn": ["1354-1013", "1365-2486"] }
+  ]
+}
