@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-04T17:09:33.590Z",
-  "paperCount": 2993,
-  "journalCount": 741,
+  "updatedAt": "2026-10-05T11:35:45.866Z",
+  "paperCount": 3113,
+  "journalCount": 752,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -26,19 +26,19 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 1976,
+      "fetched": 1980,
       "requests": 22
     },
     {
       "source": "semanticscholar",
       "status": "ok",
-      "fetched": 908,
+      "fetched": 906,
       "requests": 13
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 587,
+      "fetched": 588,
       "requests": 10
     }
   ]
