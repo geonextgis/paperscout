@@ -24,6 +24,8 @@
     { "name": "Computers and Electronics in Agriculture", "issn": ["0168-1699"] },
     { "name": "Artificial Intelligence in Agriculture", "issn": ["2589-7217"] },
     { "name": "Nature Food", "issn": ["2662-1355"] },
+    { "name": "Science", "issn": ["0036-8075", "1095-9203"] },
+    { "name": "Science Advances", "issn": ["2375-2548"] },
     { "name": "Agricultural Systems", "issn": ["0308-521X"] },
     { "name": "ISPRS Journal of Photogrammetry and Remote Sensing", "issn": ["0924-2716"] },
     { "name": "Precision Agriculture", "issn": ["1385-2256", "1573-1618"] },

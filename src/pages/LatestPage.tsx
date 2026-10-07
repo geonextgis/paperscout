@@ -8,14 +8,14 @@ import type { SortOrder } from '../types/profile';
 import { applyFilters } from '../utils/filter';
 
 export function LatestPage() {
-  const { scored, papers, now, loading } = useLibrary();
+  const { scored, papers, now, loading, journalOf } = useLibrary();
   const { profile, setFilters } = useProfile();
   // "Latest" always opens newest-first; the other filters are the user's saved preferences.
   const [sort, setSort] = useState<SortOrder>('newest');
 
   const items = useMemo(
-    () => applyFilters(scored, { ...profile.filters, sort }, { now, isFollowed: journalMatcher(profile.journals) }),
-    [scored, profile.filters, profile.journals, sort, now],
+    () => applyFilters(scored, { ...profile.filters, sort }, { now, isFollowed: journalMatcher(profile.journals), quartileOf: (p) => journalOf(p)?.quartile }),
+    [scored, profile.filters, profile.journals, sort, now, journalOf],
   );
 
   return (

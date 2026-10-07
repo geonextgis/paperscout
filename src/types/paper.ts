@@ -6,10 +6,9 @@
  * should ever need to know which API a record came from.
  */
 
-export type SourceId = 'wos' | 'crossref' | 'semanticscholar' | 'arxiv';
+export type SourceId = 'crossref' | 'semanticscholar' | 'arxiv';
 
 export const SOURCE_LABELS: Record<SourceId, string> = {
-  wos: 'Web of Science',
   crossref: 'Crossref',
   semanticscholar: 'Semantic Scholar',
   arxiv: 'arXiv',
@@ -38,6 +37,9 @@ export const DOCUMENT_TYPE_LABELS: Record<DocumentType, string> = {
   other: 'Other',
 };
 
+/** Journal ranking quartile, 1 = top 25% of its subject field. */
+export type Quartile = 1 | 2 | 3 | 4;
+
 export interface Author {
   /** Display name, "Given Family". Always present. */
   name: string;
@@ -48,7 +50,7 @@ export interface Author {
 }
 
 export interface Paper {
-  /** Stable identifier: `doi:…`, `arxiv:…`, `wos:…`, `s2:…` or `title:…` (hash). */
+  /** Stable identifier: `doi:…`, `arxiv:…`, `s2:…` or `title:…` (hash). */
   id: string;
   title: string;
   abstract?: string;
@@ -81,8 +83,6 @@ export interface Paper {
 
   /** Every database that returned this record. */
   sources: SourceId[];
-  webOfScienceId?: string;
-  webOfScienceUrl?: string;
   semanticScholarId?: string;
   arxivId?: string;
 
@@ -99,6 +99,12 @@ export interface JournalInfo {
   paperCount: number;
   /** True when the journal is tracked explicitly in `config/pipeline.config.json`. */
   tracked?: boolean;
+  /** Estimated ranking within `field`, see `src/services/journalRanking.ts`. */
+  quartile?: Quartile;
+  /** 2-year mean citedness (OpenAlex), comparable to an impact factor. */
+  impact?: number;
+  /** Subject field the quartile refers to, e.g. "Environmental Science"; absent for multidisciplinary journals. */
+  field?: string;
 }
 
 export interface SourceRunStatus {

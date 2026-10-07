@@ -4,6 +4,7 @@ import { useLibrary } from '../store/LibraryContext';
 import { useProfile } from '../store/ProfileContext';
 import type { JournalInfo } from '../types/paper';
 import { journalKey } from '../utils/normalize';
+import { QuartileBadge } from './QuartileBadge';
 
 /**
  * Follow / unfollow journals. Suggestions come from the catalogue first; any
@@ -42,7 +43,7 @@ export function JournalPicker({ showFollowed = true }: { showFollowed?: boolean 
     return (
       <li key={`${j.name}-${j.issn?.[0] ?? ''}`} className="pick-row">
         <div>
-          <strong>{j.name}</strong>
+          <strong>{j.name} <QuartileBadge journal={j} /></strong>
           <span className="muted">
             {[j.issn?.[0] && `ISSN ${j.issn[0]}`, j.publisher, j.paperCount > 0 ? `${j.paperCount} recent papers` : 'not in the shared catalogue yet']
               .filter(Boolean)

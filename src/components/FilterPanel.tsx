@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { DOCUMENT_TYPE_LABELS, SOURCE_LABELS, type DocumentType, type Paper, type SourceId } from '../types/paper';
+import { DOCUMENT_TYPE_LABELS, SOURCE_LABELS, type DocumentType, type Paper, type Quartile, type SourceId } from '../types/paper';
 import { DEFAULT_FILTERS, type PaperFilters, type SortOrder } from '../types/profile';
 import { activeFilterCount } from '../utils/filter';
 
@@ -107,6 +107,18 @@ export function FilterPanel({ filters, onChange, papers, extraSorts = [], sortVa
             <input type="checkbox" className="checkbox" checked={filters.followedJournalsOnly} onChange={(e) => onChange({ followedJournalsOnly: e.target.checked })} />
             Followed journals only
           </label>
+        </div>
+
+        <div className="field field-wide">
+          <span>Journal ranking</span>
+          <div className="chips">
+            {([1, 2, 3, 4] as Quartile[]).map((q) => (
+              <button key={q} className={`chip chip-toggle${filters.quartiles.includes(q) ? ' chip-on' : ''}`} aria-pressed={filters.quartiles.includes(q)}
+                onClick={() => onChange({ quartiles: toggle(filters.quartiles, q) })}>
+                Q{q}
+              </button>
+            ))}
+          </div>
         </div>
 
         <div className="field field-wide">

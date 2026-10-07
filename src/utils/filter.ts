@@ -1,5 +1,5 @@
 import { ageInDays, type ScoredPaper } from '../recommendation';
-import type { Paper } from '../types/paper';
+import type { Paper, Quartile } from '../types/paper';
 import type { PaperFilters, SortOrder } from '../types/profile';
 import { cleanDoi, dateToTime, journalKey, stripDiacritics } from './normalize';
 
@@ -15,7 +15,7 @@ export function sortScored(items: ScoredPaper[], sort: SortOrder): ScoredPaper[]
 export function applyFilters(
   items: ScoredPaper[],
   filters: PaperFilters,
-  ctx: { now: number; isFollowed: (paper: Paper) => boolean },
+  ctx: { now: number; isFollowed: (paper: Paper) => boolean; quartileOf: (paper: Paper) => Quartile | undefined },
 ): ScoredPaper[] {
   const journals = new Set(filters.journals.map(journalKey));
   const filtered = items.filter(({ paper, score }) => {
@@ -24,6 +24,7 @@ export function applyFilters(
       if (age === undefined || age > filters.maxAgeDays) return false;
     }
     if (journals.size && !journals.has(journalKey(paper.journal))) return false;
+    if (filters.quartiles.length && !filters.quartiles.includes(ctx.quartileOf(paper)!)) return false;
     if (filters.sources.length && !filters.sources.some((s) => paper.sources.includes(s))) return false;
     if (filters.documentTypes.length && !filters.documentTypes.includes(paper.documentType ?? 'other')) return false;
     if (filters.openAccessOnly && !paper.openAccess) return false;
@@ -38,7 +39,7 @@ export function applyFilters(
 /** Number of filter settings that differ from "show everything". */
 export function activeFilterCount(f: PaperFilters): number {
   return (
-    (f.maxAgeDays > 0 ? 1 : 0) + (f.journals.length ? 1 : 0) + (f.sources.length ? 1 : 0) +
+    (f.maxAgeDays > 0 ? 1 : 0) + (f.journals.length ? 1 : 0) + (f.quartiles.length ? 1 : 0) + (f.sources.length ? 1 : 0) +
     (f.documentTypes.length ? 1 : 0) + (f.openAccessOnly ? 1 : 0) + (f.followedJournalsOnly ? 1 : 0) +
     (f.minCitations > 0 ? 1 : 0) + (f.minRelevance > 0 ? 1 : 0)
   );

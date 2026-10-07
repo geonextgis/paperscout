@@ -2,7 +2,7 @@
  * Literature pipeline — run by `.github/workflows/update-papers.yml` once a day
  * (or locally with `npm run fetch-papers`).
  *
- *   query sources → normalize → deduplicate/merge → enrich → prune → write JSON
+ *   query sources → normalize → deduplicate/merge → enrich → prune → rank journals → write JSON
  *
  * This is the ONLY place credentials are read. They come from the environment
  * (GitHub Actions secrets, or a local git-ignored `.env`) and are handed to the
@@ -14,9 +14,10 @@ import { fileURLToPath } from 'node:url';
 import type { CatalogueMeta, JournalInfo, Paper, SourceRunStatus } from '../src/types/paper';
 import { SOURCE_LABELS } from '../src/types/paper';
 import {
-  ArxivSource, CrossrefSource, SemanticScholarSource, WebOfScienceSource,
+  ArxivSource, CrossrefSource, SemanticScholarSource,
   type FetchRequest, type JournalQuery, type Logger, type PaperSource,
 } from '../src/services/sources';
+import { rankJournals } from '../src/services/journalRanking';
 import { deduplicate } from '../src/utils/deduplicate';
 import { dateToTime, journalKey } from '../src/utils/normalize';
 
@@ -129,11 +130,6 @@ async function main(): Promise<void> {
 
   const semanticScholar = new SemanticScholarSource({ apiKey: env.SEMANTIC_SCHOLAR_API_KEY });
   const sources: PaperSource[] = [
-    new WebOfScienceSource({
-      apiKey: env.WOS_API_KEY,
-      maxRequests: Number(env.WOS_MAX_REQUESTS) || undefined,
-      requestsPerSecond: Number(env.WOS_REQUESTS_PER_SECOND) || undefined,
-    }),
     new CrossrefSource({ mailto: env.CROSSREF_MAILTO }),
     semanticScholar,
     new ArxivSource(),
@@ -158,8 +154,8 @@ async function main(): Promise<void> {
   let papers = deduplicate([...existing, ...fetched]);
   log.info(`catalogue: ${existing.length} existing + ${fetched.length} fetched → ${papers.length} unique`);
 
-  // Enrichment: fill missing abstracts (WoS Starter has none, Crossref often
-  // lacks them) from Semantic Scholar, newest papers first.
+  // Enrichment: fill missing abstracts (Crossref often lacks them) from
+  // Semantic Scholar, newest papers first.
   const needy = papers
     .filter((p) => p.doi && !p.abstract && !p.doi.startsWith('10.48550/'))
     .sort((a, b) => paperTime(b) - paperTime(a))
@@ -194,7 +190,23 @@ async function main(): Promise<void> {
     return;
   }
 
-  const journals = buildJournals(papers, config.journals);
+  let journals = buildJournals(papers, config.journals);
+  let rankedCount: number;
+  try {
+    const result = await rankJournals(journals, { apiKey: env.OPENALEX_API_KEY, mailto: env.CROSSREF_MAILTO }, log);
+    journals = result.journals;
+    rankedCount = result.ranked;
+    log.info(`journal ranking: ${rankedCount} of ${journals.length} journals ranked in ${result.requests} OpenAlex requests`);
+  } catch (error) {
+    // Rankings change slowly, so yesterday's are a fine substitute.
+    log.warn(`journal ranking failed — keeping the previous rankings. ${(error as Error).message}`);
+    const previous = new Map(readJson<JournalInfo[]>(resolve(DATA_DIR, 'journals.json'), []).map((j) => [journalKey(j.name), j]));
+    journals = journals.map((j) => {
+      const { quartile, impact, field } = previous.get(journalKey(j.name)) ?? {};
+      return quartile ? { ...j, quartile, impact, field } : j;
+    });
+    rankedCount = journals.filter((j) => j.quartile).length;
+  }
   const meta: CatalogueMeta = {
     updatedAt: now.toISOString(),
     paperCount: papers.length,
@@ -218,7 +230,7 @@ async function main(): Promise<void> {
       .join('\n');
     appendFileSync(
       env.GITHUB_STEP_SUMMARY,
-      `## PaperScout catalogue update\n\n**${papers.length}** papers · **${journals.length}** journals · ${withAbstract} abstracts\n\n` +
+      `## PaperScout catalogue update\n\n**${papers.length}** papers · **${journals.length}** journals (${rankedCount} ranked Q1–Q4) · ${withAbstract} abstracts\n\n` +
         `| Source | Status | Records | Requests | Notes |\n|---|---|---|---|---|\n${rows}\n`,
     );
   }

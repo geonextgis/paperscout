@@ -69,7 +69,7 @@ export function cleanIssn(issn: string | undefined | null): string | undefined {
   return raw.length === 8 ? `${raw.slice(0, 4)}-${raw.slice(4)}` : undefined;
 }
 
-/** WoS returns titles and journals in ALL CAPS for some records — make them readable. */
+/** Some records carry titles and journal names in ALL CAPS — make them readable. */
 export function fixAllCaps(text: string): string {
   const letters = text.replace(/[^A-Za-z]/g, '');
   if (letters.length < 6 || letters !== letters.toUpperCase()) return text;
@@ -143,10 +143,9 @@ export function hash(text: string): string {
   return (h >>> 0).toString(36);
 }
 
-export function makePaperId(p: Pick<Paper, 'doi' | 'arxivId' | 'webOfScienceId' | 'semanticScholarId' | 'title' | 'year'>): string {
+export function makePaperId(p: Pick<Paper, 'doi' | 'arxivId' | 'semanticScholarId' | 'title' | 'year'>): string {
   if (p.doi) return `doi:${p.doi}`;
   if (p.arxivId) return `arxiv:${p.arxivId}`;
-  if (p.webOfScienceId) return `wos:${p.webOfScienceId.replace(/^WOS:/i, '')}`;
   if (p.semanticScholarId) return `s2:${p.semanticScholarId}`;
   return `title:${hash(titleKey(p.title) + (p.year ?? ''))}`;
 }

@@ -1,9 +1,11 @@
 import { memo, useState } from 'react';
 import type { ScoredPaper } from '../recommendation';
+import { useLibrary } from '../store/LibraryContext';
 import { useProfile } from '../store/ProfileContext';
 import { useSelection } from '../store/SelectionContext';
 import { DOCUMENT_TYPE_LABELS, SOURCE_LABELS } from '../types/paper';
 import { formatAuthors, formatDate } from '../utils/format';
+import { QuartileBadge } from './QuartileBadge';
 
 interface Props {
   item: ScoredPaper;
@@ -20,6 +22,7 @@ function scoreTier(score: number): string {
 function PaperCardImpl({ item, showScore = true, note }: Props) {
   const { paper, score, reasons, matchedTopics, breakdown } = item;
   const profile = useProfile();
+  const { journalOf } = useLibrary();
   const selection = useSelection();
   const [showAbstract, setShowAbstract] = useState(false);
   const [showWhy, setShowWhy] = useState(false);
@@ -75,6 +78,7 @@ function PaperCardImpl({ item, showScore = true, note }: Props) {
               {following && '★ '}{paper.journal}
             </span>
           )}
+          <QuartileBadge journal={journalOf(paper)} />
           <span>{formatDate(paper.publicationDate)}</span>
           {paper.documentType && paper.documentType !== 'article' && <span className="tag">{DOCUMENT_TYPE_LABELS[paper.documentType]}</span>}
           {paper.openAccess && <span className="tag tag-oa">Open access</span>}
@@ -130,9 +134,6 @@ function PaperCardImpl({ item, showScore = true, note }: Props) {
           )}
           {paper.url && paper.url !== doiUrl && !paper.arxivId && (
             <a className="btn btn-small" href={paper.url} target="_blank" rel="noopener noreferrer">Publisher</a>
-          )}
-          {paper.webOfScienceUrl && (
-            <a className="btn btn-small" href={paper.webOfScienceUrl} target="_blank" rel="noopener noreferrer">Web of Science</a>
           )}
           {paper.semanticScholarId && (
             <a className="btn btn-small" href={`https://www.semanticscholar.org/paper/${paper.semanticScholarId}`} target="_blank" rel="noopener noreferrer">

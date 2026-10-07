@@ -19,7 +19,7 @@ const FIELDS: { value: SearchField; label: string }[] = [
 ];
 
 export function SearchPage() {
-  const { papers, score, now } = useLibrary();
+  const { papers, score, now, journalOf } = useLibrary();
   const { profile } = useProfile();
   const [params, setParams] = useSearchParams();
   const query = params.get('q') ?? '';
@@ -46,12 +46,12 @@ export function SearchPage() {
     const filtered = applyFilters(
       matched.map((m) => score(m.paper)),
       { ...filters, sort: sort === 'match' ? 'relevance' : sort },
-      { now, isFollowed: journalMatcher(profile.journals) },
+      { now, isFollowed: journalMatcher(profile.journals), quartileOf: (p) => journalOf(p)?.quartile },
     );
     if (sort === 'match' && terms.length)
       filtered.sort((a, b) => matchScore.get(b.paper.id)! - matchScore.get(a.paper.id)! || b.score - a.score);
     return filtered;
-  }, [pool, query, field, filters, sort, score, now, profile.journals]);
+  }, [pool, query, field, filters, sort, score, now, profile.journals, journalOf]);
 
   const submit = (q: string, f: SearchField) => {
     setLive(null);

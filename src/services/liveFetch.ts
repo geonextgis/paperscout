@@ -5,8 +5,7 @@
  * `config/pipeline.config.json`. When a visitor follows other journals or
  * topics, this fetches recent matching papers straight from Crossref (public,
  * key-less, CORS-enabled) — only when the user clicks the button, and the
- * result is cached in their profile. Web of Science is never called from the
- * browser.
+ * result is cached in their profile.
  */
 import type { Paper } from '../types/paper';
 import type { UserProfile } from '../types/profile';

@@ -33,11 +33,9 @@ jobs:
         env:
           # Secrets exist only inside this job. They are never written to the
           # generated data and never reach the browser bundle.
-          WOS_API_KEY: ${{ secrets.WOS_API_KEY }}
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
-          WOS_MAX_REQUESTS: ${{ vars.WOS_MAX_REQUESTS }}
-          WOS_REQUESTS_PER_SECOND: ${{ vars.WOS_REQUESTS_PER_SECOND }}
 
       - name: Commit catalogue
         id: commit

@@ -1,7 +1,7 @@
 /**
  * Deduplicate and merge records that describe the same paper.
  *
- * Two records are the same paper when they share a DOI, arXiv id, WoS UID or
+ * Two records are the same paper when they share a DOI, arXiv id or
  * Semantic Scholar id — or when they have the same normalized title and a
  * compatible first author (catches preprint ↔ journal version and DOI-less
  * records). Merging keeps the best value per field rather than one whole record.
@@ -10,7 +10,7 @@ import type { Paper, SourceId } from '../types/paper';
 import { makePaperId, titleKey } from './normalize';
 
 /** Which source to trust for bibliographic fields, best first. */
-const BIBLIO_PRIORITY: SourceId[] = ['crossref', 'wos', 'semanticscholar', 'arxiv'];
+const BIBLIO_PRIORITY: SourceId[] = ['crossref', 'semanticscholar', 'arxiv'];
 
 const ARXIV_DOI = /^10\.48550\//;
 
@@ -52,7 +52,6 @@ export function mergePapers(a: Paper, b: Paper): Paper {
     (s.publicationDate?.length ?? 0) > (p.publicationDate?.length ?? 0) && (!p.year || s.year === p.year)
       ? s.publicationDate
       : (p.publicationDate ?? s.publicationDate);
-  const wos = [p, s].find((x) => x.sources.includes('wos'));
 
   const merged: Paper = {
     ...s,
@@ -68,18 +67,14 @@ export function mergePapers(a: Paper, b: Paper): Paper {
     url: p.url ?? s.url,
     pdfUrl: p.pdfUrl ?? s.pdfUrl,
     openAccess: p.openAccess || s.openAccess || undefined,
-    // Web of Science counts are curated; otherwise take the larger number.
     citationCount:
-      wos?.citationCount ??
-      (p.citationCount !== undefined || s.citationCount !== undefined
+      p.citationCount !== undefined || s.citationCount !== undefined
         ? Math.max(p.citationCount ?? 0, s.citationCount ?? 0)
-        : undefined),
+        : undefined,
     keywords: union(p.keywords, s.keywords, (k) => k.toLowerCase()),
     fieldsOfStudy: union(p.fieldsOfStudy, s.fieldsOfStudy, (k) => k.toLowerCase()),
     issn: union(p.issn, s.issn, (k) => k),
     sources: union(p.sources, s.sources, (k) => k) ?? [],
-    webOfScienceId: p.webOfScienceId ?? s.webOfScienceId,
-    webOfScienceUrl: p.webOfScienceUrl ?? s.webOfScienceUrl,
     semanticScholarId: p.semanticScholarId ?? s.semanticScholarId,
     arxivId: p.arxivId ?? s.arxivId,
     firstSeen: [p.firstSeen, s.firstSeen].filter(Boolean).sort()[0],
@@ -101,7 +96,6 @@ export function deduplicate(papers: Paper[]): Paper[] {
     const keys: string[] = [];
     if (p.doi) keys.push(`doi:${p.doi}`);
     if (p.arxivId) keys.push(`arxiv:${p.arxivId}`);
-    if (p.webOfScienceId) keys.push(`wos:${p.webOfScienceId}`);
     if (p.semanticScholarId) keys.push(`s2:${p.semanticScholarId}`);
     return keys;
   };

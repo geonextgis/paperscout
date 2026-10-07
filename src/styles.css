@@ -158,6 +158,10 @@ input[type='range'] { width: 100%; accent-color: var(--accent); }
 .card-note { font-size: 0.86rem; color: var(--accent-ink); }
 .tag { display: inline-block; padding: 0 7px; border-radius: 5px; background: var(--surface-2); color: var(--muted); font-size: 0.76rem; font-style: normal; font-weight: 500; line-height: 1.7; }
 .tag-oa { color: var(--oa); background: color-mix(in srgb, var(--oa) 13%, transparent); }
+.quartile { font-weight: 700; cursor: help; }
+.quartile-1 { color: var(--high); background: color-mix(in srgb, var(--high) 14%, transparent); }
+.quartile-2 { color: var(--accent-ink); background: var(--accent-soft); }
+.quartile-3 { color: var(--mid); background: color-mix(in srgb, var(--mid) 14%, transparent); }
 .keywords { display: flex; flex-wrap: wrap; gap: 5px; }
 
 .score { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 50%; border: 3px solid currentColor; background: none; cursor: pointer; font: inherit; line-height: 1.05; padding: 0; }

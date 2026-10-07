@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-06T11:20:10.901Z",
-  "paperCount": 3601,
-  "journalCount": 866,
+  "updatedAt": "2026-10-07T09:23:46.395Z",
+  "paperCount": 4062,
+  "journalCount": 838,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -17,28 +17,22 @@
   ],
   "sources": [
     {
-      "source": "wos",
-      "status": "skipped",
-      "fetched": 0,
-      "requests": 0,
-      "message": "Set the WOS_API_KEY repository secret (Web of Science Starter API key) to enable Web of Science."
-    },
-    {
       "source": "crossref",
       "status": "ok",
-      "fetched": 1996,
-      "requests": 22
+      "fetched": 2535,
+      "requests": 25
     },
     {
       "source": "semanticscholar",
-      "status": "ok",
-      "fetched": 914,
-      "requests": 13
+      "status": "partial",
+      "fetched": 516,
+      "requests": 13,
+      "message": "semanticscholar: topic \"remote sensing\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=remote+sensing&publicationDateOrYear=2026-09-07%3A&fields=title%2Cabstract%2Cauthors%2Cvenue%2C — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: topic \"yield forecasting\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=yield+forecasting&publicationDateOrYear=2026-09-07%3A&fields=title%2Cabstract%2Cauthors%2Cvenue — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: topic \"process-based modelling\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=process-based+modelling&publicationDateOrYear=2026-09-07%3A&fields=title%2Cabstract%2Cauthors%2 — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 604,
+      "fetched": 615,
       "requests": 10
     }
   ]

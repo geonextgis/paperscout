@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { parseArxivFeed, topicToArxivQuery } from '../src/services/sources/arxiv';
 import { normalizeCrossrefWork } from '../src/services/sources/crossref';
 import { normalizeS2Paper } from '../src/services/sources/semanticScholar';
-import { journalsToWosQueries, normalizeWosDocument, topicToWosQuery, WebOfScienceSource } from '../src/services/sources/webOfScience';
+import { quartileFor } from '../src/services/journalRanking';
 import type { Paper } from '../src/types/paper';
 import { deduplicate } from '../src/utils/deduplicate';
 import { cleanDoi, cleanText, fixAllCaps, isoDate, parseAuthorName, titleKey } from '../src/utils/normalize';
@@ -33,35 +33,6 @@ describe('normalize helpers', () => {
 });
 
 describe('source normalization', () => {
-  it('normalizes Web of Science Starter documents', () => {
-    const p = normalizeWosDocument({
-      uid: 'WOS:001',
-      title: 'Crop yield forecasting with Sentinel-2',
-      types: ['Article'],
-      source: { sourceTitle: 'FIELD CROPS RESEARCH', publishYear: 2026, publishMonth: 'SEP 15', volume: '12', pages: { range: '1-9' } },
-      names: { authors: [{ displayName: 'Smith, Jane' }, { displayName: 'Doe, John' }] },
-      links: { record: 'https://www.webofscience.com/wos/woscc/full-record/WOS:001' },
-      citations: [{ db: 'WOS', count: 7 }],
-      identifiers: { doi: '10.1000/ABC', issn: '0378-4290' },
-      keywords: { authorKeywords: ['yield', 'Sentinel-2'] },
-    })!;
-    expect(p).toMatchObject({
-      id: 'doi:10.1000/abc', journal: 'Field Crops Research', publicationDate: '2026-09-15', citationCount: 7,
-      webOfScienceId: 'WOS:001', sources: ['wos'], documentType: 'article', issn: ['0378-4290'],
-    });
-    expect(p.authors[0]).toMatchObject({ family: 'Smith', given: 'Jane' });
-    expect(p.webOfScienceUrl).toContain('webofscience.com');
-  });
-  it('builds Web of Science queries', () => {
-    expect(topicToWosQuery('crop modelling (APSIM)')).toBe('TS=(crop modelling APSIM)');
-    expect(topicToWosQuery('soil AND water')).toBe('TS=(soil water)');
-    expect(journalsToWosQueries([{ name: 'A', issn: ['0034-4257'] }, { name: 'B', issn: ['0378-4290'] }])).toEqual(['IS=(0034-4257 OR 0378-4290)']);
-  });
-  it('reports Web of Science as unconfigured without a key', () => {
-    expect(new WebOfScienceSource({}).isConfigured()).toBe(false);
-    expect(new WebOfScienceSource({ apiKey: '  ' }).isConfigured()).toBe(false);
-    expect(new WebOfScienceSource({ apiKey: 'k' }).isConfigured()).toBe(true);
-  });
   it('normalizes Crossref works and uses the registration date for future issue dates', () => {
     const p = normalizeCrossrefWork({
       DOI: '10.1016/J.X.2026.1', title: ['A <i>title</i>'], type: 'journal-article',
@@ -97,6 +68,15 @@ describe('source normalization', () => {
   });
 });
 
+describe('journal ranking', () => {
+  it('assigns quartiles from field thresholds', () => {
+    const t: [number, number, number] = [2.6, 1.2, 0.4];
+    expect([11.7, 2.6, 2.59, 1.2, 0.4, 0.39, 0].map((v) => quartileFor(v, t))).toEqual([1, 1, 2, 2, 3, 4, 4]);
+    // A field whose bottom half is uncited: zero never ranks above Q4.
+    expect(quartileFor(0, [1, 0, 0])).toBe(4);
+  });
+});
+
 describe('deduplicate', () => {
   const base: Paper = {
     id: 'doi:10.1/a', title: 'Differentiable crop models for seasonal yield prediction', doi: '10.1/a', year: 2026,
@@ -105,15 +85,15 @@ describe('deduplicate', () => {
   };
   it('merges records sharing a DOI and keeps the best of each field', () => {
     const s2: Paper = { ...base, sources: ['semanticscholar'], abstract: 'A'.repeat(80), citationCount: 4, semanticScholarId: 's2', publicationDate: '2026-10-03', firstSeen: '2026-10-04T00:00:00Z' };
-    const wos: Paper = { ...base, sources: ['wos'], citationCount: 2, webOfScienceId: 'WOS:1', keywords: ['yield'] };
-    const [m, ...rest] = deduplicate([base, s2, wos]);
+    const arxiv: Paper = { ...base, sources: ['arxiv'], citationCount: 2, arxivId: '2610.1', keywords: ['yield'] };
+    const [m, ...rest] = deduplicate([base, s2, arxiv]);
     expect(rest).toHaveLength(0);
-    expect(m.sources.sort()).toEqual(['crossref', 'semanticscholar', 'wos']);
+    expect(m.sources.sort()).toEqual(['arxiv', 'crossref', 'semanticscholar']);
     expect(m.abstract).toHaveLength(80);
-    expect(m.citationCount).toBe(2); // Web of Science count wins
+    expect(m.citationCount).toBe(4); // largest count
     expect(m.publicationDate).toBe('2026-10-03'); // most precise
     expect(m.firstSeen).toBe('2026-10-01T00:00:00Z');
-    expect(m).toMatchObject({ webOfScienceId: 'WOS:1', semanticScholarId: 's2', keywords: ['yield'] });
+    expect(m).toMatchObject({ arxivId: '2610.1', semanticScholarId: 's2', keywords: ['yield'] });
   });
   it('merges a preprint with its published version by title and prefers the publisher DOI', () => {
     const arxiv: Paper = { ...base, id: 'arxiv:2610.1', doi: '10.48550/arxiv.2610.1', arxivId: '2610.1', sources: ['arxiv'], journal: 'arXiv', documentType: 'preprint', abstract: 'B'.repeat(60) };

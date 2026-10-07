@@ -2,7 +2,7 @@
 
 A personalized feed of newly published scientific literature — hosted for free on GitHub Pages, updated every day by GitHub Actions.
 
-Tell PaperScout your **research topics**, **preferred journals**, **example papers** and **authors**; it ranks new papers from **Web of Science, Crossref, Semantic Scholar and arXiv** against that profile, explains every recommendation, and exports any selection to **BibTeX** (or RIS / CSV).
+Tell PaperScout your **research topics**, **preferred journals**, **example papers** and **authors**; it ranks new papers from **Crossref, Semantic Scholar and arXiv** against that profile, explains every recommendation, and exports any selection to **BibTeX** (or RIS / CSV).
 
 - No server, no database, no paid APIs.
 - API keys live only in GitHub Secrets and are used only inside GitHub Actions.
@@ -22,8 +22,8 @@ Tell PaperScout your **research topics**, **preferred journals**, **example pape
 
 - **Onboarding** — topics (suggested or free text), journals (search any journal via Crossref), example papers (by DOI, title or from the feed), authors.
 - **For You dashboard** — Highly relevant · For you · New this week · From journals you follow · Trending · Related to saved papers.
-- **Paper cards** — title, authors, journal, date, abstract, DOI, open-access/PDF link, Web of Science / Semantic Scholar / arXiv links, citations, source databases, match %, and the reasons behind the score with a per-signal breakdown.
-- **Search** — title, keyword/topic, author, journal, DOI; quoted phrases; filters for date, journal, source, open access, document type, citations, relevance; sort by best match, relevance, newest or citations. One click extends a search to all of Crossref.
+- **Paper cards** — title, authors, journal, date, abstract, DOI, open-access/PDF link, Semantic Scholar / arXiv links, journal ranking (Q1–Q4), citations, source databases, match %, and the reasons behind the score with a per-signal breakdown.
+- **Search** — title, keyword/topic, author, journal, DOI; quoted phrases; filters for date, journal, journal ranking, source, open access, document type, citations, relevance; sort by best match, relevance, newest or citations. One click extends a search to all of Crossref.
 - **Selection** — checkboxes, select visible, select all, clear, a selection bar that follows you across pages.
 - **Export** — BibTeX, RIS, CSV, generated and downloaded in the browser.
 - **Saved papers**, **dismissed papers**, remembered filters, adjustable ranking weights, light/dark theme, profile backup/restore.
@@ -31,10 +31,10 @@ Tell PaperScout your **research topics**, **preferred journals**, **example pape
 ## Architecture
 
 ```text
-Web of Science ┐
-Crossref ──────┤  GitHub Actions (daily)                         GitHub Pages
+Crossref ──────┐  GitHub Actions (daily)                         GitHub Pages
 Semantic Sch. ─┼─▶ fetch → normalize → dedupe/merge → enrich ─▶ public/data/*.json ─▶ React app
-arXiv ─────────┘  (secrets from GitHub Secrets)                  (static)            ranks in the browser
+arXiv ─────────┤  (secrets from GitHub Secrets)                  (static)            ranks in the browser
+OpenAlex ──────┘  (journal rankings)
 ```
 
 The pipeline builds one shared catalogue of recent papers; each visitor's browser scores it against their own profile.
@@ -67,7 +67,7 @@ tests/
 
 The site is published at `https://<user>.github.io/<repository>/`. No base-path configuration is needed.
 
-> The repository ships with a real catalogue generated on 2026-10-04 (Crossref, Semantic Scholar and arXiv), so the
+> The repository ships with a real catalogue generated on 2026-10-07 (Crossref, Semantic Scholar and arXiv, rankings from OpenAlex), so the
 > site works immediately after the first deploy.
 
 ## Local installation and development
@@ -117,7 +117,7 @@ GitHub pauses scheduled workflows in repositories with no activity for 60 days; 
 | Key | Meaning |
 |---|---|
 | `topics` | Free-text queries sent to every source. |
-| `journals` | `{ name, issn[] }` — all recent papers of these journals are fetched (Crossref and Web of Science). |
+| `journals` | `{ name, issn[] }` — all recent papers of these journals are fetched from Crossref. |
 | `lookbackDays` | How far back each run asks for papers (default 30; overlap between runs is deduplicated). |
 | `retentionDays`, `maxPapers` | Size of the rolling catalogue (defaults 90 days / 5,000 papers ≈ 2 MB gzipped). |
 | `maxPerQuery` | Records per topic query (journals get 4×). |
@@ -132,53 +132,33 @@ Set these under *Settings → Secrets and variables → Actions*. **All are opti
 
 | Name | Kind | Purpose |
 |---|---|---|
-| `WOS_API_KEY` | **Secret** | Web of Science Starter API key. Without it, Web of Science is skipped. |
 | `SEMANTIC_SCHOLAR_API_KEY` | **Secret** | Dedicated Semantic Scholar rate limit. Without it, the shared public pool is used. |
-| `CROSSREF_MAILTO` | Variable | Contact email for Crossref's faster "polite pool". |
-| `WOS_MAX_REQUESTS` | Variable | Web of Science requests per run (default `40`). |
-| `WOS_REQUESTS_PER_SECOND` | Variable | Web of Science rate (default `1`). |
+| `OPENALEX_API_KEY` | **Secret** | OpenAlex key for the journal rankings. Without it, key-less access is used. |
+| `CROSSREF_MAILTO` | Variable | Contact email for the faster "polite pools" of Crossref and OpenAlex. |
 
 Security model:
 
 - Keys are read in exactly one file, [`scripts/fetch-papers.ts`](scripts/fetch-papers.ts), which runs only in GitHub Actions or on your machine.
-- The Web of Science key is sent as an HTTP header, never in a URL, and never logged or written to generated data.
-- The browser bundle does not contain the Web of Science client at all.
+- Keys are never written to generated data, and are redacted from logged URLs.
 - `.env` is git-ignored; [`.env.example`](.env.example) documents every variable.
 
-### Web of Science setup
+### Journal ranking (Q1–Q4)
 
-PaperScout uses the official **[Web of Science Starter API](https://developer.clarivate.com/apis/wos-starter)**.
+Each journal in the catalogue gets a quartile, shown as a badge on paper cards and in the journal picker, and usable
+as a filter (*Filters → Journal ranking*).
 
-1. Create an account at <https://developer.clarivate.com>, register an application, and subscribe it to *Web of Science Starter API*.
-   The **Free Trial** plan needs no institutional subscription; the **Institutional** plans require that your organization
-   subscribes to Web of Science and are approved by Clarivate.
-2. Copy the API key into the repository secret `WOS_API_KEY`.
-3. If you are on an institutional plan, raise the variables `WOS_MAX_REQUESTS` (e.g. `500`) and `WOS_REQUESTS_PER_SECOND` (`5`).
+The official quartiles (Clarivate JCR, Scimago SJR) cannot be fetched through an open API, so PaperScout estimates
+them the same way from [OpenAlex](https://openalex.org) data during the daily pipeline run
+([`src/services/journalRanking.ts`](src/services/journalRanking.ts)):
 
-| Plan | Requests/day | Requests/second | Times cited |
-|---|---|---|---|
-| Free Trial | 50 | 1 | no |
-| Institutional Member | 5,000 | 5 | yes |
-| Institutional Integration | 20,000 | 5 | yes |
+1. The journal's **2-year mean citedness** (OpenAlex's impact-factor equivalent) is looked up by ISSN.
+2. It is compared with all established, currently cited journals of the journal's **main subject field**
+   (26 fields; "established" = CWTS core sources). Q1 = top 25% of the field, Q4 = bottom 25%.
+3. Multidisciplinary journals, where no field covers a third of the papers, are compared with all journals instead.
 
-*(Limits as published by Clarivate; check the developer portal for current values.)*
-
-How the integration behaves:
-
-- Pagination at the API maximum of 50 records per page; queries are served breadth-first so a small budget covers every topic and journal group.
-- Tracked journals are combined into `IS=(issn OR issn …)` queries — a dozen journals cost one request per page.
-- Self-imposed rate limit and request budget; retries with backoff on transient errors.
-- A rejected key (401/403) or exhausted quota (429) stops Web of Science with a clear message; the other sources continue and the site keeps working.
-- Records are normalized into the common schema with their WoS accession number and a link to the full record.
-
-**Limitations imposed by the Starter API licence** (documented rather than worked around): no abstracts, no cited
-references, and citation counts only on institutional plans. PaperScout fills abstracts from Crossref/Semantic
-Scholar/arXiv when the same paper is found there. The *Web of Science Expanded API* provides abstracts and references
-but requires a separate paid subscription; it can be added as another source. PaperScout never scrapes Web of Science pages.
-
-> The Web of Science client was written against Clarivate's published OpenAPI specification and is covered by unit
-> tests for query building and record normalization, but it has **not been exercised against the live API** because
-> no key was available during development. Check the first workflow run after adding your key.
+Hover a badge to see the field and the citedness value. Expect agreement with JCR/SJR for most journals and a
+one-quartile difference for some near a boundary; treat it as a guide, not as the figure to cite in an evaluation.
+No key is needed (about 100 requests per run). If OpenAlex is unreachable the previous rankings are kept.
 
 ### Crossref setup
 
@@ -257,14 +237,17 @@ RIS (Zotero, Mendeley, EndNote) and CSV are available from the same places.
 - **Shared catalogue.** The daily catalogue covers the topics and journals in `config/pipeline.config.json`. Visitors
   with other interests can use *Settings → Fetch papers for my profile* (live Crossref) or fork the repository.
 - **Abstract coverage.** Some publishers do not deposit abstracts with Crossref or licence them to Semantic Scholar,
-  and the Web of Science Starter API has none. Papers without an abstract are ranked on title, keywords and journal only.
+  Papers without an abstract are ranked on title, keywords and journal only.
 - **Example papers** influence ranking through text, authors and journal. Reference/citation-graph similarity is not
   used: none of the free APIs provides it within their rate limits.
 - **Publication dates.** Journals often register a future issue date; PaperScout shows the date a paper became available instead.
 - **Lexical matching.** Synonyms that share no words (e.g. "earth observation" vs "remote sensing") are not connected until embeddings are added.
 - **localStorage only.** No sync between browsers or devices (use *Export profile / Import profile*). Clearing site data deletes the profile.
 - **Trending** is based on citation counts, which are near zero for brand-new papers.
-- **Web of Science** live behaviour is untested without a key (see above).
+- **Journal ranking is an estimate.** Q1–Q4 are computed from open OpenAlex data, not taken from JCR or SJR (see
+  [Journal ranking](#journal-ranking-q1q4)). Conferences, preprint servers and journals without an ISSN are unranked.
+- **No Web of Science.** It was removed: the Starter API needs a key, returns no abstracts, and the same papers
+  arrive through Crossref and Semantic Scholar. A `PaperSource` for it can be added back if you have a subscription.
 
 ## Roadmap
 
@@ -276,7 +259,6 @@ The code is structured so these can be added without rewrites (see ARCHITECTURE.
 - Citation alerts, email alerts, weekly digest (scheduled workflow + mail provider)
 - AI paper summaries
 - OpenAlex as a further source (better abstract coverage)
-- Web of Science Expanded API (abstracts, references)
 - Zotero integration, Mendeley export
 - Research groups and collaborative reading lists
 

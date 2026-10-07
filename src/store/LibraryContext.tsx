@@ -3,7 +3,7 @@ import { createRanker, TfidfSimilarity, type Ranker, type ScoredPaper } from '..
 import { loadCatalogue, type Catalogue } from '../services/catalogue';
 import type { CatalogueMeta, JournalInfo, Paper } from '../types/paper';
 import { deduplicate } from '../utils/deduplicate';
-import { dateToTime } from '../utils/normalize';
+import { dateToTime, journalKey } from '../utils/normalize';
 import { useProfile } from './ProfileContext';
 
 interface LibraryApi {
@@ -11,6 +11,8 @@ interface LibraryApi {
   error: string | null;
   meta: CatalogueMeta | null;
   journals: JournalInfo[];
+  /** Catalogue entry (ranking, publisher…) of the journal a paper appeared in. */
+  journalOf(paper: Paper): JournalInfo | undefined;
   /** Catalogue + the user's on-demand Crossref supplement, deduplicated. */
   papers: Paper[];
   /** Every non-dismissed paper, scored against the profile, best first. */
@@ -73,16 +75,25 @@ export function LibraryProvider({ children }: { children: ReactNode }) {
     return ranked.filter((s) => !dismissed.has(s.paper.id));
   }, [ranked, profile.dismissedIds]);
 
+  const journalOf = useMemo(() => {
+    const index = new Map<string, JournalInfo>();
+    for (const j of catalogue.journals) {
+      index.set(journalKey(j.name), j);
+      for (const issn of j.issn ?? []) index.set(issn, j);
+    }
+    return (paper: Paper) => paper.issn?.map((i) => index.get(i)).find(Boolean) ?? index.get(journalKey(paper.journal));
+  }, [catalogue.journals]);
+
   const api = useMemo<LibraryApi>(() => {
     const byId = new Map(ranked.map((s) => [s.paper.id, s]));
     return {
-      loading, error, papers, scored, ranker, now,
+      loading, error, papers, scored, ranker, now, journalOf,
       meta: catalogue.meta,
       journals: catalogue.journals,
       score: (paper) => byId.get(paper.id) ?? ranker.score(paper),
       personalized: topics.length + journals.length + authors.length + examplePapers.length > 0,
     };
-  }, [loading, error, papers, scored, ranked, ranker, now, catalogue, topics, journals, authors, examplePapers]);
+  }, [loading, error, papers, scored, ranked, ranker, now, catalogue, journalOf, topics, journals, authors, examplePapers]);
 
   return <LibraryContext.Provider value={api}>{children}</LibraryContext.Provider>;
 }

@@ -1,4 +1,4 @@
-import type { DocumentType, Paper, SourceId } from './paper';
+import type { DocumentType, Paper, Quartile, SourceId } from './paper';
 
 export interface FollowedJournal {
   name: string;
@@ -11,6 +11,8 @@ export interface PaperFilters {
   /** Only papers published within the last N days. 0 = any time. */
   maxAgeDays: number;
   journals: string[];
+  /** Journal ranking quartiles to keep. Empty = any, including unranked journals. */
+  quartiles: Quartile[];
   sources: SourceId[];
   documentTypes: DocumentType[];
   openAccessOnly: boolean;
@@ -24,6 +26,7 @@ export interface PaperFilters {
 export const DEFAULT_FILTERS: PaperFilters = {
   maxAgeDays: 0,
   journals: [],
+  quartiles: [],
   sources: [],
   documentTypes: [],
   openAccessOnly: false,

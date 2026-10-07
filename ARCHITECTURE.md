@@ -4,10 +4,10 @@ PaperScout is a personalized literature feed that runs without a server:
 
 ```text
                     ┌──────────────── GitHub Actions (daily) ────────────────┐
- Web of Science ──▶ │                                                        │
  Crossref ────────▶ │  fetch → normalize → deduplicate/merge → enrich → prune │──▶ public/data/*.json
  Semantic Scholar ▶ │        (scripts/fetch-papers.ts, secrets from env)      │        (committed)
  arXiv ───────────▶ │                                                        │            │
+ OpenAlex ────────▶ │  journal rankings (Q1–Q4)                               │            │
                     └────────────────────────────────────────────────────────┘            ▼
                                                                               GitHub Pages (static build)
                                                                                            │
@@ -23,7 +23,7 @@ PaperScout is a personalized literature feed that runs without a server:
 |---|---|
 | **Static site + scheduled pipeline** | Free to host, nothing to operate, trivially forkable. The catalogue is built once a day, so opening the site costs one JSON download and zero API calls. |
 | **Ranking happens in the browser** | The catalogue is shared by all visitors; the profile is private. Scoring client-side means no accounts, no backend and no profile data leaving the device. |
-| **Credentials only in the pipeline** | `scripts/fetch-papers.ts` is the single place that reads `process.env`. Source clients receive keys through their constructor. The frontend never imports the Web of Science client (verified: the production bundle contains no reference to it). |
+| **Credentials only in the pipeline** | `scripts/fetch-papers.ts` is the single place that reads `process.env`. Source clients receive keys through their constructor. No client that needs a secret is imported by the frontend. |
 | **One `Paper` schema** | Every source is normalized at the edge (`src/services/sources/*`). Ranking, UI and exporters never branch on the origin of a record. |
 | **Rolling catalogue** | The pipeline keeps a window (`retentionDays`, `maxPapers`) so the JSON stays small enough to load on a phone. Saved and example papers are stored *in full* in the profile, so they outlive the window. |
 | **`HashRouter` + `base: './'`** | The build works at any path (user site, project site, custom domain, fork with another name) with no configuration and no 404 rewrite trick. |
@@ -43,7 +43,8 @@ src/
   types/            paper.ts (common schema) · profile.ts (user profile, filters, weights)
   services/
     http.ts         fetch wrapper: rate limiter, timeout, retry/backoff, Retry-After
-    sources/        webOfScience.ts · crossref.ts · semanticScholar.ts · arxiv.ts · types.ts
+    sources/        crossref.ts · semanticScholar.ts · arxiv.ts · types.ts
+    journalRanking.ts  Q1–Q4 estimate from OpenAlex (pipeline only)
     catalogue.ts    loads public/data in the browser
     liveFetch.ts    optional, user-initiated Crossref supplement
   utils/            normalize.ts · deduplicate.ts · filter.ts (filters + search) · format.ts
@@ -58,11 +59,11 @@ tests/              vitest: exporters, normalization, deduplication, ranking, se
 ## Common metadata schema
 
 Defined in [`src/types/paper.ts`](src/types/paper.ts). Compared with the minimal schema in the brief it adds what
-the exporters and the UI need: `issn`, `publisher`, `volume`, `issue`, `pages`, `documentType`,
-`webOfScienceUrl` and `firstSeen` (when the pipeline first saw the record).
+the exporters and the UI need: `issn`, `publisher`, `volume`, `issue`, `pages`, `documentType`
+and `firstSeen` (when the pipeline first saw the record).
 
 Conventions: DOIs are lower-case without resolver prefix; dates are ISO and may be partial (`2026`, `2026-10`);
-`id` is derived from the best identifier (`doi:` → `arxiv:` → `wos:` → `s2:` → title hash); `sources` lists every
+`id` is derived from the best identifier (`doi:` → `arxiv:` → `s2:` → title hash); `sources` lists every
 database that returned the record.
 
 ## Source layer
@@ -79,7 +80,6 @@ interface PaperSource {
 
 | Source | What it contributes | Auth | Throttle |
 |---|---|---|---|
-| Web of Science Starter API | curated journal coverage, WoS UID + record link, author keywords, times cited (institutional plans) | `X-ApiKey` header | 1 req/s, request budget per run |
 | Crossref | everything recent from tracked journals (by ISSN) + most relevant recent works per topic | none (`mailto` for the polite pool) | ≥ 300 ms between calls |
 | Semantic Scholar | topic search, abstracts, citation counts, open-access PDFs; batch **enrichment** of DOIs that lack an abstract | optional `x-api-key` | 1.1 s with key, 3.5 s without |
 | arXiv | preprints per topic | none | 3.2 s between calls |
@@ -89,19 +89,9 @@ backoff and `Retry-After`; a failed query becomes a warning and the source conti
 `last_updated.json` and the others continue; only when *every* source fails does the run exit non-zero, leaving the
 previous catalogue untouched.
 
-### Web of Science specifics
-
-- Endpoint: `GET https://api.clarivate.com/apis/wos-starter/v1/documents` with `db`, `q`, `limit` (max 50), `page`,
-  `sortField=LD+D`, `publishTimeSpan=<from>+<to>`.
-- Queries: topics become `TS=(…)`; tracked journals are grouped into `IS=(issn OR issn …)` queries so many journals
-  cost one request.
-- Budget: the free plan allows 50 requests/day. The client walks all queries breadth-first (page 1 of each, then page 2 …)
-  and stops with a warning at `WOS_MAX_REQUESTS` (default 40), so a small budget still covers every query.
-- 401/403 (bad key / no entitlement) and 429 (quota) abort the source with an actionable message.
-- Licensing limits we respect instead of working around: the Starter API returns **no abstracts and no cited
-  references**, and times-cited only on institutional plans. Abstracts come from the other sources through the merge.
-  The Expanded API would lift this but requires a paid subscription; adding it means one more `PaperSource`.
-- No scraping of Web of Science pages anywhere.
+Web of Science was a source in the first version and was removed: without a key it was always skipped, the Starter
+API returns no abstracts, and its journal coverage is reached through Crossref. Adding it back means one more
+`PaperSource`.
 
 ## Pipeline
 
@@ -113,15 +103,28 @@ previous catalogue untouched.
 4. `deduplicate([...existing, ...fetched])` — see below.
 5. Enrich abstract-less DOIs through Semantic Scholar's batch endpoint (newest first, `enrichLimit` per run).
 6. Prune to `retentionDays` / `maxPapers`, sort newest first.
-7. Write `papers.json` (one record per line → small git diffs), `journals.json`, `last_updated.json`, and a job summary.
+7. Rank the journals (below); on failure the previous rankings are carried over.
+8. Write `papers.json` (one record per line → small git diffs), `journals.json`, `last_updated.json`, and a job summary.
 
 ### Deduplication and merging — [`src/utils/deduplicate.ts`](src/utils/deduplicate.ts)
 
-Records are the same paper when they share a DOI, arXiv id, WoS UID or Semantic Scholar id, or when they have the same
+Records are the same paper when they share a DOI, arXiv id or Semantic Scholar id, or when they have the same
 normalized title and a compatible first author and year (this joins a preprint with its published version). Two records
 with *different publisher DOIs* are never merged by title. Merging is field-wise: bibliographic fields from the most
-authoritative source (Crossref → WoS → Semantic Scholar → arXiv), the longest abstract, the most precise date, the
-publisher DOI over the arXiv DOI, WoS citation counts when present, and the union of keywords, ISSNs and sources.
+authoritative source (Crossref → Semantic Scholar → arXiv), the longest abstract, the most precise date, the
+publisher DOI over the arXiv DOI, the larger citation count, and the union of keywords, ISSNs and sources.
+
+### Journal ranking — [`src/services/journalRanking.ts`](src/services/journalRanking.ts)
+
+Quartiles are stored per journal in `journals.json` (`quartile`, `impact`, `field`), not per paper; the browser joins
+them through `useLibrary().journalOf(paper)` (ISSN first, then normalized name), so saved and live-fetched papers get
+a badge too when their journal is in the catalogue.
+
+JCR and SJR quartiles are not openly available, so the value is an estimate from OpenAlex: the journal's 2-year mean
+citedness placed among the CWTS-core journals with non-zero citedness that publish in its main field. Per run this
+costs one ISSN lookup per 50 journals, one `group_by` for the field sizes, three sorted single-row requests per field
+for the quartile boundaries, and one count request per multidisciplinary journal (largest field < ⅓ of its papers),
+which is ranked against the whole pool.
 
 ## Recommendation engine — [`src/recommendation/`](src/recommendation)
 
