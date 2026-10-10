@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-09T11:22:51.062Z",
-  "paperCount": 4853,
-  "journalCount": 1065,
+  "updatedAt": "2026-10-10T10:39:52.668Z",
+  "paperCount": 4999,
+  "journalCount": 1140,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,19 +19,20 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2647,
+      "fetched": 2657,
       "requests": 26
     },
     {
       "source": "semanticscholar",
-      "status": "ok",
-      "fetched": 921,
-      "requests": 13
+      "status": "partial",
+      "fetched": 820,
+      "requests": 13,
+      "message": "semanticscholar: topic \"process-based modelling\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=process-based+modelling&publicationDateOrYear=2026-09-10%3A&fields=title%2Cabstract%2Cauthors%2 — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 617,
+      "fetched": 614,
       "requests": 10
     }
   ]
