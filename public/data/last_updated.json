@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-11T10:52:33.114Z",
+  "updatedAt": "2026-10-12T12:07:38.010Z",
   "paperCount": 5000,
-  "journalCount": 1210,
+  "journalCount": 1275,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,20 +19,21 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2627,
+      "fetched": 2594,
       "requests": 25
     },
     {
       "source": "semanticscholar",
       "status": "ok",
-      "fetched": 918,
+      "fetched": 916,
       "requests": 13
     },
     {
       "source": "arxiv",
-      "status": "ok",
-      "fetched": 609,
-      "requests": 10
+      "status": "partial",
+      "fetched": 390,
+      "requests": 10,
+      "message": "arxiv: topic \"crop modelling\" failed — HTTP 429 for https://export.arxiv.org/api/query?search_query=all%3Acrop+AND+all%3Amodelling&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 — Rate exceeded. | arxiv: topic \"remote sensing\" failed — The operation was aborted due to timeout | arxiv: topic \"agricultural foundation models\" failed — HTTP 429 for https://export.arxiv.org/api/query?search_query=all%3Aagricultural+AND+all%3Afoundation+AND+all%3Amodels&sortBy=submittedDate&sortOrder=descending&start=0&max_r — Rate exceeded."
     }
   ]
 }
