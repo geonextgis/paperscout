@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-12T12:07:38.010Z",
+  "updatedAt": "2026-10-13T11:53:15.199Z",
   "paperCount": 5000,
-  "journalCount": 1275,
+  "journalCount": 1318,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,21 +19,21 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2594,
+      "fetched": 2575,
       "requests": 25
     },
     {
       "source": "semanticscholar",
-      "status": "ok",
-      "fetched": 916,
-      "requests": 13
+      "status": "partial",
+      "fetched": 898,
+      "requests": 13,
+      "message": "semanticscholar: topic \"crop yield prediction deep learning\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=crop+yield+prediction+deep+learning&publicationDateOrYear=2026-09-13%3A&fields=title%2Cabstract — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
     },
     {
       "source": "arxiv",
-      "status": "partial",
-      "fetched": 390,
-      "requests": 10,
-      "message": "arxiv: topic \"crop modelling\" failed — HTTP 429 for https://export.arxiv.org/api/query?search_query=all%3Acrop+AND+all%3Amodelling&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 — Rate exceeded. | arxiv: topic \"remote sensing\" failed — The operation was aborted due to timeout | arxiv: topic \"agricultural foundation models\" failed — HTTP 429 for https://export.arxiv.org/api/query?search_query=all%3Aagricultural+AND+all%3Afoundation+AND+all%3Amodels&sortBy=submittedDate&sortOrder=descending&start=0&max_r — Rate exceeded."
+      "status": "ok",
+      "fetched": 607,
+      "requests": 10
     }
   ]
 }
