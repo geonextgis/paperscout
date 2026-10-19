@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-18T08:54:17.582Z",
+  "updatedAt": "2026-10-19T10:00:00.635Z",
   "paperCount": 5000,
-  "journalCount": 1449,
+  "journalCount": 1441,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,21 +19,22 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2723,
+      "fetched": 2683,
       "requests": 25
     },
     {
       "source": "semanticscholar",
       "status": "partial",
-      "fetched": 920,
+      "fetched": 918,
       "requests": 13,
-      "message": "semanticscholar: enrichment batch 1 failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract,authors,venue,publicationVenue,journal,publicationDate,year,externalIds,openAccessPdf — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: enrichment batch 2 failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract,authors,venue,publicationVenue,journal,publicationDate,year,externalIds,openAccessPdf — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+      "message": "semanticscholar: enrichment batch 2 failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract,authors,venue,publicationVenue,journal,publicationDate,year,externalIds,openAccessPdf — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: enrichment batch 3 failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract,authors,venue,publicationVenue,journal,publicationDate,year,externalIds,openAccessPdf — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
     },
     {
       "source": "arxiv",
-      "status": "ok",
-      "fetched": 604,
-      "requests": 10
+      "status": "partial",
+      "fetched": 600,
+      "requests": 10,
+      "message": "arxiv: topic \"agricultural foundation models\" failed — The operation was aborted due to timeout"
     }
   ]
 }
