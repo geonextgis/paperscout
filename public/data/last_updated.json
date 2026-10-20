@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-19T10:00:00.635Z",
+  "updatedAt": "2026-10-20T09:29:06.108Z",
   "paperCount": 5000,
-  "journalCount": 1441,
+  "journalCount": 1422,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,22 +19,20 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2683,
+      "fetched": 2689,
       "requests": 25
     },
     {
       "source": "semanticscholar",
-      "status": "partial",
+      "status": "ok",
       "fetched": 918,
-      "requests": 13,
-      "message": "semanticscholar: enrichment batch 2 failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract,authors,venue,publicationVenue,journal,publicationDate,year,externalIds,openAccessPdf — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: enrichment batch 3 failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract,authors,venue,publicationVenue,journal,publicationDate,year,externalIds,openAccessPdf — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+      "requests": 13
     },
     {
       "source": "arxiv",
-      "status": "partial",
-      "fetched": 600,
-      "requests": 10,
-      "message": "arxiv: topic \"agricultural foundation models\" failed — The operation was aborted due to timeout"
+      "status": "ok",
+      "fetched": 611,
+      "requests": 10
     }
   ]
 }
