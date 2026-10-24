@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-23T09:24:04.693Z",
+  "updatedAt": "2026-10-24T08:55:36.783Z",
   "paperCount": 5000,
-  "journalCount": 1364,
+  "journalCount": 1379,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,20 +19,19 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2799,
+      "fetched": 2843,
       "requests": 26
     },
     {
       "source": "semanticscholar",
-      "status": "partial",
-      "fetched": 724,
-      "requests": 13,
-      "message": "semanticscholar: topic \"remote sensing\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=remote+sensing&publicationDateOrYear=2026-09-23%3A&fields=title%2Cabstract%2Cauthors%2Cvenue%2C — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: topic \"crop classification\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=crop+classification&publicationDateOrYear=2026-09-23%3A&fields=title%2Cabstract%2Cauthors%2Cven — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+      "status": "ok",
+      "fetched": 923,
+      "requests": 13
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 614,
+      "fetched": 609,
       "requests": 10
     }
   ]
