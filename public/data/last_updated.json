@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-24T08:55:36.783Z",
+  "updatedAt": "2026-10-25T09:12:34.682Z",
   "paperCount": 5000,
-  "journalCount": 1379,
+  "journalCount": 1384,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,14 +19,15 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2843,
-      "requests": 26
+      "fetched": 2804,
+      "requests": 25
     },
     {
       "source": "semanticscholar",
-      "status": "ok",
-      "fetched": 923,
-      "requests": 13
+      "status": "partial",
+      "fetched": 823,
+      "requests": 13,
+      "message": "semanticscholar: topic \"differentiable models\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=differentiable+models&publicationDateOrYear=2026-09-25%3A&fields=title%2Cabstract%2Cauthors%2Cv — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
     },
     {
       "source": "arxiv",
