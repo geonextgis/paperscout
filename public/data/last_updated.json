@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-25T09:12:34.682Z",
+  "updatedAt": "2026-10-26T10:14:15.071Z",
   "paperCount": 5000,
-  "journalCount": 1384,
+  "journalCount": 1374,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,20 +19,20 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2804,
+      "fetched": 2747,
       "requests": 25
     },
     {
       "source": "semanticscholar",
       "status": "partial",
-      "fetched": 823,
+      "fetched": 818,
       "requests": 13,
-      "message": "semanticscholar: topic \"differentiable models\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=differentiable+models&publicationDateOrYear=2026-09-25%3A&fields=title%2Cabstract%2Cauthors%2Cv — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+      "message": "semanticscholar: topic \"digital agriculture\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=digital+agriculture&publicationDateOrYear=2026-09-26%3A&fields=title%2Cabstract%2Cauthors%2Cven — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: enrichment batch 3 failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract,authors,venue,publicationVenue,journal,publicationDate,year,externalIds,openAccessPdf — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 609,
+      "fetched": 610,
       "requests": 10
     }
   ]
