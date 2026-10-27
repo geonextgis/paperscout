@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-26T10:14:15.071Z",
+  "updatedAt": "2026-10-27T09:52:06.602Z",
   "paperCount": 5000,
-  "journalCount": 1374,
+  "journalCount": 1353,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,20 +19,19 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2747,
-      "requests": 25
+      "fetched": 2763,
+      "requests": 26
     },
     {
       "source": "semanticscholar",
-      "status": "partial",
-      "fetched": 818,
-      "requests": 13,
-      "message": "semanticscholar: topic \"digital agriculture\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=digital+agriculture&publicationDateOrYear=2026-09-26%3A&fields=title%2Cabstract%2Cauthors%2Cven — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: enrichment batch 3 failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract,authors,venue,publicationVenue,journal,publicationDate,year,externalIds,openAccessPdf — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+      "status": "ok",
+      "fetched": 920,
+      "requests": 13
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 610,
+      "fetched": 614,
       "requests": 10
     }
   ]
