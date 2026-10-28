@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-27T09:52:06.602Z",
+  "updatedAt": "2026-10-28T10:39:12.095Z",
   "paperCount": 5000,
-  "journalCount": 1353,
+  "journalCount": 1393,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,7 +19,7 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2763,
+      "fetched": 2772,
       "requests": 26
     },
     {
@@ -31,7 +31,7 @@
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 614,
+      "fetched": 617,
       "requests": 10
     }
   ]
