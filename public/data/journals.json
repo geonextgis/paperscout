@@ -1,7 +1,7 @@
 [
  {
   "name": "arXiv",
-  "paperCount": 1870,
+  "paperCount": 1804,
   "publisher": "XSci Ltd."
  },
  {
@@ -9,11 +9,11 @@
   "issn": [
    "2375-2548"
   ],
-  "paperCount": 258,
+  "paperCount": 253,
   "tracked": true,
   "publisher": "American Association for the Advancement of Science (AAAS)",
   "quartile": 1,
-  "impact": 13.34
+  "impact": 13.42
  },
  {
   "name": "Science",
@@ -25,17 +25,17 @@
   "tracked": true,
   "publisher": "American Association for the Advancement of Science (AAAS)",
   "quartile": 1,
-  "impact": 21.77
+  "impact": 21.9
  },
  {
   "name": "Remote Sensing",
-  "paperCount": 69,
+  "paperCount": 72,
   "issn": [
    "2072-4292"
   ],
   "publisher": "MDPI AG",
   "quartile": 1,
-  "impact": 5.36,
+  "impact": 5.38,
   "field": "Engineering"
  },
  {
@@ -47,8 +47,20 @@
   "tracked": true,
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 11.04,
+  "impact": 11.1,
   "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "issn": [
+   "0924-2716"
+  ],
+  "paperCount": 46,
+  "tracked": true,
+  "publisher": "Elsevier BV",
+  "quartile": 1,
+  "impact": 11.28,
+  "field": "Engineering"
  },
  {
   "name": "Agricultural and Forest Meteorology",
@@ -59,42 +71,30 @@
   "tracked": true,
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 5.99,
+  "impact": 6.01,
   "field": "Environmental Science"
- },
- {
-  "name": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "issn": [
-   "0924-2716"
-  ],
-  "paperCount": 43,
-  "tracked": true,
-  "publisher": "Elsevier BV",
-  "quartile": 1,
-  "impact": 11.26,
-  "field": "Engineering"
- },
- {
-  "name": "Frontiers in Sustainable Food Systems",
-  "paperCount": 33,
-  "issn": [
-   "2571-581X"
-  ],
-  "publisher": "Frontiers Media SA",
-  "quartile": 1,
-  "impact": 4.49,
-  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "European Journal of Agronomy",
   "issn": [
    "1161-0301"
   ],
-  "paperCount": 28,
+  "paperCount": 31,
   "tracked": true,
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 7.11,
+  "impact": 7.14,
+  "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Frontiers in Sustainable Food Systems",
+  "paperCount": 31,
+  "issn": [
+   "2571-581X"
+  ],
+  "publisher": "Frontiers Media SA",
+  "quartile": 1,
+  "impact": 4.5,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -103,16 +103,39 @@
    "0034-4257",
    "1879-0704"
   ],
-  "paperCount": 28,
+  "paperCount": 29,
   "tracked": true,
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 12.08,
+  "impact": 12.14,
   "field": "Environmental Science"
  },
  {
   "name": "medRxiv",
-  "paperCount": 24
+  "paperCount": 25
+ },
+ {
+  "name": "Agriculture",
+  "paperCount": 23,
+  "issn": [
+   "0002-1695",
+   "1412-4262",
+   "0551-3677",
+   "2170-1059",
+   "2077-0472"
+  ],
+  "publisher": "MDPI AG"
+ },
+ {
+  "name": "Scientific Reports",
+  "paperCount": 23,
+  "issn": [
+   "2045-2322"
+  ],
+  "publisher": "Springer Science and Business Media LLC",
+  "quartile": 1,
+  "impact": 5.35,
+  "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
   "name": "Agricultural Systems",
@@ -123,39 +146,59 @@
   "tracked": true,
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 6.27,
-  "field": "Agricultural and Biological Sciences"
- },
- {
-  "name": "Agriculture",
-  "paperCount": 21,
-  "issn": [
-   "2077-0472",
-   "0002-1695",
-   "1412-4262",
-   "0551-3677",
-   "2170-1059"
-  ],
-  "publisher": "MDPI AG",
-  "quartile": 1,
-  "impact": 5.29,
+  "impact": 6.31,
   "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Frontiers in Plant Science",
-  "paperCount": 21,
+  "paperCount": 22,
   "issn": [
    "1664-462X"
   ],
   "publisher": "Frontiers Media SA",
   "quartile": 1,
-  "impact": 5.86,
+  "impact": 5.88,
   "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "bioRxiv",
-  "paperCount": 20,
+  "paperCount": 21,
   "publisher": "openRxiv"
+ },
+ {
+  "name": "Field Crops Research",
+  "issn": [
+   "0378-4290"
+  ],
+  "paperCount": 21,
+  "tracked": true,
+  "publisher": "Elsevier BV",
+  "quartile": 1,
+  "impact": 8.39,
+  "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Global Change Biology",
+  "issn": [
+   "1354-1013",
+   "1365-2486"
+  ],
+  "paperCount": 21,
+  "tracked": true,
+  "publisher": "Wiley",
+  "quartile": 1,
+  "impact": 11.49,
+  "field": "Environmental Science"
+ },
+ {
+  "name": "Sustainability",
+  "paperCount": 21,
+  "issn": [
+   "2071-1050"
+  ],
+  "publisher": "MDPI AG",
+  "quartile": 1,
+  "impact": 5.93
  },
  {
   "name": "Discover Artificial Intelligence",
@@ -165,69 +208,39 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 2,
-  "impact": 3.07,
+  "impact": 3.08,
   "field": "Computer Science"
  },
  {
-  "name": "Scientific Reports",
-  "paperCount": 20,
-  "issn": [
-   "2045-2322"
-  ],
-  "publisher": "Springer Science and Business Media LLC",
-  "quartile": 1,
-  "impact": 5.33,
-  "field": "Biochemistry, Genetics and Molecular Biology"
- },
- {
   "name": "Agronomy",
-  "paperCount": 19,
+  "paperCount": 17,
   "issn": [
    "2073-4395"
   ],
   "publisher": "MDPI AG",
   "quartile": 1,
-  "impact": 5.39,
+  "impact": 5.41,
   "field": "Agricultural and Biological Sciences"
  },
  {
-  "name": "Field Crops Research",
+  "name": "PLOS One",
+  "paperCount": 17,
   "issn": [
-   "0378-4290"
+   "1932-6203"
   ],
-  "paperCount": 19,
-  "tracked": true,
-  "publisher": "Elsevier BV",
-  "quartile": 1,
-  "impact": 8.35,
-  "field": "Agricultural and Biological Sciences"
+  "publisher": "Public Library of Science (PLoS)",
+  "quartile": 2,
+  "impact": 3.5,
+  "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
-  "name": "Global Change Biology",
-  "issn": [
-   "1354-1013",
-   "1365-2486"
-  ],
-  "paperCount": 19,
-  "tracked": true,
-  "publisher": "Wiley",
-  "quartile": 1,
-  "impact": 11.42,
-  "field": "Environmental Science"
- },
- {
-  "name": "Sustainability",
-  "paperCount": 19,
-  "issn": [
-   "2071-1050"
-  ],
-  "publisher": "MDPI AG",
-  "quartile": 1,
-  "impact": 5.91
+  "name": "Agentic AI, AI Agents, and Quantum AI Agents",
+  "paperCount": 15,
+  "publisher": "CRC Press"
  },
  {
   "name": "International Journal of Drug Delivery Technology",
-  "paperCount": 17,
+  "paperCount": 15,
   "issn": [
    "0975-4415"
   ],
@@ -236,29 +249,13 @@
   "impact": 0.03
  },
  {
-  "name": "Sensors",
-  "paperCount": 17,
-  "issn": [
-   "1424-8220"
-  ],
-  "publisher": "MDPI AG",
-  "quartile": 1,
-  "impact": 5.93,
-  "field": "Engineering"
- },
- {
-  "name": "Agentic AI, AI Agents, and Quantum AI Agents",
-  "paperCount": 15,
-  "publisher": "CRC Press"
- },
- {
   "name": "IEEE Internet of Things Journal",
   "paperCount": 14,
   "issn": [
    "2327-4662"
   ],
   "quartile": 1,
-  "impact": 6.52,
+  "impact": 6.51,
   "field": "Computer Science"
  },
  {
@@ -267,19 +264,15 @@
   "publisher": "ACM"
  },
  {
-  "name": "PLOS One",
-  "paperCount": 13,
+  "name": "Sensors",
+  "paperCount": 14,
   "issn": [
-   "1932-6203"
+   "1424-8220"
   ],
-  "publisher": "Public Library of Science (PLoS)",
-  "quartile": 2,
-  "impact": 3.49,
-  "field": "Biochemistry, Genetics and Molecular Biology"
- },
- {
-  "name": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
-  "paperCount": 13
+  "publisher": "MDPI AG",
+  "quartile": 1,
+  "impact": 5.95,
+  "field": "Engineering"
  },
  {
   "name": "AI‐Driven Predictive Analytics for Crop Health Management",
@@ -327,8 +320,22 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 2,
-  "impact": 2.41,
+  "impact": 2.42,
   "field": "Computer Science"
+ },
+ {
+  "name": "Discover Plants",
+  "paperCount": 10
+ },
+ {
+  "name": "Land",
+  "paperCount": 10,
+  "issn": [
+   "2073-445X"
+  ],
+  "quartile": 1,
+  "impact": 4.23,
+  "field": "Environmental Science"
  },
  {
   "name": "Precision Agriculture",
@@ -340,22 +347,20 @@
   "tracked": true,
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 7.06,
+  "impact": 7.11,
   "field": "Agricultural and Biological Sciences"
  },
  {
-  "name": "AgriEngineering",
-  "paperCount": 9,
+  "name": "Artificial Intelligence in Agriculture",
   "issn": [
-   "2624-7402"
+   "2589-7217"
   ],
+  "paperCount": 9,
+  "tracked": true,
+  "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 3.9,
+  "impact": 8.76,
   "field": "Agricultural and Biological Sciences"
- },
- {
-  "name": "Discover Plants",
-  "paperCount": 9
  },
  {
   "name": "Food research international",
@@ -364,18 +369,13 @@
    "0963-9969"
   ],
   "quartile": 1,
-  "impact": 7.5,
+  "impact": 7.55,
   "field": "Agricultural and Biological Sciences"
  },
  {
-  "name": "Land",
+  "name": "International Conference on Optical Imaging and Deep Learning (OIDL 2026)",
   "paperCount": 9,
-  "issn": [
-   "2073-445X"
-  ],
-  "quartile": 1,
-  "impact": 4.22,
-  "field": "Environmental Science"
+  "publisher": "SPIE"
  },
  {
   "name": "Proceedings of the 32nd Annual International Conference on Mobile Computing and Networking",
@@ -383,15 +383,13 @@
   "publisher": "ACM"
  },
  {
-  "name": "Artificial Intelligence in Agriculture",
-  "issn": [
-   "2589-7217"
-  ],
+  "name": "AgriEngineering",
   "paperCount": 8,
-  "tracked": true,
-  "publisher": "Elsevier BV",
+  "issn": [
+   "2624-7402"
+  ],
   "quartile": 1,
-  "impact": 8.51,
+  "impact": 3.91,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -401,7 +399,7 @@
    "0733-9364"
   ],
   "quartile": 1,
-  "impact": 5.17,
+  "impact": 5.2,
   "field": "Decision Sciences"
  },
  {
@@ -413,7 +411,7 @@
   "tracked": true,
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 13.64,
+  "impact": 13.68,
   "field": "Environmental Science"
  },
  {
@@ -429,7 +427,18 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 17.66
+  "impact": 17.69
+ },
+ {
+  "name": "Applied Sciences",
+  "paperCount": 7,
+  "issn": [
+   "2076-3417"
+  ],
+  "publisher": "MDPI AG",
+  "quartile": 1,
+  "impact": 4.25,
+  "field": "Engineering"
  },
  {
   "name": "Cancer Epidemiology, Biomarkers & Prevention",
@@ -440,14 +449,36 @@
   "paperCount": 7
  },
  {
+  "name": "Forecasting",
+  "paperCount": 7,
+  "issn": [
+   "2571-9394"
+  ],
+  "publisher": "MDPI AG",
+  "quartile": 1,
+  "impact": 4.2,
+  "field": "Business, Management and Accounting"
+ },
+ {
   "name": "IEEE Transactions on Power Electronics",
   "paperCount": 7,
   "issn": [
    "0885-8993"
   ],
   "quartile": 1,
-  "impact": 6.19,
+  "impact": 6.2,
   "field": "Engineering"
+ },
+ {
+  "name": "Journal of environmental management",
+  "paperCount": 7,
+  "issn": [
+   "0301-4797",
+   "2721-0812"
+  ],
+  "quartile": 1,
+  "impact": 10.28,
+  "field": "Environmental Science"
  },
  {
   "name": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
@@ -457,7 +488,7 @@
   ],
   "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
   "quartile": 2,
-  "impact": 2.58,
+  "impact": 2.59,
   "field": "Social Sciences"
  },
  {
@@ -468,7 +499,7 @@
   ],
   "publisher": "GSC Online Press",
   "quartile": 3,
-  "impact": 1.63
+  "impact": 1.64
  },
  {
   "name": "Advanced healthcare materials",
@@ -477,7 +508,7 @@
    "2192-2640"
   ],
   "quartile": 1,
-  "impact": 8.27
+  "impact": 8.29
  },
  {
   "name": "Advances in Economics, Management and Political Sciences",
@@ -487,7 +518,7 @@
   ],
   "publisher": "EWA Publishing",
   "quartile": 4,
-  "impact": 0.3,
+  "impact": 0.29,
   "field": "Business, Management and Accounting"
  },
  {
@@ -497,19 +528,8 @@
    "0378-3774"
   ],
   "quartile": 1,
-  "impact": 7.72,
+  "impact": 7.77,
   "field": "Agricultural and Biological Sciences"
- },
- {
-  "name": "Applied Sciences",
-  "paperCount": 6,
-  "issn": [
-   "2076-3417"
-  ],
-  "publisher": "MDPI AG",
-  "quartile": 1,
-  "impact": 4.24,
-  "field": "Engineering"
  },
  {
   "name": "Electronics",
@@ -524,24 +544,13 @@
   "field": "Engineering"
  },
  {
-  "name": "Forecasting",
-  "paperCount": 6,
-  "issn": [
-   "2571-9394"
-  ],
-  "publisher": "MDPI AG",
-  "quartile": 1,
-  "impact": 4.18,
-  "field": "Business, Management and Accounting"
- },
- {
   "name": "Horticulturae",
   "paperCount": 6,
   "issn": [
    "2311-7524"
   ],
   "quartile": 1,
-  "impact": 4.13,
+  "impact": 4.14,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -552,7 +561,7 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 5.38
+  "impact": 5.4
  },
  {
   "name": "IEEE Robotics and Automation Letters",
@@ -561,19 +570,51 @@
    "2377-3766"
   ],
   "quartile": 1,
-  "impact": 4.86,
+  "impact": 4.83,
   "field": "Engineering"
  },
  {
-  "name": "Journal of environmental management",
+  "name": "International Journal of Advanced Research in Science Communication and Technology",
   "paperCount": 6,
   "issn": [
-   "0301-4797",
-   "2721-0812"
+   "2581-9429"
+  ],
+  "publisher": "Naksh Solutions",
+  "quartile": 4,
+  "impact": 0.41,
+  "field": "Computer Science"
+ },
+ {
+  "name": "Journal of Forecasting",
+  "paperCount": 6,
+  "issn": [
+   "0277-6693",
+   "1099-131X"
+  ],
+  "publisher": "Wiley",
+  "quartile": 2,
+  "impact": 3.2,
+  "field": "Decision Sciences"
+ },
+ {
+  "name": "Plants",
+  "paperCount": 6,
+  "issn": [
+   "2223-7747"
   ],
   "quartile": 1,
-  "impact": 10.24,
-  "field": "Environmental Science"
+  "impact": 5.32,
+  "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Academic radiology",
+  "paperCount": 5,
+  "issn": [
+   "1076-6332"
+  ],
+  "quartile": 1,
+  "impact": 3.35,
+  "field": "Medicine"
  },
  {
   "name": "Agroforestry Systems",
@@ -582,7 +623,7 @@
    "0167-4366"
   ],
   "quartile": 2,
-  "impact": 3.22,
+  "impact": 3.23,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -604,7 +645,7 @@
    "1664-302X"
   ],
   "quartile": 1,
-  "impact": 5.74,
+  "impact": 5.76,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -618,17 +659,6 @@
   "impact": 0.22
  },
  {
-  "name": "International Journal of Advanced Research in Science Communication and Technology",
-  "paperCount": 5,
-  "issn": [
-   "2581-9429"
-  ],
-  "publisher": "Naksh Solutions",
-  "quartile": 4,
-  "impact": 0.41,
-  "field": "Computer Science"
- },
- {
   "name": "International Journal of Forecasting",
   "paperCount": 5,
   "issn": [
@@ -636,7 +666,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 4.29,
+  "impact": 4.31,
   "field": "Decision Sciences"
  },
  {
@@ -647,20 +677,8 @@
    "1754-6613"
   ],
   "quartile": 1,
-  "impact": 6.41,
+  "impact": 6.44,
   "field": "Agricultural and Biological Sciences"
- },
- {
-  "name": "Journal of Forecasting",
-  "paperCount": 5,
-  "issn": [
-   "0277-6693",
-   "1099-131X"
-  ],
-  "publisher": "Wiley",
-  "quartile": 2,
-  "impact": 3.2,
-  "field": "Decision Sciences"
  },
  {
   "name": "Mathematics",
@@ -669,7 +687,7 @@
    "2227-7390"
   ],
   "quartile": 1,
-  "impact": 2.91,
+  "impact": 2.92,
   "field": "Mathematics"
  },
  {
@@ -680,7 +698,7 @@
   ],
   "publisher": "MDPI AG",
   "quartile": 2,
-  "impact": 2.21,
+  "impact": 2.22,
   "field": "Engineering"
  },
  {
@@ -690,29 +708,18 @@
    "0301-4851"
   ],
   "quartile": 2,
-  "impact": 3.23,
+  "impact": 3.24,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
-  "name": "Plants",
-  "paperCount": 5,
+  "name": "AI and Ethics",
+  "paperCount": 4,
   "issn": [
-   "2223-7747"
+   "2730-5953"
   ],
   "quartile": 1,
-  "impact": 5.32,
-  "field": "Agricultural and Biological Sciences"
- },
- {
-  "name": "Proceedings of the National Academy of Sciences of the United States of America",
-  "paperCount": 5,
-  "issn": [
-   "0027-8424",
-   "1091-6490"
-  ],
-  "quartile": 1,
-  "impact": 8.98,
-  "field": "Biochemistry, Genetics and Molecular Biology"
+  "impact": 6.31,
+  "field": "Social Sciences"
  },
  {
   "name": "Cogent Food & Agriculture",
@@ -722,7 +729,7 @@
   ],
   "publisher": "Informa UK Limited",
   "quartile": 1,
-  "impact": 3.51,
+  "impact": 3.53,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -736,29 +743,8 @@
    "1996-1073"
   ],
   "quartile": 1,
-  "impact": 5.41,
+  "impact": 5.43,
   "field": "Engineering"
- },
- {
-  "name": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
-  "paperCount": 4,
-  "issn": [
-   "0892-6638"
-  ],
-  "quartile": 1,
-  "impact": 3.55,
-  "field": "Medicine"
- },
- {
-  "name": "Frontiers in Artificial Intelligence",
-  "paperCount": 4,
-  "issn": [
-   "2624-8212"
-  ],
-  "publisher": "Frontiers Media SA",
-  "quartile": 1,
-  "impact": 6.16,
-  "field": "Computer Science"
  },
  {
   "name": "Frontiers in Education",
@@ -767,7 +753,7 @@
    "2504-284X"
   ],
   "quartile": 1,
-  "impact": 4.16,
+  "impact": 4.17,
   "field": "Social Sciences"
  },
  {
@@ -777,8 +763,8 @@
    "0737-0024"
   ],
   "publisher": "Aba Organizasyon Eğitim Danişmanlik Yayincilik ve Pazarlama A.Ş",
-  "quartile": 2,
-  "impact": 1.85,
+  "quartile": 1,
+  "impact": 6.7,
   "field": "Computer Science"
  },
  {
@@ -788,18 +774,8 @@
    "1949-3053"
   ],
   "quartile": 1,
-  "impact": 8.69,
+  "impact": 8.71,
   "field": "Engineering"
- },
- {
-  "name": "Indonesian Journal of Innovation Studies",
-  "paperCount": 4,
-  "issn": [
-   "2598-9936"
-  ],
-  "quartile": 4,
-  "impact": 0.15,
-  "field": "Social Sciences"
  },
  {
   "name": "International immunopharmacology",
@@ -808,7 +784,7 @@
    "1567-5769"
   ],
   "quartile": 1,
-  "impact": 6.3,
+  "impact": 6.33,
   "field": "Medicine"
  },
  {
@@ -828,7 +804,7 @@
    "0887-3801"
   ],
   "quartile": 1,
-  "impact": 4.41,
+  "impact": 4.43,
   "field": "Engineering"
  },
  {
@@ -851,13 +827,24 @@
   "field": "Engineering"
  },
  {
+  "name": "Journal of imaging informatics in medicine",
+  "paperCount": 4,
+  "issn": [
+   "2948-2933"
+  ],
+  "publisher": "Springer Science and Business Media LLC",
+  "quartile": 1,
+  "impact": 3.88,
+  "field": "Medicine"
+ },
+ {
   "name": "Journal of Materials in Civil Engineering",
   "paperCount": 4,
   "issn": [
    "0899-1561"
   ],
   "quartile": 2,
-  "impact": 2.99,
+  "impact": 3,
   "field": "Engineering"
  },
  {
@@ -865,7 +852,24 @@
   "paperCount": 4,
   "issn": [
    "2463-2872"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0.55,
+  "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Journal of Scientific Research and Reports",
+  "paperCount": 4,
+  "issn": [
+   "2320-0227"
+  ],
+  "quartile": 4,
+  "impact": 0.71,
+  "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Jurnal Ilmiah Informatika dan Komputer",
+  "paperCount": 4
  },
  {
   "name": "Materials today. Bio",
@@ -874,7 +878,7 @@
    "2590-0064"
   ],
   "quartile": 1,
-  "impact": 6.67
+  "impact": 6.7
  },
  {
   "name": "Philosophy & Technology",
@@ -883,7 +887,7 @@
    "2210-5433"
   ],
   "quartile": 1,
-  "impact": 5.24,
+  "impact": 5.25,
   "field": "Social Sciences"
  },
  {
@@ -893,8 +897,19 @@
    "0168-9452"
   ],
   "quartile": 1,
-  "impact": 3.95,
+  "impact": 3.96,
   "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Proceedings of the National Academy of Sciences of the United States of America",
+  "paperCount": 4,
+  "issn": [
+   "0027-8424",
+   "1091-6490"
+  ],
+  "quartile": 1,
+  "impact": 8.98,
+  "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
   "name": "Theoretical and Applied Climatology",
@@ -903,7 +918,7 @@
    "0177-798X"
   ],
   "quartile": 2,
-  "impact": 3.07,
+  "impact": 3.08,
   "field": "Environmental Science"
  },
  {
@@ -917,24 +932,25 @@
   "field": "Engineering"
  },
  {
-  "name": "Academic radiology",
-  "paperCount": 3,
-  "issn": [
-   "1076-6332"
-  ],
-  "quartile": 1,
-  "impact": 3.33,
-  "field": "Medicine"
- },
- {
   "name": "Accident; analysis and prevention",
   "paperCount": 3,
   "issn": [
    "0001-4575"
   ],
   "quartile": 1,
-  "impact": 8.29,
+  "impact": 8.31,
   "field": "Engineering"
+ },
+ {
+  "name": "Acta psychologica",
+  "paperCount": 3,
+  "issn": [
+   "0001-6918",
+   "2746-122X"
+  ],
+  "quartile": 1,
+  "impact": 3.66,
+  "field": "Neuroscience"
  },
  {
   "name": "Advances in Science and Technology Research Journal",
@@ -959,7 +975,7 @@
    "0002-1962"
   ],
   "quartile": 2,
-  "impact": 2.06,
+  "impact": 2.08,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -970,7 +986,7 @@
    "2154-2686"
   ],
   "quartile": 1,
-  "impact": 7.39,
+  "impact": 7.42,
   "field": "Chemistry"
  },
  {
@@ -980,7 +996,7 @@
    "1759-9660"
   ],
   "quartile": 2,
-  "impact": 2.86,
+  "impact": 2.87,
   "field": "Chemistry"
  },
  {
@@ -994,13 +1010,22 @@
   "field": "Engineering"
  },
  {
+  "name": "Bioengineering",
+  "paperCount": 3,
+  "issn": [
+   "2306-5354"
+  ],
+  "quartile": 1,
+  "impact": 5.47
+ },
+ {
   "name": "Biogeosciences",
   "paperCount": 3,
   "issn": [
    "1726-4170"
   ],
   "quartile": 1,
-  "impact": 5.55,
+  "impact": 5.56,
   "field": "Earth and Planetary Sciences"
  },
  {
@@ -1021,7 +1046,7 @@
    "1672-7681"
   ],
   "quartile": 1,
-  "impact": 22.42,
+  "impact": 22.41,
   "field": "Immunology and Microbiology"
  },
  {
@@ -1032,8 +1057,28 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 5.83,
+  "impact": 5.85,
   "field": "Computer Science"
+ },
+ {
+  "name": "Competitiveness Review: An International Business Journal",
+  "paperCount": 3,
+  "issn": [
+   "1059-5422"
+  ],
+  "quartile": 1,
+  "impact": 3.82,
+  "field": "Business, Management and Accounting"
+ },
+ {
+  "name": "Comprehensive reviews in food science and food safety",
+  "paperCount": 3,
+  "issn": [
+   "1541-4337"
+  ],
+  "quartile": 1,
+  "impact": 15.94,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Crop Protection",
@@ -1053,12 +1098,43 @@
    "2662-9984"
   ],
   "quartile": 1,
-  "impact": 4.7
+  "impact": 4.72
+ },
+ {
+  "name": "Engineering, Construction and Architectural Management",
+  "paperCount": 3,
+  "issn": [
+   "0969-9988"
+  ],
+  "quartile": 1,
+  "impact": 4.04,
+  "field": "Decision Sciences"
+ },
+ {
+  "name": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+  "paperCount": 3,
+  "issn": [
+   "0892-6638"
+  ],
+  "quartile": 1,
+  "impact": 3.57,
+  "field": "Medicine"
  },
  {
   "name": "Financial Forecasting",
   "paperCount": 3,
   "publisher": "Oxford University PressOxford"
+ },
+ {
+  "name": "Frontiers in Artificial Intelligence",
+  "paperCount": 3,
+  "issn": [
+   "2624-8212"
+  ],
+  "publisher": "Frontiers Media SA",
+  "quartile": 1,
+  "impact": 6.17,
+  "field": "Computer Science"
  },
  {
   "name": "Genetics and Molecular Research",
@@ -1069,6 +1145,26 @@
   "quartile": 4,
   "impact": 0.04,
   "field": "Biochemistry, Genetics and Molecular Biology"
+ },
+ {
+  "name": "HortScience",
+  "paperCount": 3,
+  "issn": [
+   "0018-5345"
+  ],
+  "quartile": 3,
+  "impact": 1.26,
+  "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Iconic Research and Engineering Journals",
+  "paperCount": 3,
+  "issn": [
+   "2456-8880"
+  ],
+  "publisher": "Iconic Digital Lab",
+  "quartile": 4,
+  "impact": 0.02
  },
  {
   "name": "Indian Journal of Computer Science and Technology",
@@ -1103,7 +1199,7 @@
    "0141-8130"
   ],
   "quartile": 1,
-  "impact": 9.4
+  "impact": 9.43
  },
  {
   "name": "International Journal of Business Ecosystem & Strategy (2687-2293)",
@@ -1125,12 +1221,8 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 2,
-  "impact": 2.35,
+  "impact": 2.38,
   "field": "Agricultural and Biological Sciences"
- },
- {
-  "name": "International Research Journal on Advanced Engineering Hub (IRJAEH)",
-  "paperCount": 3
  },
  {
   "name": "Journal of Bridge Engineering",
@@ -1139,7 +1231,7 @@
    "1084-0702"
   ],
   "quartile": 2,
-  "impact": 3.47,
+  "impact": 3.49,
   "field": "Engineering"
  },
  {
@@ -1149,7 +1241,7 @@
    "0733-9399"
   ],
   "quartile": 2,
-  "impact": 2.22,
+  "impact": 2.23,
   "field": "Engineering"
  },
  {
@@ -1158,18 +1250,20 @@
   "issn": [
    "0733-9372",
    "1880-988X"
-  ]
+  ],
+  "quartile": 3,
+  "impact": 1.73,
+  "field": "Environmental Science"
  },
  {
-  "name": "Journal of imaging informatics in medicine",
+  "name": "Journal of Hydrology: Regional Studies",
   "paperCount": 3,
   "issn": [
-   "2948-2933"
+   "2214-5818"
   ],
-  "publisher": "Springer Science and Business Media LLC",
-  "quartile": 1,
-  "impact": 3.88,
-  "field": "Medicine"
+  "quartile": 2,
+  "impact": 2.82,
+  "field": "Environmental Science"
  },
  {
   "name": "Journal of Transportation Engineering, Part A: Systems",
@@ -1188,12 +1282,8 @@
    "0733-9496"
   ],
   "quartile": 2,
-  "impact": 2.34,
+  "impact": 2.36,
   "field": "Engineering"
- },
- {
-  "name": "Jurnal Ilmiah Informatika dan Komputer",
-  "paperCount": 3
  },
  {
   "name": "Jurnal Ilmiah Multidisiplin Nusantara (JIMNU)",
@@ -1211,7 +1301,7 @@
    "1357-3039"
   ],
   "quartile": 2,
-  "impact": 2.07,
+  "impact": 2.08,
   "field": "Medicine"
  },
  {
@@ -1222,7 +1312,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 5.54,
+  "impact": 5.55,
   "field": "Computer Science"
  },
  {
@@ -1232,7 +1322,7 @@
    "0032-0889"
   ],
   "quartile": 1,
-  "impact": 6.33,
+  "impact": 6.35,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -1252,7 +1342,7 @@
    "0140-7791"
   ],
   "quartile": 1,
-  "impact": 6.75,
+  "impact": 6.76,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -1298,7 +1388,7 @@
    "1071-1813"
   ],
   "quartile": 3,
-  "impact": 0.87,
+  "impact": 0.88,
   "field": "Psychology"
  },
  {
@@ -1309,7 +1399,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 7.67,
+  "impact": 7.69,
   "field": "Engineering"
  },
  {
@@ -1319,7 +1409,7 @@
    "2352-9385"
   ],
   "quartile": 2,
-  "impact": 3,
+  "impact": 3.01,
   "field": "Environmental Science"
  },
  {
@@ -1329,7 +1419,7 @@
    "2737-4777"
   ],
   "quartile": 3,
-  "impact": 1.6,
+  "impact": 1.62,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -1340,7 +1430,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 7.07,
+  "impact": 7.08,
   "field": "Engineering"
  },
  {
@@ -1355,7 +1445,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 5.68,
+  "impact": 5.7,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -1365,7 +1455,7 @@
    "2662-9399"
   ],
   "quartile": 2,
-  "impact": 1.71,
+  "impact": 1.7,
   "field": "Economics, Econometrics and Finance"
  },
  {
@@ -1379,7 +1469,7 @@
    "2213-6711"
   ],
   "quartile": 1,
-  "impact": 5.2,
+  "impact": 5.24,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -1389,7 +1479,7 @@
    "2079-8954"
   ],
   "quartile": 1,
-  "impact": 4.21,
+  "impact": 4.22,
   "field": "Business, Management and Accounting"
  },
  {
@@ -1431,7 +1521,7 @@
    "0021-9738"
   ],
   "quartile": 1,
-  "impact": 10.95,
+  "impact": 11.02,
   "field": "Medicine"
  },
  {
@@ -1441,7 +1531,17 @@
    "0028-646X"
   ],
   "quartile": 1,
-  "impact": 8.14,
+  "impact": 8.18,
+  "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "The plant genome",
+  "paperCount": 3,
+  "issn": [
+   "1940-3372"
+  ],
+  "quartile": 1,
+  "impact": 4.03,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -1451,7 +1551,7 @@
    "0049-4747"
   ],
   "quartile": 3,
-  "impact": 1.79,
+  "impact": 1.8,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -1462,7 +1562,7 @@
   ],
   "publisher": "Turkish Science and Technology Publishing (TURSTEP)",
   "quartile": 4,
-  "impact": 0.61,
+  "impact": 0.6,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -1484,7 +1584,7 @@
    "0310-0367"
   ],
   "quartile": 1,
-  "impact": 4.6,
+  "impact": 4.61,
   "field": "Environmental Science"
  },
  {
@@ -1508,8 +1608,17 @@
    "1944-8244"
   ],
   "quartile": 1,
-  "impact": 8.9,
+  "impact": 8.93,
   "field": "Engineering"
+ },
+ {
+  "name": "ACS biomaterials science & engineering",
+  "paperCount": 2,
+  "issn": [
+   "2373-9878"
+  ],
+  "quartile": 1,
+  "impact": 6.84
  },
  {
   "name": "Acta biomaterialia",
@@ -1518,18 +1627,7 @@
    "1742-7061"
   ],
   "quartile": 1,
-  "impact": 9.52
- },
- {
-  "name": "Acta psychologica",
-  "paperCount": 2,
-  "issn": [
-   "0001-6918",
-   "2746-122X"
-  ],
-  "quartile": 1,
-  "impact": 3.65,
-  "field": "Neuroscience"
+  "impact": 9.57
  },
  {
   "name": "Adipocyte",
@@ -1538,7 +1636,7 @@
    "2162-3945"
   ],
   "quartile": 2,
-  "impact": 2.76,
+  "impact": 2.77,
   "field": "Medicine"
  },
  {
@@ -1563,7 +1661,7 @@
    "1684-5358"
   ],
   "quartile": 3,
-  "impact": 1.78,
+  "impact": 1.79,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -1584,7 +1682,7 @@
    "1461-9555"
   ],
   "quartile": 3,
-  "impact": 1.84,
+  "impact": 1.83,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -1598,16 +1696,6 @@
   "field": "Agricultural and Biological Sciences"
  },
  {
-  "name": "AI and Ethics",
-  "paperCount": 2,
-  "issn": [
-   "2730-5953"
-  ],
-  "quartile": 1,
-  "impact": 6.33,
-  "field": "Social Sciences"
- },
- {
   "name": "AI Magazine",
   "paperCount": 2,
   "issn": [
@@ -1616,7 +1704,7 @@
   ],
   "publisher": "Wiley",
   "quartile": 1,
-  "impact": 4.68,
+  "impact": 4.65,
   "field": "Computer Science"
  },
  {
@@ -1626,8 +1714,18 @@
    "2797-2356"
   ],
   "quartile": 4,
-  "impact": 0.18,
+  "impact": 0.17,
   "field": "Social Sciences"
+ },
+ {
+  "name": "American journal of respiratory cell and molecular biology",
+  "paperCount": 2,
+  "issn": [
+   "1044-1549"
+  ],
+  "quartile": 1,
+  "impact": 3.13,
+  "field": "Medicine"
  },
  {
   "name": "Antioxidants",
@@ -1636,7 +1734,7 @@
    "2076-3921"
   ],
   "quartile": 1,
-  "impact": 9.39,
+  "impact": 9.43,
   "field": "Medicine"
  },
  {
@@ -1651,7 +1749,7 @@
    "1866-928X"
   ],
   "quartile": 3,
-  "impact": 1.96,
+  "impact": 1.97,
   "field": "Engineering"
  },
  {
@@ -1661,7 +1759,7 @@
    "0924-669X"
   ],
   "quartile": 1,
-  "impact": 4.67,
+  "impact": 4.68,
   "field": "Computer Science"
  },
  {
@@ -1673,7 +1771,7 @@
   ],
   "publisher": "Optica Publishing Group",
   "quartile": 3,
-  "impact": 1.75,
+  "impact": 1.76,
   "field": "Engineering"
  },
  {
@@ -1684,7 +1782,7 @@
    "1874-4621"
   ],
   "quartile": 2,
-  "impact": 2.27,
+  "impact": 2.26,
   "field": "Social Sciences"
  },
  {
@@ -1694,7 +1792,7 @@
    "0340-5761"
   ],
   "quartile": 1,
-  "impact": 9.19
+  "impact": 9.25
  },
  {
   "name": "Artificial Intelligence and the Water-Energy-Food Nexus",
@@ -1709,7 +1807,7 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 33.5,
+  "impact": 33.62,
   "field": "Computer Science"
  },
  {
@@ -1732,7 +1830,7 @@
    "0004-6973"
   ],
   "quartile": 1,
-  "impact": 3.71,
+  "impact": 3.72,
   "field": "Environmental Science"
  },
  {
@@ -1743,7 +1841,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 13.72,
+  "impact": 13.79,
   "field": "Engineering"
  },
  {
@@ -1753,7 +1851,7 @@
    "2313-0105"
   ],
   "quartile": 1,
-  "impact": 8.99,
+  "impact": 9.06,
   "field": "Engineering"
  },
  {
@@ -1763,16 +1861,16 @@
    "2314-8535"
   ],
   "quartile": 1,
-  "impact": 3.86
+  "impact": 3.85
  },
  {
-  "name": "Bioengineering",
+  "name": "Bioconjugate Chemistry",
   "paperCount": 2,
   "issn": [
-   "2306-5354"
+   "1043-1802"
   ],
   "quartile": 1,
-  "impact": 5.46
+  "impact": 3.82
  },
  {
   "name": "Bioinformatics",
@@ -1782,7 +1880,7 @@
    "1367-4811"
   ],
   "quartile": 1,
-  "impact": 6.53,
+  "impact": 6.58,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -1792,7 +1890,7 @@
    "2218-273X"
   ],
   "quartile": 1,
-  "impact": 6.77,
+  "impact": 6.82,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -1802,18 +1900,8 @@
    "2197-4365"
   ],
   "quartile": 1,
-  "impact": 6.78,
+  "impact": 6.8,
   "field": "Biochemistry, Genetics and Molecular Biology"
- },
- {
-  "name": "BJU international",
-  "paperCount": 2,
-  "issn": [
-   "1464-4096"
-  ],
-  "quartile": 2,
-  "impact": 2.5,
-  "field": "Medicine"
  },
  {
   "name": "Black Sea Economic Studies",
@@ -1832,7 +1920,7 @@
    "1746-6148"
   ],
   "quartile": 1,
-  "impact": 3.02,
+  "impact": 3.03,
   "field": "Veterinary"
  },
  {
@@ -1843,7 +1931,7 @@
    "2095-4166"
   ],
   "quartile": 1,
-  "impact": 21.17,
+  "impact": 21.31,
   "field": "Medicine"
  },
  {
@@ -1853,7 +1941,7 @@
    "0006-8993"
   ],
   "quartile": 1,
-  "impact": 3.61,
+  "impact": 3.62,
   "field": "Neuroscience"
  },
  {
@@ -1863,7 +1951,7 @@
    "0007-1048"
   ],
   "quartile": 2,
-  "impact": 2.78,
+  "impact": 2.8,
   "field": "Medicine"
  },
  {
@@ -1873,7 +1961,7 @@
    "2072-6694"
   ],
   "quartile": 1,
-  "impact": 5.47,
+  "impact": 5.48,
   "field": "Medicine"
  },
  {
@@ -1883,7 +1971,7 @@
    "0898-6568"
   ],
   "quartile": 1,
-  "impact": 4.19,
+  "impact": 4.22,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -1893,7 +1981,7 @@
    "2590-2520"
   ],
   "quartile": 1,
-  "impact": 3.87,
+  "impact": 3.84,
   "field": "Environmental Science"
  },
  {
@@ -1911,26 +1999,6 @@
   "paperCount": 2
  },
  {
-  "name": "Competitiveness Review: An International Business Journal",
-  "paperCount": 2,
-  "issn": [
-   "1059-5422"
-  ],
-  "quartile": 1,
-  "impact": 3.83,
-  "field": "Business, Management and Accounting"
- },
- {
-  "name": "Comprehensive reviews in food science and food safety",
-  "paperCount": 2,
-  "issn": [
-   "1541-4337"
-  ],
-  "quartile": 1,
-  "impact": 15.88,
-  "field": "Agricultural and Biological Sciences"
- },
- {
   "name": "Computational Materials Science",
   "paperCount": 2,
   "issn": [
@@ -1938,7 +2006,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 2,
-  "impact": 4.14,
+  "impact": 4.16,
   "field": "Materials Science"
  },
  {
@@ -1958,7 +2026,19 @@
   ],
   "publisher": "CSIRO Publishing",
   "quartile": 2,
-  "impact": 1.86,
+  "impact": 1.88,
+  "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Crop Science",
+  "paperCount": 2,
+  "issn": [
+   "0011-183X",
+   "1435-0653"
+  ],
+  "publisher": "Wiley",
+  "quartile": 2,
+  "impact": 2.68,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -1969,7 +2049,7 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 4.59,
+  "impact": 4.6,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -1986,6 +2066,16 @@
   "quartile": 4,
   "impact": 0,
   "field": "Computer Science"
+ },
+ {
+  "name": "Discover Education",
+  "paperCount": 2,
+  "issn": [
+   "2731-5525"
+  ],
+  "quartile": 1,
+  "impact": 3.03,
+  "field": "Social Sciences"
  },
  {
   "name": "Discover Environment",
@@ -2016,7 +2106,7 @@
    "2192-1709"
   ],
   "quartile": 1,
-  "impact": 5.59,
+  "impact": 5.61,
   "field": "Environmental Science"
  },
  {
@@ -2030,7 +2120,7 @@
    "0147-6513"
   ],
   "quartile": 1,
-  "impact": 7.41,
+  "impact": 7.42,
   "field": "Environmental Science"
  },
  {
@@ -2040,7 +2130,7 @@
    "0040-0912"
   ],
   "quartile": 1,
-  "impact": 3.71,
+  "impact": 3.7,
   "field": "Social Sciences"
  },
  {
@@ -2069,7 +2159,10 @@
   "paperCount": 2,
   "issn": [
    "0952-1976"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 7.92,
+  "field": "Computer Science"
  },
  {
   "name": "Engineering Research Express",
@@ -2080,16 +2173,6 @@
   "quartile": 3,
   "impact": 1.56,
   "field": "Engineering"
- },
- {
-  "name": "Engineering, Construction and Architectural Management",
-  "paperCount": 2,
-  "issn": [
-   "0969-9988"
-  ],
-  "quartile": 1,
-  "impact": 4.04,
-  "field": "Decision Sciences"
  },
  {
   "name": "Environmental and Sustainability Indicators",
@@ -2108,7 +2191,7 @@
    "2667-0100"
   ],
   "quartile": 1,
-  "impact": 5.25,
+  "impact": 5.24,
   "field": "Environmental Science"
  },
  {
@@ -2118,7 +2201,7 @@
    "0269-4042"
   ],
   "quartile": 1,
-  "impact": 4.88,
+  "impact": 4.9,
   "field": "Environmental Science"
  },
  {
@@ -2129,7 +2212,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 5.65,
+  "impact": 5.69,
   "field": "Environmental Science"
  },
  {
@@ -2141,7 +2224,7 @@
    "1927-0909"
   ],
   "quartile": 1,
-  "impact": 7.89,
+  "impact": 7.92,
   "field": "Environmental Science"
  },
  {
@@ -2151,7 +2234,7 @@
    "0013-9351"
   ],
   "quartile": 1,
-  "impact": 8.37,
+  "impact": 8.4,
   "field": "Environmental Science"
  },
  {
@@ -2159,7 +2242,10 @@
   "paperCount": 2,
   "issn": [
    "0013-936X"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 11.65,
+  "field": "Environmental Science"
  },
  {
   "name": "Environmental science and pollution research international",
@@ -2168,7 +2254,7 @@
    "0944-1344"
   ],
   "quartile": 1,
-  "impact": 6.57,
+  "impact": 6.59,
   "field": "Environmental Science"
  },
  {
@@ -2178,7 +2264,7 @@
    "1064-2293"
   ],
   "quartile": 3,
-  "impact": 1.75,
+  "impact": 1.76,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -2192,7 +2278,7 @@
    "1612-4669"
   ],
   "quartile": 2,
-  "impact": 3.55,
+  "impact": 3.56,
   "field": "Environmental Science"
  },
  {
@@ -2202,7 +2288,7 @@
    "0014-2999"
   ],
   "quartile": 1,
-  "impact": 4.8,
+  "impact": 4.82,
   "field": "Neuroscience"
  },
  {
@@ -2223,7 +2309,7 @@
    "0266-4720"
   ],
   "quartile": 1,
-  "impact": 4.38,
+  "impact": 4.39,
   "field": "Computer Science"
  },
  {
@@ -2243,7 +2329,7 @@
    "2198-0802"
   ],
   "quartile": 1,
-  "impact": 5.73
+  "impact": 5.76
  },
  {
   "name": "Food Analytical Methods",
@@ -2252,7 +2338,7 @@
    "1936-9751"
   ],
   "quartile": 2,
-  "impact": 2.62,
+  "impact": 2.64,
   "field": "Chemistry"
  },
  {
@@ -2262,7 +2348,7 @@
    "2624-9553"
   ],
   "quartile": 1,
-  "impact": 4.66,
+  "impact": 4.65,
   "field": "Environmental Science"
  },
  {
@@ -2274,7 +2360,7 @@
    "2095-0195"
   ],
   "quartile": 2,
-  "impact": 2.58,
+  "impact": 2.6,
   "field": "Earth and Planetary Sciences"
  },
  {
@@ -2284,19 +2370,8 @@
    "2296-665X"
   ],
   "quartile": 1,
-  "impact": 5.09,
+  "impact": 5.1,
   "field": "Environmental Science"
- },
- {
-  "name": "Frontiers in Genetics",
-  "paperCount": 2,
-  "issn": [
-   "1664-8021"
-  ],
-  "publisher": "Frontiers Media SA",
-  "quartile": 2,
-  "impact": 3.01,
-  "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
   "name": "Frontiers in Immunology",
@@ -2305,8 +2380,18 @@
    "1664-3224"
   ],
   "quartile": 1,
-  "impact": 5.63,
+  "impact": 5.65,
   "field": "Immunology and Microbiology"
+ },
+ {
+  "name": "Frontiers in Pharmacology",
+  "paperCount": 2,
+  "issn": [
+   "1663-9812"
+  ],
+  "quartile": 1,
+  "impact": 5.23,
+  "field": "Medicine"
  },
  {
   "name": "Frontiers in Remote Sensing",
@@ -2315,7 +2400,7 @@
    "2673-6187"
   ],
   "quartile": 1,
-  "impact": 3.97,
+  "impact": 4.02,
   "field": "Environmental Science"
  },
  {
@@ -2325,7 +2410,7 @@
    "2673-3080"
   ],
   "quartile": 1,
-  "impact": 4.79,
+  "impact": 4.78,
   "field": "Environmental Science"
  },
  {
@@ -2335,7 +2420,7 @@
    "2624-9375"
   ],
   "quartile": 1,
-  "impact": 4.39,
+  "impact": 4.42,
   "field": "Environmental Science"
  },
  {
@@ -2360,7 +2445,7 @@
    "2073-4425"
   ],
   "quartile": 2,
-  "impact": 3.57,
+  "impact": 3.59,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -2370,7 +2455,7 @@
    "0343-2521"
   ],
   "quartile": 1,
-  "impact": 3.35,
+  "impact": 3.34,
   "field": "Social Sciences"
  },
  {
@@ -2394,23 +2479,8 @@
   "field": "Earth and Planetary Sciences"
  },
  {
-  "name": "HortScience",
-  "paperCount": 2,
-  "issn": [
-   "0018-5345"
-  ],
-  "quartile": 3,
-  "impact": 1.25,
-  "field": "Agricultural and Biological Sciences"
- },
- {
-  "name": "Iconic Research and Engineering Journals",
-  "paperCount": 2,
-  "issn": [
-   "2456-8880"
-  ],
-  "quartile": 4,
-  "impact": 0.02
+  "name": "ICCK Transactions on Intelligent Systematics",
+  "paperCount": 2
  },
  {
   "name": "IEEE Photonics Technology Letters",
@@ -2419,7 +2489,7 @@
    "1041-1135"
   ],
   "quartile": 3,
-  "impact": 1.61,
+  "impact": 1.62,
   "field": "Engineering"
  },
  {
@@ -2439,7 +2509,7 @@
    "1041-4347"
   ],
   "quartile": 1,
-  "impact": 10.78,
+  "impact": 10.81,
   "field": "Computer Science"
  },
  {
@@ -2449,7 +2519,7 @@
    "1045-9219"
   ],
   "quartile": 1,
-  "impact": 4.82,
+  "impact": 4.85,
   "field": "Computer Science"
  },
  {
@@ -2461,6 +2531,27 @@
   "publisher": "Tejass Publishers",
   "quartile": 4,
   "impact": 0.71,
+  "field": "Computer Science"
+ },
+ {
+  "name": "Indonesian Journal of Innovation Studies",
+  "paperCount": 2,
+  "issn": [
+   "2598-9936"
+  ],
+  "quartile": 4,
+  "impact": 0.15,
+  "field": "Social Sciences"
+ },
+ {
+  "name": "Information Sciences",
+  "paperCount": 2,
+  "issn": [
+   "0020-0255"
+  ],
+  "publisher": "Elsevier BV",
+  "quartile": 1,
+  "impact": 6.12,
   "field": "Computer Science"
  },
  {
@@ -2492,7 +2583,7 @@
    "0920-5691"
   ],
   "quartile": 1,
-  "impact": 11.45,
+  "impact": 11.49,
   "field": "Computer Science"
  },
  {
@@ -2503,7 +2594,7 @@
    "2364-4168"
   ],
   "quartile": 3,
-  "impact": 0.78
+  "impact": 0.79
  },
  {
   "name": "International journal of data science and machine learning",
@@ -2513,7 +2604,7 @@
   ],
   "publisher": "Next Scientists",
   "quartile": 4,
-  "impact": 0.57,
+  "impact": 0.56,
   "field": "Computer Science"
  },
  {
@@ -2523,7 +2614,7 @@
    "2504-8848"
   ],
   "quartile": 4,
-  "impact": 0.07,
+  "impact": 0.06,
   "field": "Engineering"
  },
  {
@@ -2545,7 +2636,7 @@
   ],
   "publisher": "Informa UK Limited",
   "quartile": 1,
-  "impact": 5.51,
+  "impact": 5.52,
   "field": "Computer Science"
  },
  {
@@ -2556,7 +2647,7 @@
   ],
   "publisher": "The Intelligent Networks and Systems Society",
   "quartile": 3,
-  "impact": 1.27,
+  "impact": 1.28,
   "field": "Computer Science"
  },
  {
@@ -2572,7 +2663,10 @@
   "paperCount": 2,
   "issn": [
    "2089-4864"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0.8,
+  "field": "Engineering"
  },
  {
   "name": "International Journal of Remote Sensing",
@@ -2583,7 +2677,7 @@
   ],
   "publisher": "Informa UK Limited",
   "quartile": 2,
-  "impact": 2.88,
+  "impact": 2.89,
   "field": "Engineering"
  },
  {
@@ -2604,7 +2698,7 @@
    "1531-0353"
   ],
   "quartile": 2,
-  "impact": 1.91,
+  "impact": 1.95,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -2614,7 +2708,7 @@
    "2052-2525"
   ],
   "quartile": 2,
-  "impact": 4.07,
+  "impact": 4.09,
   "field": "Materials Science"
  },
  {
@@ -2624,11 +2718,15 @@
    "2379-3708"
   ],
   "quartile": 1,
-  "impact": 6.69,
+  "impact": 6.71,
   "field": "Medicine"
  },
  {
   "name": "Journal of Advance Agricultural Research",
+  "paperCount": 2
+ },
+ {
+  "name": "Journal of Advances in Biology & Biotechnology",
   "paperCount": 2
  },
  {
@@ -2638,7 +2736,7 @@
    "0893-1321"
   ],
   "quartile": 2,
-  "impact": 2.25,
+  "impact": 2.26,
   "field": "Engineering"
  },
  {
@@ -2648,7 +2746,7 @@
    "0165-0327"
   ],
   "quartile": 1,
-  "impact": 5.35,
+  "impact": 5.37,
   "field": "Psychology"
  },
  {
@@ -2658,7 +2756,20 @@
    "2044-0839"
   ],
   "quartile": 3,
-  "impact": 1.49,
+  "impact": 1.48,
+  "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Journal of Agricultural Engineering (India)",
+  "paperCount": 2,
+  "issn": [
+   "2588-526X",
+   "1974-7071",
+   "2588-5944",
+   "0256-6524"
+  ],
+  "quartile": 4,
+  "impact": 0,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -2669,7 +2780,7 @@
   ],
   "publisher": "Politeknik Negeri Batam",
   "quartile": 4,
-  "impact": 0.44,
+  "impact": 0.45,
   "field": "Computer Science"
  },
  {
@@ -2679,7 +2790,7 @@
    "1758-1184"
   ],
   "quartile": 1,
-  "impact": 3.25,
+  "impact": 3.28,
   "field": "Social Sciences"
  },
  {
@@ -2693,7 +2804,7 @@
    "0168-3659"
   ],
   "quartile": 1,
-  "impact": 11.55
+  "impact": 11.62
  },
  {
   "name": "Journal of Crop Health",
@@ -2704,8 +2815,17 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 2,
-  "impact": 3.26,
+  "impact": 3.27,
   "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Journal of dental research",
+  "paperCount": 2,
+  "issn": [
+   "2688-5549",
+   "0022-0345",
+   "2332-3647"
+  ]
  },
  {
   "name": "Journal of Ecological Engineering",
@@ -2714,7 +2834,7 @@
    "2299-8993"
   ],
   "quartile": 3,
-  "impact": 1.85,
+  "impact": 1.86,
   "field": "Environmental Science"
  },
  {
@@ -2724,7 +2844,7 @@
    "2089-9823"
   ],
   "quartile": 2,
-  "impact": 2.31,
+  "impact": 2.32,
   "field": "Social Sciences"
  },
  {
@@ -2734,7 +2854,7 @@
    "2722-273X"
   ],
   "quartile": 4,
-  "impact": 0.18,
+  "impact": 0.19,
   "field": "Computer Science"
  },
  {
@@ -2743,7 +2863,10 @@
   "issn": [
    "1598-7981",
    "0733-9402"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0.11,
+  "field": "Engineering"
  },
  {
   "name": "Journal of Engineering and Applied Sciences Technology",
@@ -2772,7 +2895,7 @@
    "1741-0398"
   ],
   "quartile": 1,
-  "impact": 6.04,
+  "impact": 6.07,
   "field": "Business, Management and Accounting"
  },
  {
@@ -2782,7 +2905,7 @@
    "2457-0591"
   ],
   "quartile": 4,
-  "impact": 0.78,
+  "impact": 0.79,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -2791,8 +2914,8 @@
   "issn": [
    "1361-2026"
   ],
-  "quartile": 1,
-  "impact": 3.27,
+  "quartile": 2,
+  "impact": 3.28,
   "field": "Business, Management and Accounting"
  },
  {
@@ -2812,7 +2935,7 @@
    "0304-3894"
   ],
   "quartile": 1,
-  "impact": 10.86,
+  "impact": 10.88,
   "field": "Environmental Science"
  },
  {
@@ -2823,17 +2946,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 7.76,
-  "field": "Environmental Science"
- },
- {
-  "name": "Journal of Hydrology: Regional Studies",
-  "paperCount": 2,
-  "issn": [
-   "2214-5818"
-  ],
-  "quartile": 2,
-  "impact": 2.82,
+  "impact": 7.8,
   "field": "Environmental Science"
  },
  {
@@ -2843,7 +2956,7 @@
    "1076-0342"
   ],
   "quartile": 2,
-  "impact": 3.61,
+  "impact": 3.59,
   "field": "Engineering"
  },
  {
@@ -2863,7 +2976,7 @@
    "0742-597X"
   ],
   "quartile": 1,
-  "impact": 5.01,
+  "impact": 5.03,
   "field": "Decision Sciences"
  },
  {
@@ -2873,7 +2986,7 @@
    "0022-2623"
   ],
   "quartile": 1,
-  "impact": 7.64,
+  "impact": 7.81,
   "field": "Chemistry"
  },
  {
@@ -2883,7 +2996,7 @@
    "0195-9298"
   ],
   "quartile": 2,
-  "impact": 2.83,
+  "impact": 2.85,
   "field": "Engineering"
  },
  {
@@ -2893,7 +3006,7 @@
    "1872-5120"
   ],
   "quartile": 3,
-  "impact": 1.21,
+  "impact": 1.22,
   "field": "Pharmacology, Toxicology and Pharmaceutics"
  },
  {
@@ -2903,7 +3016,7 @@
    "1050-8392"
   ],
   "quartile": 1,
-  "impact": 2.95,
+  "impact": 2.96,
   "field": "Psychology"
  },
  {
@@ -2914,7 +3027,7 @@
   ],
   "publisher": "MDPI AG",
   "quartile": 1,
-  "impact": 4.48,
+  "impact": 4.5,
   "field": "Economics, Econometrics and Finance"
  },
  {
@@ -2926,19 +3039,9 @@
    "1340-8240"
   ],
   "publisher": "Elsevier BV",
-  "quartile": 1,
-  "impact": 5.22,
-  "field": "Agricultural and Biological Sciences"
- },
- {
-  "name": "Journal of Scientific Research and Reports",
-  "paperCount": 2,
-  "issn": [
-   "2320-0227"
-  ],
   "quartile": 4,
-  "impact": 0.71,
-  "field": "Agricultural and Biological Sciences"
+  "impact": 0.01,
+  "field": "Social Sciences"
  },
  {
   "name": "Journal of Soil Science and Plant Nutrition",
@@ -2947,7 +3050,7 @@
    "0718-9508"
   ],
   "quartile": 1,
-  "impact": 3.77,
+  "impact": 3.78,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -2957,7 +3060,7 @@
    "1439-0108"
   ],
   "quartile": 2,
-  "impact": 2.81,
+  "impact": 2.82,
   "field": "Environmental Science"
  },
  {
@@ -2966,7 +3069,7 @@
   "issn": [
    "0022-5193"
   ],
-  "quartile": 2,
+  "quartile": 3,
   "impact": 1.96,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
@@ -2977,7 +3080,7 @@
    "0733-9488"
   ],
   "quartile": 2,
-  "impact": 2.31,
+  "impact": 2.33,
   "field": "Social Sciences"
  },
  {
@@ -2991,13 +3094,14 @@
   "field": "Computer Science"
  },
  {
-  "name": "Kybernetes",
+  "name": "Journal of visualized experiments : JoVE",
   "paperCount": 2,
   "issn": [
-   "0368-492X"
+   "1940-087X"
   ],
-  "quartile": 1,
-  "impact": 5.01
+  "quartile": 4,
+  "impact": 0.65,
+  "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
   "name": "Life sciences",
@@ -3032,7 +3136,7 @@
    "2165-0497"
   ],
   "quartile": 1,
-  "impact": 3.96,
+  "impact": 3.98,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -3043,12 +3147,24 @@
   ],
   "publisher": "Shafi Science Center Ltd",
   "quartile": 4,
-  "impact": 0.09,
+  "impact": 0.08,
   "field": "Economics, Econometrics and Finance"
  },
  {
   "name": "Natural Sciences in the Modern World, Vol. 5, No. 18 (2026)",
   "paperCount": 2
+ },
+ {
+  "name": "Nature & Science",
+  "paperCount": 2,
+  "issn": [
+   "2707-1146",
+   "2709-4189"
+  ],
+  "publisher": "Azerbaijan Science Center",
+  "quartile": 4,
+  "impact": 0.12,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Nature Communications",
@@ -3057,7 +3173,7 @@
    "2041-1723"
   ],
   "quartile": 1,
-  "impact": 18.64,
+  "impact": 18.72,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -3067,7 +3183,7 @@
    "2055-0278"
   ],
   "quartile": 1,
-  "impact": 10.64,
+  "impact": 10.66,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -3077,7 +3193,7 @@
    "2662-8449"
   ],
   "quartile": 1,
-  "impact": 29.29,
+  "impact": 29.52,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -3087,7 +3203,7 @@
    "0893-6080"
   ],
   "quartile": 1,
-  "impact": 6.05,
+  "impact": 6.07,
   "field": "Computer Science"
  },
  {
@@ -3097,7 +3213,7 @@
    "0969-9961"
   ],
   "quartile": 1,
-  "impact": 5.29,
+  "impact": 5.3,
   "field": "Medicine"
  },
  {
@@ -3117,7 +3233,7 @@
    "0029-8018"
   ],
   "quartile": 1,
-  "impact": 6.24,
+  "impact": 6.25,
   "field": "Engineering"
  },
  {
@@ -3127,7 +3243,7 @@
    "0950-9232"
   ],
   "quartile": 1,
-  "impact": 6.85,
+  "impact": 6.87,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -3146,7 +3262,10 @@
   "paperCount": 2,
   "issn": [
    "0031-3203"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 7.08,
+  "field": "Computer Science"
  },
  {
   "name": "Patterns",
@@ -3156,7 +3275,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 14.08,
+  "impact": 14.16,
   "field": "Computer Science"
  },
  {
@@ -3166,7 +3285,7 @@
    "1526-498X"
   ],
   "quartile": 1,
-  "impact": 3.59,
+  "impact": 3.6,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -3176,7 +3295,7 @@
    "1043-6618"
   ],
   "quartile": 1,
-  "impact": 11.24,
+  "impact": 11.3,
   "field": "Medicine"
  },
  {
@@ -3186,7 +3305,7 @@
    "1463-9076"
   ],
   "quartile": 1,
-  "impact": 3.64
+  "impact": 3.65
  },
  {
   "name": "Plant Breeding",
@@ -3195,7 +3314,7 @@
    "0179-9541"
   ],
   "quartile": 3,
-  "impact": 1.69,
+  "impact": 1.86,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -3205,7 +3324,7 @@
    "0032-0935"
   ],
   "quartile": 1,
-  "impact": 4.87,
+  "impact": 4.89,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -3239,7 +3358,7 @@
    "2227-9717"
   ],
   "quartile": 1,
-  "impact": 4.03,
+  "impact": 4.04,
   "field": "Engineering"
  },
  {
@@ -3264,33 +3383,14 @@
   "paperCount": 2
  },
  {
-  "name": "Revista de Investigación en Tecnologías de la Información",
-  "paperCount": 2,
-  "issn": [
-   "2387-0893"
-  ],
-  "quartile": 3,
-  "impact": 0.84,
-  "field": "Computer Science"
- },
- {
   "name": "RSC Advances",
   "paperCount": 2,
   "issn": [
    "2046-2069"
   ],
   "quartile": 1,
-  "impact": 7.62
- },
- {
-  "name": "RSF Conference Series: Engineering and Technology",
-  "paperCount": 2,
-  "issn": [
-   "2809-6878"
-  ],
-  "quartile": 4,
-  "impact": 0.03,
-  "field": "Engineering"
+  "impact": 7.64,
+  "field": "Materials Science"
  },
  {
   "name": "Scientific Data",
@@ -3299,14 +3399,17 @@
    "2052-4463"
   ],
   "quartile": 1,
-  "impact": 6.05
+  "impact": 6.09
  },
  {
   "name": "Separation and Purification Technology",
   "paperCount": 2,
   "issn": [
    "1383-5866"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 9.88,
+  "field": "Engineering"
  },
  {
   "name": "Signal Transduction and Targeted Therapy",
@@ -3315,7 +3418,7 @@
    "2059-3635"
   ],
   "quartile": 1,
-  "impact": 50.64,
+  "impact": 50.77,
   "field": "Medicine"
  },
  {
@@ -3326,7 +3429,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 4.65,
+  "impact": 4.64,
   "field": "Computer Science"
  },
  {
@@ -3336,7 +3439,7 @@
    "1613-6810"
   ],
   "quartile": 1,
-  "impact": 9.22,
+  "impact": 9.23,
   "field": "Engineering"
  },
  {
@@ -3356,7 +3459,7 @@
    "2352-7110"
   ],
   "quartile": 2,
-  "impact": 2.1,
+  "impact": 2.11,
   "field": "Computer Science"
  },
  {
@@ -3372,24 +3475,18 @@
   "paperCount": 2
  },
  {
+  "name": "The Journal of Interactive Social Sciences",
+  "paperCount": 2
+ },
+ {
   "name": "The Kaohsiung journal of medical sciences",
   "paperCount": 2,
   "issn": [
    "1607-551X"
   ],
   "quartile": 2,
-  "impact": 1.88,
+  "impact": 1.89,
   "field": "Medicine"
- },
- {
-  "name": "The plant genome",
-  "paperCount": 2,
-  "issn": [
-   "1940-3372"
-  ],
-  "quartile": 1,
-  "impact": 4.02,
-  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Theoretical and Applied Genetics",
@@ -3399,18 +3496,8 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 4.14,
+  "impact": 4.16,
   "field": "Agricultural and Biological Sciences"
- },
- {
-  "name": "Thyroid : official journal of the American Thyroid Association",
-  "paperCount": 2,
-  "issn": [
-   "1050-7256"
-  ],
-  "quartile": 1,
-  "impact": 7.48,
-  "field": "Medicine"
  },
  {
   "name": "Tractors and Agricultural Machinery",
@@ -3427,7 +3514,7 @@
    "2073-5537"
   ],
   "quartile": 4,
-  "impact": 0.35
+  "impact": 0.36
  },
  {
   "name": "Veterinary Sciences",
@@ -3436,8 +3523,12 @@
    "2306-7381"
   ],
   "quartile": 2,
-  "impact": 2.34,
+  "impact": 2.35,
   "field": "Veterinary"
+ },
+ {
+  "name": "Work",
+  "paperCount": 2
  },
  {
   "name": "World Journal of Advanced Engineering Technology and Sciences",
@@ -3504,8 +3595,12 @@
   ],
   "publisher": "Academia.edu Journals",
   "quartile": 1,
-  "impact": 4.15,
+  "impact": 4.19,
   "field": "Computer Science"
+ },
+ {
+  "name": "Academia Earth and Planetary Science",
+  "paperCount": 1
  },
  {
   "name": "Academic Journal of Digital Economics and Stability",
@@ -3542,17 +3637,8 @@
    "1556-4681"
   ],
   "quartile": 1,
-  "impact": 6.65,
+  "impact": 6.66,
   "field": "Computer Science"
- },
- {
-  "name": "ACS biomaterials science & engineering",
-  "paperCount": 1,
-  "issn": [
-   "2373-9878"
-  ],
-  "quartile": 1,
-  "impact": 6.82
  },
  {
   "name": "ACS ES&T Toxicology",
@@ -3566,7 +3652,7 @@
   ],
   "publisher": "American Chemical Society (ACS)",
   "quartile": 1,
-  "impact": 11.13,
+  "impact": 11.17,
   "field": "Engineering"
  },
  {
@@ -3586,7 +3672,7 @@
    "1671-4083"
   ],
   "quartile": 1,
-  "impact": 8.42,
+  "impact": 8.47,
   "field": "Medicine"
  },
  {
@@ -3617,7 +3703,7 @@
    "0306-4603"
   ],
   "quartile": 1,
-  "impact": 3.92,
+  "impact": 3.94,
   "field": "Medicine"
  },
  {
@@ -3629,7 +3715,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 8.71,
+  "impact": 8.74,
   "field": "Engineering"
  },
  {
@@ -3639,7 +3725,7 @@
    "2076-3387"
   ],
   "quartile": 1,
-  "impact": 6.36,
+  "impact": 6.38,
   "field": "Business, Management and Accounting"
  },
  {
@@ -3693,7 +3779,10 @@
   "paperCount": 1,
   "issn": [
    "0309-1708"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 3.77,
+  "field": "Environmental Science"
  },
  {
   "name": "Adversarial Symbiosis in Cybersecurity",
@@ -3728,13 +3817,23 @@
   "field": "Medicine"
  },
  {
+  "name": "African Journal of Empirical Research",
+  "paperCount": 1,
+  "issn": [
+   "2709-2607"
+  ],
+  "quartile": 4,
+  "impact": 0.56,
+  "field": "Social Sciences"
+ },
+ {
   "name": "Aging and disease",
   "paperCount": 1,
   "issn": [
    "2152-5250"
   ],
   "quartile": 1,
-  "impact": 5.73,
+  "impact": 5.76,
   "field": "Medicine"
  },
  {
@@ -3742,7 +3841,10 @@
   "paperCount": 1,
   "issn": [
    "2193-7532"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 5.59,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Agricultural Economics (Zemědělská ekonomika)",
@@ -3755,7 +3857,7 @@
    "0971-3441"
   ],
   "quartile": 4,
-  "impact": 0.38,
+  "impact": 0.37,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -3775,7 +3877,7 @@
    "2048-7010"
   ],
   "quartile": 1,
-  "impact": 5.48,
+  "impact": 5.51,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -3785,7 +3887,7 @@
    "0889-048X"
   ],
   "quartile": 2,
-  "impact": 3.25,
+  "impact": 3.27,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -3807,7 +3909,7 @@
    "1773-0155"
   ],
   "quartile": 1,
-  "impact": 7.41,
+  "impact": 7.42,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -3844,7 +3946,7 @@
    "0269-9370"
   ],
   "quartile": 2,
-  "impact": 2.12,
+  "impact": 2.13,
   "field": "Medicine"
  },
  {
@@ -3854,7 +3956,7 @@
    "0169-1864"
   ],
   "quartile": 3,
-  "impact": 1.81,
+  "impact": 1.82,
   "field": "Engineering"
  },
  {
@@ -3894,7 +3996,7 @@
    "2578-7985"
   ],
   "quartile": 4,
-  "impact": 0.87,
+  "impact": 0.89,
   "field": "Environmental Science"
  },
  {
@@ -3912,21 +4014,14 @@
   "field": "Engineering"
  },
  {
-  "name": "American journal of respiratory cell and molecular biology",
-  "paperCount": 1,
-  "issn": [
-   "1044-1549"
-  ],
-  "quartile": 1,
-  "impact": 3.11,
-  "field": "Medicine"
- },
- {
   "name": "American journal of speech-language pathology",
   "paperCount": 1,
   "issn": [
    "1058-0360"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 2.53,
+  "field": "Psychology"
  },
  {
   "name": "AMS Review",
@@ -3948,7 +4043,7 @@
    "2352-5568"
   ],
   "quartile": 3,
-  "impact": 1.41,
+  "impact": 1.42,
   "field": "Medicine"
  },
  {
@@ -3956,7 +4051,10 @@
   "paperCount": 1,
   "issn": [
    "0003-2670"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 5.68,
+  "field": "Chemistry"
  },
  {
   "name": "Anatomical record",
@@ -3967,7 +4065,7 @@
    "0003-276X"
   ],
   "quartile": 2,
-  "impact": 1.95
+  "impact": 1.96
  },
  {
   "name": "Angiogenesis",
@@ -3976,7 +4074,7 @@
    "0969-6970"
   ],
   "quartile": 1,
-  "impact": 7.72,
+  "impact": 7.77,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -4021,7 +4119,7 @@
    "0972-7531"
   ],
   "quartile": 2,
-  "impact": 1.93,
+  "impact": 1.95,
   "field": "Medicine"
  },
  {
@@ -4029,7 +4127,10 @@
   "paperCount": 1,
   "issn": [
    "1082-720X"
-  ]
+  ],
+  "quartile": 3,
+  "impact": 0.97,
+  "field": "Medicine"
  },
  {
   "name": "Annals of surgical oncology",
@@ -4038,7 +4139,7 @@
    "1068-9265"
   ],
   "quartile": 2,
-  "impact": 1.79,
+  "impact": 1.8,
   "field": "Medicine"
  },
  {
@@ -4052,25 +4153,18 @@
    "2755-2721"
   ],
   "quartile": 3,
-  "impact": 0.97,
+  "impact": 0.96,
   "field": "Computer Science"
- },
- {
-  "name": "Applied and Environmental Microbiology",
-  "paperCount": 1,
-  "issn": [
-   "0099-2240"
-  ],
-  "quartile": 1,
-  "impact": 4.61,
-  "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
   "name": "Applied Energy",
   "paperCount": 1,
   "issn": [
    "0306-2619"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 15.96,
+  "field": "Engineering"
  },
  {
   "name": "Applied Expert Systems and Knowledge Management",
@@ -4080,7 +4174,7 @@
   ],
   "publisher": "Nexora Academic Press",
   "quartile": 3,
-  "impact": 1.06,
+  "impact": 1.12,
   "field": "Decision Sciences"
  },
  {
@@ -4092,7 +4186,10 @@
   "paperCount": 1,
   "issn": [
    "1175-5652"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 3.33,
+  "field": "Economics, Econometrics and Finance"
  },
  {
   "name": "Applied Information System and Management (AISM)",
@@ -4112,7 +4209,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 5.32,
+  "impact": 5.34,
   "field": "Engineering"
  },
  {
@@ -4122,7 +4219,7 @@
    "2673-3161"
   ],
   "quartile": 2,
-  "impact": 2.73,
+  "impact": 2.72,
   "field": "Engineering"
  },
  {
@@ -4142,7 +4239,7 @@
    "1359-4311"
   ],
   "quartile": 1,
-  "impact": 7.3,
+  "impact": 7.32,
   "field": "Engineering"
  },
  {
@@ -4152,7 +4249,7 @@
    "2048-7703"
   ],
   "quartile": 1,
-  "impact": 4.26,
+  "impact": 4.24,
   "field": "Computer Science"
  },
  {
@@ -4162,7 +4259,7 @@
    "1878-5352"
   ],
   "quartile": 1,
-  "impact": 5.22
+  "impact": 5.24
  },
  {
   "name": "Arabian Journal of Geosciences",
@@ -4171,7 +4268,7 @@
    "1866-7511"
   ],
   "quartile": 2,
-  "impact": 2.06,
+  "impact": 2.07,
   "field": "Earth and Planetary Sciences"
  },
  {
@@ -4183,7 +4280,7 @@
    "1661-464X"
   ],
   "quartile": 2,
-  "impact": 1.46,
+  "impact": 1.44,
   "field": "Arts and Humanities"
  },
  {
@@ -4205,7 +4302,7 @@
    "1432-069X"
   ],
   "quartile": 2,
-  "impact": 2.09,
+  "impact": 2.1,
   "field": "Medicine"
  },
  {
@@ -4218,7 +4315,7 @@
    "0003-9330"
   ],
   "quartile": 2,
-  "impact": 2.85,
+  "impact": 2.87,
   "field": "Medicine"
  },
  {
@@ -4252,7 +4349,7 @@
    "2151-464X"
   ],
   "quartile": 1,
-  "impact": 3.16,
+  "impact": 3.17,
   "field": "Medicine"
  },
  {
@@ -4272,7 +4369,7 @@
    "2949-7477"
   ],
   "quartile": 1,
-  "impact": 9.39,
+  "impact": 9.33,
   "field": "Materials Science"
  },
  {
@@ -4297,7 +4394,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 2,
-  "impact": 2.76,
+  "impact": 2.75,
   "field": "Computer Science"
  },
  {
@@ -4307,7 +4404,7 @@
    "1355-5855"
   ],
   "quartile": 1,
-  "impact": 5,
+  "impact": 5.01,
   "field": "Business, Management and Accounting"
  },
  {
@@ -4329,7 +4426,7 @@
   ],
   "publisher": "Southeast Asian Regional Center for Graduate Study and Research in Agriculture (SEARCA)",
   "quartile": 4,
-  "impact": 0.48,
+  "impact": 0.5,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -4339,7 +4436,7 @@
    "0970-7077"
   ],
   "quartile": 4,
-  "impact": 0.6,
+  "impact": 0.61,
   "field": "Chemistry"
  },
  {
@@ -4360,7 +4457,7 @@
   ],
   "publisher": "Sciencedomain International",
   "quartile": 4,
-  "impact": 0.7,
+  "impact": 0.71,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -4370,7 +4467,7 @@
    "2456-561X"
   ],
   "quartile": 4,
-  "impact": 0.46,
+  "impact": 0.47,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -4383,8 +4480,8 @@
   "issn": [
    "1073-1911"
   ],
-  "quartile": 2,
-  "impact": 2.61,
+  "quartile": 1,
+  "impact": 2.68,
   "field": "Psychology"
  },
  {
@@ -4418,7 +4515,7 @@
    "1568-9972"
   ],
   "quartile": 1,
-  "impact": 8.14,
+  "impact": 8.18,
   "field": "Medicine"
  },
  {
@@ -4429,7 +4526,7 @@
   ],
   "publisher": "MDPI AG",
   "quartile": 2,
-  "impact": 3.14,
+  "impact": 3.13,
   "field": "Engineering"
  },
  {
@@ -4439,7 +4536,7 @@
    "1554-8627"
   ],
   "quartile": 1,
-  "impact": 8.2,
+  "impact": 8.23,
   "field": "Medicine"
  },
  {
@@ -4447,7 +4544,10 @@
   "paperCount": 1,
   "issn": [
    "2687-850X"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 2.47,
+  "field": "Business, Management and Accounting"
  },
  {
   "name": "Basic and Applied Ecology",
@@ -4491,7 +4591,7 @@
    "2167-6461"
   ],
   "quartile": 3,
-  "impact": 1.28,
+  "impact": 1.26,
   "field": "Computer Science"
  },
  {
@@ -4505,7 +4605,7 @@
    "1369-703X"
   ],
   "quartile": 1,
-  "impact": 3.85,
+  "impact": 3.86,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -4516,7 +4616,7 @@
    "1356-1839"
   ],
   "quartile": 1,
-  "impact": 5.06,
+  "impact": 5.09,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -4526,17 +4626,8 @@
    "0925-4439"
   ],
   "quartile": 1,
-  "impact": 5.04,
+  "impact": 5.07,
   "field": "Medicine"
- },
- {
-  "name": "Bioconjugate Chemistry",
-  "paperCount": 1,
-  "issn": [
-   "1043-1802"
-  ],
-  "quartile": 1,
-  "impact": 3.81
  },
  {
   "name": "Biofabrication",
@@ -4553,7 +4644,10 @@
   "paperCount": 1,
   "issn": [
    "1932-1031"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 4.54,
+  "field": "Engineering"
  },
  {
   "name": "Biological psychiatry. Cognitive neuroscience and neuroimaging",
@@ -4562,7 +4656,7 @@
    "2451-9022"
   ],
   "quartile": 2,
-  "impact": 1.95,
+  "impact": 1.96,
   "field": "Neuroscience"
  },
  {
@@ -4572,7 +4666,7 @@
    "2046-6390"
   ],
   "quartile": 3,
-  "impact": 1.79,
+  "impact": 1.8,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -4582,7 +4676,7 @@
    "2047-4830"
   ],
   "quartile": 1,
-  "impact": 6.09,
+  "impact": 6.1,
   "field": "Materials Science"
  },
  {
@@ -4597,7 +4691,7 @@
    "0955-7717"
   ],
   "quartile": 1,
-  "impact": 4.28,
+  "impact": 4.29,
   "field": "Engineering"
  },
  {
@@ -4611,7 +4705,7 @@
    "2673-7426"
   ],
   "quartile": 1,
-  "impact": 7.11
+  "impact": 7.05
  },
  {
   "name": "Biomolecules & biomedicine",
@@ -4634,7 +4728,7 @@
    "0960-8524"
   ],
   "quartile": 1,
-  "impact": 7.25,
+  "impact": 7.28,
   "field": "Engineering"
  },
  {
@@ -4655,7 +4749,7 @@
    "2456-2602"
   ],
   "quartile": 3,
-  "impact": 1.76,
+  "impact": 1.77,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -4670,7 +4764,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 7.38,
+  "impact": 7.42,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -4680,7 +4774,7 @@
    "0006-3592"
   ],
   "quartile": 1,
-  "impact": 3.89,
+  "impact": 3.9,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -4688,7 +4782,10 @@
   "paperCount": 1,
   "issn": [
    "2456-7051"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0.28,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Bipolar disorders",
@@ -4697,7 +4794,17 @@
    "1398-5647"
   ],
   "quartile": 3,
-  "impact": 1.58,
+  "impact": 1.61,
+  "field": "Medicine"
+ },
+ {
+  "name": "BJU international",
+  "paperCount": 1,
+  "issn": [
+   "1464-4096"
+  ],
+  "quartile": 2,
+  "impact": 2.52,
   "field": "Medicine"
  },
  {
@@ -4705,7 +4812,10 @@
   "paperCount": 1,
   "issn": [
    "1471-2334"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 3.23,
+  "field": "Medicine"
  },
  {
   "name": "BMC Medical Education",
@@ -4714,7 +4824,7 @@
    "1472-6920"
   ],
   "quartile": 1,
-  "impact": 5.07,
+  "impact": 5.09,
   "field": "Medicine"
  },
  {
@@ -4724,7 +4834,7 @@
    "1472-6939"
   ],
   "quartile": 1,
-  "impact": 4.43,
+  "impact": 4.46,
   "field": "Medicine"
  },
  {
@@ -4734,7 +4844,7 @@
    "1471-2342"
   ],
   "quartile": 1,
-  "impact": 3.79,
+  "impact": 3.81,
   "field": "Medicine"
  },
  {
@@ -4744,7 +4854,7 @@
    "1472-6831"
   ],
   "quartile": 1,
-  "impact": 3.87,
+  "impact": 3.88,
   "field": "Dentistry"
  },
  {
@@ -4754,7 +4864,7 @@
    "1471-2229"
   ],
   "quartile": 1,
-  "impact": 5.08,
+  "impact": 5.09,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -4764,7 +4874,7 @@
    "2050-7283"
   ],
   "quartile": 1,
-  "impact": 4.42,
+  "impact": 4.44,
   "field": "Psychology"
  },
  {
@@ -4775,7 +4885,7 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 4.86,
+  "impact": 4.87,
   "field": "Medicine"
  },
  {
@@ -4785,7 +4895,7 @@
    "1472-6874"
   ],
   "quartile": 1,
-  "impact": 3.7,
+  "impact": 3.72,
   "field": "Medicine"
  },
  {
@@ -4794,8 +4904,8 @@
   "issn": [
    "2056-3132"
   ],
-  "quartile": 2,
-  "impact": 2.02,
+  "quartile": 3,
+  "impact": 1.97,
   "field": "Environmental Science"
  },
  {
@@ -4815,7 +4925,7 @@
   ],
   "publisher": "BMJ",
   "quartile": 1,
-  "impact": 4.9,
+  "impact": 4.93,
   "field": "Health Professions"
  },
  {
@@ -4825,7 +4935,7 @@
    "1873-2763"
   ],
   "quartile": 1,
-  "impact": 3.64,
+  "impact": 3.66,
   "field": "Medicine"
  },
  {
@@ -4840,7 +4950,7 @@
    "2632-1297"
   ],
   "quartile": 1,
-  "impact": 4.57,
+  "impact": 4.59,
   "field": "Medicine"
  },
  {
@@ -4850,7 +4960,7 @@
    "0896-0267"
   ],
   "quartile": 2,
-  "impact": 3.12,
+  "impact": 3.13,
   "field": "Neuroscience"
  },
  {
@@ -4860,18 +4970,8 @@
    "0889-1591"
   ],
   "quartile": 1,
-  "impact": 5.45,
+  "impact": 5.48,
   "field": "Neuroscience"
- },
- {
-  "name": "British Food Journal",
-  "paperCount": 1,
-  "issn": [
-   "0007-070X"
-  ],
-  "quartile": 1,
-  "impact": 4.12,
-  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "British journal of cancer",
@@ -4880,7 +4980,7 @@
    "0007-0920"
   ],
   "quartile": 1,
-  "impact": 7.07,
+  "impact": 7.13,
   "field": "Medicine"
  },
  {
@@ -4890,7 +4990,7 @@
    "0007-1013"
   ],
   "quartile": 1,
-  "impact": 23.59,
+  "impact": 23.72,
   "field": "Computer Science"
  },
  {
@@ -4899,14 +4999,20 @@
   "issn": [
    "2075-0250"
   ],
-  "publisher": "PANORAMA Publishing House"
+  "publisher": "PANORAMA Publishing House",
+  "quartile": 4,
+  "impact": 0.77,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Building and Environment",
   "paperCount": 1,
   "issn": [
    "0360-1323"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 8.51,
+  "field": "Engineering"
  },
  {
   "name": "Building Simulation",
@@ -4917,7 +5023,7 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 7.62,
+  "impact": 7.68,
   "field": "Engineering"
  },
  {
@@ -4927,7 +5033,7 @@
    "2096-3041"
   ],
   "quartile": 1,
-  "impact": 2.48,
+  "impact": 2.51,
   "field": "Arts and Humanities"
  },
  {
@@ -4937,7 +5043,7 @@
    "2662-1495"
   ],
   "quartile": 3,
-  "impact": 1.65,
+  "impact": 1.67,
   "field": "Environmental Science"
  },
  {
@@ -4945,7 +5051,10 @@
   "paperCount": 1,
   "issn": [
    "1435-9529"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 4.63,
+  "field": "Engineering"
  },
  {
   "name": "Bulletin of Kamianets-Podilskyi Ivan Ohiienko National University. Economic sciences",
@@ -4996,7 +5105,7 @@
    "0171-967X"
   ],
   "quartile": 1,
-  "impact": 3.09,
+  "impact": 3.1,
   "field": "Medicine"
  },
  {
@@ -5026,8 +5135,18 @@
    "1538-4047"
   ],
   "quartile": 1,
-  "impact": 6.9,
+  "impact": 6.94,
   "field": "Biochemistry, Genetics and Molecular Biology"
+ },
+ {
+  "name": "Cancer discovery",
+  "paperCount": 1,
+  "issn": [
+   "2159-8274"
+  ],
+  "quartile": 1,
+  "impact": 7.95,
+  "field": "Medicine"
  },
  {
   "name": "Cancer medicine",
@@ -5036,7 +5155,7 @@
    "2045-7634"
   ],
   "quartile": 1,
-  "impact": 3.91,
+  "impact": 3.92,
   "field": "Medicine"
  },
  {
@@ -5046,7 +5165,7 @@
    "1054-8807"
   ],
   "quartile": 2,
-  "impact": 2.35,
+  "impact": 2.36,
   "field": "Medicine"
  },
  {
@@ -5056,7 +5175,7 @@
    "0008-6363"
   ],
   "quartile": 1,
-  "impact": 5.29,
+  "impact": 5.28,
   "field": "Medicine"
  },
  {
@@ -5067,7 +5186,7 @@
    "0965-5980"
   ],
   "quartile": 1,
-  "impact": 3.56,
+  "impact": 3.6,
   "field": "Social Sciences"
  },
  {
@@ -5087,7 +5206,7 @@
    "1478-811X"
   ],
   "quartile": 1,
-  "impact": 10.43,
+  "impact": 10.46,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -5097,7 +5216,7 @@
    "2211-1247"
   ],
   "quartile": 1,
-  "impact": 8.83,
+  "impact": 8.86,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -5108,7 +5227,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 5.14,
+  "impact": 5.17,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -5118,7 +5237,7 @@
    "1875-9777"
   ],
   "quartile": 1,
-  "impact": 19.81,
+  "impact": 19.92,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -5128,7 +5247,7 @@
    "1422-6405"
   ],
   "quartile": 3,
-  "impact": 1.5,
+  "impact": 1.52,
   "field": "Medicine"
  },
  {
@@ -5138,7 +5257,7 @@
    "2152-4971"
   ],
   "quartile": 2,
-  "impact": 2.16,
+  "impact": 2.19,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -5151,16 +5270,6 @@
  {
   "name": "Chaos, Solitons & Fractals",
   "paperCount": 1
- },
- {
-  "name": "Chemical & Engineering News",
-  "paperCount": 1,
-  "issn": [
-   "1520-605X"
-  ],
-  "publisher": "American Chemical Society (ACS)",
-  "quartile": 4,
-  "impact": 0
  },
  {
   "name": "Chemical and Process Engineering: New Frontiers",
@@ -5179,7 +5288,10 @@
   "issn": [
    "0255-2701"
   ],
-  "publisher": "Elsevier BV"
+  "publisher": "Elsevier BV",
+  "quartile": 1,
+  "impact": 4.34,
+  "field": "Engineering"
  },
  {
   "name": "Chemistry",
@@ -5197,7 +5309,7 @@
   ],
   "publisher": "Wiley",
   "quartile": 3,
-  "impact": 2.47,
+  "impact": 2.49,
   "field": "Materials Science"
  },
  {
@@ -5207,7 +5319,7 @@
    "0145-2134"
   ],
   "quartile": 1,
-  "impact": 3.56,
+  "impact": 3.58,
   "field": "Social Sciences"
  },
  {
@@ -5217,7 +5329,7 @@
    "0009-398X"
   ],
   "quartile": 2,
-  "impact": 2.45,
+  "impact": 2.46,
   "field": "Psychology"
  },
  {
@@ -5227,8 +5339,19 @@
    "1756-137X"
   ],
   "quartile": 1,
-  "impact": 3.55,
+  "impact": 3.56,
   "field": "Social Sciences"
+ },
+ {
+  "name": "Chinese Management Studies",
+  "paperCount": 1,
+  "issn": [
+   "1750-614X",
+   "1346-0420"
+  ],
+  "quartile": 2,
+  "impact": 3.06,
+  "field": "Business, Management and Accounting"
  },
  {
   "name": "Chinese Medicine",
@@ -5238,8 +5361,18 @@
    "2151-1918"
   ],
   "quartile": 1,
-  "impact": 7.91,
+  "impact": 7.94,
   "field": "Medicine"
+ },
+ {
+  "name": "Cladistics : the international journal of the Willi Hennig Society",
+  "paperCount": 1,
+  "issn": [
+   "0748-3007"
+  ],
+  "quartile": 2,
+  "impact": 2.83,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Clean Technologies and Environmental Policy",
@@ -5248,7 +5381,7 @@
    "1618-954X"
   ],
   "quartile": 1,
-  "impact": 6.56,
+  "impact": 6.58,
   "field": "Engineering"
  },
  {
@@ -5262,7 +5395,7 @@
    "2225-1154"
   ],
   "quartile": 1,
-  "impact": 4.55,
+  "impact": 4.64,
   "field": "Environmental Science"
  },
  {
@@ -5270,7 +5403,10 @@
   "paperCount": 1,
   "issn": [
    "2405-8807"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 5.05,
+  "field": "Environmental Science"
  },
  {
   "name": "Clinical Chemistry and Laboratory Medicine (CCLM)",
@@ -5279,18 +5415,8 @@
    "1434-6621"
   ],
   "quartile": 1,
-  "impact": 3.4,
+  "impact": 3.42,
   "field": "Medicine"
- },
- {
-  "name": "Clinical child psychology and psychiatry",
-  "paperCount": 1,
-  "issn": [
-   "1359-1045"
-  ],
-  "quartile": 3,
-  "impact": 1.34,
-  "field": "Psychology"
  },
  {
   "name": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
@@ -5310,7 +5436,7 @@
    "0097-3521"
   ],
   "quartile": 2,
-  "impact": 1.84,
+  "impact": 1.85,
   "field": "Medicine"
  },
  {
@@ -5321,7 +5447,7 @@
   ],
   "publisher": "Informa UK Limited",
   "quartile": 1,
-  "impact": 7.3,
+  "impact": 7.33,
   "field": "Business, Management and Accounting"
  },
  {
@@ -5339,7 +5465,7 @@
    "0001-0782"
   ],
   "quartile": 1,
-  "impact": 4.61,
+  "impact": 4.63,
   "field": "Computer Science"
  },
  {
@@ -5349,7 +5475,7 @@
    "2673-6918"
   ],
   "quartile": 1,
-  "impact": 4.29,
+  "impact": 4.3,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -5368,7 +5494,7 @@
    "0895-6111"
   ],
   "quartile": 1,
-  "impact": 6.34,
+  "impact": 6.37,
   "field": "Computer Science"
  },
  {
@@ -5379,7 +5505,7 @@
   ],
   "publisher": "MDPI AG",
   "quartile": 1,
-  "impact": 5.73,
+  "impact": 5.74,
   "field": "Computer Science"
  },
  {
@@ -5390,7 +5516,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 8.18,
+  "impact": 8.2,
   "field": "Engineering"
  },
  {
@@ -5400,7 +5526,7 @@
    "0010-4825"
   ],
   "quartile": 1,
-  "impact": 8.92,
+  "impact": 8.96,
   "field": "Computer Science"
  },
  {
@@ -5409,7 +5535,10 @@
   "issn": [
    "3029-2786"
   ],
-  "publisher": "Academic Publishing Pte. Ltd."
+  "publisher": "Academic Publishing Pte. Ltd.",
+  "quartile": 2,
+  "impact": 2.89,
+  "field": "Computer Science"
  },
  {
   "name": "Conservation",
@@ -5419,7 +5548,7 @@
    "1936-2145"
   ],
   "quartile": 3,
-  "impact": 1.93,
+  "impact": 1.94,
   "field": "Environmental Science"
  },
  {
@@ -5433,7 +5562,7 @@
    "0105-1873"
   ],
   "quartile": 2,
-  "impact": 2.05,
+  "impact": 2.12,
   "field": "Medicine"
  },
  {
@@ -5443,7 +5572,7 @@
    "1309-517X"
   ],
   "quartile": 1,
-  "impact": 7.82,
+  "impact": 7.9,
   "field": "Social Sciences"
  },
  {
@@ -5453,7 +5582,7 @@
    "1472-0701"
   ],
   "quartile": 1,
-  "impact": 4.22,
+  "impact": 5.24,
   "field": "Business, Management and Accounting"
  },
  {
@@ -5463,7 +5592,7 @@
    "1040-8428"
   ],
   "quartile": 1,
-  "impact": 6.07,
+  "impact": 6.08,
   "field": "Medicine"
  },
  {
@@ -5474,21 +5603,22 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 6.04,
+  "impact": 6.01,
   "field": "Agricultural and Biological Sciences"
- },
- {
-  "name": "Crop Science",
-  "paperCount": 1,
-  "issn": [
-   "0011-183X",
-   "1435-0653"
-  ],
-  "publisher": "Wiley"
  },
  {
   "name": "Current Developments in Lens Design and Optical Engineering XXVII",
   "paperCount": 1
+ },
+ {
+  "name": "Current eye research",
+  "paperCount": 1,
+  "issn": [
+   "0271-3683"
+  ],
+  "quartile": 2,
+  "impact": 1.87,
+  "field": "Medicine"
  },
  {
   "name": "Current Psychology",
@@ -5513,7 +5643,7 @@
    "2523-3246"
   ],
   "quartile": 1,
-  "impact": 4.23,
+  "impact": 4.82,
   "field": "Computer Science"
  },
  {
@@ -5523,7 +5653,7 @@
    "0920-9069"
   ],
   "quartile": 3,
-  "impact": 1.63,
+  "impact": 1.64,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -5552,6 +5682,14 @@
   "field": "Mathematics"
  },
  {
+  "name": "Development and Learning in Organizations: An International Journal",
+  "paperCount": 1,
+  "issn": [
+   "0957-0004",
+   "1477-7282"
+  ]
+ },
+ {
   "name": "Developmental biology",
   "paperCount": 1,
   "issn": [
@@ -5568,7 +5706,7 @@
    "1363-755X"
   ],
   "quartile": 1,
-  "impact": 3.03,
+  "impact": 2.98,
   "field": "Psychology"
  },
  {
@@ -5586,7 +5724,7 @@
    "2524-6186"
   ],
   "quartile": 2,
-  "impact": 2.36,
+  "impact": 2.35,
   "field": "Economics, Econometrics and Finance"
  },
  {
@@ -5606,7 +5744,7 @@
    "2755-0761"
   ],
   "quartile": 1,
-  "impact": 5.93,
+  "impact": 5.89,
   "field": "Business, Management and Accounting"
  },
  {
@@ -5622,18 +5760,8 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 4.46,
+  "impact": 4.47,
   "field": "Engineering"
- },
- {
-  "name": "Discover Education",
-  "paperCount": 1,
-  "issn": [
-   "2731-5525"
-  ],
-  "quartile": 1,
-  "impact": 3.02,
-  "field": "Social Sciences"
  },
  {
   "name": "Discover Electronics",
@@ -5646,7 +5774,7 @@
    "2730-7719"
   ],
   "quartile": 2,
-  "impact": 3.72,
+  "impact": 3.76,
   "field": "Energy"
  },
  {
@@ -5660,7 +5788,7 @@
    "2730-7239"
   ],
   "quartile": 1,
-  "impact": 6.35,
+  "impact": 6.4,
   "field": "Computer Science"
  },
  {
@@ -5678,7 +5806,7 @@
    "2504-446X"
   ],
   "quartile": 1,
-  "impact": 6.94,
+  "impact": 6.98,
   "field": "Engineering"
  },
  {
@@ -5686,7 +5814,10 @@
   "paperCount": 1,
   "issn": [
    "1071-7544"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 7.78,
+  "field": "Pharmacology, Toxicology and Pharmaceutics"
  },
  {
   "name": "DYSONA – Applied Science",
@@ -5695,7 +5826,7 @@
    "2708-6283"
   ],
   "quartile": 2,
-  "impact": 3.26,
+  "impact": 3.27,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -5708,7 +5839,7 @@
   ],
   "publisher": "MDPI AG",
   "quartile": 2,
-  "impact": 2.96,
+  "impact": 2.94,
   "field": "Environmental Science"
  },
  {
@@ -5742,16 +5873,6 @@
   "field": "Social Sciences"
  },
  {
-  "name": "Eating disorders",
-  "paperCount": 1,
-  "issn": [
-   "1064-0266"
-  ],
-  "quartile": 2,
-  "impact": 2.35,
-  "field": "Psychology"
- },
- {
   "name": "Ecohydrology",
   "paperCount": 1,
   "issn": [
@@ -5760,7 +5881,7 @@
   ],
   "publisher": "Wiley",
   "quartile": 2,
-  "impact": 2.35,
+  "impact": 2.36,
   "field": "Environmental Science"
  },
  {
@@ -5770,7 +5891,7 @@
    "0327-5477"
   ],
   "quartile": 4,
-  "impact": 0.87,
+  "impact": 0.88,
   "field": "Environmental Science"
  },
  {
@@ -5780,7 +5901,7 @@
    "1470-160X"
   ],
   "quartile": 1,
-  "impact": 9.48,
+  "impact": 9.5,
   "field": "Environmental Science"
  },
  {
@@ -5801,7 +5922,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 4.07,
+  "impact": 4.09,
   "field": "Economics, Econometrics and Finance"
  },
  {
@@ -5821,7 +5942,7 @@
    "2576-2052"
   ],
   "quartile": 4,
-  "impact": 0.19,
+  "impact": 0.2,
   "field": "Social Sciences"
  },
  {
@@ -5835,7 +5956,7 @@
    "2286-9131"
   ],
   "quartile": 3,
-  "impact": 0.95,
+  "impact": 0.96,
   "field": "Computer Science"
  },
  {
@@ -5843,7 +5964,10 @@
   "paperCount": 1,
   "issn": [
    "2720-8915"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0.65,
+  "field": "Social Sciences"
  },
  {
   "name": "Education Insights",
@@ -5856,7 +5980,7 @@
    "1040-726X"
   ],
   "quartile": 1,
-  "impact": 16.54,
+  "impact": 16.63,
   "field": "Psychology"
  },
  {
@@ -5876,7 +6000,7 @@
    "0379-3575"
   ],
   "quartile": 4,
-  "impact": 0.51,
+  "impact": 0.52,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -5887,8 +6011,12 @@
    "2357-0369"
   ],
   "quartile": 2,
-  "impact": 1.97,
+  "impact": 1.98,
   "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Egyptian Journal of Veterinary Sciences",
+  "paperCount": 1
  },
  {
   "name": "EKOMBIS REVIEW: Jurnal Ilmiah Ekonomi dan Bisnis",
@@ -5907,7 +6035,7 @@
    "2673-4826"
   ],
   "quartile": 2,
-  "impact": 3.35,
+  "impact": 3.34,
   "field": "Engineering"
  },
  {
@@ -5917,7 +6045,7 @@
    "0173-0835"
   ],
   "quartile": 3,
-  "impact": 2.26,
+  "impact": 2.25,
   "field": "Chemistry"
  },
  {
@@ -5927,7 +6055,7 @@
    "1757-4676"
   ],
   "quartile": 1,
-  "impact": 7.42,
+  "impact": 7.45,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -5943,7 +6071,7 @@
    "2079-0538"
   ],
   "quartile": 1,
-  "impact": 4.45,
+  "impact": 4.46,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -5969,7 +6097,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 8.65,
+  "impact": 8.67,
   "field": "Engineering"
  },
  {
@@ -5979,7 +6107,7 @@
    "0196-8904"
   ],
   "quartile": 1,
-  "impact": 12.69,
+  "impact": 12.75,
   "field": "Engineering"
  },
  {
@@ -5987,7 +6115,10 @@
   "paperCount": 1,
   "issn": [
    "2590-1745"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 4.22,
+  "field": "Engineering"
  },
  {
   "name": "Eng",
@@ -5999,7 +6130,7 @@
   ],
   "publisher": "MDPI AG",
   "quartile": 2,
-  "impact": 3.28,
+  "impact": 3.29,
   "field": "Engineering"
  },
  {
@@ -6019,7 +6150,10 @@
   "issn": [
    "1993-5056",
    "0013-7952"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0,
+  "field": "Engineering"
  },
  {
   "name": "Engineering Perspective",
@@ -6039,7 +6173,7 @@
    "0177-0667"
   ],
   "quartile": 2,
-  "impact": 2.22,
+  "impact": 2.23,
   "field": "Engineering"
  },
  {
@@ -6053,7 +6187,7 @@
    "0013-8703"
   ],
   "quartile": 3,
-  "impact": 1.64,
+  "impact": 1.65,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -6063,7 +6197,7 @@
    "1099-4300"
   ],
   "quartile": 2,
-  "impact": 2.64,
+  "impact": 2.65,
   "field": "Physics and Astronomy"
  },
  {
@@ -6088,7 +6222,17 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 4.96,
+  "impact": 4.97,
+  "field": "Environmental Science"
+ },
+ {
+  "name": "Environmental Data Science",
+  "paperCount": 1,
+  "issn": [
+   "2634-4602"
+  ],
+  "quartile": 1,
+  "impact": 4.63,
   "field": "Environmental Science"
  },
  {
@@ -6098,7 +6242,7 @@
    "1866-6280"
   ],
   "quartile": 1,
-  "impact": 4.47,
+  "impact": 4.49,
   "field": "Environmental Science"
  },
  {
@@ -6108,7 +6252,7 @@
    "0167-6369"
   ],
   "quartile": 1,
-  "impact": 4.5,
+  "impact": 4.51,
   "field": "Environmental Science"
  },
  {
@@ -6118,7 +6262,7 @@
    "2515-7620"
   ],
   "quartile": 2,
-  "impact": 2.56,
+  "impact": 2.57,
   "field": "Environmental Science"
  },
  {
@@ -6146,7 +6290,7 @@
    "2321-7847"
   ],
   "quartile": 4,
-  "impact": 0.15,
+  "impact": 0.16,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -6160,11 +6304,18 @@
   "field": "Veterinary"
  },
  {
+  "name": "Equivalent : Journal of Economic, Accounting and Management",
+  "paperCount": 1
+ },
+ {
   "name": "Erciyes Tarım ve Hayvan Bilimleri Dergisi",
   "paperCount": 1,
   "issn": [
    "2651-5334"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0.47,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "ETRI Journal",
@@ -6173,7 +6324,7 @@
    "1225-6463"
   ],
   "quartile": 2,
-  "impact": 2.6,
+  "impact": 2.61,
   "field": "Engineering"
  },
  {
@@ -6183,7 +6334,7 @@
    "0014-2336"
   ],
   "quartile": 2,
-  "impact": 1.96,
+  "impact": 1.97,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -6207,7 +6358,7 @@
    "0940-1334"
   ],
   "quartile": 1,
-  "impact": 3.03,
+  "impact": 3.04,
   "field": "Medicine"
  },
  {
@@ -6215,7 +6366,10 @@
   "paperCount": 1,
   "issn": [
    "2684-1827"
-  ]
+  ],
+  "quartile": 3,
+  "impact": 0.86,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "European Journal of Dentistry",
@@ -6237,7 +6391,7 @@
   ],
   "publisher": "Emerald",
   "quartile": 1,
-  "impact": 5.37,
+  "impact": 5.34,
   "field": "Business, Management and Accounting"
  },
  {
@@ -6247,7 +6401,7 @@
    "0949-2321"
   ],
   "quartile": 1,
-  "impact": 3.62,
+  "impact": 3.63,
   "field": "Medicine"
  },
  {
@@ -6267,7 +6421,7 @@
    "0928-0987"
   ],
   "quartile": 1,
-  "impact": 4.88,
+  "impact": 4.92,
   "field": "Pharmacology, Toxicology and Pharmaceutics"
  },
  {
@@ -6279,7 +6433,7 @@
    "2000-8066"
   ],
   "quartile": 1,
-  "impact": 4.1,
+  "impact": 4.12,
   "field": "Psychology"
  },
  {
@@ -6308,7 +6462,7 @@
    "0940-6719"
   ],
   "quartile": 2,
-  "impact": 2.07,
+  "impact": 2.08,
   "field": "Medicine"
  },
  {
@@ -6318,7 +6472,7 @@
    "1226-3613"
   ],
   "quartile": 1,
-  "impact": 15.09,
+  "impact": 15.18,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -6328,7 +6482,7 @@
    "0014-4800"
   ],
   "quartile": 1,
-  "impact": 3.82,
+  "impact": 3.8,
   "field": "Medicine"
  },
  {
@@ -6348,7 +6502,7 @@
    "0014-4827"
   ],
   "quartile": 2,
-  "impact": 3.55,
+  "impact": 3.58,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -6357,7 +6511,10 @@
   "issn": [
    "1226-2560",
    "2093-8114"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 1.99,
+  "field": "Neuroscience"
  },
  {
   "name": "Experimental physiology",
@@ -6377,7 +6534,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 7.95,
+  "impact": 7.97,
   "field": "Computer Science"
  },
  {
@@ -6415,7 +6572,7 @@
    "1933-9747"
   ],
   "quartile": 1,
-  "impact": 5.71,
+  "impact": 5.69,
   "field": "Environmental Science"
  },
  {
@@ -6425,7 +6582,7 @@
    "2045-8118"
   ],
   "quartile": 1,
-  "impact": 6.93,
+  "impact": 6.94,
   "field": "Neuroscience"
  },
  {
@@ -6435,7 +6592,7 @@
    "2042-6496"
   ],
   "quartile": 1,
-  "impact": 6.13
+  "impact": 6.14
  },
  {
   "name": "Food and Bioprocess Technology",
@@ -6444,7 +6601,7 @@
    "1935-5130"
   ],
   "quartile": 1,
-  "impact": 6.02,
+  "impact": 6.03,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -6455,7 +6612,7 @@
    "0911-2286"
   ],
   "quartile": 1,
-  "impact": 10.43,
+  "impact": 10.46,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -6466,7 +6623,7 @@
    "0352-9193"
   ],
   "quartile": 1,
-  "impact": 11.37,
+  "impact": 11.39,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -6476,18 +6633,8 @@
    "2304-8158"
   ],
   "quartile": 1,
-  "impact": 7.55,
+  "impact": 7.56,
   "field": "Agricultural and Biological Sciences"
- },
- {
-  "name": "Forests",
-  "paperCount": 1,
-  "issn": [
-   "1999-4907"
-  ],
-  "quartile": 1,
-  "impact": 3.8,
-  "field": "Environmental Science"
  },
  {
   "name": "Forum Geografi",
@@ -6521,7 +6668,7 @@
    "0891-5849"
   ],
   "quartile": 1,
-  "impact": 4.04,
+  "impact": 4.06,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -6542,7 +6689,7 @@
    "2673-3218"
   ],
   "quartile": 1,
-  "impact": 3.66,
+  "impact": 3.68,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -6563,7 +6710,7 @@
    "2297-055X"
   ],
   "quartile": 2,
-  "impact": 2.49,
+  "impact": 2.5,
   "field": "Medicine"
  },
  {
@@ -6573,18 +6720,8 @@
    "2296-634X"
   ],
   "quartile": 1,
-  "impact": 4.81,
+  "impact": 4.84,
   "field": "Biochemistry, Genetics and Molecular Biology"
- },
- {
-  "name": "Frontiers in Communication",
-  "paperCount": 1,
-  "issn": [
-   "2297-900X"
-  ],
-  "quartile": 2,
-  "impact": 2.51,
-  "field": "Social Sciences"
  },
  {
   "name": "Frontiers in Computer Science",
@@ -6594,7 +6731,7 @@
    "2624-9898"
   ],
   "quartile": 1,
-  "impact": 16.72,
+  "impact": 16.75,
   "field": "Computer Science"
  },
  {
@@ -6614,7 +6751,7 @@
    "1664-2392"
   ],
   "quartile": 1,
-  "impact": 4.74,
+  "impact": 4.75,
   "field": "Medicine"
  },
  {
@@ -6624,7 +6761,7 @@
    "2296-598X"
   ],
   "quartile": 1,
-  "impact": 4.33,
+  "impact": 4.35,
   "field": "Engineering"
  },
  {
@@ -6634,7 +6771,7 @@
    "2674-1121"
   ],
   "quartile": 1,
-  "impact": 4.16,
+  "impact": 4.09,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -6644,7 +6781,18 @@
    "2673-6128"
   ],
   "quartile": 2,
-  "impact": 3.44,
+  "impact": 3.45,
+  "field": "Biochemistry, Genetics and Molecular Biology"
+ },
+ {
+  "name": "Frontiers in Genetics",
+  "paperCount": 1,
+  "issn": [
+   "1664-8021"
+  ],
+  "publisher": "Frontiers Media SA",
+  "quartile": 2,
+  "impact": 3.01,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -6664,7 +6812,7 @@
    "1662-5161"
   ],
   "quartile": 1,
-  "impact": 3.6,
+  "impact": 3.62,
   "field": "Neuroscience"
  },
  {
@@ -6674,18 +6822,7 @@
    "2296-8016"
   ],
   "quartile": 1,
-  "impact": 4.48,
-  "field": "Engineering"
- },
- {
-  "name": "Frontiers in Mechanical Engineering",
-  "paperCount": 1,
-  "issn": [
-   "2095-0233",
-   "2297-3079"
-  ],
-  "quartile": 1,
-  "impact": 7.3,
+  "impact": 4.49,
   "field": "Engineering"
  },
  {
@@ -6697,7 +6834,7 @@
    "2618-2459"
   ],
   "quartile": 2,
-  "impact": 2.62,
+  "impact": 2.63,
   "field": "Medicine"
  },
  {
@@ -6707,18 +6844,7 @@
    "0091-3022"
   ],
   "quartile": 1,
-  "impact": 6.65,
-  "field": "Neuroscience"
- },
- {
-  "name": "Frontiers in Neuroinformatics",
-  "paperCount": 1,
-  "issn": [
-   "1662-5196"
-  ],
-  "publisher": "Frontiers Media SA",
-  "quartile": 1,
-  "impact": 5.34,
+  "impact": 6.61,
   "field": "Neuroscience"
  },
  {
@@ -6728,7 +6854,7 @@
    "1664-2295"
   ],
   "quartile": 1,
-  "impact": 3.13,
+  "impact": 3.14,
   "field": "Medicine"
  },
  {
@@ -6738,7 +6864,17 @@
    "2673-8880"
   ],
   "quartile": 1,
-  "impact": 3.87,
+  "impact": 3.85,
+  "field": "Medicine"
+ },
+ {
+  "name": "Frontiers in Nutrition",
+  "paperCount": 1,
+  "issn": [
+   "2296-861X"
+  ],
+  "quartile": 1,
+  "impact": 4.54,
   "field": "Medicine"
  },
  {
@@ -6762,7 +6898,7 @@
    "2673-561X"
   ],
   "quartile": 2,
-  "impact": 2.69,
+  "impact": 2.67,
   "field": "Medicine"
  },
  {
@@ -6772,7 +6908,7 @@
    "1664-0640"
   ],
   "quartile": 1,
-  "impact": 3.62,
+  "impact": 3.63,
   "field": "Psychology"
  },
  {
@@ -6782,7 +6918,7 @@
    "1664-1078"
   ],
   "quartile": 1,
-  "impact": 3.82,
+  "impact": 3.83,
   "field": "Psychology"
  },
  {
@@ -6793,7 +6929,7 @@
   ],
   "publisher": "Frontiers Media SA",
   "quartile": 1,
-  "impact": 3.64
+  "impact": 3.65
  },
  {
   "name": "Frontiers in Signal Processing",
@@ -6813,7 +6949,7 @@
    "2673-8619"
   ],
   "quartile": 1,
-  "impact": 4.53,
+  "impact": 4.55,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -6843,7 +6979,7 @@
    "1438-793X"
   ],
   "quartile": 1,
-  "impact": 3.72,
+  "impact": 3.74,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -6853,7 +6989,7 @@
    "2314-7210"
   ],
   "quartile": 1,
-  "impact": 5.85,
+  "impact": 5.88,
   "field": "Business, Management and Accounting"
  },
  {
@@ -6872,7 +7008,10 @@
   "paperCount": 1,
   "issn": [
    "2666-8335"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 6.73,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Future Internet",
@@ -6881,7 +7020,7 @@
    "1999-5903"
   ],
   "quartile": 1,
-  "impact": 7.3,
+  "impact": 7.33,
   "field": "Computer Science"
  },
  {
@@ -6902,7 +7041,7 @@
    "1757-1693"
   ],
   "quartile": 1,
-  "impact": 4.64,
+  "impact": 4.66,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -6943,7 +7082,7 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 2,
-  "impact": 2.41,
+  "impact": 2.42,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -6953,17 +7092,7 @@
    "1759-6653"
   ],
   "quartile": 1,
-  "impact": 3.96,
-  "field": "Biochemistry, Genetics and Molecular Biology"
- },
- {
-  "name": "Genome research",
-  "paperCount": 1,
-  "issn": [
-   "1088-9051"
-  ],
-  "quartile": 1,
-  "impact": 8.26,
+  "impact": 3.98,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -6973,7 +7102,7 @@
    "1598-866X"
   ],
   "quartile": 1,
-  "impact": 3.98,
+  "impact": 4.02,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -6983,7 +7112,7 @@
    "0276-0460"
   ],
   "quartile": 2,
-  "impact": 1.83,
+  "impact": 1.82,
   "field": "Earth and Planetary Sciences"
  },
  {
@@ -6994,7 +7123,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 2,
-  "impact": 2.55,
+  "impact": 2.53,
   "field": "Engineering"
  },
  {
@@ -7029,7 +7158,7 @@
    "0016-7568"
   ],
   "quartile": 3,
-  "impact": 1.04,
+  "impact": 1.05,
   "field": "Earth and Planetary Sciences"
  },
  {
@@ -7065,6 +7194,17 @@
   "field": "Earth and Planetary Sciences"
  },
  {
+  "name": "Geriatric nursing",
+  "paperCount": 1,
+  "issn": [
+   "0197-4572",
+   "0435-5733"
+  ],
+  "quartile": 2,
+  "impact": 2.51,
+  "field": "Health Professions"
+ },
+ {
   "name": "GIScience & Remote Sensing",
   "paperCount": 1,
   "issn": [
@@ -7073,22 +7213,12 @@
   ],
   "publisher": "Informa UK Limited",
   "quartile": 1,
-  "impact": 5.65,
+  "impact": 5.68,
   "field": "Environmental Science"
  },
  {
   "name": "Global Journal of Advanced Research and Reviews",
   "paperCount": 1
- },
- {
-  "name": "Global Journal of Engineering and Technology Advances",
-  "paperCount": 1,
-  "issn": [
-   "2582-5003"
-  ],
-  "quartile": 3,
-  "impact": 1.68,
-  "field": "Computer Science"
  },
  {
   "name": "Global Research in Environment and Sustainability",
@@ -7105,13 +7235,23 @@
   "field": "Medicine"
  },
  {
+  "name": "Glosains: Jurnal Sains Global Indonesia",
+  "paperCount": 1,
+  "issn": [
+   "2798-4125"
+  ],
+  "quartile": 4,
+  "impact": 0.02,
+  "field": "Social Sciences"
+ },
+ {
   "name": "GM crops & food",
   "paperCount": 1,
   "issn": [
    "2164-5698"
   ],
   "quartile": 1,
-  "impact": 5.26,
+  "impact": 5.29,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -7125,7 +7265,7 @@
    "1434-5021"
   ],
   "quartile": 2,
-  "impact": 3.03,
+  "impact": 3.04,
   "field": "Engineering"
  },
  {
@@ -7135,14 +7275,17 @@
    "0926-2644"
   ],
   "quartile": 2,
-  "impact": 3.01
+  "impact": 3.04
  },
  {
   "name": "Health information management : journal of the Health Information Management Association of Australia",
   "paperCount": 1,
   "issn": [
    "1833-3583"
-  ]
+  ],
+  "quartile": 3,
+  "impact": 1.41,
+  "field": "Health Professions"
  },
  {
   "name": "Healthcare",
@@ -7155,14 +7298,17 @@
    "2053-3713"
   ],
   "quartile": 1,
-  "impact": 3.75
+  "impact": 3.74
  },
  {
   "name": "Heart and vessels",
   "paperCount": 1,
   "issn": [
    "0910-8327"
-  ]
+  ],
+  "quartile": 3,
+  "impact": 1.58,
+  "field": "Medicine"
  },
  {
   "name": "Hematology/oncology clinics of North America",
@@ -7190,7 +7336,7 @@
    "2696-628X"
   ],
   "quartile": 3,
-  "impact": 1.56
+  "impact": 1.59
  },
  {
   "name": "Histochemistry and Cell Biology",
@@ -7199,7 +7345,7 @@
    "0948-6143"
   ],
   "quartile": 2,
-  "impact": 2.82,
+  "impact": 2.81,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -7208,7 +7354,10 @@
   "issn": [
    "2052-7276",
    "2662-6810"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 6.96,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Huan jing ke xue= Huanjing kexue",
@@ -7221,7 +7370,7 @@
    "2673-9917"
   ],
   "quartile": 3,
-  "impact": 1.46,
+  "impact": 1.44,
   "field": "Environmental Science"
  },
  {
@@ -7231,7 +7380,7 @@
    "1027-5606"
   ],
   "quartile": 1,
-  "impact": 8.9,
+  "impact": 8.92,
   "field": "Environmental Science"
  },
  {
@@ -7250,14 +7399,12 @@
   "paperCount": 1,
   "issn": [
    "2393-8021"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0.32
  },
  {
   "name": "Ibero Ciencias - Revista Científica y Académica - ISSN 3072-7197",
-  "paperCount": 1
- },
- {
-  "name": "ICCK Transactions on Intelligent Systematics",
   "paperCount": 1
  },
  {
@@ -7267,7 +7414,7 @@
    "2168-2194"
   ],
   "quartile": 1,
-  "impact": 6.08,
+  "impact": 6.09,
   "field": "Computer Science"
  },
  {
@@ -7277,7 +7424,7 @@
    "1943-0647"
   ],
   "quartile": 2,
-  "impact": 2.92,
+  "impact": 2.93,
   "field": "Engineering"
  },
  {
@@ -7287,7 +7434,7 @@
    "1530-437X"
   ],
   "quartile": 1,
-  "impact": 4.52,
+  "impact": 4.53,
   "field": "Engineering"
  },
  {
@@ -7311,7 +7458,7 @@
    "1057-7149"
   ],
   "quartile": 1,
-  "impact": 10.12,
+  "impact": 10.16,
   "field": "Computer Science"
  },
  {
@@ -7321,7 +7468,7 @@
    "2162-237X"
   ],
   "quartile": 1,
-  "impact": 10.18,
+  "impact": 10.2,
   "field": "Computer Science"
  },
  {
@@ -7336,7 +7483,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 6.58,
+  "impact": 6.61,
   "field": "Computer Science"
  },
  {
@@ -7346,7 +7493,7 @@
    "1074-7613"
   ],
   "quartile": 1,
-  "impact": 25.32,
+  "impact": 25.62,
   "field": "Immunology and Microbiology"
  },
  {
@@ -7400,8 +7547,28 @@
   "field": "Engineering"
  },
  {
+  "name": "Indonesian Journal on Geoscience",
+  "paperCount": 1,
+  "issn": [
+   "2355-9306"
+  ],
+  "quartile": 4,
+  "impact": 0.62,
+  "field": "Earth and Planetary Sciences"
+ },
+ {
   "name": "Infection",
   "paperCount": 1
+ },
+ {
+  "name": "Infection control and hospital epidemiology",
+  "paperCount": 1,
+  "issn": [
+   "0899-823X"
+  ],
+  "quartile": 2,
+  "impact": 1.7,
+  "field": "Medicine"
  },
  {
   "name": "Inflammation Research",
@@ -7420,7 +7587,7 @@
    "0925-4692"
   ],
   "quartile": 1,
-  "impact": 5.51,
+  "impact": 5.55,
   "field": "Medicine"
  },
  {
@@ -7430,7 +7597,7 @@
    "2078-2489"
   ],
   "quartile": 1,
-  "impact": 6.8,
+  "impact": 6.92,
   "field": "Computer Science"
  },
  {
@@ -7451,19 +7618,7 @@
    "0950-5849"
   ],
   "quartile": 1,
-  "impact": 4.6,
-  "field": "Computer Science"
- },
- {
-  "name": "Information Sciences",
-  "paperCount": 1,
-  "issn": [
-   "0020-0255",
-   "0020-0263"
-  ],
-  "publisher": "Elsevier BV",
-  "quartile": 1,
-  "impact": 6.11,
+  "impact": 4.61,
   "field": "Computer Science"
  },
  {
@@ -7473,7 +7628,7 @@
    "1387-3326"
   ],
   "quartile": 1,
-  "impact": 6.65
+  "impact": 6.67
  },
  {
   "name": "Information Technology & Tourism",
@@ -7482,7 +7637,7 @@
    "1098-3058"
   ],
   "quartile": 1,
-  "impact": 5.26,
+  "impact": 5.27,
   "field": "Social Sciences"
  },
  {
@@ -7499,7 +7654,9 @@
   "paperCount": 1,
   "issn": [
    "2411-9520"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0.44
  },
  {
   "name": "Insights (Bhalwal) International Journal of Humanities, Management, and Social Sciences",
@@ -7528,7 +7685,7 @@
    "1088-467X"
   ],
   "quartile": 3,
-  "impact": 1.6,
+  "impact": 1.61,
   "field": "Computer Science"
  },
  {
@@ -7539,7 +7696,7 @@
    "0927-3360"
   ],
   "quartile": 2,
-  "impact": 2.27,
+  "impact": 2.14,
   "field": "Computer Science"
  },
  {
@@ -7557,7 +7714,10 @@
   "paperCount": 1,
   "issn": [
    "2588-0209"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0.34,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "International Conference on Robotics and Learning (ICRL 2026)",
@@ -7570,7 +7730,7 @@
    "0143-2885"
   ],
   "quartile": 1,
-  "impact": 4.94,
+  "impact": 4.98,
   "field": "Dentistry"
  },
  {
@@ -7580,7 +7740,7 @@
    "2042-6976"
   ],
   "quartile": 2,
-  "impact": 2.11,
+  "impact": 2.13,
   "field": "Medicine"
  },
  {
@@ -7634,8 +7794,12 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 4.27,
+  "impact": 4.29,
   "field": "Medicine"
+ },
+ {
+  "name": "International Journal of Applied Artificial Intelligence and Robotics",
+  "paperCount": 1
  },
  {
   "name": "International Journal of Artificial Intelligence and Green Manufacturing",
@@ -7656,7 +7820,7 @@
    "0899-8418"
   ],
   "quartile": 2,
-  "impact": 3.08,
+  "impact": 3.09,
   "field": "Environmental Science"
  },
  {
@@ -7706,7 +7870,7 @@
    "2231-2803"
   ],
   "quartile": 3,
-  "impact": 1.45,
+  "impact": 1.46,
   "field": "Computer Science"
  },
  {
@@ -7718,7 +7882,10 @@
   "paperCount": 1,
   "issn": [
    "0142-5463"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 2.61,
+  "field": "Medicine"
  },
  {
   "name": "International Journal of Creative and Open Research in Engineering and Management",
@@ -7745,7 +7912,7 @@
    "2195-268X"
   ],
   "quartile": 2,
-  "impact": 2.46,
+  "impact": 2.47,
   "field": "Engineering"
  },
  {
@@ -7780,7 +7947,7 @@
    "2321-2047"
   ],
   "quartile": 4,
-  "impact": 0.68,
+  "impact": 0.69,
   "field": "Engineering"
  },
  {
@@ -7790,7 +7957,7 @@
    "2538-3604"
   ],
   "quartile": 2,
-  "impact": 3.03,
+  "impact": 3.02,
   "field": "Environmental Science"
  },
  {
@@ -7800,7 +7967,7 @@
    "2305-3631"
   ],
   "quartile": 4,
-  "impact": 0.52,
+  "impact": 0.53,
   "field": "Computer Science"
  },
  {
@@ -7808,7 +7975,20 @@
   "paperCount": 1,
   "issn": [
    "1735-6865"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 3.32,
+  "field": "Environmental Science"
+ },
+ {
+  "name": "International Journal of Ethics and Systems",
+  "paperCount": 1,
+  "issn": [
+   "2514-9369"
+  ],
+  "quartile": 1,
+  "impact": 3.69,
+  "field": "Business, Management and Accounting"
  },
  {
   "name": "International Journal of Fatigue",
@@ -7818,7 +7998,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 7.7,
+  "impact": 7.73,
   "field": "Engineering"
  },
  {
@@ -7839,7 +8019,7 @@
    "1943-5622"
   ],
   "quartile": 2,
-  "impact": 3.58,
+  "impact": 3.59,
   "field": "Engineering"
  },
  {
@@ -7854,25 +8034,18 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 6.27,
+  "impact": 6.29,
   "field": "Computer Science"
- },
- {
-  "name": "International journal of hyperthermia : the official journal of European Society for Hyperthermic Oncology, North American Hyperthermia Group",
-  "paperCount": 1,
-  "issn": [
-   "0265-6736"
-  ],
-  "quartile": 2,
-  "impact": 2.78,
-  "field": "Engineering"
  },
  {
   "name": "International Journal of Industrial Ergonomics",
   "paperCount": 1,
   "issn": [
    "0169-8141"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 3.93,
+  "field": "Health Professions"
  },
  {
   "name": "International Journal of Information Management Data Insights",
@@ -7881,7 +8054,7 @@
    "2667-0968"
   ],
   "quartile": 1,
-  "impact": 14.46,
+  "impact": 14.51,
   "field": "Computer Science"
  },
  {
@@ -7893,8 +8066,12 @@
    "2382-2619"
   ],
   "quartile": 1,
-  "impact": 6.6,
+  "impact": 6.64,
   "field": "Computer Science"
+ },
+ {
+  "name": "International Journal of Information Technology & Decision Making",
+  "paperCount": 1
  },
  {
   "name": "International Journal of Integrative Studies (IJIS)",
@@ -7906,7 +8083,10 @@
   "issn": [
    "3087-4262"
   ],
-  "publisher": "Next Scientists"
+  "publisher": "Next Scientists",
+  "quartile": 4,
+  "impact": 0.07,
+  "field": "Computer Science"
  },
  {
   "name": "International Journal of Interactive Mobile Technologies (iJIM)",
@@ -7919,7 +8099,7 @@
    "2040-4166"
   ],
   "quartile": 1,
-  "impact": 3.55,
+  "impact": 3.56,
   "field": "Business, Management and Accounting"
  },
  {
@@ -7931,7 +8111,7 @@
    "1437-1596"
   ],
   "quartile": 2,
-  "impact": 2.63,
+  "impact": 2.66,
   "field": "Medicine"
  },
  {
@@ -7956,7 +8136,7 @@
    "0307-0565"
   ],
   "quartile": 1,
-  "impact": 5.09,
+  "impact": 5.12,
   "field": "Medicine"
  },
  {
@@ -7970,7 +8150,7 @@
    "1741-0401"
   ],
   "quartile": 1,
-  "impact": 5.54,
+  "impact": 5.57,
   "field": "Business, Management and Accounting"
  },
  {
@@ -8055,21 +8235,18 @@
   "paperCount": 1
  },
  {
-  "name": "International Journal on Cybernetics & Informatics",
-  "paperCount": 1
- },
- {
-  "name": "International Journal on Engineering, Science and Technology",
+  "name": "International Journal of Wine Business Research",
   "paperCount": 1,
   "issn": [
-   "0975-5462",
-   "2141-2820",
-   "2456-8651",
-   "2642-4088",
-   "2141-2839"
+   "1751-1062"
   ],
-  "quartile": 4,
-  "impact": 0
+  "quartile": 2,
+  "impact": 2.78,
+  "field": "Business, Management and Accounting"
+ },
+ {
+  "name": "International Journal on Cybernetics & Informatics",
+  "paperCount": 1
  },
  {
   "name": "International Ophthalmology",
@@ -8078,8 +8255,23 @@
    "0165-5701"
   ],
   "quartile": 2,
-  "impact": 1.9,
+  "impact": 1.91,
   "field": "Medicine"
+ },
+ {
+  "name": "International Research Journal of Modernization in Engineering Technology and Science",
+  "paperCount": 1,
+  "issn": [
+   "2582-5208"
+  ],
+  "publisher": "International Research Journal of Modernization in Engineering Technology and Science",
+  "quartile": 4,
+  "impact": 0.35,
+  "field": "Computer Science"
+ },
+ {
+  "name": "International Research Journal on Advanced Engineering Hub (IRJAEH)",
+  "paperCount": 1
  },
  {
   "name": "International Social Research Nexus (ISRN)",
@@ -8092,7 +8284,7 @@
    "0969-6016"
   ],
   "quartile": 1,
-  "impact": 3.46
+  "impact": 3.47
  },
  {
   "name": "International urogynecology journal",
@@ -8121,7 +8313,7 @@
    "1810-4967"
   ],
   "quartile": 2,
-  "impact": 2.6,
+  "impact": 2.63,
   "field": "Business, Management and Accounting"
  },
  {
@@ -8133,7 +8325,10 @@
   "paperCount": 1,
   "issn": [
    "0887-3801"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 4.43,
+  "field": "Engineering"
  },
  {
   "name": "Jàmbá Journal of Disaster Risk Studies",
@@ -8142,7 +8337,7 @@
    "1996-1421"
   ],
   "quartile": 2,
-  "impact": 2.58,
+  "impact": 2.59,
   "field": "Social Sciences"
  },
  {
@@ -8156,7 +8351,7 @@
    "2691-3321"
   ],
   "quartile": 3,
-  "impact": 1.38,
+  "impact": 1.4,
   "field": "Health Professions"
  },
  {
@@ -8166,7 +8361,7 @@
    "2473-4039"
   ],
   "quartile": 1,
-  "impact": 3.09,
+  "impact": 3.1,
   "field": "Medicine"
  },
  {
@@ -8176,7 +8371,7 @@
    "2561-7605"
   ],
   "quartile": 1,
-  "impact": 6.02
+  "impact": 6.05
  },
  {
   "name": "JMIR human factors",
@@ -8185,7 +8380,7 @@
    "2292-9495"
   ],
   "quartile": 1,
-  "impact": 4.53,
+  "impact": 4.56,
   "field": "Health Professions"
  },
  {
@@ -8195,18 +8390,8 @@
    "2369-2960"
   ],
   "quartile": 1,
-  "impact": 5.08,
+  "impact": 5.1,
   "field": "Medicine"
- },
- {
-  "name": "Journal General Economics",
-  "paperCount": 1,
-  "issn": [
-   "2524-2008"
-  ],
-  "quartile": 4,
-  "impact": 0.23,
-  "field": "Business, Management and Accounting"
  },
  {
   "name": "Journal of Advanced Multidisciplinary Studies (JAMS)",
@@ -8220,19 +8405,18 @@
    "2090-1224"
   ],
   "quartile": 1,
-  "impact": 9.79,
+  "impact": 9.86,
   "field": "Medicine"
- },
- {
-  "name": "Journal of Advances in Biology & Biotechnology",
-  "paperCount": 1
  },
  {
   "name": "Journal of African Earth Sciences",
   "paperCount": 1,
   "issn": [
    "1464-343X"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 2.33,
+  "field": "Earth and Planetary Sciences"
  },
  {
   "name": "Journal of African Sustainable Development",
@@ -8245,7 +8429,7 @@
    "0021-8561"
   ],
   "quartile": 1,
-  "impact": 6.77,
+  "impact": 6.79,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -8258,10 +8442,13 @@
   "issn": [
    "1042-0541",
    "0002-7480"
-  ]
+  ],
+  "quartile": 3,
+  "impact": 1.27,
+  "field": "Agricultural and Biological Sciences"
  },
  {
-  "name": "Journal of Agricultural Engineering (India)",
+  "name": "Journal of Agricultural Engineering",
   "paperCount": 1,
   "issn": [
    "2588-526X",
@@ -8301,7 +8488,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 5.53,
+  "impact": 5.54,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -8311,7 +8498,7 @@
    "1059-924X"
   ],
   "quartile": 2,
-  "impact": 1.9,
+  "impact": 1.89,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -8323,7 +8510,7 @@
   ],
   "publisher": "Wiley",
   "quartile": 2,
-  "impact": 3.11,
+  "impact": 3.14,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -8333,7 +8520,7 @@
    "1735-3572"
   ],
   "quartile": 3,
-  "impact": 1.09,
+  "impact": 1.1,
   "field": "Engineering"
  },
  {
@@ -8360,14 +8547,20 @@
   "paperCount": 1,
   "issn": [
    "2352-409X"
-  ]
+  ],
+  "quartile": 3,
+  "impact": 0.97,
+  "field": "Arts and Humanities"
  },
  {
   "name": "Journal of Architectural Engineering",
   "paperCount": 1,
   "issn": [
    "1076-0431"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 2.25,
+  "field": "Engineering"
  },
  {
   "name": "Journal of Architectural/Planning Research and Studies (JARS)",
@@ -8396,7 +8589,7 @@
    "1364-6826"
   ],
   "quartile": 2,
-  "impact": 2.21,
+  "impact": 2.23,
   "field": "Physics and Astronomy"
  },
  {
@@ -8416,7 +8609,7 @@
    "2587-1676"
   ],
   "quartile": 3,
-  "impact": 1.16,
+  "impact": 1.17,
   "field": "Engineering"
  },
  {
@@ -8426,7 +8619,7 @@
    "0021-9193"
   ],
   "quartile": 1,
-  "impact": 4.4,
+  "impact": 4.44,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -8455,7 +8648,16 @@
    "0885-3282"
   ],
   "quartile": 2,
-  "impact": 2.86
+  "impact": 2.88
+ },
+ {
+  "name": "Journal of biomedical materials research. Part A",
+  "paperCount": 1,
+  "issn": [
+   "1549-3296"
+  ],
+  "quartile": 1,
+  "impact": 3.79
  },
  {
   "name": "Journal of Biosystems Engineering",
@@ -8465,7 +8667,7 @@
    "2234-1862"
   ],
   "quartile": 1,
-  "impact": 3.97,
+  "impact": 3.99,
   "field": "Engineering"
  },
  {
@@ -8475,7 +8677,7 @@
    "2352-7102"
   ],
   "quartile": 1,
-  "impact": 6.71,
+  "impact": 6.73,
   "field": "Engineering"
  },
  {
@@ -8493,13 +8695,17 @@
   "field": "Business, Management and Accounting"
  },
  {
+  "name": "Journal of Business Systems Transformation",
+  "paperCount": 1
+ },
+ {
   "name": "Journal of Capital Markets Studies",
   "paperCount": 1,
   "issn": [
    "2514-4774"
   ],
   "quartile": 1,
-  "impact": 4.97,
+  "impact": 5,
   "field": "Economics, Econometrics and Finance"
  },
  {
@@ -8509,7 +8715,7 @@
    "0021-9533"
   ],
   "quartile": 2,
-  "impact": 3.58,
+  "impact": 3.6,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -8519,7 +8725,7 @@
    "2643-9107"
   ],
   "quartile": 3,
-  "impact": 1.42,
+  "impact": 1.41,
   "field": "Engineering"
  },
  {
@@ -8531,14 +8737,19 @@
   "paperCount": 1,
   "issn": [
    "0887-8013"
-  ]
+  ],
+  "quartile": 3,
+  "impact": 1.59,
+  "field": "Medicine"
  },
  {
   "name": "Journal of CO2 Utilization",
   "paperCount": 1,
   "issn": [
    "2212-9820"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 8.66
  },
  {
   "name": "Journal of Composites Science",
@@ -8547,7 +8758,7 @@
    "2504-477X"
   ],
   "quartile": 1,
-  "impact": 5.66,
+  "impact": 5.68,
   "field": "Engineering"
  },
  {
@@ -8557,7 +8768,7 @@
    "1066-5277"
   ],
   "quartile": 3,
-  "impact": 1.53,
+  "impact": 1.54,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -8565,7 +8776,10 @@
   "paperCount": 1,
   "issn": [
    "0192-8651"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 2.9,
+  "field": "Physics and Astronomy"
  },
  {
   "name": "Journal of Computer Science",
@@ -8576,7 +8790,7 @@
    "2362-0110"
   ],
   "quartile": 3,
-  "impact": 1.12,
+  "impact": 1.13,
   "field": "Computer Science"
  },
  {
@@ -8586,7 +8800,7 @@
    "1472-0817"
   ],
   "quartile": 1,
-  "impact": 6.69,
+  "impact": 6.71,
   "field": "Business, Management and Accounting"
  },
  {
@@ -8602,21 +8816,12 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 3,
-  "impact": 1.5,
+  "impact": 1.51,
   "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Journal of Decision Support Systems and Multi-Criteria Decision Making",
   "paperCount": 1
- },
- {
-  "name": "Journal of dental research",
-  "paperCount": 1,
-  "issn": [
-   "2688-5549",
-   "0022-0345",
-   "2332-3647"
-  ]
  },
  {
   "name": "Journal of economic entomology",
@@ -8625,7 +8830,7 @@
    "0022-0493"
   ],
   "quartile": 2,
-  "impact": 2.27,
+  "impact": 2.28,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -8635,8 +8840,19 @@
    "1927-5250"
   ],
   "quartile": 3,
-  "impact": 0.69,
+  "impact": 0.7,
   "field": "Social Sciences"
+ },
+ {
+  "name": "Journal of Electrical Systems and Information Technology",
+  "paperCount": 1,
+  "issn": [
+   "2314-7172"
+  ],
+  "publisher": "Springer Science and Business Media LLC",
+  "quartile": 1,
+  "impact": 5.72,
+  "field": "Engineering"
  },
  {
   "name": "Journal of endodontics",
@@ -8645,7 +8861,7 @@
    "0099-2399"
   ],
   "quartile": 1,
-  "impact": 3.77,
+  "impact": 3.78,
   "field": "Dentistry"
  },
  {
@@ -8671,24 +8887,20 @@
   "paperCount": 1,
   "issn": [
    "2633-7436"
-  ]
- },
- {
-  "name": "Journal of Ethnic Foods",
-  "paperCount": 1,
-  "issn": [
-   "2352-6181"
   ],
-  "quartile": 1,
-  "impact": 5.29,
-  "field": "Agricultural and Biological Sciences"
+  "quartile": 2,
+  "impact": 2.23,
+  "field": "Social Sciences"
  },
  {
   "name": "Journal of experimental psychology. Learning, memory, and cognition",
   "paperCount": 1,
   "issn": [
    "0278-7393"
-  ]
+  ],
+  "quartile": 3,
+  "impact": 1.29,
+  "field": "Neuroscience"
  },
  {
   "name": "Journal of Extension",
@@ -8708,7 +8920,7 @@
    "2043-6238"
   ],
   "quartile": 1,
-  "impact": 5.43,
+  "impact": 5.37,
   "field": "Business, Management and Accounting"
  },
  {
@@ -8719,7 +8931,17 @@
    "1007-662X"
   ],
   "quartile": 3,
-  "impact": 1.46,
+  "impact": 1.47,
+  "field": "Environmental Science"
+ },
+ {
+  "name": "Journal of Geography, Environment and Earth Science International",
+  "paperCount": 1,
+  "issn": [
+   "2454-7352"
+  ],
+  "quartile": 3,
+  "impact": 1.05,
   "field": "Environmental Science"
  },
  {
@@ -8729,7 +8951,7 @@
    "2509-8829"
   ],
   "quartile": 1,
-  "impact": 7.62
+  "impact": 7.67
  },
  {
   "name": "Journal of gerontological social work",
@@ -8739,18 +8961,8 @@
    "1844-3788"
   ],
   "quartile": 2,
-  "impact": 1.69,
+  "impact": 1.7,
   "field": "Health Professions"
- },
- {
-  "name": "Journal of Hospitality and Tourism Technology",
-  "paperCount": 1,
-  "issn": [
-   "1757-9880"
-  ],
-  "quartile": 1,
-  "impact": 6.31,
-  "field": "Social Sciences"
  },
  {
   "name": "Journal of Human Values",
@@ -8759,7 +8971,7 @@
    "0971-6858"
   ],
   "quartile": 3,
-  "impact": 1.49
+  "impact": 1.5
  },
  {
   "name": "Journal of Hunan University Natural Sciences",
@@ -8776,7 +8988,10 @@
   "paperCount": 1,
   "issn": [
    "1084-0699"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 2.69,
+  "field": "Environmental Science"
  },
  {
   "name": "Journal of Imaging",
@@ -8795,7 +9010,7 @@
    "0022-1759"
   ],
   "quartile": 3,
-  "impact": 1.7,
+  "impact": 1.72,
   "field": "Immunology and Microbiology"
  },
  {
@@ -8805,7 +9020,7 @@
    "1088-1980"
   ],
   "quartile": 1,
-  "impact": 6.59,
+  "impact": 6.64,
   "field": "Environmental Science"
  },
  {
@@ -8815,7 +9030,7 @@
    "1566-1679"
   ],
   "quartile": 2,
-  "impact": 2.93,
+  "impact": 2.87,
   "field": "Economics, Econometrics and Finance"
  },
  {
@@ -8834,6 +9049,10 @@
   ]
  },
  {
+  "name": "Journal of Information and Communications Technology Algorithms Systems and Applications",
+  "paperCount": 1
+ },
+ {
   "name": "Journal of Innovation & Knowledge",
   "paperCount": 1
  },
@@ -8848,7 +9067,7 @@
    "1793-7205"
   ],
   "quartile": 2,
-  "impact": 2.9
+  "impact": 2.91
  },
  {
   "name": "Journal of Integrated Care",
@@ -8863,8 +9082,16 @@
   "field": "Health Professions"
  },
  {
-  "name": "Journal of Intelligent Media Computing",
-  "paperCount": 1
+  "name": "Journal of International Cooperation in Education",
+  "paperCount": 1,
+  "issn": [
+   "1344-2996",
+   "1344-7998",
+   "2755-029X"
+  ],
+  "quartile": 4,
+  "impact": 0,
+  "field": "Social Sciences"
  },
  {
   "name": "Journal of invertebrate pathology",
@@ -8873,8 +9100,12 @@
    "0022-2011"
   ],
   "quartile": 2,
-  "impact": 2.24,
+  "impact": 2.25,
   "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Journal of Island and Marine Studies",
+  "paperCount": 1
  },
  {
   "name": "Journal of King Saud University Computer and Information Sciences",
@@ -8883,7 +9114,7 @@
    "1319-1578"
   ],
   "quartile": 1,
-  "impact": 4.33,
+  "impact": 4.37,
   "field": "Computer Science"
  },
  {
@@ -8893,12 +9124,8 @@
    "1367-3270"
   ],
   "quartile": 1,
-  "impact": 8.23,
+  "impact": 8.25,
   "field": "Business, Management and Accounting"
- },
- {
-  "name": "Journal of Law, Politic and Humanities",
-  "paperCount": 1
  },
  {
   "name": "Journal of learning disabilities",
@@ -8919,7 +9146,7 @@
    "0733-8724"
   ],
   "quartile": 1,
-  "impact": 4.03,
+  "impact": 4.05,
   "field": "Engineering"
  },
  {
@@ -8930,7 +9157,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 4.5,
+  "impact": 4.53,
   "field": "Engineering"
  },
  {
@@ -8940,7 +9167,7 @@
    "1053-1807"
   ],
   "quartile": 2,
-  "impact": 2.44,
+  "impact": 2.45,
   "field": "Medicine"
  },
  {
@@ -8961,7 +9188,7 @@
   ],
   "publisher": "MDPI AG",
   "quartile": 1,
-  "impact": 4.06,
+  "impact": 4.08,
   "field": "Engineering"
  },
  {
@@ -8973,7 +9200,7 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 5.6,
+  "impact": 5.57,
   "field": "Business, Management and Accounting"
  },
  {
@@ -8983,7 +9210,7 @@
    "2050-750X"
   ],
   "quartile": 1,
-  "impact": 5.89,
+  "impact": 5.9,
   "field": "Materials Science"
  },
  {
@@ -8995,7 +9222,10 @@
   "paperCount": 1,
   "issn": [
    "1438-8871"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 9.4,
+  "field": "Health Professions"
  },
  {
   "name": "Journal of Micro and Bio Robotics",
@@ -9026,8 +9256,18 @@
    "0895-8696"
   ],
   "quartile": 2,
-  "impact": 2.74,
+  "impact": 2.75,
   "field": "Neuroscience"
+ },
+ {
+  "name": "JOURNAL OF MONETARY ECONOMICS AND MANAGEMENT",
+  "paperCount": 1,
+  "issn": [
+   "2782-4586"
+  ],
+  "quartile": 4,
+  "impact": 0.14,
+  "field": "Business, Management and Accounting"
  },
  {
   "name": "Journal of Neuroimmune Pharmacology",
@@ -9036,7 +9276,7 @@
    "1557-1890"
   ],
   "quartile": 1,
-  "impact": 6.39,
+  "impact": 6.37,
   "field": "Neuroscience"
  },
  {
@@ -9046,7 +9286,17 @@
    "2694-1902"
   ],
   "quartile": 4,
-  "impact": 0.59,
+  "impact": 0.58,
+  "field": "Medicine"
+ },
+ {
+  "name": "Journal of nuclear medicine technology",
+  "paperCount": 1,
+  "issn": [
+   "0091-4916"
+  ],
+  "quartile": 2,
+  "impact": 1.85,
   "field": "Medicine"
  },
  {
@@ -9054,14 +9304,8 @@
   "paperCount": 1
  },
  {
-  "name": "Journal of pineal research",
-  "paperCount": 1,
-  "issn": [
-   "0742-3098"
-  ],
-  "quartile": 1,
-  "impact": 6.56,
-  "field": "Neuroscience"
+  "name": "Journal of Plant Electrobiology",
+  "paperCount": 1
  },
  {
   "name": "Journal of Reliable and Secure Computing",
@@ -9072,7 +9316,10 @@
   "paperCount": 1,
   "issn": [
    "2040-7122"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 7.62,
+  "field": "Business, Management and Accounting"
  },
  {
   "name": "Journal of Sedimentary Environments",
@@ -9124,7 +9371,7 @@
    "1092-4388"
   ],
   "quartile": 2,
-  "impact": 2.48,
+  "impact": 2.49,
   "field": "Psychology"
  },
  {
@@ -9147,7 +9394,7 @@
    "0970-0137"
   ],
   "quartile": 1,
-  "impact": 4.17,
+  "impact": 4.18,
   "field": "Engineering"
  },
  {
@@ -9155,7 +9402,10 @@
   "paperCount": 1,
   "issn": [
    "0191-8141"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 2.9,
+  "field": "Earth and Planetary Sciences"
  },
  {
   "name": "Journal of surgical education",
@@ -9164,8 +9414,12 @@
    "1878-7452"
   ],
   "quartile": 2,
-  "impact": 2.15,
+  "impact": 2.16,
   "field": "Medicine"
+ },
+ {
+  "name": "Journal of Technology and Innovation",
+  "paperCount": 1
  },
  {
   "name": "Journal of Technology and Systems",
@@ -9184,7 +9438,7 @@
    "0022-4898"
   ],
   "quartile": 2,
-  "impact": 3.14,
+  "impact": 3.15,
   "field": "Engineering"
  },
  {
@@ -9196,7 +9450,7 @@
    "1942-597X"
   ],
   "quartile": 1,
-  "impact": 11.77,
+  "impact": 11.86,
   "field": "Health Professions"
  },
  {
@@ -9225,7 +9479,7 @@
    "1990-2573"
   ],
   "quartile": 3,
-  "impact": 1.58,
+  "impact": 1.59,
   "field": "Engineering"
  },
  {
@@ -9253,21 +9507,15 @@
   "field": "Engineering"
  },
  {
-  "name": "Journal of the Royal Society, Interface",
-  "paperCount": 1,
-  "issn": [
-   "1742-5662"
-  ],
-  "quartile": 1,
-  "impact": 4.25
- },
- {
   "name": "Journal of the science of food and agriculture",
   "paperCount": 1,
   "issn": [
    "2575-7954",
    "0022-5142"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Journal of ultrasound",
@@ -9276,7 +9524,7 @@
    "1876-7931"
   ],
   "quartile": 2,
-  "impact": 1.84,
+  "impact": 1.85,
   "field": "Medicine"
  },
  {
@@ -9288,7 +9536,7 @@
   ],
   "publisher": "SAGE Publications",
   "quartile": 3,
-  "impact": 1.86,
+  "impact": 1.87,
   "field": "Engineering"
  },
  {
@@ -9299,7 +9547,7 @@
    "2523-3920"
   ],
   "quartile": 2,
-  "impact": 3.33,
+  "impact": 3.34,
   "field": "Engineering"
  },
  {
@@ -9308,14 +9556,7 @@
   "issn": [
    "1940-087X"
   ],
-  "publisher": "MyJove Corporation"
- },
- {
-  "name": "Journal of visualized experiments : JoVE",
-  "paperCount": 1,
-  "issn": [
-   "1940-087X"
-  ],
+  "publisher": "MyJove Corporation",
   "quartile": 4,
   "impact": 0.65,
   "field": "Biochemistry, Genetics and Molecular Biology"
@@ -9327,7 +9568,7 @@
    "2040-2244"
   ],
   "quartile": 1,
-  "impact": 4.81,
+  "impact": 4.83,
   "field": "Environmental Science"
  },
  {
@@ -9337,7 +9578,7 @@
    "1429-7426"
   ],
   "quartile": 3,
-  "impact": 1.23,
+  "impact": 1.24,
   "field": "Environmental Science"
  },
  {
@@ -9348,12 +9589,22 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 7.76,
+  "impact": 7.78,
   "field": "Environmental Science"
  },
  {
   "name": "Journal on Wireless Communications and Networking",
   "paperCount": 1
+ },
+ {
+  "name": "JURIST",
+  "paperCount": 1,
+  "issn": [
+   "1812-3929"
+  ],
+  "quartile": 4,
+  "impact": 0.07,
+  "field": "Social Sciences"
  },
  {
   "name": "Jurnal Ekonomi, Manajemen, Bisnis dan Akuntansi Review",
@@ -9428,13 +9679,22 @@
   "paperCount": 1
  },
  {
+  "name": "Kybernetes",
+  "paperCount": 1,
+  "issn": [
+   "0368-492X"
+  ],
+  "quartile": 1,
+  "impact": 5.02
+ },
+ {
   "name": "Landscape Ecology",
   "paperCount": 1,
   "issn": [
    "0921-2973"
   ],
   "quartile": 1,
-  "impact": 5.64,
+  "impact": 5.76,
   "field": "Environmental Science"
  },
  {
@@ -9458,7 +9718,7 @@
    "1041-6080"
   ],
   "quartile": 1,
-  "impact": 7.1,
+  "impact": 7.14,
   "field": "Psychology"
  },
  {
@@ -9482,13 +9742,17 @@
   "paperCount": 1
  },
  {
+  "name": "Legal regulation in veterinary medicine",
+  "paperCount": 1
+ },
+ {
   "name": "Legume Science",
   "paperCount": 1,
   "issn": [
    "2639-6181"
   ],
   "quartile": 2,
-  "impact": 3.01,
+  "impact": 3.03,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -9509,7 +9773,7 @@
    "2575-1077"
   ],
   "quartile": 1,
-  "impact": 4.75,
+  "impact": 4.77,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -9540,7 +9804,7 @@
    "2768-4458"
   ],
   "quartile": 1,
-  "impact": 5.51,
+  "impact": 5.54,
   "field": "Business, Management and Accounting"
  },
  {
@@ -9555,7 +9819,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 5.3,
+  "impact": 5.31,
   "field": "Computer Science"
  },
  {
@@ -9566,7 +9830,7 @@
   ],
   "publisher": "IOP Publishing",
   "quartile": 1,
-  "impact": 4.05,
+  "impact": 4.04,
   "field": "Computer Science"
  },
  {
@@ -9576,7 +9840,7 @@
    "0932-8092"
   ],
   "quartile": 2,
-  "impact": 3.06,
+  "impact": 3.07,
   "field": "Computer Science"
  },
  {
@@ -9604,7 +9868,7 @@
    "0938-8990"
   ],
   "quartile": 2,
-  "impact": 2.2,
+  "impact": 2.22,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -9635,7 +9899,7 @@
   ],
   "publisher": "AccScience Publishing",
   "quartile": 1,
-  "impact": 3.97,
+  "impact": 4.01,
   "field": "Engineering"
  },
  {
@@ -9645,7 +9909,7 @@
    "0047-6374"
   ],
   "quartile": 1,
-  "impact": 4.98,
+  "impact": 5.04,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -9655,7 +9919,7 @@
    "0269-283X"
   ],
   "quartile": 2,
-  "impact": 2.4,
+  "impact": 2.41,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -9669,7 +9933,7 @@
    "1087-2981"
   ],
   "quartile": 1,
-  "impact": 5.99,
+  "impact": 6.04,
   "field": "Medicine"
  },
  {
@@ -9679,7 +9943,7 @@
    "0142-159X"
   ],
   "quartile": 1,
-  "impact": 4.43,
+  "impact": 4.46,
   "field": "Medicine"
  },
  {
@@ -9709,7 +9973,7 @@
    "1573-3882"
   ],
   "quartile": 1,
-  "impact": 3.65,
+  "impact": 3.68,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -9723,14 +9987,27 @@
    "2215-0161"
   ],
   "quartile": 1,
-  "impact": 4.4
+  "impact": 4.43
  },
  {
   "name": "Mezhdunarodnaja jekonomika (The World Economics)",
   "paperCount": 1,
   "issn": [
    "2074-6040"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0.19,
+  "field": "Social Sciences"
+ },
+ {
+  "name": "Micromachines",
+  "paperCount": 1,
+  "issn": [
+   "2072-666X"
+  ],
+  "quartile": 1,
+  "impact": 4.61,
+  "field": "Engineering"
  },
  {
   "name": "Microorganisms",
@@ -9739,7 +10016,7 @@
    "2076-2607"
   ],
   "quartile": 1,
-  "impact": 5.37,
+  "impact": 5.39,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -9749,7 +10026,7 @@
    "2055-7434"
   ],
   "quartile": 1,
-  "impact": 10.04,
+  "impact": 10.06,
   "field": "Engineering"
  },
  {
@@ -9761,7 +10038,7 @@
    "1827-1634"
   ],
   "quartile": 2,
-  "impact": 2.5,
+  "impact": 2.51,
   "field": "Medicine"
  },
  {
@@ -9770,7 +10047,10 @@
   "issn": [
    "1859-4794"
   ],
-  "publisher": "Ministry of Science and Technology, Vietnam (VMOST)"
+  "publisher": "Ministry of Science and Technology, Vietnam (VMOST)",
+  "quartile": 4,
+  "impact": 0.03,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Mitigation and Adaptation Strategies for Global Change",
@@ -9779,7 +10059,7 @@
    "1381-2386"
   ],
   "quartile": 1,
-  "impact": 6.4,
+  "impact": 6.46,
   "field": "Environmental Science"
  },
  {
@@ -9798,7 +10078,7 @@
    "0303-7207"
   ],
   "quartile": 1,
-  "impact": 3.84,
+  "impact": 3.88,
   "field": "Medicine"
  },
  {
@@ -9808,7 +10088,7 @@
    "1059-1524"
   ],
   "quartile": 1,
-  "impact": 3.75,
+  "impact": 3.76,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -9818,7 +10098,7 @@
    "2662-8651"
   ],
   "quartile": 1,
-  "impact": 11.42,
+  "impact": 11.55,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -9828,7 +10108,7 @@
    "1541-7786"
   ],
   "quartile": 2,
-  "impact": 3.25,
+  "impact": 3.26,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -9841,7 +10121,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 14.39,
+  "impact": 14.41,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -9851,7 +10131,7 @@
    "2730-9401"
   ],
   "quartile": 1,
-  "impact": 6.36,
+  "impact": 6.4,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -9861,7 +10141,7 @@
    "2212-8778"
   ],
   "quartile": 1,
-  "impact": 7.29,
+  "impact": 7.34,
   "field": "Medicine"
  },
  {
@@ -9871,7 +10151,7 @@
    "1359-4184"
   ],
   "quartile": 1,
-  "impact": 9.21,
+  "impact": 9.27,
   "field": "Neuroscience"
  },
  {
@@ -9881,7 +10161,7 @@
    "1525-0016"
   ],
   "quartile": 1,
-  "impact": 7.54,
+  "impact": 7.58,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -9891,7 +10171,7 @@
    "1420-3049"
   ],
   "quartile": 1,
-  "impact": 6.58
+  "impact": 6.6
  },
  {
   "name": "Mongolian Diaspora. Journal of Mongolian History and Culture",
@@ -9924,7 +10204,7 @@
    "2330-1619"
   ],
   "quartile": 2,
-  "impact": 2.02,
+  "impact": 2.04,
   "field": "Medicine"
  },
  {
@@ -9935,7 +10215,7 @@
   ],
   "publisher": "Bandirma Onyedi Eylul University",
   "quartile": 4,
-  "impact": 0.88,
+  "impact": 0.72,
   "field": "Engineering"
  },
  {
@@ -9945,7 +10225,7 @@
    "0942-4962"
   ],
   "quartile": 2,
-  "impact": 2.83,
+  "impact": 2.84,
   "field": "Computer Science"
  },
  {
@@ -9970,7 +10250,7 @@
    "2196-5404"
   ],
   "quartile": 1,
-  "impact": 16.32,
+  "impact": 16.34,
   "field": "Engineering"
  },
  {
@@ -9980,7 +10260,7 @@
    "2079-4991"
   ],
   "quartile": 1,
-  "impact": 6.98,
+  "impact": 7,
   "field": "Materials Science"
  },
  {
@@ -9990,7 +10270,7 @@
    "0921-030X"
   ],
   "quartile": 1,
-  "impact": 5.23,
+  "impact": 5.26,
   "field": "Environmental Science"
  },
  {
@@ -10000,7 +10280,7 @@
    "1527-6988"
   ],
   "quartile": 1,
-  "impact": 2.94,
+  "impact": 2.99,
   "field": "Social Sciences"
  },
  {
@@ -10008,16 +10288,10 @@
   "paperCount": 1,
   "issn": [
    "2583-1194"
-  ]
- },
- {
-  "name": "Natural Resources Forum",
-  "paperCount": 1,
-  "issn": [
-   "0165-0203"
   ],
-  "quartile": 1,
-  "impact": 7.14
+  "quartile": 4,
+  "impact": 0.07,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Natural Sciences Education",
@@ -10038,20 +10312,8 @@
    "0028-0836"
   ],
   "quartile": 1,
-  "impact": 19.56,
+  "impact": 19.62,
   "field": "Arts and Humanities"
- },
- {
-  "name": "Nature & Science",
-  "paperCount": 1,
-  "issn": [
-   "2707-1146",
-   "2709-4189"
-  ],
-  "publisher": "Azerbaijan Science Center",
-  "quartile": 4,
-  "impact": 0.13,
-  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Nature biotechnology",
@@ -10060,7 +10322,7 @@
    "1087-0156"
   ],
   "quartile": 1,
-  "impact": 13.76,
+  "impact": 13.82,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -10070,7 +10332,7 @@
    "1552-4450"
   ],
   "quartile": 1,
-  "impact": 10.79,
+  "impact": 10.86,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -10082,7 +10344,7 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 19.46,
+  "impact": 19.5,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -10090,7 +10352,9 @@
   "paperCount": 1,
   "issn": [
    "2397-3374"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 15.34
  },
  {
   "name": "Nature medicine",
@@ -10099,7 +10363,7 @@
    "1078-8956"
   ],
   "quartile": 1,
-  "impact": 33.49,
+  "impact": 33.61,
   "field": "Medicine"
  },
  {
@@ -10109,7 +10373,7 @@
    "1471-0056"
   ],
   "quartile": 1,
-  "impact": 17.73,
+  "impact": 17.78,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -10150,7 +10414,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 6.05,
+  "impact": 6.07,
   "field": "Computer Science"
  },
  {
@@ -10160,7 +10424,7 @@
    "1522-8517"
   ],
   "quartile": 3,
-  "impact": 1.24,
+  "impact": 1.25,
   "field": "Medicine"
  },
  {
@@ -10170,7 +10434,7 @@
    "1053-8119"
   ],
   "quartile": 1,
-  "impact": 4.3,
+  "impact": 4.31,
   "field": "Neuroscience"
  },
  {
@@ -10180,7 +10444,7 @@
    "0306-4522"
   ],
   "quartile": 2,
-  "impact": 3.07,
+  "impact": 3.09,
   "field": "Neuroscience"
  },
  {
@@ -10190,7 +10454,7 @@
    "2057-2107"
   ],
   "quartile": 1,
-  "impact": 3.93,
+  "impact": 3.87,
   "field": "Neuroscience"
  },
  {
@@ -10208,7 +10472,7 @@
    "1878-7479"
   ],
   "quartile": 1,
-  "impact": 5.71,
+  "impact": 5.75,
   "field": "Medicine"
  },
  {
@@ -10222,7 +10486,7 @@
    "0028-825X"
   ],
   "quartile": 2,
-  "impact": 2.28,
+  "impact": 2.29,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -10243,8 +10507,12 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 3,
-  "impact": 2.62,
+  "impact": 2.64,
   "field": "Materials Science"
+ },
+ {
+  "name": "Next-Generation Computing Systems and Technologies",
+  "paperCount": 1
  },
  {
   "name": "Ngenani: The Zimbabwe Ezekiel Guti Journal of Community Engagement and Societal Transformations",
@@ -10257,7 +10525,7 @@
    "2504-3129"
   ],
   "quartile": 1,
-  "impact": 3.58,
+  "impact": 3.6,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -10267,7 +10535,7 @@
    "0952-3480"
   ],
   "quartile": 2,
-  "impact": 2.49,
+  "impact": 2.5,
   "field": "Medicine"
  },
  {
@@ -10301,7 +10569,7 @@
    "2398-6352"
   ],
   "quartile": 1,
-  "impact": 14.05,
+  "impact": 14.13,
   "field": "Medicine"
  },
  {
@@ -10320,7 +10588,7 @@
   ],
   "publisher": "Springer Science and Business Media LLC",
   "quartile": 1,
-  "impact": 6.82,
+  "impact": 6.83,
   "field": "Medicine"
  },
  {
@@ -10344,7 +10612,7 @@
    "0143-3636"
   ],
   "quartile": 3,
-  "impact": 1.19,
+  "impact": 1.18,
   "field": "Medicine"
  },
  {
@@ -10355,6 +10623,16 @@
  {
   "name": "Ocean & Coastal Management",
   "paperCount": 1
+ },
+ {
+  "name": "OECD Food, Agriculture and Fisheries Papers",
+  "paperCount": 1,
+  "issn": [
+   "1815-6797"
+  ],
+  "publisher": "Organisation for Economic Co-Operation and Development (OECD)",
+  "quartile": 3,
+  "impact": 1.43
  },
  {
   "name": "Omsk Scientific Bulletin",
@@ -10373,8 +10651,28 @@
    "2162-4011"
   ],
   "quartile": 1,
-  "impact": 6.61,
+  "impact": 6.65,
   "field": "Immunology and Microbiology"
+ },
+ {
+  "name": "Online Information Review",
+  "paperCount": 1,
+  "issn": [
+   "1468-4527"
+  ],
+  "quartile": 1,
+  "impact": 5.83,
+  "field": "Computer Science"
+ },
+ {
+  "name": "Open Access Research Journal of Science and Technology",
+  "paperCount": 1,
+  "issn": [
+   "2782-9960"
+  ],
+  "quartile": 2,
+  "impact": 2.35,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Open biology",
@@ -10383,7 +10681,7 @@
    "2046-2441"
   ],
   "quartile": 1,
-  "impact": 4.81,
+  "impact": 4.83,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -10393,7 +10691,7 @@
    "2732-5121"
   ],
   "quartile": 3,
-  "impact": 1.48
+  "impact": 1.49
  },
  {
   "name": "Operational Research",
@@ -10403,7 +10701,7 @@
    "0030-364X"
   ],
   "quartile": 2,
-  "impact": 2.54,
+  "impact": 2.56,
   "field": "Business, Management and Accounting"
  },
  {
@@ -10423,7 +10721,7 @@
    "2193-8245"
   ],
   "quartile": 1,
-  "impact": 4.1,
+  "impact": 4.13,
   "field": "Medicine"
  },
  {
@@ -10452,7 +10750,7 @@
   ],
   "publisher": "Optica Publishing Group",
   "quartile": 2,
-  "impact": 3.62,
+  "impact": 3.64,
   "field": "Engineering"
  },
  {
@@ -10460,7 +10758,10 @@
   "paperCount": 1,
   "issn": [
    "1354-523X"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 2.69,
+  "field": "Dentistry"
  },
  {
   "name": "Oral oncology",
@@ -10469,7 +10770,7 @@
    "1368-8375"
   ],
   "quartile": 2,
-  "impact": 2.42,
+  "impact": 2.43,
   "field": "Medicine"
  },
  {
@@ -10540,14 +10841,20 @@
   "issn": [
    "2041-7128",
    "2041-7136"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 2.52,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Pattern Recognition Letters",
   "paperCount": 1,
   "issn": [
    "0167-8655"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 3.88,
+  "field": "Computer Science"
  },
  {
   "name": "Peer-to-Peer Networking and Applications",
@@ -10556,7 +10863,7 @@
    "1936-6442"
   ],
   "quartile": 1,
-  "impact": 5.33,
+  "impact": 5.35,
   "field": "Computer Science"
  },
  {
@@ -10603,7 +10910,7 @@
    "1388-0209"
   ],
   "quartile": 1,
-  "impact": 6.83,
+  "impact": 6.89,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -10613,7 +10920,7 @@
    "2509-4262"
   ],
   "quartile": 2,
-  "impact": 3,
+  "impact": 2.98,
   "field": "Economics, Econometrics and Finance"
  },
  {
@@ -10634,7 +10941,7 @@
    "1572-1000"
   ],
   "quartile": 2,
-  "impact": 2.09,
+  "impact": 2.1,
   "field": "Medicine"
  },
  {
@@ -10644,18 +10951,34 @@
    "0031-8949",
    "1402-4896"
   ],
-  "publisher": "IOP Publishing"
+  "publisher": "IOP Publishing",
+  "quartile": 2,
+  "impact": 2.91,
+  "field": "Physics and Astronomy"
  },
  {
   "name": "Physical Science International Journal",
   "paperCount": 1,
   "issn": [
    "2348-0130"
-  ]
+  ],
+  "quartile": 4,
+  "impact": 0.42,
+  "field": "Physics and Astronomy"
  },
  {
   "name": "Physics and Chemistry of the Earth, Parts A/B/C",
   "paperCount": 1
+ },
+ {
+  "name": "Phytochemical analysis : PCA",
+  "paperCount": 1,
+  "issn": [
+   "0958-0344"
+  ],
+  "quartile": 2,
+  "impact": 4.29,
+  "field": "Chemistry"
  },
  {
   "name": "Phytochemistry",
@@ -10664,7 +10987,7 @@
    "0031-9422"
   ],
   "quartile": 2,
-  "impact": 3.24,
+  "impact": 3.27,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -10672,7 +10995,10 @@
   "paperCount": 1,
   "issn": [
    "0031-949X"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 7.55,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Phytotaxa",
@@ -10692,7 +11018,7 @@
    "0951-418X"
   ],
   "quartile": 1,
-  "impact": 7.36,
+  "impact": 7.39,
   "field": "Medicine"
  },
  {
@@ -10702,7 +11028,17 @@
    "0032-0781"
   ],
   "quartile": 1,
-  "impact": 4.24,
+  "impact": 4.26,
+  "field": "Agricultural and Biological Sciences"
+ },
+ {
+  "name": "Plant and Soil",
+  "paperCount": 1,
+  "issn": [
+   "0032-079X"
+  ],
+  "quartile": 1,
+  "impact": 3.95,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -10714,13 +11050,23 @@
   ]
  },
  {
+  "name": "Plant biotechnology journal",
+  "paperCount": 1,
+  "issn": [
+   "1467-7644"
+  ],
+  "quartile": 1,
+  "impact": 9.42,
+  "field": "Agricultural and Biological Sciences"
+ },
+ {
   "name": "Plant Cell Reports",
   "paperCount": 1,
   "issn": [
    "0721-7714"
   ],
   "quartile": 1,
-  "impact": 5.27,
+  "impact": 5.28,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -10730,7 +11076,7 @@
    "2590-3462"
   ],
   "quartile": 1,
-  "impact": 9.78,
+  "impact": 9.83,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -10748,7 +11094,7 @@
    "2572-2611"
   ],
   "quartile": 1,
-  "impact": 4.46,
+  "impact": 4.47,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -10770,7 +11116,7 @@
    "1544-9173"
   ],
   "quartile": 1,
-  "impact": 7.28,
+  "impact": 7.29,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -10790,7 +11136,7 @@
    "2767-3197"
   ],
   "quartile": 1,
-  "impact": 3.71,
+  "impact": 3.73,
   "field": "Environmental Science"
  },
  {
@@ -10804,7 +11150,7 @@
    "0170-0839"
   ],
   "quartile": 2,
-  "impact": 4.6,
+  "impact": 4.62,
   "field": "Materials Science"
  },
  {
@@ -10834,7 +11180,7 @@
    "1727-7051"
   ],
   "quartile": 2,
-  "impact": 3.15,
+  "impact": 3.18,
   "field": "Business, Management and Accounting"
  },
  {
@@ -10846,7 +11192,7 @@
   ],
   "publisher": "Kazakh Research Institute of Economy of Agro-Industrial Complex and Rural Development",
   "quartile": 4,
-  "impact": 0.21,
+  "impact": 0.24,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -10918,7 +11264,7 @@
    "0033-0620"
   ],
   "quartile": 1,
-  "impact": 6.31,
+  "impact": 6.32,
   "field": "Medicine"
  },
  {
@@ -10933,7 +11279,7 @@
    "0340-7462"
   ],
   "quartile": 3,
-  "impact": 1.59,
+  "impact": 1.6,
   "field": "Engineering"
  },
  {
@@ -10957,7 +11303,7 @@
    "0961-8368"
   ],
   "quartile": 2,
-  "impact": 3.5,
+  "impact": 3.51,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -10968,7 +11314,7 @@
    "0934-8727"
   ],
   "quartile": 2,
-  "impact": 2.39,
+  "impact": 2.4,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -10978,7 +11324,7 @@
    "2633-9048"
   ],
   "quartile": 2,
-  "impact": 2.17,
+  "impact": 2.19,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -10986,7 +11332,10 @@
   "paperCount": 1,
   "issn": [
    "1443-9883"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 2.12,
+  "field": "Social Sciences"
  },
  {
   "name": "Quality of Life Research",
@@ -10995,7 +11344,7 @@
    "0962-9343"
   ],
   "quartile": 1,
-  "impact": 3.82,
+  "impact": 3.84,
   "field": "Medicine"
  },
  {
@@ -11005,7 +11354,7 @@
    "0035-9009"
   ],
   "quartile": 1,
-  "impact": 3.46,
+  "impact": 3.48,
   "field": "Earth and Planetary Sciences"
  },
  {
@@ -11016,7 +11365,7 @@
    "0033-8281"
   ],
   "quartile": 2,
-  "impact": 2.3,
+  "impact": 2.31,
   "field": "Medicine"
  },
  {
@@ -11030,13 +11379,33 @@
   "field": "Medicine"
  },
  {
+  "name": "Radiology. Artificial intelligence",
+  "paperCount": 1,
+  "issn": [
+   "2638-6100"
+  ],
+  "quartile": 1,
+  "impact": 8.45,
+  "field": "Medicine"
+ },
+ {
+  "name": "Ranah Research : Journal of Multidisciplinary Research and Development",
+  "paperCount": 1,
+  "issn": [
+   "2655-0865"
+  ],
+  "quartile": 4,
+  "impact": 0.24,
+  "field": "Social Sciences"
+ },
+ {
   "name": "Recent Advances in Computer Science and Communications",
   "paperCount": 1,
   "issn": [
    "2666-2558"
   ],
   "quartile": 3,
-  "impact": 1.2,
+  "impact": 1.18,
   "field": "Computer Science"
  },
  {
@@ -11046,7 +11415,7 @@
    "2213-2317"
   ],
   "quartile": 1,
-  "impact": 14.63,
+  "impact": 14.68,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -11056,7 +11425,7 @@
    "0090-7324"
   ],
   "quartile": 3,
-  "impact": 1.65,
+  "impact": 1.63,
   "field": "Computer Science"
  },
  {
@@ -11067,7 +11436,7 @@
    "2056-3418"
   ],
   "quartile": 1,
-  "impact": 8.01
+  "impact": 8.06
  },
  {
   "name": "Regenerative therapy",
@@ -11076,7 +11445,7 @@
    "2352-3204"
   ],
   "quartile": 1,
-  "impact": 5.41,
+  "impact": 5.43,
   "field": "Medicine"
  },
  {
@@ -11110,12 +11479,22 @@
    "0886-022X"
   ],
   "quartile": 1,
-  "impact": 4.33,
+  "impact": 4.35,
   "field": "Medicine"
  },
  {
   "name": "Rendiconti del Circolo Matematico di Palermo Series 2",
   "paperCount": 1
+ },
+ {
+  "name": "Renewable Agriculture and Food Systems",
+  "paperCount": 1,
+  "issn": [
+   "1742-1705"
+  ],
+  "quartile": 2,
+  "impact": 2.84,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Reproductive sciences",
@@ -11124,7 +11503,7 @@
    "1933-7191"
   ],
   "quartile": 1,
-  "impact": 3.16,
+  "impact": 3.21,
   "field": "Medicine"
  },
  {
@@ -11162,7 +11541,7 @@
    "1363-6669"
   ],
   "quartile": 2,
-  "impact": 2.3,
+  "impact": 2.33,
   "field": "Economics, Econometrics and Finance"
  },
  {
@@ -11192,8 +11571,28 @@
    "2236-6717"
   ],
   "quartile": 4,
-  "impact": 0.11,
+  "impact": 0.12,
   "field": "Social Sciences"
+ },
+ {
+  "name": "Revista de Geopolítica",
+  "paperCount": 1,
+  "issn": [
+   "2177-3246"
+  ],
+  "quartile": 4,
+  "impact": 0.05,
+  "field": "Social Sciences"
+ },
+ {
+  "name": "Revista de Investigación en Tecnologías de la Información",
+  "paperCount": 1,
+  "issn": [
+   "2387-0893"
+  ],
+  "quartile": 3,
+  "impact": 0.84,
+  "field": "Computer Science"
  },
  {
   "name": "Revista Iberoamericana Ambiente & Sustentabilidad",
@@ -11218,7 +11617,7 @@
    "2261-611X"
   ],
   "quartile": 1,
-  "impact": 3.34,
+  "impact": 3.33,
   "field": "Economics, Econometrics and Finance"
  },
  {
@@ -11232,8 +11631,18 @@
    "1355-8382"
   ],
   "quartile": 2,
-  "impact": 3.44,
+  "impact": 3.43,
   "field": "Biochemistry, Genetics and Molecular Biology"
+ },
+ {
+  "name": "RSF Conference Series: Engineering and Technology",
+  "paperCount": 1,
+  "issn": [
+   "2809-6878"
+  ],
+  "quartile": 4,
+  "impact": 0.03,
+  "field": "Engineering"
  },
  {
   "name": "Sādhanā",
@@ -11253,11 +11662,22 @@
    "1301-4048"
   ],
   "quartile": 3,
-  "impact": 0.87
+  "impact": 0.86
  },
  {
   "name": "SAP Social AI",
   "paperCount": 1
+ },
+ {
+  "name": "Saturnus: Jurnal Teknologi dan Sistem Informasi",
+  "paperCount": 1,
+  "issn": [
+   "2460-3465",
+   "2746-3699"
+  ],
+  "quartile": 4,
+  "impact": 0.28,
+  "field": "Computer Science"
  },
  {
   "name": "Schola Viva",
@@ -11278,7 +11698,7 @@
    "2470-9468"
   ],
   "quartile": 1,
-  "impact": 16.42,
+  "impact": 16.53,
   "field": "Immunology and Microbiology"
  },
  {
@@ -11288,7 +11708,7 @@
    "2666-0172"
   ],
   "quartile": 1,
-  "impact": 4.34,
+  "impact": 4.37,
   "field": "Environmental Science"
  },
  {
@@ -11298,7 +11718,7 @@
    "1946-6234"
   ],
   "quartile": 1,
-  "impact": 16.02,
+  "impact": 16.12,
   "field": "Medicine"
  },
  {
@@ -11332,6 +11752,19 @@
   "paperCount": 1
  },
  {
+  "name": "SCIENTIFIC WORK",
+  "paperCount": 1,
+  "issn": [
+   "2073-8730",
+   "2663-4619",
+   "1312-6318",
+   "2219-9810"
+  ],
+  "quartile": 4,
+  "impact": 0.1,
+  "field": "Agricultural and Biological Sciences"
+ },
+ {
   "name": "Scientifica",
   "paperCount": 1,
   "issn": [
@@ -11352,7 +11785,7 @@
    "0270-9295"
   ],
   "quartile": 2,
-  "impact": 2.62,
+  "impact": 2.63,
   "field": "Medicine"
  },
  {
@@ -11372,7 +11805,7 @@
    "2297-8739"
   ],
   "quartile": 1,
-  "impact": 4.58,
+  "impact": 4.6,
   "field": "Chemistry"
  },
  {
@@ -11386,7 +11819,7 @@
    "1448-5028"
   ],
   "quartile": 3,
-  "impact": 1.54,
+  "impact": 1.62,
   "field": "Medicine"
  },
  {
@@ -11396,21 +11829,12 @@
    "0146-1044"
   ],
   "quartile": 2,
-  "impact": 1.95,
+  "impact": 1.99,
   "field": "Social Sciences"
  },
  {
   "name": "Shipbuilding & marine infrastructure",
   "paperCount": 1
- },
- {
-  "name": "Siberian Journal of Life Sciences and Agriculture",
-  "paperCount": 1,
-  "issn": [
-   "2658-6649"
-  ],
-  "quartile": 4,
-  "impact": 0.18
  },
  {
   "name": "Singapore University of Social Sciences - World Scientific Future Economy Series",
@@ -11428,6 +11852,16 @@
   "paperCount": 1
  },
  {
+  "name": "Skeletal radiology",
+  "paperCount": 1,
+  "issn": [
+   "0364-2348"
+  ],
+  "quartile": 2,
+  "impact": 2.51,
+  "field": "Medicine"
+ },
+ {
   "name": "SKILLED-LLMs@FLoC",
   "paperCount": 1
  },
@@ -11438,7 +11872,7 @@
    "2352-7218"
   ],
   "quartile": 1,
-  "impact": 2.66,
+  "impact": 2.68,
   "field": "Psychology"
  },
  {
@@ -11448,8 +11882,47 @@
    "2046-6099"
   ],
   "quartile": 1,
-  "impact": 5.78,
+  "impact": 5.82,
   "field": "Engineering"
+ },
+ {
+  "name": "Smart Cities and Regional Development (SCRD) Journal",
+  "paperCount": 1,
+  "issn": [
+   "2110-3127",
+   "2445-9704",
+   "2397-9232",
+   "1175-6381",
+   "1052-2824",
+   "2445-9720",
+   "2489-5474",
+   "1940-8390",
+   "2397-0308",
+   "1747-8324",
+   "1398-5086",
+   "1063-9381",
+   "2463-4239",
+   "1835-5374",
+   "2445-9712",
+   "2207-8185",
+   "0962-449X",
+   "1398-3059",
+   "0071-0725",
+   "1868-291X",
+   "2056-3086",
+   "1398-4004",
+   "2476-0285",
+   "2166-1405",
+   "2059-5611",
+   "2153-134X",
+   "2053-9843",
+   "1447-1353",
+   "1747-5600",
+   "1938-5595",
+   "2297-6019",
+   "1447-1507",
+   "0383-6894"
+  ]
  },
  {
   "name": "Social Science Computer Review",
@@ -11460,7 +11933,31 @@
   "paperCount": 1,
   "issn": [
    "2665-9638"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 2.72,
+  "field": "Computer Science"
+ },
+ {
+  "name": "Software: Practice and Experience",
+  "paperCount": 1,
+  "issn": [
+   "0038-0644"
+  ],
+  "quartile": 2,
+  "impact": 3.1,
+  "field": "Computer Science"
+ },
+ {
+  "name": "SOIL",
+  "paperCount": 1,
+  "issn": [
+   "2151-1268",
+   "2199-398X"
+  ],
+  "quartile": 4,
+  "impact": 0,
+  "field": "Arts and Humanities"
  },
  {
   "name": "Solar",
@@ -11469,7 +11966,7 @@
    "2673-9941"
   ],
   "quartile": 1,
-  "impact": 6.35,
+  "impact": 6.36,
   "field": "Energy"
  },
  {
@@ -11477,7 +11974,20 @@
   "paperCount": 1,
   "issn": [
    "0038-092X"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 8.35,
+  "field": "Engineering"
+ },
+ {
+  "name": "South African Health Review",
+  "paperCount": 1,
+  "issn": [
+   "1025-1715"
+  ],
+  "quartile": 3,
+  "impact": 1.48,
+  "field": "Health Professions"
  },
  {
   "name": "SPORTS: economics, law, management",
@@ -11504,7 +12014,7 @@
    "1874-7655"
   ],
   "quartile": 3,
-  "impact": 1.22,
+  "impact": 1.23,
   "field": "Social Sciences"
  },
  {
@@ -11515,7 +12025,7 @@
    "1431-8784"
   ],
   "quartile": 2,
-  "impact": 1.99,
+  "impact": 2,
   "field": "Mathematics"
  },
  {
@@ -11525,7 +12035,7 @@
    "2571-905X"
   ],
   "quartile": 3,
-  "impact": 1.45,
+  "impact": 1.46,
   "field": "Mathematics"
  },
  {
@@ -11539,7 +12049,7 @@
    "1547-3287"
   ],
   "quartile": 2,
-  "impact": 2.5,
+  "impact": 2.52,
   "field": "Medicine"
  },
  {
@@ -11558,22 +12068,12 @@
    "1932-4391"
   ],
   "quartile": 1,
-  "impact": 4.41,
+  "impact": 4.4,
   "field": "Business, Management and Accounting"
  },
  {
   "name": "Strategy & Leadership",
   "paperCount": 1
- },
- {
-  "name": "Stroke",
-  "paperCount": 1,
-  "issn": [
-   "0039-2499"
-  ],
-  "quartile": 2,
-  "impact": 2.23,
-  "field": "Medicine"
  },
  {
   "name": "Student Journal of Business and Economics",
@@ -11584,7 +12084,10 @@
   "paperCount": 1,
   "issn": [
    "1086-7376"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 3.81,
+  "field": "Economics, Econometrics and Finance"
  },
  {
   "name": "Supply Chain with Metaverse",
@@ -11609,21 +12112,27 @@
    "2160-7559"
   ],
   "quartile": 1,
-  "impact": 6.75
+  "impact": 6.78
  },
  {
   "name": "Sustainable Futures",
   "paperCount": 1,
   "issn": [
    "2666-1888"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 6.08,
+  "field": "Business, Management and Accounting"
  },
  {
   "name": "Synapse",
   "paperCount": 1,
   "issn": [
    "0887-4476"
-  ]
+  ],
+  "quartile": 3,
+  "impact": 1.4,
+  "field": "Neuroscience"
  },
  {
   "name": "Ta'limda Istiqbolli Izlanishlar xalqaro ilmiy metodik jurnal",
@@ -11636,7 +12145,7 @@
    "2503-0612"
   ],
   "quartile": 4,
-  "impact": 0.13,
+  "impact": 0.15,
   "field": "Social Sciences"
  },
  {
@@ -11646,7 +12155,7 @@
    "1354-0602"
   ],
   "quartile": 2,
-  "impact": 2.67,
+  "impact": 2.68,
   "field": "Social Sciences"
  },
  {
@@ -11658,7 +12167,7 @@
    "1822-3613"
   ],
   "quartile": 1,
-  "impact": 3.87,
+  "impact": 3.85,
   "field": "Decision Sciences"
  },
  {
@@ -11676,7 +12185,10 @@
   "paperCount": 1,
   "issn": [
    "0308-5961"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 5.98,
+  "field": "Engineering"
  },
  {
   "name": "The 12th International Conference on Time Series and Forecasting",
@@ -11709,7 +12221,7 @@
    "0006-2936"
   ],
   "quartile": 1,
-  "impact": 4.26,
+  "impact": 4.27,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -11719,7 +12231,7 @@
    "0007-0963"
   ],
   "quartile": 3,
-  "impact": 1.51,
+  "impact": 1.52,
   "field": "Medicine"
  },
  {
@@ -11729,7 +12241,7 @@
    "0007-1285"
   ],
   "quartile": 2,
-  "impact": 2.84,
+  "impact": 2.85,
   "field": "Medicine"
  },
  {
@@ -11741,7 +12253,7 @@
   ],
   "publisher": "Wiley",
   "quartile": 2,
-  "impact": 2.56,
+  "impact": 2.57,
   "field": "Engineering"
  },
  {
@@ -11752,7 +12264,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 6.57,
+  "impact": 6.6,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -11772,7 +12284,7 @@
    "1357-2725"
   ],
   "quartile": 2,
-  "impact": 3.57,
+  "impact": 3.59,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -11780,7 +12292,10 @@
   "paperCount": 1,
   "issn": [
    "0948-3349"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 6.18,
+  "field": "Environmental Science"
  },
  {
   "name": "The International Review of Multidisciplinary Research",
@@ -11807,7 +12322,7 @@
    "2090-990X"
   ],
   "quartile": 3,
-  "impact": 1.75,
+  "impact": 1.76,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -11815,7 +12330,10 @@
   "paperCount": 1,
   "issn": [
    "0021-9258"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 1.98,
+  "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
   "name": "The Journal of experimental biology",
@@ -11824,7 +12342,7 @@
    "0022-0949"
   ],
   "quartile": 2,
-  "impact": 2.43,
+  "impact": 2.44,
   "field": "Environmental Science"
  },
  {
@@ -11852,28 +12370,20 @@
   "paperCount": 1,
   "issn": [
    "1053-2498"
-  ]
- },
- {
-  "name": "The Journal of infectious diseases",
-  "paperCount": 1,
-  "issn": [
-   "0022-1899"
   ],
-  "quartile": 1,
-  "impact": 4.19,
+  "quartile": 3,
+  "impact": 0.8,
   "field": "Medicine"
- },
- {
-  "name": "The Journal of Interactive Social Sciences",
-  "paperCount": 1
  },
  {
   "name": "The Lancet. Digital health",
   "paperCount": 1,
   "issn": [
    "2589-7500"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 16.81,
+  "field": "Medicine"
  },
  {
   "name": "The Lancet. Planetary health",
@@ -11882,7 +12392,7 @@
    "2542-5196"
   ],
   "quartile": 1,
-  "impact": 12.11,
+  "impact": 12.14,
   "field": "Environmental Science"
  },
  {
@@ -11893,7 +12403,7 @@
   ],
   "publisher": "Maynooth University",
   "quartile": 1,
-  "impact": 3.85,
+  "impact": 3.87,
   "field": "Physics and Astronomy"
  },
  {
@@ -11903,7 +12413,7 @@
    "0270-4137"
   ],
   "quartile": 2,
-  "impact": 2.4,
+  "impact": 2.41,
   "field": "Medicine"
  },
  {
@@ -11919,6 +12429,16 @@
   "paperCount": 1
  },
  {
+  "name": "Thyroid : official journal of the American Thyroid Association",
+  "paperCount": 1,
+  "issn": [
+   "1050-7256"
+  ],
+  "quartile": 1,
+  "impact": 7.51,
+  "field": "Medicine"
+ },
+ {
   "name": "TIDS Journal of Development",
   "paperCount": 1
  },
@@ -11927,7 +12447,10 @@
   "paperCount": 1,
   "issn": [
    "2211-9736"
-  ]
+  ],
+  "quartile": 1,
+  "impact": 6.72,
+  "field": "Social Sciences"
  },
  {
   "name": "Toxicological sciences : an official journal of the Society of Toxicology",
@@ -11936,7 +12459,7 @@
    "1096-0929"
   ],
   "quartile": 1,
-  "impact": 5.93
+  "impact": 5.91
  },
  {
   "name": "TrAC Trends in Analytical Chemistry",
@@ -11947,7 +12470,7 @@
    "1873-3689"
   ],
   "quartile": 1,
-  "impact": 13.9,
+  "impact": 13.91,
   "field": "Chemistry"
  },
  {
@@ -11957,7 +12480,7 @@
    "1538-9588"
   ],
   "quartile": 2,
-  "impact": 2.44,
+  "impact": 2.45,
   "field": "Engineering"
  },
  {
@@ -11967,7 +12490,7 @@
    "1936-5233"
   ],
   "quartile": 1,
-  "impact": 4.35,
+  "impact": 4.36,
   "field": "Medicine"
  },
  {
@@ -11979,18 +12502,6 @@
   "quartile": 3,
   "impact": 1.21,
   "field": "Medicine"
- },
- {
-  "name": "Transportation Science",
-  "paperCount": 1,
-  "issn": [
-   "0041-1655",
-   "1526-5447"
-  ],
-  "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
-  "quartile": 1,
-  "impact": 6.63,
-  "field": "Engineering"
  },
  {
   "name": "Tree physiology",
@@ -12011,7 +12522,7 @@
   ],
   "publisher": "Elsevier BV",
   "quartile": 1,
-  "impact": 15.15,
+  "impact": 15.19,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -12021,7 +12532,7 @@
    "1471-4906"
   ],
   "quartile": 1,
-  "impact": 7.37,
+  "impact": 7.42,
   "field": "Immunology and Microbiology"
  },
  {
@@ -12031,7 +12542,7 @@
    "1360-1385"
   ],
   "quartile": 1,
-  "impact": 8.85,
+  "impact": 8.89,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -12052,7 +12563,7 @@
   ],
   "publisher": "The Scientific and Technological Research Council of Turkey (TUBITAK-ULAKBIM) - DIGITAL COMMONS JOURNALS",
   "quartile": 2,
-  "impact": 2.77,
+  "impact": 2.78,
   "field": "Agricultural and Biological Sciences"
  },
  {
@@ -12076,7 +12587,7 @@
    "0301-5629"
   ],
   "quartile": 3,
-  "impact": 1.32,
+  "impact": 1.33,
   "field": "Medicine"
  },
  {
@@ -12112,7 +12623,7 @@
    "2307-5279"
   ],
   "quartile": 3,
-  "impact": 1.15,
+  "impact": 1.16,
   "field": "Medicine"
  },
  {
@@ -12126,7 +12637,7 @@
    "1358-863X"
   ],
   "quartile": 2,
-  "impact": 1.88,
+  "impact": 1.89,
   "field": "Medicine"
  },
  {
@@ -12151,7 +12662,7 @@
    "1013-1388"
   ],
   "quartile": 3,
-  "impact": 1.23
+  "impact": 1.24
  },
  {
   "name": "Vestnik of Samara State University of Economics",
@@ -12182,8 +12693,19 @@
    "2149-8644"
   ],
   "quartile": 2,
-  "impact": 1.98,
+  "impact": 1.99,
   "field": "Veterinary"
+ },
+ {
+  "name": "Veterinary Research",
+  "paperCount": 1,
+  "issn": [
+   "1993-5412",
+   "0928-4249"
+  ],
+  "quartile": 4,
+  "impact": 0,
+  "field": "Agricultural and Biological Sciences"
  },
  {
   "name": "Water Practice & Technology",
@@ -12208,7 +12730,7 @@
    "0049-6979"
   ],
   "quartile": 1,
-  "impact": 3.88,
+  "impact": 3.9,
   "field": "Environmental Science"
  },
  {
@@ -12218,7 +12740,7 @@
    "2698-4016"
   ],
   "quartile": 1,
-  "impact": 4.38,
+  "impact": 4.39,
   "field": "Earth and Planetary Sciences"
  },
  {
@@ -12230,7 +12752,7 @@
   ],
   "publisher": "American Meteorological Society",
   "quartile": 3,
-  "impact": 1.37,
+  "impact": 1.38,
   "field": "Earth and Planetary Sciences"
  },
  {
@@ -12244,12 +12766,8 @@
    "0043-1745"
   ],
   "quartile": 2,
-  "impact": 2.41,
+  "impact": 2.39,
   "field": "Agricultural and Biological Sciences"
- },
- {
-  "name": "Work",
-  "paperCount": 1
  },
  {
   "name": "World",
@@ -12259,7 +12777,7 @@
   ],
   "publisher": "MDPI AG",
   "quartile": 1,
-  "impact": 3.63
+  "impact": 3.64
  },
  {
   "name": "World Journal of Gastroenterology",
@@ -12269,7 +12787,7 @@
    "2219-2840"
   ],
   "quartile": 1,
-  "impact": 4.31,
+  "impact": 4.32,
   "field": "Medicine"
  },
  {
@@ -12279,7 +12797,7 @@
    "0959-3993"
   ],
   "quartile": 1,
-  "impact": 4.62,
+  "impact": 4.63,
   "field": "Biochemistry, Genetics and Molecular Biology"
  },
  {
@@ -12287,7 +12805,10 @@
   "paperCount": 1,
   "issn": [
    "0172-2190"
-  ]
+  ],
+  "quartile": 2,
+  "impact": 3.11,
+  "field": "Business, Management and Accounting"
  },
  {
   "name": "Zhen ci yan jiu = Acupuncture research",
