@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-05T12:28:37.109Z",
+  "updatedAt": "2026-11-06T12:12:12.382Z",
   "paperCount": 5000,
-  "journalCount": 1343,
+  "journalCount": 1355,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,20 +19,19 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2535,
-      "requests": 25
+      "fetched": 2596,
+      "requests": 26
     },
     {
       "source": "semanticscholar",
-      "status": "partial",
-      "fetched": 892,
-      "requests": 13,
-      "message": "semanticscholar: enrichment batch 2 failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract,authors,venue,publicationVenue,journal,publicationDate,year,externalIds,openAccessPdf — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+      "status": "ok",
+      "fetched": 894,
+      "requests": 13
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 619,
+      "fetched": 618,
       "requests": 10
     }
   ]
