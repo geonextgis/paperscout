@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T12:12:12.382Z",
+  "updatedAt": "2026-11-07T11:08:52.268Z",
   "paperCount": 5000,
-  "journalCount": 1355,
+  "journalCount": 1375,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,19 +19,20 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2596,
+      "fetched": 2652,
       "requests": 26
     },
     {
       "source": "semanticscholar",
-      "status": "ok",
-      "fetched": 894,
-      "requests": 13
+      "status": "partial",
+      "fetched": 700,
+      "requests": 13,
+      "message": "semanticscholar: topic \"agricultural foundation models\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=agricultural+foundation+models&publicationDateOrYear=2026-10-08%3A&fields=title%2Cabstract%2Cau — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: topic \"AI agents\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=AI+agents&publicationDateOrYear=2026-10-08%3A&fields=title%2Cabstract%2Cauthors%2Cvenue%2Cpubli — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: topic \"crop yield prediction deep learning\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=crop+yield+prediction+deep+learning&publicationDateOrYear=2026-10-08%3A&fields=title%2Cabstract — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: enrichment batch 2 failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract,authors,venue,publicationVenue,journal,publicationDate,year,externalIds,openAccessPdf — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 618,
+      "fetched": 608,
       "requests": 10
     }
   ]
