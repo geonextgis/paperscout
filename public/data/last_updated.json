@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-13T12:18:53.107Z",
+  "updatedAt": "2026-11-14T11:34:48.798Z",
   "paperCount": 5000,
-  "journalCount": 1345,
+  "journalCount": 1339,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,20 +19,19 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2699,
+      "fetched": 2731,
       "requests": 26
     },
     {
       "source": "semanticscholar",
-      "status": "partial",
-      "fetched": 791,
-      "requests": 13,
-      "message": "semanticscholar: topic \"remote sensing\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=remote+sensing&publicationDateOrYear=2026-10-14%3A&fields=title%2Cabstract%2Cauthors%2Cvenue%2C — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+      "status": "ok",
+      "fetched": 889,
+      "requests": 13
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 612,
+      "fetched": 598,
       "requests": 10
     }
   ]
