@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T13:34:51.140Z",
+  "updatedAt": "2026-11-18T13:09:59.989Z",
   "paperCount": 5000,
   "journalCount": 1323,
   "lookbackDays": 30,
@@ -19,19 +19,19 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2671,
+      "fetched": 2681,
       "requests": 25
     },
     {
       "source": "semanticscholar",
       "status": "ok",
-      "fetched": 884,
+      "fetched": 888,
       "requests": 13
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 620,
+      "fetched": 622,
       "requests": 10
     }
   ]
