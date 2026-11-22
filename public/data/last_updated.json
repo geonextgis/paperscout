@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-21T12:45:42.564Z",
+  "updatedAt": "2026-11-22T12:40:18.337Z",
   "paperCount": 5000,
-  "journalCount": 1312,
+  "journalCount": 1331,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,20 +19,19 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2834,
-      "requests": 26
+      "fetched": 2802,
+      "requests": 25
     },
     {
       "source": "semanticscholar",
-      "status": "partial",
-      "fetched": 872,
-      "requests": 13,
-      "message": "semanticscholar: topic \"crop yield prediction deep learning\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=crop+yield+prediction+deep+learning&publicationDateOrYear=2026-10-22%3A&fields=title%2Cabstract — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+      "status": "ok",
+      "fetched": 900,
+      "requests": 13
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 623,
+      "fetched": 616,
       "requests": 10
     }
   ]
