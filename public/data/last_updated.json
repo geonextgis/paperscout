@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-24T14:57:38.919Z",
+  "updatedAt": "2026-11-25T14:31:58.252Z",
   "paperCount": 5000,
-  "journalCount": 1294,
+  "journalCount": 1298,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,20 +19,20 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2753,
+      "fetched": 2764,
       "requests": 25
     },
     {
       "source": "semanticscholar",
       "status": "partial",
-      "fetched": 697,
+      "fetched": 797,
       "requests": 13,
-      "message": "semanticscholar: topic \"AI agents\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=AI+agents&publicationDateOrYear=2026-10-25%3A&fields=title%2Cabstract%2Cauthors%2Cvenue%2Cpubli — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: topic \"digital agriculture\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=digital+agriculture&publicationDateOrYear=2026-10-25%3A&fields=title%2Cabstract%2Cauthors%2Cven — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+      "message": "semanticscholar: topic \"crop modelling\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=crop+modelling&publicationDateOrYear=2026-10-26%3A&fields=title%2Cabstract%2Cauthors%2Cvenue%2C — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 619,
+      "fetched": 620,
       "requests": 10
     }
   ]
