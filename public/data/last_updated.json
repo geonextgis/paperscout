@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-25T14:31:58.252Z",
+  "updatedAt": "2026-11-26T13:58:57.866Z",
   "paperCount": 5000,
-  "journalCount": 1298,
+  "journalCount": 1294,
   "lookbackDays": 30,
   "topics": [
     "crop modelling",
@@ -19,20 +19,20 @@
     {
       "source": "crossref",
       "status": "ok",
-      "fetched": 2764,
+      "fetched": 2820,
       "requests": 25
     },
     {
       "source": "semanticscholar",
       "status": "partial",
-      "fetched": 797,
+      "fetched": 795,
       "requests": 13,
-      "message": "semanticscholar: topic \"crop modelling\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=crop+modelling&publicationDateOrYear=2026-10-26%3A&fields=title%2Cabstract%2Cauthors%2Cvenue%2C — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+      "message": "semanticscholar: topic \"yield forecasting\" failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=yield+forecasting&publicationDateOrYear=2026-10-27%3A&fields=title%2Cabstract%2Cauthors%2Cvenue — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"} | semanticscholar: enrichment batch 1 failed — HTTP 429 for https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract,authors,venue,publicationVenue,journal,publicationDate,year,externalIds,openAccessPdf — {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
     },
     {
       "source": "arxiv",
       "status": "ok",
-      "fetched": 620,
+      "fetched": 621,
       "requests": 10
     }
   ]
